@@ -1,0 +1,56 @@
+# .github/workflows/atualizar_dados.yml
+#
+# Roda todo dia 10 do mês às 09:00 horário de Brasília (12:00 UTC)
+# Executa extrair_dados.py e extrair_pt.py na máquina local (self-hosted runner)
+
+name: Atualização Mensal de Dados
+
+on:
+  schedule:
+    - cron: '0 12 10 * *'   # 09:00 BRT = 12:00 UTC, dia 10 de cada mês
+
+  # Permite disparar manualmente pelo GitHub (útil para testar)
+  workflow_dispatch:
+    inputs:
+      script:
+        description: 'Qual script rodar?'
+        required: true
+        default: 'ambos'
+        type: choice
+        options:
+          - ambos
+          - extrair_dados
+          - extrair_pt
+
+jobs:
+  atualizar:
+    name: Extrair e publicar dados
+    runs-on: self-hosted   # usa o runner instalado na sua máquina
+
+    steps:
+
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Verificar Python
+        run: python --version
+
+      - name: Instalar dependências
+        run: pip install oracledb requests --quiet
+
+      - name: Rodar extrair_dados.py (custos por UG)
+        if: ${{ github.event_name == 'schedule' || inputs.script == 'ambos' || inputs.script == 'extrair_dados' }}
+        run: python C:\dashboard-custos\extrair_dados.py
+        env:
+          PYTHONIOENCODING: utf-8
+
+      - name: Rodar extrair_pt.py (custos por PT)
+        if: ${{ github.event_name == 'schedule' || inputs.script == 'ambos' || inputs.script == 'extrair_pt' }}
+        run: python C:\dashboard-custos\extrair_pt.py
+        env:
+          PYTHONIOENCODING: utf-8
+
+      - name: Notificar conclusão
+        run: |
+          echo "✅ Atualização concluída em $(date)"
+          echo "Dashboard disponível em: https://brunorvmaciel.github.io/custos-ug-df/"
