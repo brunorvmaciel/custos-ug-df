@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custos de Pessoal — SIGRH</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500;600&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root {
+  --verde-escuro:#1a4a2e; --verde-medio:#2d7a4f; --verde-claro:#3a9960;
+  --dourado:#f0b429; --dourado-claro:#f7cc6b;
+  --branco:#f8f9fa; --cinza-claro:#e8edf0; --cinza-medio:#b0bec5;
+  --texto:#1a2e22; --texto-sec:#4a6357;
+  --bg:#f0f4f1; --surface:#ffffff; --surface2:#f5f8f6; --border:#d0dbd4;
+  --fh:"Barlow Condensed",sans-serif; --fb:"Barlow",sans-serif; --fm:"Roboto Mono",monospace;
+  --c1:#1a6b3c; --c2:#f0b429; --c3:#2196a6; --c4:#7b3fa0; --c5:#c0392b; --c6:#d4770c;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--texto);font-family:var(--fb);min-height:100vh}
+
+header{background:linear-gradient(135deg,var(--verde-escuro) 0%,var(--verde-medio) 100%);border-bottom:4px solid var(--dourado);padding:0 2rem;height:72px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 3px 12px rgba(0,0,0,.25)}
+.header-left{display:flex;align-items:center;gap:14px}
+.brasao-wrap img{height:52px;filter:drop-shadow(0 2px 4px rgba(0,0,0,.3))}
+.header-titles{display:flex;flex-direction:column}
+.header-sup{font-family:var(--fh);font-size:.7rem;font-weight:600;color:var(--dourado-claro);letter-spacing:.2em;text-transform:uppercase}
+.header-title{font-family:var(--fh);font-size:1.35rem;font-weight:800;color:#fff;letter-spacing:.04em;line-height:1.1}
+.header-title span{color:var(--dourado)}
+.header-right{display:flex;align-items:center;gap:12px}
+#atualizacao{font-family:var(--fm);font-size:.62rem;color:rgba(255,255,255,.6);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:4px 12px;border-radius:20px}
+.stripe{background:var(--dourado);height:5px}
+
+main{max-width:1480px;margin:0 auto;padding:1.5rem 2rem 3rem}
+
+.toolbar{display:flex;flex-wrap:wrap;gap:.75rem;align-items:flex-end;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;margin-bottom:1.2rem;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.tg{display:flex;flex-direction:column;gap:4px}
+.tg label{font-family:var(--fh);font-size:.72rem;font-weight:700;color:var(--texto-sec);letter-spacing:.08em;text-transform:uppercase}
+select,input{font-family:var(--fb);font-size:.82rem;color:var(--texto);background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:6px 10px;outline:none}
+select:focus,input:focus{border-color:var(--verde-medio)}
+.btn{font-family:var(--fh);font-weight:700;font-size:.78rem;letter-spacing:.1em;padding:8px 18px;border-radius:6px;border:none;cursor:pointer;transition:opacity .15s}
+.btn-primary{background:var(--verde-medio);color:#fff}
+.btn:hover{opacity:.85}
+
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin-bottom:1.2rem}
+.kpi{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.1rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.kpi-label{font-family:var(--fh);font-size:.72rem;font-weight:700;color:var(--texto-sec);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem}
+.kpi-val{font-family:var(--fh);font-size:1.7rem;font-weight:800;color:var(--verde-escuro);line-height:1}
+.kpi-sub{font-size:.72rem;color:var(--cinza-medio);margin-top:.25rem}
+
+.section-title{font-family:var(--fh);font-size:1rem;font-weight:800;color:var(--verde-escuro);letter-spacing:.12em;text-transform:uppercase;margin:1.4rem 0 .7rem;padding-left:.25rem;border-left:3px solid var(--dourado)}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
+@media(max-width:900px){.grid-2{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.2rem;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.card-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1rem}
+.card-title{font-family:var(--fh);font-size:.92rem;font-weight:800;color:var(--verde-escuro);letter-spacing:.04em}
+.card-sub{font-size:.72rem;color:var(--texto-sec);margin-top:2px}
+.tag{font-family:var(--fh);font-size:.6rem;font-weight:700;letter-spacing:.12em;color:var(--verde-medio);background:rgba(45,122,79,.08);border:1px solid rgba(45,122,79,.2);padding:3px 8px;border-radius:20px}
+.chart-box{position:relative;height:280px}
+
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.78rem}
+th{font-family:var(--fh);font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--texto-sec);padding:.6rem .8rem;border-bottom:2px solid var(--border);background:var(--surface2);white-space:nowrap}
+td{padding:.55rem .8rem;border-bottom:1px solid var(--cinza-claro);vertical-align:middle;font-family:var(--fm);font-size:.72rem}
+tr:hover td{background:#f5fbf7}
+td:not(:first-child){text-align:right}
+.total-cell{font-weight:700;color:var(--verde-escuro)}
+.minibar{height:3px;background:linear-gradient(90deg,var(--verde-medio),var(--verde-claro));border-radius:2px;margin-top:3px;transition:width .3s}
+
+#splash{position:fixed;inset:0;background:var(--verde-escuro);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;transition:opacity .4s}
+#splash.hide{opacity:0;pointer-events:none}
+.splash-logo{font-family:var(--fh);font-size:2rem;font-weight:800;color:#fff;margin-bottom:.5rem}
+.splash-logo span{color:var(--dourado)}
+#splash-msg{font-family:var(--fm);font-size:.8rem;color:rgba(255,255,255,.6);margin-top:1rem}
+.spinner{width:36px;height:36px;border:3px solid rgba(255,255,255,.15);border-top-color:var(--dourado);border-radius:50%;animation:spin .8s linear infinite;margin-top:1.5rem}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+footer{background:var(--verde-escuro);color:rgba(255,255,255,.5);text-align:center;padding:.9rem;font-family:var(--fh);font-size:.7rem;letter-spacing:.15em;text-transform:uppercase}
+</style>
+</head>
+<body>
+
+<div id="splash">
+  <div class="splash-logo">Custos de <span>Pessoal</span></div>
+  <div class="spinner"></div>
+  <div id="splash-msg">Carregando dados...</div>
+</div>
+
+<header>
+  <div class="header-left">
+    <div class="brasao-wrap">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Bras%C3%A3o_do_Distrito_Federal_%28Brasil%29.svg/240px-Bras%C3%A3o_do_Distrito_Federal_%28Brasil%29.svg.png" alt="Brasao DF">
+    </div>
+    <div class="header-titles">
+      <span class="header-sup">Governo do Distrito Federal</span>
+      <span class="header-title">Custos de <span>Pessoal</span></span>
+      <span class="header-sup" style="color:rgba(255,255,255,.6);letter-spacing:.1em">SIGRH — Folha de Pagamento</span>
+    </div>
+  </div>
+  <div class="header-right">
+    <a href="index.html" style="font-family:var(--fh);font-size:.75rem;font-weight:700;color:rgba(255,255,255,.8);background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);padding:5px 14px;border-radius:20px;text-decoration:none;letter-spacing:.06em;margin-right:8px">← INÍCIO</a>
+    <div id="atualizacao">Carregando...</div>
+  </div>
+</header>
+<div class="stripe"></div>
+
+<main>
+  <!-- TOOLBAR -->
+  <div class="toolbar">
+    <div class="tg"><label>Ano</label>
+      <select id="sel-ano"></select>
+    </div>
+    <div class="tg"><label>Mês Início</label>
+      <select id="sel-mes-ini">
+        <option value="1">Janeiro</option><option value="2">Fevereiro</option>
+        <option value="3">Março</option><option value="4">Abril</option>
+        <option value="5">Maio</option><option value="6">Junho</option>
+        <option value="7">Julho</option><option value="8">Agosto</option>
+        <option value="9">Setembro</option><option value="10">Outubro</option>
+        <option value="11">Novembro</option><option value="12" selected>Dezembro</option>
+      </select>
+    </div>
+    <div class="tg"><label>Mês Fim</label>
+      <select id="sel-mes-fim">
+        <option value="1">Janeiro</option><option value="2">Fevereiro</option>
+        <option value="3">Março</option><option value="4">Abril</option>
+        <option value="5">Maio</option><option value="6">Junho</option>
+        <option value="7">Julho</option><option value="8">Agosto</option>
+        <option value="9">Setembro</option><option value="10">Outubro</option>
+        <option value="11">Novembro</option><option value="12" selected>Dezembro</option>
+      </select>
+    </div>
+    <div class="tg"><label>Órgão</label>
+      <select id="sel-orgao" style="min-width:260px">
+        <option value="">— Todos os Órgãos —</option>
+      </select>
+    </div>
+    <div class="tg"><label>Situação Funcional</label>
+      <select id="sel-sit" style="min-width:180px">
+        <option value="">— Todas —</option>
+      </select>
+    </div>
+    <button class="btn btn-primary" onclick="aplicarFiltros()">▶ APLICAR</button>
+    <button class="btn" style="background:#e8edf0;color:var(--verde-escuro);border:1px solid var(--border)" onclick="limparFiltros()">✕ LIMPAR</button>
+  </div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-label">Folha Bruta Total</div><div class="kpi-val" id="kpi-bruto">—</div><div class="kpi-sub">proventos no período</div></div>
+    <div class="kpi"><div class="kpi-label">Total de Descontos</div><div class="kpi-val" id="kpi-descontos">—</div><div class="kpi-sub">no período filtrado</div></div>
+    <div class="kpi"><div class="kpi-label">Folha Líquida</div><div class="kpi-val" id="kpi-liquido">—</div><div class="kpi-sub">bruto menos descontos</div></div>
+    <div class="kpi"><div class="kpi-label">Servidores</div><div class="kpi-val" id="kpi-servidores">—</div><div class="kpi-sub">lotações com registro</div></div>
+    <div class="kpi"><div class="kpi-label">Média Mensal</div><div class="kpi-val" id="kpi-media">—</div><div class="kpi-sub">folha bruta por mês</div></div>
+  </div>
+
+  <div class="section-title">Evolução da Folha</div>
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-head"><div><div class="card-title">Evolução Mensal da Folha</div><div class="card-sub">Proventos e descontos por mês</div></div><span class="tag">BARRAS</span></div>
+      <div class="chart-box"><canvas id="ch-evolucao"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><div><div class="card-title">Composição da Folha</div><div class="card-sub">Proventos x Descontos</div></div><span class="tag">ROSCA</span></div>
+      <div class="chart-box"><canvas id="ch-pizza"></canvas></div>
+    </div>
+  </div>
+
+  <div class="section-title">Análise por Lotação</div>
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-head"><div><div class="card-title">Top 15 — Maiores Folhas por Lotação</div><div class="card-sub">Total de proventos no período</div></div><span class="tag">RANKING</span></div>
+      <div class="chart-box"><canvas id="ch-top-lot"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><div><div class="card-title">Servidores por Situação Funcional</div><div class="card-sub">Distribuição por vínculo</div></div><span class="tag">PIZZA</span></div>
+      <div class="chart-box"><canvas id="ch-sit-func"></canvas></div>
+    </div>
+  </div>
+
+  <div class="section-title">Análise de Rubricas</div>
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-head"><div><div class="card-title">Top 15 Rubricas de Provento</div><div class="card-sub">Maiores valores pagos (tipo 1)</div></div><span class="tag">RANKING</span></div>
+      <div class="chart-box"><canvas id="ch-top-rubrica"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="card-head"><div><div class="card-title">Top 10 Rubricas de Desconto</div><div class="card-sub">Maiores descontos aplicados (tipo 4)</div></div><span class="tag">RANKING</span></div>
+      <div class="chart-box"><canvas id="ch-top-desconto"></canvas></div>
+    </div>
+  </div>
+
+  <div class="section-title">Detalhamento por Lotação</div>
+  <div class="card">
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align:left">Lotação</th>
+            <th>Órgão</th>
+            <th>Situação</th>
+            <th>Servidores</th>
+            <th>Proventos</th>
+            <th>Descontos</th>
+            <th>Líquido</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</main>
+
+<footer>SECRETARIA DE ESTADO DE ECONOMIA — DISTRITO FEDERAL &nbsp;|&nbsp; Custos de Pessoal — SIGRH</footer>
+
+<script>
+const BASE_URL  = "https://raw.githubusercontent.com/brunorvmaciel/custos-ug-df/main/dados_pessoal";
+const INDEX_URL = BASE_URL + "/index.json";
+
+const MESES = ["","Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];
+Chart.defaults.color = "#4a6357";
+Chart.defaults.font.family = "'Roboto Mono',monospace";
+Chart.defaults.font.size = 10.5;
+
+const BRL   = v => new Intl.NumberFormat("pt-BR",{style:"currency",currency:"BRL",notation:"compact",maximumFractionDigits:1}).format(v);
+const BRL_F = v => new Intl.NumberFormat("pt-BR",{style:"currency",currency:"BRL",minimumFractionDigits:2}).format(v);
+const N     = v => new Intl.NumberFormat("pt-BR").format(v);
+
+let cacheComp   = {};  // { "202501": {lotacoes:[...], rubricas:[...]} }
+let dadosAtual  = {};  // dados da competência atual
+let indiceGlobal = {};
+const charts    = {};
+
+function destroyChart(id){ if(charts[id]){ charts[id].destroy(); delete charts[id]; } }
+function setSplash(msg){ document.getElementById("splash-msg").textContent = msg; }
+
+// ── INIT ────────────────────────────────────────────────────────
+async function init(){
+  setSplash("Carregando índice...");
+  try {
+    const r = await fetch(INDEX_URL + "?t=" + Date.now());
+    if(!r.ok) throw new Error("HTTP " + r.status);
+    indiceGlobal = await r.json();
+
+    document.getElementById("atualizacao").textContent =
+      "Atualizado em: " + (indiceGlobal.atualizado_em||"").substring(0,16).replace("T"," ");
+
+    // Popula select de anos
+    const comps = (indiceGlobal.competencias||[]).sort();
+    const anos  = [...new Set(comps.map(c=>c.substring(0,4)))].sort((a,b)=>b-a);
+    const selAno = document.getElementById("sel-ano");
+    selAno.innerHTML = anos.map(a=>`<option value="${a}">${a}</option>`).join("");
+
+    // Carrega competências do ano mais recente
+    setSplash("Carregando " + anos[0] + "...");
+    await carregarAno(anos[0]);
+    setTimeout(()=> document.getElementById("splash").classList.add("hide"), 300);
+
+  } catch(e){
+    setSplash("Erro: " + e.message);
+    console.error(e);
+  }
+}
+
+// ── CARREGAR ANO ─────────────────────────────────────────────────
+async function carregarAno(ano){
+  const comps = (indiceGlobal.competencias||[]).filter(c=>c.startsWith(ano)).sort();
+  for(const comp of comps){
+    if(!cacheComp[comp]){
+      setSplash("Carregando " + comp.substring(0,4) + "/" + comp.substring(4,6) + "...");
+      const r = await fetch(BASE_URL + "/" + comp + ".json?t=" + Date.now());
+      if(r.ok) cacheComp[comp] = await r.json();
+    }
+  }
+  atualizarFiltros(ano);
+  aplicarFiltros();
+}
+
+// ── ATUALIZA SELECTS ─────────────────────────────────────────────
+function atualizarFiltros(ano){
+  const comps = (indiceGlobal.competencias||[]).filter(c=>c.startsWith(ano)).sort();
+  const lotacoes = comps.flatMap(c=>(cacheComp[c]||{}).lotacoes||[]);
+
+  // Órgãos únicos
+  const orgaos = [...new Set(lotacoes.map(l=>l.orgao||"").filter(Boolean))].sort();
+  const selOrg = document.getElementById("sel-orgao");
+  const orgAtual = selOrg.value;
+  selOrg.innerHTML = `<option value="">— Todos os Órgãos —</option>` +
+    orgaos.map(o=>`<option value="${o}" ${o===orgAtual?"selected":""}>${o}</option>`).join("");
+
+  // Situações funcionais únicas
+  const sits = [...new Set(lotacoes.map(l=>(l.sit_func||"").trim()).filter(Boolean))].sort();
+  const selSit = document.getElementById("sel-sit");
+  const sitAtual = selSit.value;
+  selSit.innerHTML = `<option value="">— Todas —</option>` +
+    sits.map(s=>`<option value="${s}" ${s===sitAtual?"selected":""}>${s}</option>`).join("");
+
+  // Atualiza selects de mês
+  const meses = comps.map(c=>parseInt(c.substring(4,6)));
+  const mesMin = Math.min(...meses), mesMax = Math.max(...meses);
+  document.getElementById("sel-mes-ini").value = mesMin;
+  document.getElementById("sel-mes-fim").value = mesMax;
+}
+
+// ── FILTROS ──────────────────────────────────────────────────────
+function getFiltros(){
+  return {
+    ano    : document.getElementById("sel-ano").value,
+    mesIni : parseInt(document.getElementById("sel-mes-ini").value),
+    mesFim : parseInt(document.getElementById("sel-mes-fim").value),
+    orgao  : document.getElementById("sel-orgao").value.trim(),
+    sit    : document.getElementById("sel-sit").value.trim()
+  };
+}
+
+function limparFiltros(){
+  const ano = document.getElementById("sel-ano").value;
+  document.getElementById("sel-orgao").value = "";
+  document.getElementById("sel-sit").value = "";
+  atualizarFiltros(ano);
+  aplicarFiltros();
+}
+
+function aplicarFiltros(){
+  const {ano, mesIni, mesFim, orgao, sit} = getFiltros();
+  const comps = (indiceGlobal.competencias||[])
+    .filter(c => c.startsWith(ano))
+    .filter(c => {
+      const m = parseInt(c.substring(4,6));
+      return m >= mesIni && m <= mesFim;
+    }).sort();
+
+  // Junta todas as lotações do período
+  let lotacoes = comps.flatMap(c => {
+    const mes = parseInt(c.substring(4,6));
+    return ((cacheComp[c]||{}).lotacoes||[]).map(l=>({...l, _mes:mes}));
+  });
+
+  // Aplica filtros
+  if(orgao) lotacoes = lotacoes.filter(l=>(l.orgao||"")===orgao);
+  if(sit)   lotacoes = lotacoes.filter(l=>(l.sit_func||"").trim()===sit);
+
+  // Rubricas do período
+  let rubricas = comps.flatMap(c => (cacheComp[c]||{}).rubricas||[]);
+  // Se filtrou por orgão, não temos como filtrar rubricas (não têm orgão), mostra tudo
+  // Agrupa rubricas por código
+  const rubMap = {};
+  rubricas.forEach(r=>{
+    const k = r.cod_rubrica + "|" + r.tipo;
+    if(!rubMap[k]) rubMap[k] = {cod:r.cod_rubrica, nome:(r.rubrica||"").trim(), tipo:r.tipo, valor:0, serv:0};
+    rubMap[k].valor += parseFloat(r.valor_total)||0;
+    rubMap[k].serv  += parseInt(r.qtd_servidores)||0;
+  });
+  const rubLista = Object.values(rubMap).sort((a,b)=>b.valor-a.valor);
+
+  // Agrega por mês
+  const byMes = {};
+  lotacoes.forEach(l=>{
+    const m = l._mes;
+    if(!byMes[m]) byMes[m] = {prov:0, desc:0, serv:0};
+    byMes[m].prov += parseFloat(l.total_proventos)||0;
+    byMes[m].desc += parseFloat(l.total_descontos)||0;
+    byMes[m].serv += parseInt(l.qtd_servidores)||0;
+  });
+  const meses = Object.keys(byMes).map(Number).sort((a,b)=>a-b);
+
+  // Totais
+  const totalProv = Object.values(byMes).reduce((s,v)=>s+v.prov,0);
+  const totalDesc = Object.values(byMes).reduce((s,v)=>s+v.desc,0);
+  const totalServ = lotacoes.reduce((s,l)=>s+parseInt(l.qtd_servidores||0),0);
+
+  // KPIs
+  document.getElementById("kpi-bruto").textContent      = BRL(totalProv);
+  document.getElementById("kpi-descontos").textContent  = BRL(totalDesc);
+  document.getElementById("kpi-liquido").textContent    = BRL(totalProv - totalDesc);
+  document.getElementById("kpi-servidores").textContent = N(totalServ);
+  document.getElementById("kpi-media").textContent      = meses.length ? BRL(totalProv/meses.length) : "—";
+
+  // Agrega por lotação
+  const lotMap = {};
+  lotacoes.forEach(l=>{
+    const k = (l.cd_lotacao||"") + "|" + (l.sit_func||"").trim();
+    if(!lotMap[k]) lotMap[k] = {lotacao:(l.lotacao||"").trim(), orgao:(l.orgao||"").trim(), sit:(l.sit_func||"").trim(), serv:0, prov:0, desc:0};
+    lotMap[k].serv += parseInt(l.qtd_servidores)||0;
+    lotMap[k].prov += parseFloat(l.total_proventos)||0;
+    lotMap[k].desc += parseFloat(l.total_descontos)||0;
+  });
+  const lotLista = Object.values(lotMap).sort((a,b)=>b.prov-a.prov);
+
+  // Situação funcional
+  const sitMap = {};
+  lotacoes.forEach(l=>{
+    const s = (l.sit_func||"").trim() || "Não informado";
+    if(!sitMap[s]) sitMap[s] = 0;
+    sitMap[s] += parseInt(l.qtd_servidores)||0;
+  });
+
+  renderEvolucao(meses, byMes);
+  renderPizza(totalProv, totalDesc);
+  renderTopLotacao(lotLista.slice(0,15));
+  renderSitFunc(sitMap);
+  renderTopRubrica(rubLista.filter(r=>r.tipo===1).slice(0,15));
+  renderTopDesconto(rubLista.filter(r=>r.tipo===4).slice(0,10));
+  renderTabela(lotLista);
+}
+
+// ── GRÁFICO 1: Evolução mensal ────────────────────────────────────
+function renderEvolucao(meses, byMes){
+  destroyChart("ev");
+  charts["ev"] = new Chart(document.getElementById("ch-evolucao"),{
+    type:"bar",
+    data:{
+      labels:meses.map(m=>MESES[m]),
+      datasets:[
+        {label:"Proventos", data:meses.map(m=>byMes[m].prov), backgroundColor:"#2d7a4fcc", borderColor:"#2d7a4f", borderWidth:0, borderRadius:2},
+        {label:"Descontos", data:meses.map(m=>byMes[m].desc), backgroundColor:"#c0392bcc", borderColor:"#c0392b", borderWidth:0, borderRadius:2}
+      ]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{position:"top",labels:{boxWidth:10}}, tooltip:{callbacks:{label:ctx=>`${ctx.dataset.label}: ${BRL_F(ctx.raw)}`}}},
+      scales:{x:{grid:{color:"#e8edf0"}}, y:{grid:{color:"#e8edf0"}, ticks:{callback:v=>BRL(v)}}}
+    }
+  });
+}
+
+// ── GRÁFICO 2: Rosca Proventos x Descontos ───────────────────────
+function renderPizza(prov, desc){
+  destroyChart("pz");
+  charts["pz"] = new Chart(document.getElementById("ch-pizza"),{
+    type:"doughnut",
+    data:{
+      labels:["Proventos","Descontos"],
+      datasets:[{
+        data:[prov, desc],
+        backgroundColor:["#2d7a4fcc","#c0392bcc"],
+        borderColor:["#2d7a4f","#c0392b"], borderWidth:1, hoverOffset:6
+      }]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false, cutout:"60%",
+      plugins:{
+        legend:{position:"right", labels:{boxWidth:10,padding:10}},
+        tooltip:{callbacks:{label:ctx=>`${ctx.label}: ${BRL_F(ctx.raw)}`}}
+      }
+    }
+  });
+}
+
+// ── GRÁFICO 3: Top Lotações ────────────────────────────────────────
+function renderTopLotacao(lots){
+  destroyChart("tl");
+  const ctx = document.getElementById("ch-top-lot").getContext("2d");
+  const g = ctx.createLinearGradient(0,0,500,0);
+  g.addColorStop(0,"#f0b429"); g.addColorStop(1,"#2d7a4f");
+  charts["tl"] = new Chart(ctx,{
+    type:"bar",
+    data:{
+      labels:lots.map(l=>(l.lotacao||"Sem nome").substring(0,35)),
+      datasets:[{label:"Proventos", data:lots.map(l=>l.prov), backgroundColor:g, borderRadius:3, borderSkipped:false}]
+    },
+    options:{
+      indexAxis:"y", responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{display:false}, tooltip:{callbacks:{label:ctx=>BRL_F(ctx.raw)}}},
+      scales:{x:{grid:{color:"#e8edf0"}, ticks:{callback:v=>BRL(v)}}, y:{grid:{display:false}, ticks:{font:{size:9}}}}
+    }
+  });
+}
+
+// ── GRÁFICO 4: Situação Funcional ─────────────────────────────────
+function renderSitFunc(sitMap){
+  destroyChart("sf");
+  const cores = ["#1a6b3c","#f0b429","#2196a6","#7b3fa0","#c0392b","#d4770c","#2e7d32","#455a64"];
+  const labels = Object.keys(sitMap);
+  const vals   = Object.values(sitMap);
+  charts["sf"] = new Chart(document.getElementById("ch-sit-func"),{
+    type:"doughnut",
+    data:{
+      labels,
+      datasets:[{data:vals, backgroundColor:cores.slice(0,labels.length).map(c=>c+"cc"), borderColor:cores.slice(0,labels.length), borderWidth:1, hoverOffset:6}]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false, cutout:"55%",
+      plugins:{
+        legend:{position:"right", labels:{boxWidth:10,padding:8,font:{size:9}}},
+        tooltip:{callbacks:{label:ctx=>`${ctx.label}: ${N(ctx.raw)} serv.`}}
+      }
+    }
+  });
+}
+
+// ── GRÁFICO 5: Top Rubricas Provento ──────────────────────────────
+function renderTopRubrica(rubs){
+  destroyChart("tr");
+  charts["tr"] = new Chart(document.getElementById("ch-top-rubrica"),{
+    type:"bar",
+    data:{
+      labels:rubs.map(r=>(r.nome||"Rubrica "+r.cod).substring(0,30)),
+      datasets:[{label:"Valor", data:rubs.map(r=>r.valor), backgroundColor:"#2d7a4faa", borderColor:"#2d7a4f", borderWidth:1, borderRadius:2, borderSkipped:false}]
+    },
+    options:{
+      indexAxis:"y", responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{display:false}, tooltip:{callbacks:{label:ctx=>BRL_F(ctx.raw)}}},
+      scales:{x:{grid:{color:"#e8edf0"}, ticks:{callback:v=>BRL(v)}}, y:{grid:{display:false}, ticks:{font:{size:9}}}}
+    }
+  });
+}
+
+// ── GRÁFICO 6: Top Rubricas Desconto ──────────────────────────────
+function renderTopDesconto(rubs){
+  destroyChart("td");
+  charts["td"] = new Chart(document.getElementById("ch-top-desconto"),{
+    type:"bar",
+    data:{
+      labels:rubs.map(r=>(r.nome||"Desconto "+r.cod).substring(0,30)),
+      datasets:[{label:"Valor", data:rubs.map(r=>r.valor), backgroundColor:"#c0392baa", borderColor:"#c0392b", borderWidth:1, borderRadius:2, borderSkipped:false}]
+    },
+    options:{
+      indexAxis:"y", responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{display:false}, tooltip:{callbacks:{label:ctx=>BRL_F(ctx.raw)}}},
+      scales:{x:{grid:{color:"#e8edf0"}, ticks:{callback:v=>BRL(v)}}, y:{grid:{display:false}, ticks:{font:{size:9}}}}
+    }
+  });
+}
+
+// ── TABELA ─────────────────────────────────────────────────────────
+function renderTabela(lots){
+  const max = lots[0]?.prov||1;
+  document.getElementById("tbody").innerHTML = lots.map((l,i)=>`
+    <tr>
+      <td>
+        <div><span style="color:var(--cinza-medio);font-size:.65rem;margin-right:4px">${i+1}</span>
+        <strong>${l.lotacao||"—"}</strong></div>
+        <div class="minibar" style="width:${(l.prov/max*100).toFixed(1)}%"></div>
+      </td>
+      <td style="font-size:.68rem;max-width:160px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${l.orgao||"—"}</td>
+      <td style="font-size:.68rem">${l.sit||"—"}</td>
+      <td>${N(l.serv)}</td>
+      <td>${BRL_F(l.prov)}</td>
+      <td style="color:var(--c5)">${BRL_F(l.desc)}</td>
+      <td class="total-cell">${BRL_F(l.prov-l.desc)}</td>
+    </tr>`).join("") ||
+    `<tr><td colspan="7" style="text-align:center;padding:2rem;color:var(--cinza-medio)">Nenhum dado encontrado.</td></tr>`;
+}
+
+// ── LISTENERS ──────────────────────────────────────────────────────
+document.addEventListener("DOMContentLoaded", ()=>{
+  document.getElementById("sel-ano").addEventListener("change", ()=>{
+    const ano = document.getElementById("sel-ano").value;
+    carregarAno(ano);
+  });
+  init();
+});
+</script>
+</body>
+</html>

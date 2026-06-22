@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistema de Custos — GDF</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--verde-escuro:#1a4a2e;--verde-medio:#2d7a4f;--verde-claro:#3a9960;--dourado:#f0b429;--dourado-claro:#f7cc6b;--bg:#f0f4f1;--surface:#fff;--border:#d0dbd4;--texto:#1a2e22;--muted:#4a6357;--fh:"Barlow Condensed",sans-serif;--fb:"Barlow",sans-serif}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--texto);font-family:var(--fb);min-height:100vh;display:flex;flex-direction:column}
+header{background:linear-gradient(135deg,var(--verde-escuro),var(--verde-medio));border-bottom:4px solid var(--dourado);padding:0 2rem;height:80px;display:flex;align-items:center;gap:16px;box-shadow:0 3px 12px rgba(0,0,0,.25)}
+header img{height:56px;mix-blend-mode:screen;filter:drop-shadow(0 2px 4px rgba(0,0,0,.3))}
+.ht{display:flex;flex-direction:column}
+.hs{font-family:var(--fh);font-size:.72rem;font-weight:600;color:var(--dourado-claro);letter-spacing:.2em;text-transform:uppercase}
+.hm{font-family:var(--fh);font-size:1.5rem;font-weight:800;color:#fff;letter-spacing:.03em}
+.hm span{color:var(--dourado)}
+.stripe{background:var(--dourado);height:5px}
+main{flex:1;display:flex;align-items:center;justify-content:center;padding:3rem 2rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;max-width:1200px;width:100%}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:2.5rem;text-align:center;box-shadow:0 4px 20px rgba(0,0,0,.07);transition:transform .2s,box-shadow .2s;cursor:pointer;text-decoration:none;color:inherit;display:block;position:relative;overflow:hidden}
+.card::before{content:"";position:absolute;top:0;left:0;right:0;height:4px}
+.card:nth-child(1)::before{background:linear-gradient(90deg,var(--verde-medio),var(--verde-claro))}
+.card:nth-child(2)::before{background:linear-gradient(90deg,var(--dourado),#e09000)}
+.card:nth-child(3)::before{background:linear-gradient(90deg,#2196a6,#1565c0)}
+.card:nth-child(4)::before{background:linear-gradient(90deg,#7b3fa0,#c0392b)}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 30px rgba(0,0,0,.12)}
+.icon{font-size:3rem;margin-bottom:1rem}
+.ct{font-family:var(--fh);font-weight:800;font-size:1.4rem;color:var(--verde-escuro);margin-bottom:.5rem;letter-spacing:.02em}
+.cd{font-size:.88rem;color:var(--muted);line-height:1.5}
+.cb{display:inline-block;margin-top:1.5rem;padding:.6rem 2rem;border-radius:6px;font-family:var(--fh);font-weight:700;font-size:.9rem;letter-spacing:.06em;transition:opacity .2s}
+.card:nth-child(1) .cb{background:var(--verde-medio);color:#fff}
+.card:nth-child(2) .cb{background:var(--dourado);color:#000}
+.card:nth-child(3) .cb{background:#2196a6;color:#fff}
+.card:nth-child(4) .cb{background:#7b3fa0;color:#fff}
+.card:hover .cb{opacity:.85}
+footer{background:var(--verde-escuro);color:rgba(255,255,255,.4);text-align:center;padding:.8rem;font-family:var(--fh);font-size:.68rem;letter-spacing:.15em;text-transform:uppercase}
+</style>
+</head>
+<body>
+<header>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Bras%C3%A3o_do_Distrito_Federal_%28Brasil%29.svg/240px-Bras%C3%A3o_do_Distrito_Federal_%28Brasil%29.svg.png" alt="Brasao DF">
+  <div class="ht">
+    <span class="hs">Governo do Distrito Federal</span>
+    <span class="hm">Sistema de <span>Custos</span></span>
+    <span class="hs" style="color:rgba(255,255,255,.6)">Secretaria de Estado de Economia</span>
+  </div>
+</header>
+<div class="stripe"></div>
+<main>
+  <div class="cards">
+    <a class="card" href="ug.html">
+      <div class="icon">🏛️</div>
+      <div class="ct">Custos por Unidade Gestora</div>
+      <div class="cd">Demonstrativo de custos consolidados por UG, com evolução mensal, anual e comparativos entre unidades gestoras.</div>
+      <span class="cb">ACESSAR →</span>
+    </a>
+    <a class="card" href="pt.html">
+      <div class="icon">📋</div>
+      <div class="ct">Custos por Programa de Trabalho</div>
+      <div class="cd">Análise detalhada dos custos por Programa de Trabalho, com ranking de PTs, UGs e composição por categoria.</div>
+      <span class="cb">ACESSAR →</span>
+    </a>
+    <a class="card" href="ra.html">
+      <div class="icon">🗺️</div>
+      <div class="ct">Custo por Habitante</div>
+      <div class="cd">Mapa interativo do DF com custo médio por habitante em cada Região Administrativa. Clique no mapa para filtrar.</div>
+      <span class="cb">ACESSAR →</span>
+    </a>
+    <a class="card" href="pessoal.html">
+      <div class="icon">👥</div>
+      <div class="ct">Custos de Pessoal</div>
+      <div class="cd">Análise da folha de pagamento por lotação, órgão e rubricas. Dados direto do SIGRH com evolução mensal e ranking de proventos.</div>
+      <span class="cb">ACESSAR →</span>
+    </a>
+  </div>
+</main>
+<footer>SECRETARIA DE ESTADO DE ECONOMIA — DISTRITO FEDERAL &nbsp;|&nbsp; Sistema de Demonstrativo de Custos</footer>
+</body>
+</html>
