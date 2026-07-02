@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custos de Pessoal — SIGRH</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500;600&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root{
+  --ve:#1a4a2e;--vm:#2d7a4f;--vc:#3a9960;
+  --do:#f0b429;--doc:#f7cc6b;
+  --bg:#f0f4f1;--sf:#fff;--sf2:#f5f8f6;--bd:#d0dbd4;
+  --tx:#1a2e22;--ts:#4a6357;--cm:#b0bec5;
+  --fh:"Barlow Condensed",sans-serif;--fb:"Barlow",sans-serif;--fm:"Roboto Mono",monospace;
+  --c5:#c0392b;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--tx);font-family:var(--fb);min-height:100vh}
+header{background:linear-gradient(135deg,var(--ve),var(--vm));border-bottom:4px solid var(--do);padding:0 2rem;height:72px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 3px 12px rgba(0,0,0,.25)}
+.hl{display:flex;align-items:center;gap:14px}
+.hl img{height:52px;filter:drop-shadow(0 2px 4px rgba(0,0,0,.3))}
+.ht{display:flex;flex-direction:column}
+.hs{font-family:var(--fh);font-size:.7rem;font-weight:600;color:var(--doc);letter-spacing:.2em;text-transform:uppercase}
+.hti{font-family:var(--fh);font-size:1.35rem;font-weight:800;color:#fff;letter-spacing:.04em;line-height:1.1}
+.hti span{color:var(--do)}
+.hr{display:flex;align-items:center;gap:12px}
+#atualiz{font-family:var(--fm);font-size:.62rem;color:rgba(255,255,255,.6);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:4px 12px;border-radius:20px}
+.stripe{background:var(--do);height:5px}
+main{max-width:1480px;margin:0 auto;padding:1.5rem 2rem 3rem}
+.toolbar{display:flex;flex-wrap:wrap;gap:.75rem;align-items:flex-end;background:var(--sf);border:1px solid var(--bd);border-radius:10px;padding:1rem 1.2rem;margin-bottom:1.2rem;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.tg{display:flex;flex-direction:column;gap:4px}
+.tg label{font-family:var(--fh);font-size:.72rem;font-weight:700;color:var(--ts);letter-spacing:.08em;text-transform:uppercase}
+select{font-family:var(--fb);font-size:.82rem;color:var(--tx);background:var(--sf2);border:1px solid var(--bd);border-radius:6px;padding:6px 10px;outline:none}
+select:focus{border-color:var(--vm)}
+.btn{font-family:var(--fh);font-weight:700;font-size:.78rem;letter-spacing:.1em;padding:8px 18px;border-radius:6px;border:none;cursor:pointer;transition:opacity .15s}
+.btn-p{background:var(--vm);color:#fff}
+.btn-s{background:#e8edf0;color:var(--ve);border:1px solid var(--bd)}
+.btn:hover{opacity:.85}
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1rem;margin-bottom:1.2rem}
+.kpi{background:var(--sf);border:1px solid var(--bd);border-radius:10px;padding:1.1rem 1.3rem;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.kpi-l{font-family:var(--fh);font-size:.72rem;font-weight:700;color:var(--ts);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem}
+.kpi-v{font-family:var(--fh);font-size:1.7rem;font-weight:800;color:var(--ve);line-height:1}
+.kpi-s{font-size:.72rem;color:var(--cm);margin-top:.25rem}
+.kpi-v.neg{color:var(--c5)}
+.sec{font-family:var(--fh);font-size:1rem;font-weight:800;color:var(--ve);letter-spacing:.12em;text-transform:uppercase;margin:1.4rem 0 .7rem;padding-left:.25rem;border-left:3px solid var(--do)}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
+@media(max-width:900px){.g2{grid-template-columns:1fr}}
+.card{background:var(--sf);border:1px solid var(--bd);border-radius:10px;padding:1.2rem;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.ch{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1rem}
+.ct{font-family:var(--fh);font-size:.92rem;font-weight:800;color:var(--ve);letter-spacing:.04em}
+.cs{font-size:.72rem;color:var(--ts);margin-top:2px}
+.tag{font-family:var(--fh);font-size:.6rem;font-weight:700;letter-spacing:.12em;color:var(--vm);background:rgba(45,122,79,.08);border:1px solid rgba(45,122,79,.2);padding:3px 8px;border-radius:20px}
+.cb{position:relative;height:280px}
+.nota{font-size:.72rem;color:var(--ts);background:rgba(240,180,41,.08);border:1px solid rgba(240,180,41,.3);border-radius:6px;padding:.5rem .8rem;margin-bottom:.8rem}
+.loading-bar{background:var(--sf);border:1px solid var(--bd);border-radius:8px;padding:.6rem 1rem;margin-bottom:.8rem;font-size:.78rem;color:var(--ts);display:none}
+.loading-bar.show{display:block}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.78rem}
+th{font-family:var(--fh);font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ts);padding:.6rem .8rem;border-bottom:2px solid var(--bd);background:var(--sf2);white-space:nowrap}
+td{padding:.55rem .8rem;border-bottom:1px solid #e8edf0;vertical-align:middle;font-family:var(--fm);font-size:.72rem}
+tr:hover td{background:#f5fbf7}
+td:not(:first-child){text-align:right}
+.totc{font-weight:700;color:var(--ve)}
+.minibar{height:3px;background:linear-gradient(90deg,var(--vm),var(--vc));border-radius:2px;margin-top:3px}
+#splash{position:fixed;inset:0;background:var(--ve);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;transition:opacity .4s}
+#splash.hide{opacity:0;pointer-events:none}
+.spl{font-family:var(--fh);font-size:2rem;font-weight:800;color:#fff;margin-bottom:.5rem}
+.spl span{color:var(--do)}
+#spm{font-family:var(--fm);font-size:.8rem;color:rgba(255,255,255,.6);margin-top:1rem}
+.spin{width:36px;height:36px;border:3px solid rgba(255,255,255,.15);border-top-color:var(--do);border-radius:50%;animation:sp .8s linear infinite;margin-top:1.5rem}
+@keyframes sp{to{transform:rotate(360deg)}}
+footer{background:var(--ve);color:rgba(255,255,255,.5);text-align:center;padding:.9rem;font-family:var(--fh);font-size:.7rem;letter-spacing:.15em;text-transform:uppercase}
+</style>
+</head>
+<body>
+<div id="splash">
+  <div class="spl">Custos de <span>Pessoal</span></div>
+  <div class="spin"></div>
+  <div id="spm">Carregando dados...</div>
+</div>
+<header>
+  <div class="hl">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Bras%C3%A3o_do_Distrito_Federal_%28Brasil%29.svg/240px-Bras%C3%A3o_do_Distrito_Federal_%28Brasil%29.svg.png" alt="DF">
+    <div class="ht">
+      <span class="hs">Governo do Distrito Federal</span>
+      <span class="hti">Custos de <span>Pessoal</span></span>
+      <span class="hs" style="color:rgba(255,255,255,.6)">SIGRH — Folha de Pagamento</span>
+    </div>
+  </div>
+  <div class="hr">
+    <a href="index.html" style="font-family:var(--fh);font-size:.75rem;font-weight:700;color:rgba(255,255,255,.8);background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);padding:5px 14px;border-radius:20px;text-decoration:none;letter-spacing:.06em">← INÍCIO</a>
+    <div id="atualiz">Carregando...</div>
+  </div>
+</header>
+<div class="stripe"></div>
+<main>
+
+  <!-- TOOLBAR -->
+  <div class="toolbar">
+    <div class="tg"><label>Competência</label><select id="s-comp"></select></div>
+    <div class="tg"><label>Órgão</label><select id="s-org" style="min-width:260px"><option value="">— Todos os Órgãos —</option></select></div>
+    <div class="tg"><label>Situação Funcional</label><select id="s-sit" style="min-width:180px"><option value="">— Todas —</option></select></div>
+    <div class="tg"><label>Lotação</label><select id="s-lot" style="min-width:200px" disabled><option value="">— Selecione um órgão —</option></select></div>
+    <button class="btn btn-p" onclick="aplicar()">▶ APLICAR</button>
+    <button class="btn btn-s" onclick="limpar()">✕ LIMPAR</button>
+  </div>
+
+  <!-- NOTA -->
+  <div class="nota">
+    ⚠️ <strong>Proventos</strong> = tipos 1, 2 e 3 &nbsp;|&nbsp;
+    <strong>Descontos</strong> = tipos 4, 5 e 6 &nbsp;|&nbsp;
+    Cada servidor contabilizado apenas na sua <strong>lotação final</strong>.
+    O filtro de Lotação exige selecionar um Órgão primeiro.
+  </div>
+
+  <!-- BARRA DE CARREGAMENTO -->
+  <div class="loading-bar" id="loading-bar">⏳ Carregando dados detalhados do órgão selecionado...</div>
+
+  <!-- KPIs -->
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-l">Folha Bruta</div><div class="kpi-v" id="kpi-br">—</div><div class="kpi-s">proventos tipos 1,2,3</div></div>
+    <div class="kpi"><div class="kpi-l">Total Descontos</div><div class="kpi-v neg" id="kpi-de">—</div><div class="kpi-s">tipos 4,5,6</div></div>
+    <div class="kpi"><div class="kpi-l">Folha Líquida</div><div class="kpi-v" id="kpi-lq">—</div><div class="kpi-s">bruto menos descontos</div></div>
+    <div class="kpi"><div class="kpi-l">Servidores</div><div class="kpi-v" id="kpi-sv">—</div><div class="kpi-s">registros ativos</div></div>
+    <div class="kpi"><div class="kpi-l">Custo Médio</div><div class="kpi-v" id="kpi-me">—</div><div class="kpi-s">folha bruta ÷ servidores</div></div>
+    <div class="kpi"><div class="kpi-l">% Desconto</div><div class="kpi-v" id="kpi-pd">—</div><div class="kpi-s">descontos ÷ bruto</div></div>
+  </div>
+
+  <div class="sec">Visão Geral por Órgão</div>
+  <div class="g2">
+    <div class="card">
+      <div class="ch"><div><div class="ct">Top 15 — Maiores Folhas por Órgão</div><div class="cs">Total de proventos</div></div><span class="tag">RANKING</span></div>
+      <div class="cb"><canvas id="ch-top-org"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div><div class="ct">Composição da Folha</div><div class="cs">Proventos x Descontos x Líquido</div></div><span class="tag">ROSCA</span></div>
+      <div class="cb"><canvas id="ch-comp"></canvas></div>
+    </div>
+  </div>
+
+  <div class="sec" id="sec-detalhe">Detalhamento por Órgão</div>
+  <div class="card" style="margin-bottom:1rem">
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th style="text-align:left" id="th-nome">Órgão</th>
+            <th>Sigla</th>
+            <th>Servidores</th>
+            <th>Folha Bruta</th>
+            <th>Descontos</th>
+            <th>Folha Líquida</th>
+            <th>Custo Médio</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-org"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Seção de detalhe por lotação (visível só quando órgão selecionado) -->
+  <div id="sec-lotacao" style="display:none">
+    <div class="sec">Detalhamento por Lotação</div>
+    <div class="g2">
+      <div class="card">
+        <div class="ch"><div><div class="ct">Top 15 Lotações por Folha Bruta</div><div class="cs">Lotação final do servidor</div></div><span class="tag">RANKING</span></div>
+        <div class="cb"><canvas id="ch-top-lot"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="ch"><div><div class="ct">Servidores por Situação Funcional</div><div class="cs">Distribuição por vínculo</div></div><span class="tag">PIZZA</span></div>
+        <div class="cb"><canvas id="ch-sit"></canvas></div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th style="text-align:left">Lotação Final</th>
+              <th>Unidade</th>
+              <th>Situação</th>
+              <th>Servidores</th>
+              <th>Folha Bruta</th>
+              <th>Descontos</th>
+              <th>Folha Líquida</th>
+              <th>Custo Médio</th>
+            </tr>
+          </thead>
+          <tbody id="tbody-lot"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</main>
+<footer>SECRETARIA DE ESTADO DE ECONOMIA — DISTRITO FEDERAL &nbsp;|&nbsp; Custos de Pessoal SIGRH</footer>
+
+<script>
+const BASE = "https://raw.githubusercontent.com/brunorvmaciel/custos-ug-df/main/dados_pessoal";
+Chart.defaults.color = "#4a6357";
+Chart.defaults.font.family = "'Roboto Mono',monospace";
+Chart.defaults.font.size = 10.5;
+
+const BRL  = v => new Intl.NumberFormat("pt-BR",{style:"currency",currency:"BRL",notation:"compact",maximumFractionDigits:1}).format(v);
+const BRLF = v => new Intl.NumberFormat("pt-BR",{style:"currency",currency:"BRL",minimumFractionDigits:2}).format(v);
+const N    = v => new Intl.NumberFormat("pt-BR").format(v);
+const PCT  = v => (v*100).toFixed(1)+"%";
+
+let indice = {};
+let resumoCache = {};   // {comp: resumo.json}
+let empCache    = {};   // {comp+emp: emp_X.json}
+const charts = {};
+
+function dc(id){ if(charts[id]){ charts[id].destroy(); delete charts[id]; } }
+function spm(m){ document.getElementById("spm").textContent = m; }
+function setLoading(show){ document.getElementById("loading-bar").classList.toggle("show", show); }
+
+// ── INIT ────────────────────────────────────────────────────────
+async function init(){
+  spm("Carregando indice...");
+  try {
+    const r = await fetch(BASE + "/index.json?t=" + Date.now());
+    if(!r.ok) throw new Error("HTTP " + r.status);
+    indice = await r.json();
+    document.getElementById("atualiz").textContent =
+      "Atualizado: " + (indice.atualizado_em||"").substring(0,16).replace("T"," ");
+
+    const comps = (indice.competencias||[]).sort().reverse();
+    const sC = document.getElementById("s-comp");
+    sC.innerHTML = comps.map(c => {
+      const ano = c.substring(0,4), mes = parseInt(c.substring(4,6));
+      const meses = ["","Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];
+      return `<option value="${c}">${meses[mes]}/${ano}</option>`;
+    }).join("");
+
+    spm("Carregando " + comps[0] + "...");
+    await carregarResumo(comps[0]);
+    setTimeout(()=> document.getElementById("splash").classList.add("hide"), 300);
+  } catch(e){ spm("Erro: " + e.message); console.error(e); }
+}
+
+// ── CARREGAR RESUMO (leve) ────────────────────────────────────────
+async function carregarResumo(comp){
+  if(!resumoCache[comp]){
+    const r = await fetch(BASE + "/" + comp + "/resumo.json?t=" + Date.now());
+    if(!r.ok) throw new Error("Resumo nao encontrado: " + comp);
+    resumoCache[comp] = await r.json();
+  }
+  popularSelectOrgao(comp);
+  renderResumo(comp);
+}
+
+// ── CARREGAR DETALHE DE EMPRESA ──────────────────────────────────
+async function carregarEmpresa(comp, emp){
+  const key = comp + "_" + emp;
+  if(!empCache[key]){
+    setLoading(true);
+    const r = await fetch(BASE + "/" + comp + "/emp_" + emp + ".json?t=" + Date.now());
+    setLoading(false);
+    if(!r.ok) throw new Error("Empresa nao encontrada: " + emp);
+    empCache[key] = await r.json();
+  }
+  return empCache[key];
+}
+
+// ── POPULAR SELECT DE ORGAO ──────────────────────────────────────
+function popularSelectOrgao(comp){
+  const resumo = resumoCache[comp];
+  if(!resumo) return;
+  const sO = document.getElementById("s-org");
+  const ov = sO.value;
+  const empresas = (resumo.empresas||[]).sort((a,b)=>b.total_proventos-a.total_proventos);
+  sO.innerHTML = `<option value="">— Todos os Orgaos —</option>` +
+    empresas.map(e=>`<option value="${e.empresa}" ${String(e.empresa)===ov?"selected":""}>${e.dc_empresa} (${e.sigla})</option>`).join("");
+}
+
+// ── APLICAR FILTROS ──────────────────────────────────────────────
+async function aplicar(){
+  const comp = document.getElementById("s-comp").value;
+  const orgVal = document.getElementById("s-org").value;
+  const sitVal = document.getElementById("s-sit").value.trim();
+  const lotVal = document.getElementById("s-lot").value.trim();
+
+  if(!comp) return;
+  if(!resumoCache[comp]) await carregarResumo(comp);
+
+  if(orgVal){
+    // Modo detalhe: carrega emp_X.json e mostra lotacoes
+    try {
+      const empData = await carregarEmpresa(comp, orgVal);
+      renderDetalheEmpresa(empData, sitVal, lotVal);
+    } catch(e){ console.error(e); }
+  } else {
+    // Modo resumo: usa resumo.json
+    renderResumo(comp);
+  }
+}
+
+function limpar(){
+  document.getElementById("s-org").value = "";
+  document.getElementById("s-sit").innerHTML = `<option value="">— Todas —</option>`;
+  document.getElementById("s-lot").innerHTML = `<option value="">— Selecione um orgao —</option>`;
+  document.getElementById("s-lot").disabled = true;
+  document.getElementById("sec-lotacao").style.display = "none";
+  const comp = document.getElementById("s-comp").value;
+  if(comp) renderResumo(comp);
+}
+
+// ── RENDER RESUMO (visao geral por orgao) ────────────────────────
+function renderResumo(comp){
+  const resumo = resumoCache[comp];
+  if(!resumo) return;
+
+  document.getElementById("sec-lotacao").style.display = "none";
+  document.getElementById("sec-detalhe").textContent = "Detalhamento por Orgao";
+  document.getElementById("th-nome").textContent = "Orgao";
+
+  const empresas = (resumo.empresas||[]).sort((a,b)=>b.total_proventos-a.total_proventos);
+  const tProv = resumo.total_proventos || 0;
+  const tDesc = resumo.total_descontos || 0;
+  const tServ = resumo.total_serv || 0;
+
+  // KPIs
+  document.getElementById("kpi-br").textContent = BRL(tProv);
+  document.getElementById("kpi-de").textContent = BRL(tDesc);
+  document.getElementById("kpi-lq").textContent = BRL(tProv - tDesc);
+  document.getElementById("kpi-sv").textContent = N(tServ);
+  document.getElementById("kpi-me").textContent = tServ ? BRL(tProv/tServ) : "—";
+  document.getElementById("kpi-pd").textContent = tProv ? PCT(tDesc/tProv) : "—";
+
+  // Graficos
+  renderTopOrg(empresas.slice(0,15));
+  renderComp(tProv, tDesc);
+
+  // Tabela
+  const max = empresas[0]?.total_proventos || 1;
+  document.getElementById("tbody-org").innerHTML = empresas.map((e,i)=>`
+    <tr style="cursor:pointer" onclick="selecionarOrg(${e.empresa})">
+      <td>
+        <div><span style="color:var(--cm);font-size:.65rem;margin-right:4px">${i+1}</span>
+        <strong>${e.dc_empresa||"—"}</strong></div>
+        <div class="minibar" style="width:${(e.total_proventos/max*100).toFixed(1)}%"></div>
+      </td>
+      <td>${e.sigla||"—"}</td>
+      <td>${N(e.qtd_servidores)}</td>
+      <td>${BRLF(e.total_proventos)}</td>
+      <td style="color:var(--c5)">${BRLF(e.total_descontos)}</td>
+      <td class="totc">${BRLF(e.total_liquido)}</td>
+      <td>${e.qtd_servidores ? BRLF(e.total_proventos/e.qtd_servidores) : "—"}</td>
+    </tr>`).join("");
+}
+
+async function selecionarOrg(emp){
+  document.getElementById("s-org").value = emp;
+  await aplicar();
+}
+
+// ── RENDER DETALHE EMPRESA (lotacoes) ────────────────────────────
+function renderDetalheEmpresa(empData, sitFiltro, lotFiltro){
+  let registros = empData.registros || [];
+
+  // Popular selects de situacao e lotacao
+  const sits = [...new Set(registros.map(r=>(r.dc_sit_func||"").trim()).filter(Boolean))].sort();
+  const sS = document.getElementById("s-sit");
+  const sv = sS.value;
+  sS.innerHTML = `<option value="">— Todas —</option>` +
+    sits.map(s=>`<option value="${s}" ${s===sv?"selected":""}>${s}</option>`).join("");
+
+  const lots = [...new Set(registros.map(r=>(r.nivel3_lotacao||"").trim()).filter(Boolean))].sort();
+  const sL = document.getElementById("s-lot");
+  sL.disabled = false;
+  const lv = sL.value;
+  sL.innerHTML = `<option value="">— Todas as Lotacoes —</option>` +
+    lots.map(l=>`<option value="${l}" ${l===lv?"selected":""}>${l}</option>`).join("");
+
+  // Aplica filtros
+  if(sitFiltro) registros = registros.filter(r=>(r.dc_sit_func||"").trim()===sitFiltro);
+  if(lotFiltro) registros = registros.filter(r=>(r.nivel3_lotacao||"").trim()===lotFiltro);
+
+  const tProv = registros.reduce((s,r)=>s+(r.total_proventos||0),0);
+  const tDesc = registros.reduce((s,r)=>s+(r.total_descontos||0),0);
+  const tServ = registros.length;
+
+  // KPIs
+  document.getElementById("kpi-br").textContent = BRL(tProv);
+  document.getElementById("kpi-de").textContent = BRL(tDesc);
+  document.getElementById("kpi-lq").textContent = BRL(tProv - tDesc);
+  document.getElementById("kpi-sv").textContent = N(tServ);
+  document.getElementById("kpi-me").textContent = tServ ? BRL(tProv/tServ) : "—";
+  document.getElementById("kpi-pd").textContent = tProv ? PCT(tDesc/tProv) : "—";
+
+  // Agrupa por lotacao final
+  const lotMap = {};
+  registros.forEach(r=>{
+    const k = (r.nivel3_lotacao||"Sem lotacao").trim() + "|" + (r.dc_sit_func||"").trim();
+    if(!lotMap[k]) lotMap[k] = {
+      lotacao: (r.nivel3_lotacao||"Sem lotacao").trim(),
+      unidade: (r.nivel2_unidade||"").trim(),
+      sit: (r.dc_sit_func||"").trim(),
+      serv:0, prov:0, desc:0
+    };
+    lotMap[k].serv++;
+    lotMap[k].prov += r.total_proventos||0;
+    lotMap[k].desc += r.total_descontos||0;
+  });
+  const lotLista = Object.values(lotMap)
+    .map(l=>({...l, prov:Math.round(l.prov*100)/100, desc:Math.round(l.desc*100)/100, liq:Math.round((l.prov-l.desc)*100)/100}))
+    .sort((a,b)=>b.prov-a.prov);
+
+  // Situacao funcional
+  const sitMap = {};
+  registros.forEach(r=>{
+    const s = (r.dc_sit_func||"Nao informado").trim();
+    sitMap[s] = (sitMap[s]||0) + 1;
+  });
+
+  // Graficos
+  renderTopOrg([{dc_empresa: empData.registros?.[0]?.dc_empresa||"", sigla:"", qtd_servidores:tServ, total_proventos:tProv, total_descontos:tDesc, total_liquido:tProv-tDesc}]);
+  renderComp(tProv, tDesc);
+  renderTopLot(lotLista.slice(0,15));
+  renderSit(sitMap);
+
+  // Tabela resumo orgao
+  document.getElementById("sec-detalhe").textContent = "Resumo do Orgao";
+  document.getElementById("th-nome").textContent = "Orgao";
+  document.getElementById("tbody-org").innerHTML = `
+    <tr>
+      <td><strong>${empData.registros?.[0]?.dc_empresa||"—"}</strong></td>
+      <td>${empData.registros?.[0]?.sigla||"—"}</td>
+      <td>${N(tServ)}</td>
+      <td>${BRLF(tProv)}</td>
+      <td style="color:var(--c5)">${BRLF(tDesc)}</td>
+      <td class="totc">${BRLF(tProv-tDesc)}</td>
+      <td>${tServ ? BRLF(tProv/tServ) : "—"}</td>
+    </tr>`;
+
+  // Tabela de lotacoes
+  document.getElementById("sec-lotacao").style.display = "block";
+  const maxL = lotLista[0]?.prov || 1;
+  document.getElementById("tbody-lot").innerHTML = lotLista.map((l,i)=>`
+    <tr>
+      <td>
+        <div><span style="color:var(--cm);font-size:.65rem;margin-right:4px">${i+1}</span>
+        <strong>${l.lotacao}</strong></div>
+        <div class="minibar" style="width:${(l.prov/maxL*100).toFixed(1)}%"></div>
+      </td>
+      <td style="font-size:.68rem">${l.unidade||"—"}</td>
+      <td style="font-size:.68rem">${l.sit||"—"}</td>
+      <td>${N(l.serv)}</td>
+      <td>${BRLF(l.prov)}</td>
+      <td style="color:var(--c5)">${BRLF(l.desc)}</td>
+      <td class="totc">${BRLF(l.liq)}</td>
+      <td>${l.serv ? BRLF(l.prov/l.serv) : "—"}</td>
+    </tr>`).join("");
+}
+
+// ── GRAFICOS ─────────────────────────────────────────────────────
+function renderTopOrg(lista){
+  dc("top-org");
+  const ctx = document.getElementById("ch-top-org").getContext("2d");
+  const g = ctx.createLinearGradient(0,0,500,0);
+  g.addColorStop(0,"#f0b429"); g.addColorStop(1,"#2d7a4f");
+  charts["top-org"] = new Chart(ctx,{
+    type:"bar",
+    data:{
+      labels: lista.map(e=>(e.sigla||e.dc_empresa||"").substring(0,25)),
+      datasets:[{label:"Proventos", data:lista.map(e=>e.total_proventos), backgroundColor:g, borderRadius:3, borderSkipped:false}]
+    },
+    options:{
+      indexAxis:"y", responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{display:false}, tooltip:{callbacks:{label:c=>BRLF(c.raw)}}},
+      scales:{x:{grid:{color:"#e8edf0"}, ticks:{callback:v=>BRL(v)}}, y:{grid:{display:false}, ticks:{font:{size:9}}}}
+    }
+  });
+}
+
+function renderComp(prov, desc){
+  dc("comp");
+  charts["comp"] = new Chart(document.getElementById("ch-comp"),{
+    type:"doughnut",
+    data:{
+      labels:["Liquido","Descontos"],
+      datasets:[{
+        data:[prov-desc, desc],
+        backgroundColor:["#2d7a4fcc","#c0392bcc"],
+        borderColor:["#2d7a4f","#c0392b"], borderWidth:1, hoverOffset:6
+      }]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false, cutout:"60%",
+      plugins:{
+        legend:{position:"right", labels:{boxWidth:10}},
+        tooltip:{callbacks:{label:c=>`${c.label}: ${BRLF(c.raw)} (${PCT(c.raw/prov)})`}}
+      }
+    }
+  });
+}
+
+function renderTopLot(lista){
+  dc("top-lot");
+  const ctx = document.getElementById("ch-top-lot").getContext("2d");
+  const g = ctx.createLinearGradient(0,0,500,0);
+  g.addColorStop(0,"#2196a6"); g.addColorStop(1,"#1a4a2e");
+  charts["top-lot"] = new Chart(ctx,{
+    type:"bar",
+    data:{
+      labels: lista.map(l=>l.lotacao.substring(0,30)),
+      datasets:[{label:"Proventos", data:lista.map(l=>l.prov), backgroundColor:g, borderRadius:3, borderSkipped:false}]
+    },
+    options:{
+      indexAxis:"y", responsive:true, maintainAspectRatio:false,
+      plugins:{legend:{display:false}, tooltip:{callbacks:{label:c=>BRLF(c.raw)}}},
+      scales:{x:{grid:{color:"#e8edf0"}, ticks:{callback:v=>BRL(v)}}, y:{grid:{display:false}, ticks:{font:{size:9}}}}
+    }
+  });
+}
+
+function renderSit(sitMap){
+  dc("sit");
+  const cores = ["#1a6b3c","#f0b429","#2196a6","#7b3fa0","#c0392b","#d4770c","#2e7d32","#455a64","#00838f","#6a1b9a"];
+  const labels = Object.keys(sitMap);
+  const vals   = Object.values(sitMap);
+  charts["sit"] = new Chart(document.getElementById("ch-sit"),{
+    type:"doughnut",
+    data:{
+      labels,
+      datasets:[{data:vals, backgroundColor:cores.slice(0,labels.length).map(c=>c+"cc"), borderColor:cores.slice(0,labels.length), borderWidth:1, hoverOffset:6}]
+    },
+    options:{
+      responsive:true, maintainAspectRatio:false, cutout:"55%",
+      plugins:{
+        legend:{position:"right", labels:{boxWidth:10, padding:8, font:{size:9}}},
+        tooltip:{callbacks:{label:c=>`${c.label}: ${N(c.raw)} serv.`}}
+      }
+    }
+  });
+}
+
+// ── LISTENERS ────────────────────────────────────────────────────
+document.addEventListener("DOMContentLoaded", ()=>{
+  document.getElementById("s-comp").addEventListener("change", async ()=>{
+    const comp = document.getElementById("s-comp").value;
+    document.getElementById("s-org").value = "";
+    document.getElementById("s-sit").innerHTML = `<option value="">— Todas —</option>`;
+    document.getElementById("s-lot").innerHTML = `<option value="">— Selecione um orgao —</option>`;
+    document.getElementById("s-lot").disabled = true;
+    document.getElementById("sec-lotacao").style.display = "none";
+    if(comp){
+      spm("Carregando " + comp + "...");
+      await carregarResumo(comp);
+    }
+  });
+
+  document.getElementById("s-org").addEventListener("change", ()=>{
+    const orgVal = document.getElementById("s-org").value;
+    if(!orgVal){
+      document.getElementById("s-lot").innerHTML = `<option value="">— Selecione um orgao —</option>`;
+      document.getElementById("s-lot").disabled = true;
+    }
+  });
+
+  init();
+});
+</script>
+</body>
+</html>
