@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custos de Pessoal — SIGRH</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500;600&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+:root{
+  --ve:#1a4a2e;--vm:#2d7a4f;--vc:#3a9960;
+  --do:#f0b429;--doc:#f7cc6b;
+  --bg:#f0f4f1;--sf:#fff;--sf2:#f5f8f6;--bd:#d0dbd4;
+  --tx:#1a2e22;--ts:#4a6357;--cm:#b0bec5;
+  --fh:"Barlow Condensed",sans-serif;--fb:"Barlow",sans-serif;--fm:"Roboto Mono",monospace;
+  --c1:#1a6b3c;--c2:#f0b429;--c3:#2196a6;--c4:#7b3fa0;--c5:#c0392b;--c6:#d4770c;--c7:#00838f;--c8:#455a64;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--tx);font-family:var(--fb);min-height:100vh}
+/* HEADER */
+header{background:linear-gradient(135deg,var(--ve),var(--vm));border-bottom:4px solid var(--do);padding:0 2rem;height:72px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 3px 12px rgba(0,0,0,.25)}
+.hl{display:flex;align-items:center;gap:14px}
+.hl img{height:52px;filter:drop-shadow(0 2px 4px rgba(0,0,0,.3))}
+.ht{display:flex;flex-direction:column}
+.hs{font-family:var(--fh);font-size:.7rem;font-weight:600;color:var(--doc);letter-spacing:.2em;text-transform:uppercase}
+.hti{font-family:var(--fh);font-size:1.35rem;font-weight:800;color:#fff;letter-spacing:.04em;line-height:1.1}
+.hti span{color:var(--do)}
+.hr{display:flex;align-items:center;gap:12px}
+#atualiz{font-family:var(--fm);font-size:.62rem;color:rgba(255,255,255,.6);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:4px 12px;border-radius:20px}
+.stripe{background:var(--do);height:5px}
+/* TABS */
+.tabs{background:var(--ve);display:flex;gap:0;padding:0 2rem;border-bottom:2px solid rgba(255,255,255,.1)}
+.tab{font-family:var(--fh);font-size:.82rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.55);padding:.7rem 1.4rem;cursor:pointer;border-bottom:3px solid transparent;transition:all .2s;white-space:nowrap}
+.tab:hover{color:rgba(255,255,255,.85)}
+.tab.active{color:var(--do);border-bottom-color:var(--do)}
+/* TOOLBAR */
+.toolbar{display:flex;flex-wrap:wrap;gap:.75rem;align-items:flex-end;background:var(--sf);border-bottom:1px solid var(--bd);padding:.8rem 2rem;box-shadow:0 2px 6px rgba(0,0,0,.04)}
+.tg{display:flex;flex-direction:column;gap:3px}
+.tg label{font-family:var(--fh);font-size:.68rem;font-weight:700;color:var(--ts);letter-spacing:.08em;text-transform:uppercase}
+select{font-family:var(--fb);font-size:.8rem;color:var(--tx);background:var(--sf2);border:1px solid var(--bd);border-radius:6px;padding:5px 10px;outline:none}
+select:focus{border-color:var(--vm)}
+.btn{font-family:var(--fh);font-weight:700;font-size:.76rem;letter-spacing:.1em;padding:7px 16px;border-radius:6px;border:none;cursor:pointer;transition:opacity .15s}
+.btn-p{background:var(--vm);color:#fff}
+.btn-s{background:#e8edf0;color:var(--ve);border:1px solid var(--bd)}
+.btn:hover{opacity:.85}
+/* MAIN */
+main{max-width:1480px;margin:0 auto;padding:1.5rem 2rem 3rem}
+.page{display:none}
+.page.active{display:block}
+/* KPIs */
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:1rem;margin-bottom:1.2rem}
+.kpi{background:var(--sf);border:1px solid var(--bd);border-radius:10px;padding:1rem 1.2rem;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.kpi-l{font-family:var(--fh);font-size:.68rem;font-weight:700;color:var(--ts);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.25rem}
+.kpi-v{font-family:var(--fh);font-size:1.6rem;font-weight:800;color:var(--ve);line-height:1}
+.kpi-s{font-size:.68rem;color:var(--cm);margin-top:.2rem}
+.kpi-v.neg{color:var(--c5)}
+.kpi-v.warn{color:var(--c6)}
+/* CARDS */
+.sec{font-family:var(--fh);font-size:.95rem;font-weight:800;color:var(--ve);letter-spacing:.12em;text-transform:uppercase;margin:1.4rem 0 .7rem;padding-left:.25rem;border-left:3px solid var(--do)}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
+.g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem;margin-bottom:1rem}
+@media(max-width:1100px){.g3{grid-template-columns:1fr 1fr}}
+@media(max-width:900px){.g2,.g3{grid-template-columns:1fr}}
+.card{background:var(--sf);border:1px solid var(--bd);border-radius:10px;padding:1.2rem;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.card.full{margin-bottom:1rem}
+.ch{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1rem}
+.ct{font-family:var(--fh);font-size:.88rem;font-weight:800;color:var(--ve);letter-spacing:.04em}
+.cs{font-size:.7rem;color:var(--ts);margin-top:2px}
+.tag{font-family:var(--fh);font-size:.58rem;font-weight:700;letter-spacing:.1em;color:var(--vm);background:rgba(45,122,79,.08);border:1px solid rgba(45,122,79,.2);padding:2px 8px;border-radius:20px}
+.cb{position:relative;height:260px}
+.cb.tall{height:340px}
+.cb.short{height:180px}
+/* TABELA */
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.76rem}
+th{font-family:var(--fh);font-size:.65rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ts);padding:.55rem .8rem;border-bottom:2px solid var(--bd);background:var(--sf2);white-space:nowrap}
+td{padding:.5rem .8rem;border-bottom:1px solid #e8edf0;vertical-align:middle;font-family:var(--fm);font-size:.7rem}
+tr:hover td{background:#f5fbf7}
+td:not(:first-child){text-align:right}
+.totc{font-weight:700;color:var(--ve)}
+.minibar{height:3px;background:linear-gradient(90deg,var(--vm),var(--vc));border-radius:2px;margin-top:3px}
+/* SPLASH */
+#splash{position:fixed;inset:0;background:var(--ve);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;transition:opacity .4s}
+#splash.hide{opacity:0;pointer-events:none}
+.spl{font-family:var(--fh);font-size:2rem;font-weight:800;color:#fff}
+.spl span{color:var(--do)}
+#spm{font-family:var(--fm);font-size:.78rem;color:rgba(255,255,255,.6);margin-top:1rem}
+.spin{width:36px;height:36px;border:3px solid rgba(255,255,255,.15);border-top-color:var(--do);border-radius:50%;animation:sp .8s linear infinite;margin-top:1.5rem}
+@keyframes sp{to{transform:rotate(360deg)}}
+.loading-bar{font-size:.76rem;color:var(--ts);background:rgba(240,180,41,.08);border:1px solid rgba(240,180,41,.3);border-radius:6px;padding:.4rem .8rem;margin-bottom:.8rem;display:none}
+.loading-bar.show{display:block}
+footer{background:var(--ve);color:rgba(255,255,255,.4);text-align:center;padding:.8rem;font-family:var(--fh);font-size:.68rem;letter-spacing:.15em;text-transform:uppercase}
+</style>
+</head>
+<body>
+
+<div id="splash">
+  <div class="spl">Custos de <span>Pessoal</span></div>
+  <div class="spin"></div>
+  <div id="spm">Carregando dados...</div>
+</div>
+
+<header>
+  <div class="hl">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Bras%C3%A3o_do_Distrito_Federal_%28Brasil%29.svg/240px-Bras%C3%A3o_do_Distrito_Federal_%28Brasil%29.svg.png" alt="DF">
+    <div class="ht">
+      <span class="hs">Governo do Distrito Federal</span>
+      <span class="hti">Custos de <span>Pessoal</span></span>
+      <span class="hs" style="color:rgba(255,255,255,.6)">SIGRH — Folha de Pagamento</span>
+    </div>
+  </div>
+  <div class="hr">
+    <a href="index.html" style="font-family:var(--fh);font-size:.75rem;font-weight:700;color:rgba(255,255,255,.8);background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);padding:5px 14px;border-radius:20px;text-decoration:none;letter-spacing:.06em">← INÍCIO</a>
+    <div id="atualiz">Carregando...</div>
+  </div>
+</header>
+<div class="stripe"></div>
+
+<!-- ABAS -->
+<div class="tabs">
+  <div class="tab active" onclick="setTab('visao')">Visão Geral</div>
+  <div class="tab" onclick="setTab('evolucao')">Evolução da Folha</div>
+  <div class="tab" onclick="setTab('composicao')">Composição</div>
+  <div class="tab" onclick="setTab('forca')">Força de Trabalho</div>
+  <div class="tab" onclick="setTab('lotacao')">Custos por Lotação</div>
+</div>
+
+<!-- TOOLBAR -->
+<div class="toolbar">
+  <div class="tg"><label>Competência</label><select id="s-comp"></select></div>
+  <div class="tg"><label>Órgão</label><select id="s-org" style="min-width:240px"><option value="">— Todos —</option></select></div>
+  <div class="tg"><label>Situação Funcional</label><select id="s-sit" style="min-width:160px"><option value="">— Todas —</option></select></div>
+  <button class="btn btn-p" onclick="aplicar()">▶ APLICAR</button>
+  <button class="btn btn-s" onclick="limpar()">✕ LIMPAR</button>
+  <div class="loading-bar" id="loading-bar">⏳ Carregando dados detalhados...</div>
+</div>
+
+<!-- ═══ ABA 1: VISÃO GERAL ═══ -->
+<div class="page active" id="page-visao">
+<main>
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-l">Folha Bruta</div><div class="kpi-v" id="v-br">—</div><div class="kpi-s">proventos tipos 1,2,3</div></div>
+    <div class="kpi"><div class="kpi-l">Total Descontos</div><div class="kpi-v neg" id="v-de">—</div><div class="kpi-s">tipos 4,5,6</div></div>
+    <div class="kpi"><div class="kpi-l">Folha Líquida</div><div class="kpi-v" id="v-lq">—</div><div class="kpi-s">bruto menos descontos</div></div>
+    <div class="kpi"><div class="kpi-l">Servidores</div><div class="kpi-v" id="v-sv">—</div><div class="kpi-s">registros ativos</div></div>
+    <div class="kpi"><div class="kpi-l">Custo Médio</div><div class="kpi-v" id="v-me">—</div><div class="kpi-s">bruto ÷ servidores</div></div>
+    <div class="kpi"><div class="kpi-l">% Desconto</div><div class="kpi-v warn" id="v-pd">—</div><div class="kpi-s">descontos ÷ bruto</div></div>
+  </div>
+  <div class="g2">
+    <div class="card">
+      <div class="ch"><div><div class="ct">Top 15 — Distribuição por Órgão</div><div class="cs">Total de proventos</div></div><span class="tag">RANKING</span></div>
+      <div class="cb tall"><canvas id="ch-top-org"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div><div class="ct">Proporção da Folha</div><div class="cs">Líquido x Descontos</div></div><span class="tag">ROSCA</span></div>
+      <div class="cb"><canvas id="ch-prop"></canvas></div>
+    </div>
+  </div>
+  <div class="sec">Detalhamento por Órgão</div>
+  <div class="card full">
+    <div class="table-wrap">
+      <table>
+        <thead><tr>
+          <th style="text-align:left">Órgão</th><th>Sigla</th>
+          <th>Servidores</th><th>Folha Bruta</th>
+          <th>Descontos</th><th>Folha Líquida</th><th>Custo Médio</th>
+        </tr></thead>
+        <tbody id="tb-org"></tbody>
+      </table>
+    </div>
+  </div>
+</main>
+</div>
+
+<!-- ═══ ABA 2: EVOLUÇÃO ═══ -->
+<div class="page" id="page-evolucao">
+<main>
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-l">Competências Carregadas</div><div class="kpi-v" id="e-comp">—</div><div class="kpi-s">meses disponíveis</div></div>
+    <div class="kpi"><div class="kpi-l">Menor Folha</div><div class="kpi-v" id="e-min">—</div><div class="kpi-s">no período</div></div>
+    <div class="kpi"><div class="kpi-l">Maior Folha</div><div class="kpi-v" id="e-max">—</div><div class="kpi-s">no período</div></div>
+    <div class="kpi"><div class="kpi-l">Variação</div><div class="kpi-v" id="e-var">—</div><div class="kpi-s">primeiro vs último mês</div></div>
+  </div>
+  <div class="card full">
+    <div class="ch"><div><div class="ct">Evolução Mensal da Folha</div><div class="cs">Proventos e descontos por competência</div></div><span class="tag">LINHA</span></div>
+    <div class="cb tall"><canvas id="ch-evolucao"></canvas></div>
+  </div>
+  <div class="card full" style="margin-top:1rem">
+    <div class="ch"><div><div class="ct">Evolução por Órgão</div><div class="cs">Top 10 órgãos ao longo do tempo</div></div><span class="tag">BARRAS</span></div>
+    <div class="cb tall"><canvas id="ch-evo-org"></canvas></div>
+  </div>
+</main>
+</div>
+
+<!-- ═══ ABA 3: COMPOSIÇÃO ═══ -->
+<div class="page" id="page-composicao">
+<main>
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-l">Vencimentos</div><div class="kpi-v" id="c-vec">—</div><div class="kpi-s">rubricas de vencimento</div></div>
+    <div class="kpi"><div class="kpi-l">Gratificações</div><div class="kpi-v" id="c-gra">—</div><div class="kpi-s">rubricas de gratificação</div></div>
+    <div class="kpi"><div class="kpi-l">Benefícios</div><div class="kpi-v" id="c-ben">—</div><div class="kpi-s">auxílios e benefícios</div></div>
+    <div class="kpi"><div class="kpi-l">Encargos Patronais</div><div class="kpi-v warn" id="c-enc">—</div><div class="kpi-s">RPPS, RGPS</div></div>
+    <div class="kpi"><div class="kpi-l">Indenizações</div><div class="kpi-v" id="c-ind">—</div><div class="kpi-s">férias, 13º, substituições</div></div>
+    <div class="kpi"><div class="kpi-l">% Encargos</div><div class="kpi-v warn" id="c-penc">—</div><div class="kpi-s">encargos ÷ bruto</div></div>
+  </div>
+  <div class="g2">
+    <div class="card">
+      <div class="ch"><div><div class="ct">Participação dos Grupos da Folha</div><div class="cs">Por categoria de rubrica</div></div><span class="tag">BARRAS</span></div>
+      <div class="cb"><canvas id="ch-grupos"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div><div class="ct">Top 15 Rubricas de Provento</div><div class="cs">Tipos 1, 2 e 3 — maiores valores</div></div><span class="tag">RANKING</span></div>
+      <div class="cb"><canvas id="ch-top-prov"></canvas></div>
+    </div>
+  </div>
+  <div class="card full">
+    <div class="ch"><div><div class="ct">Top 10 Rubricas de Desconto</div><div class="cs">Tipos 4, 5 e 6</div></div><span class="tag">RANKING</span></div>
+    <div class="cb"><canvas id="ch-top-desc"></canvas></div>
+  </div>
+</main>
+</div>
+
+<!-- ═══ ABA 4: FORÇA DE TRABALHO ═══ -->
+<div class="page" id="page-forca">
+<main>
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-l">Total Servidores</div><div class="kpi-v" id="f-tot">—</div><div class="kpi-s">na competência</div></div>
+    <div class="kpi"><div class="kpi-l">Estatutários</div><div class="kpi-v" id="f-est">—</div><div class="kpi-s">servidores ativos</div></div>
+    <div class="kpi"><div class="kpi-l">Aposentados</div><div class="kpi-v" id="f-apo">—</div><div class="kpi-s">proventos de inatividade</div></div>
+    <div class="kpi"><div class="kpi-l">Comissionados</div><div class="kpi-v" id="f-com">—</div><div class="kpi-s">cargos em comissão</div></div>
+    <div class="kpi"><div class="kpi-l">Temporários</div><div class="kpi-v" id="f-tmp">—</div><div class="kpi-s">contratos temporários</div></div>
+    <div class="kpi"><div class="kpi-l">Outros Vínculos</div><div class="kpi-v" id="f-out">—</div><div class="kpi-s">demais situações</div></div>
+  </div>
+  <div class="g2">
+    <div class="card">
+      <div class="ch"><div><div class="ct">Distribuição por Situação Funcional</div><div class="cs">Proporção por vínculo</div></div><span class="tag">ROSCA</span></div>
+      <div class="cb"><canvas id="ch-sit-func"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div><div class="ct">Servidores por Vínculo</div><div class="cs">Ranking de situações funcionais</div></div><span class="tag">BARRAS</span></div>
+      <div class="cb"><canvas id="ch-vinculo"></canvas></div>
+    </div>
+  </div>
+</main>
+</div>
+
+<!-- ═══ ABA 5: LOTAÇÃO ═══ -->
+<div class="page" id="page-lotacao">
+<main>
+  <div id="lot-aviso" style="font-size:.8rem;color:var(--ts);background:rgba(240,180,41,.08);border:1px solid rgba(240,180,41,.3);border-radius:6px;padding:.5rem .8rem;margin-bottom:1rem">
+    Selecione um <strong>Órgão</strong> na barra de filtros acima para ver o detalhamento por lotação.
+  </div>
+  <div id="lot-conteudo" style="display:none">
+    <div class="kpi-row">
+      <div class="kpi"><div class="kpi-l">Lotações</div><div class="kpi-v" id="l-lot">—</div><div class="kpi-s">unidades com registro</div></div>
+      <div class="kpi"><div class="kpi-l">Servidores</div><div class="kpi-v" id="l-sv">—</div><div class="kpi-s">no órgão filtrado</div></div>
+      <div class="kpi"><div class="kpi-l">Folha Bruta</div><div class="kpi-v" id="l-br">—</div><div class="kpi-s">total do órgão</div></div>
+      <div class="kpi"><div class="kpi-l">Custo Médio</div><div class="kpi-v" id="l-me">—</div><div class="kpi-s">por servidor</div></div>
+    </div>
+    <div class="g2">
+      <div class="card">
+        <div class="ch"><div><div class="ct">Top 15 Lotações por Custo</div><div class="cs">Lotação final do servidor</div></div><span class="tag">RANKING</span></div>
+        <div class="cb tall"><canvas id="ch-top-lot"></canvas></div>
+      </div>
+      <div class="card">
+        <div class="ch"><div><div class="ct">Distribuição por Situação</div><div class="cs">No órgão selecionado</div></div><span class="tag">PIZZA</span></div>
+        <div class="cb"><canvas id="ch-lot-sit"></canvas></div>
+      </div>
+    </div>
+    <div class="sec">Tabela de Lotações</div>
+    <div class="card full">
+      <div class="table-wrap">
+        <table>
+          <thead><tr>
+            <th style="text-align:left">Lotação Final</th><th>Unidade</th>
+            <th>Situação</th><th>Servidores</th>
+            <th>Folha Bruta</th><th>Descontos</th><th>Líquido</th><th>Custo Médio</th>
+          </tr></thead>
+          <tbody id="tb-lot"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+
+<footer>SECRETARIA DE ESTADO DE ECONOMIA — DISTRITO FEDERAL &nbsp;|&nbsp; Custos de Pessoal SIGRH</footer>
+
+<script>
+const BASE = "https://raw.githubusercontent.com/brunorvmaciel/custos-ug-df/main/dados_pessoal";
+const MESES = ["","Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];
+Chart.defaults.color = "#4a6357";
+Chart.defaults.font.family = "'Roboto Mono',monospace";
+Chart.defaults.font.size = 10.5;
+
+const BRL  = v => new Intl.NumberFormat("pt-BR",{style:"currency",currency:"BRL",notation:"compact",maximumFractionDigits:1}).format(v);
+const BRLF = v => new Intl.NumberFormat("pt-BR",{style:"currency",currency:"BRL",minimumFractionDigits:2}).format(v);
+const N    = v => new Intl.NumberFormat("pt-BR").format(v);
+const PCT  = v => (v*100).toFixed(1)+"%";
+
+// Classificação de rubricas por grupo (baseado nos códigos do SIGRH)
+const GRUPOS = {
+  vencimentos:  [10001,10002,10003,10004,10005,10006,10007,10008,10009,10010,10011,10012,10013],
+  gratificacoes:[10014,10015,10016,10017,10018,10019,10020,10021,10022,10023,10024,10025,10026,10027,10028,10029,10030],
+  beneficios:   [10100,10101,10102,10103,10104,10105,10106,10107,10108,10109,10110,10111,10112,10113,10114,10115,10116,10926,10927,10928,10929,10930],
+  encargos:     [20001,20002,20003,20004,20005,20006,20007,20008,20009,20010,20011,20012],
+  indenizacoes: [10901,10902,10903,10904,10905,10906,10907,10908,10909,10910,10950,10951,10952,10953]
+};
+
+function grupoRubrica(cod){
+  for(const [g, lista] of Object.entries(GRUPOS)){
+    if(lista.includes(cod)) return g;
+  }
+  // Heurística por faixa
+  if(cod >= 10000 && cod <= 10099) return "vencimentos";
+  if(cod >= 10100 && cod <= 10199) return "beneficios";
+  if(cod >= 10200 && cod <= 10999) return "gratificacoes";
+  if(cod >= 20000 && cod <= 29999) return "encargos";
+  if(cod >= 40000 && cod <= 49999) return "descontos";
+  return "outros";
+}
+
+let indice = {}, resumoCache = {}, empCache = {};
+let tabAtual = "visao";
+const charts = {};
+
+function dc(id){ if(charts[id]){ charts[id].destroy(); delete charts[id]; } }
+function spm(m){ document.getElementById("spm").textContent = m; }
+function setLoading(s){ document.getElementById("loading-bar").classList.toggle("show",s); }
+
+// ── ABAS ──────────────────────────────────────────────────────────
+function setTab(t){
+  tabAtual = t;
+  document.querySelectorAll(".tab").forEach((el,i)=>{
+    const tabs = ["visao","evolucao","composicao","forca","lotacao"];
+    el.classList.toggle("active", tabs[i]===t);
+  });
+  document.querySelectorAll(".page").forEach(p=>p.classList.remove("active"));
+  document.getElementById("page-"+t).classList.add("active");
+  aplicar();
+}
+
+// ── INIT ──────────────────────────────────────────────────────────
+async function init(){
+  spm("Carregando indice...");
+  try {
+    const r = await fetch(BASE+"/index.json?t="+Date.now());
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    indice = await r.json();
+    document.getElementById("atualiz").textContent =
+      "Atualizado: "+(indice.atualizado_em||"").substring(0,16).replace("T"," ");
+
+    const comps = (indice.competencias||[]).sort().reverse();
+    const sC = document.getElementById("s-comp");
+    sC.innerHTML = comps.map(c=>{
+      const m=parseInt(c.substring(4,6));
+      return `<option value="${c}">${MESES[m]}/${c.substring(0,4)}</option>`;
+    }).join("");
+
+    // Carrega todos os resumos disponíveis para aba de evolução
+    spm("Carregando resumos...");
+    for(const c of comps){
+      if(!resumoCache[c]){
+        const rr = await fetch(BASE+"/"+c+"/resumo.json?t="+Date.now());
+        if(rr.ok) resumoCache[c] = await rr.json();
+      }
+    }
+
+    popularOrgaos(comps[0]);
+    setTimeout(()=>document.getElementById("splash").classList.add("hide"),300);
+    aplicar();
+  } catch(e){ spm("Erro: "+e.message); console.error(e); }
+}
+
+function popularOrgaos(comp){
+  const resumo = resumoCache[comp];
+  if(!resumo) return;
+  const sO = document.getElementById("s-org");
+  const ov = sO.value;
+  const emps = (resumo.empresas||[]).sort((a,b)=>b.total_proventos-a.total_proventos);
+  sO.innerHTML = `<option value="">— Todos os Orgaos —</option>`+
+    emps.map(e=>`<option value="${e.empresa}" ${String(e.empresa)===ov?"selected":""}>${e.dc_empresa} (${e.sigla})</option>`).join("");
+}
+
+// ── APLICAR ───────────────────────────────────────────────────────
+async function aplicar(){
+  const comp = document.getElementById("s-comp").value;
+  const org  = document.getElementById("s-org").value;
+  const sit  = document.getElementById("s-sit").value.trim();
+  if(!comp || !resumoCache[comp]) return;
+
+  popularOrgaos(comp);
+
+  if(tabAtual==="visao")      renderVisao(comp, org);
+  if(tabAtual==="evolucao")   renderEvolucao(org);
+  if(tabAtual==="composicao") await renderComposicao(comp, org);
+  if(tabAtual==="forca")      await renderForca(comp, org, sit);
+  if(tabAtual==="lotacao")    await renderLotacao(comp, org, sit);
+}
+
+function limpar(){
+  document.getElementById("s-org").value="";
+  document.getElementById("s-sit").innerHTML=`<option value="">— Todas —</option>`;
+  aplicar();
+}
+
+// ── HELPERS ──────────────────────────────────────────────────────
+async function getEmp(comp, emp){
+  const key=comp+"_"+emp;
+  if(!empCache[key]){
+    setLoading(true);
+    const r=await fetch(BASE+"/"+comp+"/emp_"+emp+".json?t="+Date.now());
+    setLoading(false);
+    if(r.ok) empCache[key]=await r.json();
+  }
+  return empCache[key];
+}
+
+async function getRegistros(comp, org){
+  if(org){
+    const d = await getEmp(comp, org);
+    return d ? d.registros||[] : [];
+  }
+  return [];
+}
+
+function getRubricas(comp, org){
+  if(org){
+    const key=comp+"_"+org;
+    const d=empCache[key];
+    if(!d) return [];
+    // Agrega rubricas dos registros
+    const map={};
+    (d.registros||[]).forEach(r=>{
+      (r.rubricas||[]).forEach(rub=>{
+        const k=rub.cod_rubrica;
+        if(!map[k]) map[k]={cod:k, nome:(rub.dc_rubrica||"").trim(), tipo:rub.tipo, valor:0};
+        map[k].valor+=rub.valor||0;
+      });
+    });
+    return Object.values(map).sort((a,b)=>b.valor-a.valor);
+  }
+  return [];
+}
+
+// ── ABA 1: VISÃO GERAL ───────────────────────────────────────────
+function renderVisao(comp, org){
+  const resumo = resumoCache[comp];
+  let empresas = resumo.empresas||[];
+  if(org) empresas = empresas.filter(e=>String(e.empresa)===String(org));
+
+  const tProv = empresas.reduce((s,e)=>s+e.total_proventos,0);
+  const tDesc = empresas.reduce((s,e)=>s+e.total_descontos,0);
+  const tServ = empresas.reduce((s,e)=>s+e.qtd_servidores,0);
+
+  document.getElementById("v-br").textContent=BRL(tProv);
+  document.getElementById("v-de").textContent=BRL(tDesc);
+  document.getElementById("v-lq").textContent=BRL(tProv-tDesc);
+  document.getElementById("v-sv").textContent=N(tServ);
+  document.getElementById("v-me").textContent=tServ?BRL(tProv/tServ):"—";
+  document.getElementById("v-pd").textContent=tProv?PCT(tDesc/tProv):"—";
+
+  const lista = [...empresas].sort((a,b)=>b.total_proventos-a.total_proventos);
+
+  // Gráfico top orgaos
+  dc("top-org");
+  const ctx=document.getElementById("ch-top-org").getContext("2d");
+  const g=ctx.createLinearGradient(0,0,600,0);
+  g.addColorStop(0,"#f0b429");g.addColorStop(1,"#1a4a2e");
+  charts["top-org"]=new Chart(ctx,{
+    type:"bar",
+    data:{
+      labels:lista.slice(0,15).map(e=>(e.sigla||e.dc_empresa||"").substring(0,20)),
+      datasets:[{label:"Proventos",data:lista.slice(0,15).map(e=>e.total_proventos),backgroundColor:g,borderRadius:3,borderSkipped:false}]
+    },
+    options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>BRLF(c.raw)}}},
+      scales:{x:{grid:{color:"#e8edf0"},ticks:{callback:v=>BRL(v)}},y:{grid:{display:false},ticks:{font:{size:9}}}}}
+  });
+
+  // Rosca
+  dc("prop");
+  charts["prop"]=new Chart(document.getElementById("ch-prop"),{
+    type:"doughnut",
+    data:{labels:["Folha Liquida","Descontos"],datasets:[{
+      data:[tProv-tDesc,tDesc],
+      backgroundColor:["#2d7a4fcc","#c0392bcc"],
+      borderColor:["#2d7a4f","#c0392b"],borderWidth:1,hoverOffset:6
+    }]},
+    options:{responsive:true,maintainAspectRatio:false,cutout:"60%",
+      plugins:{legend:{position:"right",labels:{boxWidth:10}},
+        tooltip:{callbacks:{label:c=>`${c.label}: ${BRLF(c.raw)} (${PCT(c.raw/tProv)})`}}}}
+  });
+
+  // Tabela
+  const max=lista[0]?.total_proventos||1;
+  document.getElementById("tb-org").innerHTML=lista.map((e,i)=>`
+    <tr>
+      <td><div><span style="color:var(--cm);font-size:.62rem;margin-right:4px">${i+1}</span><strong>${e.dc_empresa||"—"}</strong></div>
+      <div class="minibar" style="width:${(e.total_proventos/max*100).toFixed(1)}%"></div></td>
+      <td>${e.sigla||"—"}</td>
+      <td>${N(e.qtd_servidores)}</td>
+      <td>${BRLF(e.total_proventos)}</td>
+      <td style="color:var(--c5)">${BRLF(e.total_descontos)}</td>
+      <td class="totc">${BRLF(e.total_liquido)}</td>
+      <td>${e.qtd_servidores?BRLF(e.total_proventos/e.qtd_servidores):"—"}</td>
+    </tr>`).join("");
+}
+
+// ── ABA 2: EVOLUÇÃO ──────────────────────────────────────────────
+function renderEvolucao(org){
+  const comps = Object.keys(resumoCache).sort();
+  const labels = comps.map(c=>MESES[parseInt(c.substring(4,6))]+"/"+c.substring(0,4));
+
+  const provs = comps.map(c=>{
+    const emps = (resumoCache[c]?.empresas||[]);
+    if(org) return emps.filter(e=>String(e.empresa)===String(org)).reduce((s,e)=>s+e.total_proventos,0);
+    return emps.reduce((s,e)=>s+e.total_proventos,0);
+  });
+  const descs = comps.map(c=>{
+    const emps = (resumoCache[c]?.empresas||[]);
+    if(org) return emps.filter(e=>String(e.empresa)===String(org)).reduce((s,e)=>s+e.total_descontos,0);
+    return emps.reduce((s,e)=>s+e.total_descontos,0);
+  });
+
+  const minP=Math.min(...provs), maxP=Math.max(...provs);
+  const varP=provs.length>1?((provs[provs.length-1]-provs[0])/provs[0]):0;
+
+  document.getElementById("e-comp").textContent=N(comps.length);
+  document.getElementById("e-min").textContent=BRL(minP);
+  document.getElementById("e-max").textContent=BRL(maxP);
+  document.getElementById("e-var").textContent=(varP>=0?"+":"")+PCT(varP);
+
+  dc("evolucao");
+  charts["evolucao"]=new Chart(document.getElementById("ch-evolucao"),{
+    type:"line",
+    data:{labels,datasets:[
+      {label:"Proventos",data:provs,borderColor:"#2d7a4f",backgroundColor:"rgba(45,122,79,.08)",fill:true,tension:.3,pointRadius:4,pointBackgroundColor:"#2d7a4f"},
+      {label:"Descontos",data:descs,borderColor:"#c0392b",backgroundColor:"rgba(192,57,43,.05)",fill:true,tension:.3,pointRadius:4,pointBackgroundColor:"#c0392b"}
+    ]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{position:"top",labels:{boxWidth:10}},tooltip:{callbacks:{label:c=>c.dataset.label+": "+BRLF(c.raw)}}},
+      scales:{x:{grid:{color:"#e8edf0"}},y:{grid:{color:"#e8edf0"},ticks:{callback:v=>BRL(v)}}}}
+  });
+
+  // Evolução por orgao (top 8)
+  if(!org){
+    const empMap={};
+    comps.forEach(c=>{
+      (resumoCache[c]?.empresas||[]).forEach(e=>{
+        if(!empMap[e.empresa]) empMap[e.empresa]={sigla:e.sigla||e.dc_empresa, vals:{}};
+        empMap[e.empresa].vals[c]=e.total_proventos;
+      });
+    });
+    const lastComp=comps[comps.length-1];
+    const top8=Object.entries(empMap)
+      .sort((a,b)=>(b[1].vals[lastComp]||0)-(a[1].vals[lastComp]||0))
+      .slice(0,8);
+    const cores=["#1a4a2e","#2d7a4f","#f0b429","#2196a6","#7b3fa0","#c0392b","#d4770c","#00838f"];
+    dc("evo-org");
+    charts["evo-org"]=new Chart(document.getElementById("ch-evo-org"),{
+      type:"line",
+      data:{labels,datasets:top8.map(([emp,d],i)=>({
+        label:d.sigla.substring(0,15),
+        data:comps.map(c=>d.vals[c]||0),
+        borderColor:cores[i],backgroundColor:"transparent",
+        tension:.3,pointRadius:3,borderWidth:2
+      }))},
+      options:{responsive:true,maintainAspectRatio:false,
+        plugins:{legend:{position:"right",labels:{boxWidth:10,font:{size:9}}}},
+        scales:{x:{grid:{color:"#e8edf0"}},y:{grid:{color:"#e8edf0"},ticks:{callback:v=>BRL(v)}}}}
+    });
+  } else {
+    dc("evo-org");
+  }
+}
+
+// ── ABA 3: COMPOSIÇÃO ────────────────────────────────────────────
+async function renderComposicao(comp, org){
+  // Se org selecionado, usa rubricas do emp_X
+  let rubricas=[];
+  if(org){
+    await getEmp(comp,org);
+    rubricas=getRubricas(comp,org);
+  }
+
+  // Agrega por grupo
+  const grupos={vencimentos:0,gratificacoes:0,beneficios:0,encargos:0,indenizacoes:0,descontos:0,outros:0};
+  rubricas.forEach(r=>{
+    const g=grupoRubrica(r.cod);
+    if(g in grupos) grupos[g]+=r.valor;
+    else grupos.outros+=r.valor;
+  });
+
+  const tBruto=Object.entries(grupos).filter(([k])=>k!=="descontos"&&k!=="outros").reduce((s,[,v])=>s+v,0);
+  const encargos=grupos.encargos||0;
+
+  document.getElementById("c-vec").textContent=BRL(grupos.vencimentos);
+  document.getElementById("c-gra").textContent=BRL(grupos.gratificacoes);
+  document.getElementById("c-ben").textContent=BRL(grupos.beneficios);
+  document.getElementById("c-enc").textContent=BRL(encargos);
+  document.getElementById("c-ind").textContent=BRL(grupos.indenizacoes);
+  document.getElementById("c-penc").textContent=tBruto?PCT(encargos/tBruto):"—";
+
+  // Gráfico de grupos
+  const nomesGrupos=["Vencimentos","Gratificacoes","Beneficios","Encargos","Indenizacoes"];
+  const valsGrupos=[grupos.vencimentos,grupos.gratificacoes,grupos.beneficios,grupos.encargos,grupos.indenizacoes];
+  const coresGrupos=["#2d7a4f","#f0b429","#2196a6","#d4770c","#7b3fa0"];
+  dc("grupos");
+  charts["grupos"]=new Chart(document.getElementById("ch-grupos"),{
+    type:"bar",
+    data:{labels:nomesGrupos,datasets:[{
+      label:"Valor",data:valsGrupos,
+      backgroundColor:coresGrupos.map(c=>c+"cc"),
+      borderColor:coresGrupos,borderWidth:1,borderRadius:4
+    }]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>BRLF(c.raw)}}},
+      scales:{x:{grid:{display:false}},y:{grid:{color:"#e8edf0"},ticks:{callback:v=>BRL(v)}}}}
+  });
+
+  // Top rubricas provento
+  const provs=rubricas.filter(r=>r.tipo&&[1,2,3].includes(r.tipo)).slice(0,15);
+  dc("top-prov");
+  charts["top-prov"]=new Chart(document.getElementById("ch-top-prov"),{
+    type:"bar",
+    data:{labels:provs.map(r=>r.nome.substring(0,28)),
+      datasets:[{label:"Valor",data:provs.map(r=>r.valor),backgroundColor:"#2d7a4faa",borderColor:"#2d7a4f",borderWidth:1,borderRadius:2,borderSkipped:false}]},
+    options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>BRLF(c.raw)}}},
+      scales:{x:{grid:{color:"#e8edf0"},ticks:{callback:v=>BRL(v)}},y:{grid:{display:false},ticks:{font:{size:9}}}}}
+  });
+
+  // Top rubricas desconto
+  const descs=rubricas.filter(r=>r.tipo&&[4,5,6].includes(r.tipo)).slice(0,10);
+  dc("top-desc");
+  charts["top-desc"]=new Chart(document.getElementById("ch-top-desc"),{
+    type:"bar",
+    data:{labels:descs.map(r=>r.nome.substring(0,28)),
+      datasets:[{label:"Valor",data:descs.map(r=>r.valor),backgroundColor:"#c0392baa",borderColor:"#c0392b",borderWidth:1,borderRadius:2,borderSkipped:false}]},
+    options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>BRLF(c.raw)}}},
+      scales:{x:{grid:{color:"#e8edf0"},ticks:{callback:v=>BRL(v)}},y:{grid:{display:false},ticks:{font:{size:9}}}}}
+  });
+}
+
+// ── ABA 4: FORÇA DE TRABALHO ─────────────────────────────────────
+async function renderForca(comp, org, sit){
+  let registros=[];
+  if(org){
+    registros=await getRegistros(comp,org);
+    if(sit) registros=registros.filter(r=>(r.dc_sit_func||"").trim()===sit);
+  } else {
+    // Usa resumo para contagem por situação (aproximado)
+    const emps=resumoCache[comp]?.empresas||[];
+    document.getElementById("f-tot").textContent=N(emps.reduce((s,e)=>s+e.qtd_servidores,0));
+    ["f-est","f-apo","f-com","f-tmp","f-out"].forEach(id=>document.getElementById(id).textContent="—");
+    dc("sit-func"); dc("vinculo");
+    return;
+  }
+
+  const sitMap={};
+  registros.forEach(r=>{
+    const s=(r.dc_sit_func||"Nao informado").trim();
+    sitMap[s]=(sitMap[s]||0)+1;
+  });
+
+  const total=registros.length;
+  const conta=(termo)=>Object.entries(sitMap).filter(([k])=>k.toUpperCase().includes(termo)).reduce((s,[,v])=>s+v,0);
+
+  document.getElementById("f-tot").textContent=N(total);
+  document.getElementById("f-est").textContent=N(conta("ESTATUTARIO")-(conta("APOSENTADO")));
+  document.getElementById("f-apo").textContent=N(conta("APOSENTADO"));
+  document.getElementById("f-com").textContent=N(conta("COMISSION"));
+  document.getElementById("f-tmp").textContent=N(conta("TEMPORAR"));
+  document.getElementById("f-out").textContent=N(total-conta("ESTATUTARIO")-conta("APOSENTADO")-conta("COMISSION")-conta("TEMPORAR"));
+
+  // Popular select de situacao
+  const sits=[...new Set(registros.map(r=>(r.dc_sit_func||"").trim()).filter(Boolean))].sort();
+  const sS=document.getElementById("s-sit");
+  const sv=sS.value;
+  sS.innerHTML=`<option value="">— Todas —</option>`+sits.map(s=>`<option value="${s}" ${s===sv?"selected":""}>${s}</option>`).join("");
+
+  const labels=Object.keys(sitMap).sort((a,b)=>sitMap[b]-sitMap[a]);
+  const vals=labels.map(k=>sitMap[k]);
+  const cores=["#1a4a2e","#2d7a4f","#f0b429","#2196a6","#7b3fa0","#c0392b","#d4770c","#00838f","#455a64","#6a1b9a"];
+
+  dc("sit-func");
+  charts["sit-func"]=new Chart(document.getElementById("ch-sit-func"),{
+    type:"doughnut",
+    data:{labels,datasets:[{data:vals,backgroundColor:cores.slice(0,labels.length).map(c=>c+"cc"),borderColor:cores.slice(0,labels.length),borderWidth:1,hoverOffset:6}]},
+    options:{responsive:true,maintainAspectRatio:false,cutout:"55%",
+      plugins:{legend:{position:"right",labels:{boxWidth:10,padding:8,font:{size:9}}},
+        tooltip:{callbacks:{label:c=>`${c.label}: ${N(c.raw)} serv.`}}}}
+  });
+
+  dc("vinculo");
+  charts["vinculo"]=new Chart(document.getElementById("ch-vinculo"),{
+    type:"bar",
+    data:{labels:labels.slice(0,12).map(l=>l.substring(0,25)),
+      datasets:[{label:"Servidores",data:vals.slice(0,12),backgroundColor:cores.slice(0,12).map(c=>c+"cc"),borderColor:cores.slice(0,12),borderWidth:1,borderRadius:3}]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>N(c.raw)+" servidores"}}},
+      scales:{x:{grid:{display:false},ticks:{font:{size:8}}},y:{grid:{color:"#e8edf0"},ticks:{callback:v=>N(v)}}}}
+  });
+}
+
+// ── ABA 5: LOTAÇÃO ───────────────────────────────────────────────
+async function renderLotacao(comp, org, sit){
+  if(!org){
+    document.getElementById("lot-aviso").style.display="block";
+    document.getElementById("lot-conteudo").style.display="none";
+    return;
+  }
+  document.getElementById("lot-aviso").style.display="none";
+  document.getElementById("lot-conteudo").style.display="block";
+
+  let registros=await getRegistros(comp,org);
+  if(sit) registros=registros.filter(r=>(r.dc_sit_func||"").trim()===sit);
+
+  // Popular select de situacao
+  const sits=[...new Set(registros.map(r=>(r.dc_sit_func||"").trim()).filter(Boolean))].sort();
+  const sS=document.getElementById("s-sit");
+  const sv=sS.value;
+  sS.innerHTML=`<option value="">— Todas —</option>`+sits.map(s=>`<option value="${s}" ${s===sv?"selected":""}>${s}</option>`).join("");
+
+  // Agrega por lotacao
+  const lotMap={};
+  registros.forEach(r=>{
+    const k=(r.nivel3_lotacao||"Sem lotacao").trim()+"|"+(r.dc_sit_func||"").trim();
+    if(!lotMap[k]) lotMap[k]={lotacao:(r.nivel3_lotacao||"Sem lotacao").trim(),unidade:(r.nivel2_unidade||"").trim(),sit:(r.dc_sit_func||"").trim(),serv:0,prov:0,desc:0};
+    lotMap[k].serv++;
+    lotMap[k].prov+=r.total_proventos||0;
+    lotMap[k].desc+=r.total_descontos||0;
+  });
+  const lots=Object.values(lotMap)
+    .map(l=>({...l,prov:Math.round(l.prov*100)/100,desc:Math.round(l.desc*100)/100,liq:Math.round((l.prov-l.desc)*100)/100}))
+    .sort((a,b)=>b.prov-a.prov);
+
+  const tProv=lots.reduce((s,l)=>s+l.prov,0);
+  const tServ=lots.reduce((s,l)=>s+l.serv,0);
+
+  document.getElementById("l-lot").textContent=N(lots.length);
+  document.getElementById("l-sv").textContent=N(tServ);
+  document.getElementById("l-br").textContent=BRL(tProv);
+  document.getElementById("l-me").textContent=tServ?BRL(tProv/tServ):"—";
+
+  // Gráfico top lotacoes
+  dc("top-lot");
+  const ctxL=document.getElementById("ch-top-lot").getContext("2d");
+  const gL=ctxL.createLinearGradient(0,0,500,0);
+  gL.addColorStop(0,"#2196a6");gL.addColorStop(1,"#1a4a2e");
+  charts["top-lot"]=new Chart(ctxL,{
+    type:"bar",
+    data:{labels:lots.slice(0,15).map(l=>l.lotacao.substring(0,28)),
+      datasets:[{label:"Proventos",data:lots.slice(0,15).map(l=>l.prov),backgroundColor:gL,borderRadius:3,borderSkipped:false}]},
+    options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>BRLF(c.raw)}}},
+      scales:{x:{grid:{color:"#e8edf0"},ticks:{callback:v=>BRL(v)}},y:{grid:{display:false},ticks:{font:{size:9}}}}}
+  });
+
+  // Rosca por situacao
+  const sitMap={};
+  registros.forEach(r=>{const s=(r.dc_sit_func||"Nao informado").trim();sitMap[s]=(sitMap[s]||0)+1;});
+  const sLabels=Object.keys(sitMap).sort((a,b)=>sitMap[b]-sitMap[a]);
+  const cores=["#1a4a2e","#f0b429","#2196a6","#7b3fa0","#c0392b","#d4770c","#00838f","#455a64"];
+  dc("lot-sit");
+  charts["lot-sit"]=new Chart(document.getElementById("ch-lot-sit"),{
+    type:"doughnut",
+    data:{labels:sLabels,datasets:[{data:sLabels.map(k=>sitMap[k]),backgroundColor:cores.slice(0,sLabels.length).map(c=>c+"cc"),borderColor:cores.slice(0,sLabels.length),borderWidth:1,hoverOffset:6}]},
+    options:{responsive:true,maintainAspectRatio:false,cutout:"55%",
+      plugins:{legend:{position:"right",labels:{boxWidth:10,padding:8,font:{size:9}}},
+        tooltip:{callbacks:{label:c=>`${c.label}: ${N(c.raw)}`}}}}
+  });
+
+  // Tabela
+  const maxL=lots[0]?.prov||1;
+  document.getElementById("tb-lot").innerHTML=lots.map((l,i)=>`
+    <tr>
+      <td><div><span style="color:var(--cm);font-size:.62rem;margin-right:4px">${i+1}</span><strong>${l.lotacao}</strong></div>
+      <div class="minibar" style="width:${(l.prov/maxL*100).toFixed(1)}%"></div></td>
+      <td style="font-size:.66rem">${l.unidade||"—"}</td>
+      <td style="font-size:.66rem">${l.sit||"—"}</td>
+      <td>${N(l.serv)}</td>
+      <td>${BRLF(l.prov)}</td>
+      <td style="color:var(--c5)">${BRLF(l.desc)}</td>
+      <td class="totc">${BRLF(l.liq)}</td>
+      <td>${l.serv?BRLF(l.prov/l.serv):"—"}</td>
+    </tr>`).join("");
+}
+
+document.addEventListener("DOMContentLoaded",()=>{
+  document.getElementById("s-comp").addEventListener("change",()=>{
+    document.getElementById("s-org").value="";
+    document.getElementById("s-sit").innerHTML=`<option value="">— Todas —</option>`;
+    aplicar();
+  });
+  document.getElementById("s-org").addEventListener("change",()=>{
+    document.getElementById("s-sit").innerHTML=`<option value="">— Todas —</option>`;
+  });
+  init();
+});
+</script>
+</body>
+</html>
