@@ -1,0 +1,848 @@
+{
+  "competencia": "202602",
+  "ano": 2026,
+  "mes": 2,
+  "gerado_em": "2026-07-03T20:02:04.672250",
+  "total_serv": 114303,
+  "total_proventos": 510019969.37,
+  "total_descontos": 186488140.52,
+  "empresas": [
+    {
+      "empresa": 1,
+      "dc_empresa": "SECRETARIA DE ESTADO DE SEGURANCA PUBLICA DO DISTRITO FEDERAL",
+      "sigla": "SSP-DF",
+      "qtd_servidores": 7955,
+      "total_proventos": 2822215.65,
+      "total_descontos": 849440.02,
+      "total_liquido": 1972775.63
+    },
+    {
+      "empresa": 4,
+      "dc_empresa": "SECRETARIA DE ESTADO DE DESENVOLVIMENTO URBANO E HABITACAO DO DF",
+      "sigla": "SEDUH",
+      "qtd_servidores": 3888,
+      "total_proventos": 5067113.44,
+      "total_descontos": 1576286.86,
+      "total_liquido": 3490826.58
+    },
+    {
+      "empresa": 7,
+      "dc_empresa": "SECRETARIA DE ESTADO DE ECONOMIA DO DISTRITO FEDERAL",
+      "sigla": "SEEC",
+      "qtd_servidores": 5922,
+      "total_proventos": 56000166.79,
+      "total_descontos": 21328447.02,
+      "total_liquido": 34671719.77
+    },
+    {
+      "empresa": 8,
+      "dc_empresa": "SECRETARIA DE ESTADO DE AGRICULTURA, ABASTEC. E DESENVOLVIMENTO RURAL",
+      "sigla": "SEAGRI",
+      "qtd_servidores": 1814,
+      "total_proventos": 5005408.99,
+      "total_descontos": 1847512.31,
+      "total_liquido": 3157896.68
+    },
+    {
+      "empresa": 10,
+      "dc_empresa": "SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE DO DISTRITO FEDERAL",
+      "sigla": "SEMOB",
+      "qtd_servidores": 2780,
+      "total_proventos": 7871379.08,
+      "total_descontos": 2932083.25,
+      "total_liquido": 4939295.83
+    },
+    {
+      "empresa": 11,
+      "dc_empresa": "SERVICO DE LIMPEZA URBANA - SLU",
+      "sigla": "SLU",
+      "qtd_servidores": 3390,
+      "total_proventos": 8594302.5,
+      "total_descontos": 3145668.49,
+      "total_liquido": 5448634.01
+    },
+    {
+      "empresa": 13,
+      "dc_empresa": "SECRETARIA DE ESTADO DE OBRAS E INFRAESTRUTURA DO DISTRITO FEDERAL",
+      "sigla": "SEOINF",
+      "qtd_servidores": 1450,
+      "total_proventos": 2106068.58,
+      "total_descontos": 631351.41,
+      "total_liquido": 1474717.17
+    },
+    {
+      "empresa": 14,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CULTURA E ECONOMIA CRIATIVA DO DISTRITO FEDERAL",
+      "sigla": "SECEC",
+      "qtd_servidores": 2096,
+      "total_proventos": 5936527.03,
+      "total_descontos": 2180310.85,
+      "total_liquido": 3756216.18
+    },
+    {
+      "empresa": 19,
+      "dc_empresa": "PROCURADORIA GERAL DO DISTRITO FEDERAL",
+      "sigla": "PGDF",
+      "qtd_servidores": 1670,
+      "total_proventos": 20098894.54,
+      "total_descontos": 6860392.66,
+      "total_liquido": 13238501.88
+    },
+    {
+      "empresa": 27,
+      "dc_empresa": "AGENCIA REGULADORA DE AGUAS, ENERGIA E SANEAMENTO BASICO DO DF",
+      "sigla": "ADASA",
+      "qtd_servidores": 136,
+      "total_proventos": 3127186.67,
+      "total_descontos": 1123346.14,
+      "total_liquido": 2003840.53
+    },
+    {
+      "empresa": 28,
+      "dc_empresa": "SECRETARIA DE ESTADO DE JUSTICA E CIDADANIA",
+      "sigla": "SEJUS",
+      "qtd_servidores": 13970,
+      "total_proventos": 42301599.1,
+      "total_descontos": 16595338.48,
+      "total_liquido": 25706260.62
+    },
+    {
+      "empresa": 29,
+      "dc_empresa": "INSTITUTO DO MEIO AMBIENTE E DOS REC.HIDRICOS DO DF - BSB AMBIENTAL",
+      "sigla": "IBRAM",
+      "qtd_servidores": 2849,
+      "total_proventos": 9680251.28,
+      "total_descontos": 3461726.95,
+      "total_liquido": 6218524.33
+    },
+    {
+      "empresa": 31,
+      "dc_empresa": "CONTROLADORIA GERAL DO DISTRITO FEDERAL",
+      "sigla": "CGDF",
+      "qtd_servidores": 1492,
+      "total_proventos": 7883498.33,
+      "total_descontos": 3155513.87,
+      "total_liquido": 4727984.46
+    },
+    {
+      "empresa": 32,
+      "dc_empresa": "COMPANHIA DE DESENVOLVIMENTO HABITACIONAL DO DISTRITO FEDERAL",
+      "sigla": "CODHAB",
+      "qtd_servidores": 342,
+      "total_proventos": 2606450.44,
+      "total_descontos": 645897.52,
+      "total_liquido": 1960552.92
+    },
+    {
+      "empresa": 33,
+      "dc_empresa": "SECRETARIA DE ESTADO DE DESENVOLVIMENTO SOCIAL DO DISTRITO FEDERAL",
+      "sigla": "SEDES",
+      "qtd_servidores": 5647,
+      "total_proventos": 23168373.07,
+      "total_descontos": 8920799.72,
+      "total_liquido": 14247573.35
+    },
+    {
+      "empresa": 37,
+      "dc_empresa": "INSTITUTO DE PREVIDENCIA DOS SERVIDORES DO DISTRITO FEDERAL - IPREV/DF",
+      "sigla": "IPREV",
+      "qtd_servidores": 679,
+      "total_proventos": 1507695.39,
+      "total_descontos": 484511.12,
+      "total_liquido": 1023184.27
+    },
+    {
+      "empresa": 38,
+      "dc_empresa": "INSTITUTO DE ASSISTENCIA A SAUDE DOS SERVIDORES DO DISTRITO FEDERAL-INAS",
+      "sigla": "INAS",
+      "qtd_servidores": 450,
+      "total_proventos": 1498194.03,
+      "total_descontos": 468283.99,
+      "total_liquido": 1029910.04
+    },
+    {
+      "empresa": 43,
+      "dc_empresa": "SECRETARIA DE ESTADO DO MEIO AMBIENTE DO DF",
+      "sigla": "SEMA",
+      "qtd_servidores": 896,
+      "total_proventos": 1494037.9,
+      "total_descontos": 558838.65,
+      "total_liquido": 935199.25
+    },
+    {
+      "empresa": 50,
+      "dc_empresa": "CASA CIVIL DO DISTRITO FEDERAL",
+      "sigla": "CACIDF",
+      "qtd_servidores": 1727,
+      "total_proventos": 1391776.42,
+      "total_descontos": 486701.28,
+      "total_liquido": 905075.14
+    },
+    {
+      "empresa": 55,
+      "dc_empresa": "SECRETARIA DE ESTADO DO ESPORTE E LAZER DO DISTRITO FEDERAL",
+      "sigla": "SEL DF",
+      "qtd_servidores": 1357,
+      "total_proventos": 1540122.1,
+      "total_descontos": 535244.1,
+      "total_liquido": 1004878.0
+    },
+    {
+      "empresa": 57,
+      "dc_empresa": "INSTITUTO DE DEFESA DO CONSUMIDOR DO DISTRITO FEDERAL-PROCON-DF",
+      "sigla": "PROCON",
+      "qtd_servidores": 375,
+      "total_proventos": 1319977.74,
+      "total_descontos": 429140.98,
+      "total_liquido": 890836.76
+    },
+    {
+      "empresa": 58,
+      "dc_empresa": "SECRETARIA DE ESTADO DE COMUNICACAO DO DISTRITO FEDERAL",
+      "sigla": "SECOM",
+      "qtd_servidores": 521,
+      "total_proventos": 1268543.72,
+      "total_descontos": 426668.56,
+      "total_liquido": 841875.16
+    },
+    {
+      "empresa": 59,
+      "dc_empresa": "SECRETARIA DE ESTADO DE TURISMO DO DISTRITO FEDERAL",
+      "sigla": "SETUR",
+      "qtd_servidores": 486,
+      "total_proventos": 1063936.12,
+      "total_descontos": 328717.18,
+      "total_liquido": 735218.94
+    },
+    {
+      "empresa": 60,
+      "dc_empresa": "GABINETE DA VICE-GOVERNADORIA",
+      "sigla": "VICE",
+      "qtd_servidores": 673,
+      "total_proventos": 2022775.31,
+      "total_descontos": 684996.93,
+      "total_liquido": 1337778.38
+    },
+    {
+      "empresa": 62,
+      "dc_empresa": "SECRETARIA DE ESTADO DE PROTECAO DA ORDEM URBANISTICA DO DF - DF LEGAL",
+      "sigla": "DFLEGA",
+      "qtd_servidores": 1165,
+      "total_proventos": 15665989.07,
+      "total_descontos": 6470216.24,
+      "total_liquido": 9195772.83
+    },
+    {
+      "empresa": 63,
+      "dc_empresa": "JUNTA COMERCIAL, INDUSTRIAL E SERVICOS DO DF - JUCIS/DF",
+      "sigla": "JUCIS",
+      "qtd_servidores": 128,
+      "total_proventos": 614915.7,
+      "total_descontos": 168508.77,
+      "total_liquido": 446406.93
+    },
+    {
+      "empresa": 64,
+      "dc_empresa": "SECRETARIA DE ESTADO DA MULHER DO DISTRITO FEDERAL",
+      "sigla": "SMDF",
+      "qtd_servidores": 703,
+      "total_proventos": 4048370.63,
+      "total_descontos": 1389271.4,
+      "total_liquido": 2659099.23
+    },
+    {
+      "empresa": 65,
+      "dc_empresa": "SECRETARIA DE ESTADO DE DES ECONOMICO, TRABALHO E RENDA DO DF",
+      "sigla": "SEDET",
+      "qtd_servidores": 1210,
+      "total_proventos": 3302357.18,
+      "total_descontos": 1139272.75,
+      "total_liquido": 2163084.43
+    },
+    {
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "qtd_servidores": 95,
+      "total_proventos": 653286.55,
+      "total_descontos": 196531.97,
+      "total_liquido": 456754.58
+    },
+    {
+      "empresa": 67,
+      "dc_empresa": "SECRETARIA DE ESTADO DE ADMINISTRACAO PENITENCIARIA DO DISTRITO FEDERAL",
+      "sigla": "SEAP",
+      "qtd_servidores": 2853,
+      "total_proventos": 40299111.27,
+      "total_descontos": 14036271.36,
+      "total_liquido": 26262839.91
+    },
+    {
+      "empresa": 69,
+      "dc_empresa": "SECRETARIA DE ESTADO DE ATENDIMENTO A COMUNIDADE DO DISTRITO FEDERAL",
+      "sigla": "SEAC",
+      "qtd_servidores": 127,
+      "total_proventos": 743597.33,
+      "total_descontos": 229819.34,
+      "total_liquido": 513777.99
+    },
+    {
+      "empresa": 70,
+      "dc_empresa": "SECRETARIA DE ESTADO DE GOVERNO DO DISTRITO FEDERAL",
+      "sigla": "SEGOV",
+      "qtd_servidores": 234,
+      "total_proventos": 1785255.59,
+      "total_descontos": 667065.34,
+      "total_liquido": 1118190.25
+    },
+    {
+      "empresa": 72,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO PLANO PILOTO",
+      "sigla": "RA I",
+      "qtd_servidores": 932,
+      "total_proventos": 639728.21,
+      "total_descontos": 186796.96,
+      "total_liquido": 452931.25
+    },
+    {
+      "empresa": 73,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO GAMA",
+      "sigla": "RA II",
+      "qtd_servidores": 676,
+      "total_proventos": 845630.89,
+      "total_descontos": 286893.33,
+      "total_liquido": 558737.56
+    },
+    {
+      "empresa": 74,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DE TAGUATINGA",
+      "sigla": "RA III",
+      "qtd_servidores": 985,
+      "total_proventos": 1207099.21,
+      "total_descontos": 419722.84,
+      "total_liquido": 787376.37
+    },
+    {
+      "empresa": 75,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DE BRAZLANDIA",
+      "sigla": "RA IV",
+      "qtd_servidores": 445,
+      "total_proventos": 682937.2,
+      "total_descontos": 237867.21,
+      "total_liquido": 445069.99
+    },
+    {
+      "empresa": 76,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DE SOBRADINHO",
+      "sigla": "RA V",
+      "qtd_servidores": 626,
+      "total_proventos": 672993.22,
+      "total_descontos": 231812.7,
+      "total_liquido": 441180.52
+    },
+    {
+      "empresa": 77,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DE PLANALTINA",
+      "sigla": "RA VI",
+      "qtd_servidores": 710,
+      "total_proventos": 645943.51,
+      "total_descontos": 233892.03,
+      "total_liquido": 412051.48
+    },
+    {
+      "empresa": 78,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO PARANOA",
+      "sigla": "RA VII",
+      "qtd_servidores": 600,
+      "total_proventos": 291444.5,
+      "total_descontos": 107408.39,
+      "total_liquido": 184036.11
+    },
+    {
+      "empresa": 79,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO NUCLEO BANDEIRANTE",
+      "sigla": "RAVIII",
+      "qtd_servidores": 70,
+      "total_proventos": 436364.72,
+      "total_descontos": 172548.68,
+      "total_liquido": 263816.04
+    },
+    {
+      "empresa": 80,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DE CEILANDIA",
+      "sigla": "RA IX",
+      "qtd_servidores": 866,
+      "total_proventos": 903574.27,
+      "total_descontos": 323717.92,
+      "total_liquido": 579856.35
+    },
+    {
+      "empresa": 81,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO GUARA",
+      "sigla": "RA X",
+      "qtd_servidores": 721,
+      "total_proventos": 847127.05,
+      "total_descontos": 293310.84,
+      "total_liquido": 553816.21
+    },
+    {
+      "empresa": 82,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO CRUZEIRO",
+      "sigla": "RA XI",
+      "qtd_servidores": 642,
+      "total_proventos": 426541.26,
+      "total_descontos": 141699.75,
+      "total_liquido": 284841.51
+    },
+    {
+      "empresa": 83,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DE SAMAMBAIA",
+      "sigla": "RA XII",
+      "qtd_servidores": 877,
+      "total_proventos": 768915.16,
+      "total_descontos": 241056.75,
+      "total_liquido": 527858.41
+    },
+    {
+      "empresa": 84,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DE SANTA MARIA",
+      "sigla": "RAXIII",
+      "qtd_servidores": 755,
+      "total_proventos": 591279.55,
+      "total_descontos": 198300.58,
+      "total_liquido": 392978.97
+    },
+    {
+      "empresa": 85,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DE SAO SEBASTIAO",
+      "sigla": "RA XIV",
+      "qtd_servidores": 500,
+      "total_proventos": 431221.89,
+      "total_descontos": 145136.76,
+      "total_liquido": 286085.13
+    },
+    {
+      "empresa": 86,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RECANTO DAS EMAS",
+      "sigla": "RA XV",
+      "qtd_servidores": 535,
+      "total_proventos": 438400.26,
+      "total_descontos": 160272.31,
+      "total_liquido": 278127.95
+    },
+    {
+      "empresa": 87,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO LAGO SUL",
+      "sigla": "RA XVI",
+      "qtd_servidores": 419,
+      "total_proventos": 412712.59,
+      "total_descontos": 120539.14,
+      "total_liquido": 292173.45
+    },
+    {
+      "empresa": 88,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO I",
+      "sigla": "RAXVII",
+      "qtd_servidores": 654,
+      "total_proventos": 528189.98,
+      "total_descontos": 167081.37,
+      "total_liquido": 361108.61
+    },
+    {
+      "empresa": 89,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO LAGO NORTE",
+      "sigla": "RXVIII",
+      "qtd_servidores": 56,
+      "total_proventos": 450185.86,
+      "total_descontos": 152323.87,
+      "total_liquido": 297861.99
+    },
+    {
+      "empresa": 90,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DA CANDANGOLANDIA",
+      "sigla": "RA XIX",
+      "qtd_servidores": 58,
+      "total_proventos": 386497.32,
+      "total_descontos": 117714.74,
+      "total_liquido": 268782.58
+    },
+    {
+      "empresa": 91,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DE AGUAS CLARAS",
+      "sigla": "RA XX",
+      "qtd_servidores": 569,
+      "total_proventos": 830362.63,
+      "total_descontos": 323710.08,
+      "total_liquido": 506652.55
+    },
+    {
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "qtd_servidores": 52,
+      "total_proventos": 337234.57,
+      "total_descontos": 121605.28,
+      "total_liquido": 215629.29
+    },
+    {
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "qtd_servidores": 71,
+      "total_proventos": 391202.73,
+      "total_descontos": 120630.65,
+      "total_liquido": 270572.08
+    },
+    {
+      "empresa": 94,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO VARJAO",
+      "sigla": "RXXIII",
+      "qtd_servidores": 41,
+      "total_proventos": 198670.57,
+      "total_descontos": 59141.41,
+      "total_liquido": 139529.16
+    },
+    {
+      "empresa": 95,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO PARK WAY",
+      "sigla": "RAXXIV",
+      "qtd_servidores": 57,
+      "total_proventos": 326280.3,
+      "total_descontos": 110971.65,
+      "total_liquido": 215308.65
+    },
+    {
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "qtd_servidores": 41,
+      "total_proventos": 271246.86,
+      "total_descontos": 91729.58,
+      "total_liquido": 179517.28
+    },
+    {
+      "empresa": 97,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DE SOBRADINHO II",
+      "sigla": "RAXXVI",
+      "qtd_servidores": 49,
+      "total_proventos": 311286.66,
+      "total_descontos": 96109.0,
+      "total_liquido": 215177.66
+    },
+    {
+      "empresa": 98,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO JARDIM BOTANICO",
+      "sigla": "RXXVII",
+      "qtd_servidores": 443,
+      "total_proventos": 509112.18,
+      "total_descontos": 184494.21,
+      "total_liquido": 324617.97
+    },
+    {
+      "empresa": 99,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO ITAPOA",
+      "sigla": "XXVIII",
+      "qtd_servidores": 522,
+      "total_proventos": 244841.86,
+      "total_descontos": 75716.37,
+      "total_liquido": 169125.49
+    },
+    {
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "qtd_servidores": 44,
+      "total_proventos": 284052.67,
+      "total_descontos": 93449.9,
+      "total_liquido": 190602.77
+    },
+    {
+      "empresa": 102,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DE VICENTE PIRES",
+      "sigla": "RA XXX",
+      "qtd_servidores": 483,
+      "total_proventos": 467083.05,
+      "total_descontos": 182881.72,
+      "total_liquido": 284201.33
+    },
+    {
+      "empresa": 103,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DA FERCAL",
+      "sigla": "RAXXXI",
+      "qtd_servidores": 209,
+      "total_proventos": 206069.97,
+      "total_descontos": 74010.09,
+      "total_liquido": 132059.88
+    },
+    {
+      "empresa": 104,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DE ARNIQUEIRA",
+      "sigla": "XXXII",
+      "qtd_servidores": 59,
+      "total_proventos": 356097.92,
+      "total_descontos": 130644.28,
+      "total_liquido": 225453.64
+    },
+    {
+      "empresa": 105,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SOL NASCENTE/POR DO SOL",
+      "sigla": "XXXIII",
+      "qtd_servidores": 78,
+      "total_proventos": 455562.51,
+      "total_descontos": 92907.5,
+      "total_liquido": 362655.01
+    },
+    {
+      "empresa": 106,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DE ARAPOANGA",
+      "sigla": "XXXIV",
+      "qtd_servidores": 42,
+      "total_proventos": 281078.1,
+      "total_descontos": 63591.24,
+      "total_liquido": 217486.86
+    },
+    {
+      "empresa": 107,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DE AGUA QUENTE",
+      "sigla": "XXXV",
+      "qtd_servidores": 50,
+      "total_proventos": 238956.76,
+      "total_descontos": 79415.07,
+      "total_liquido": 159541.69
+    },
+    {
+      "empresa": 112,
+      "dc_empresa": "FUNDO DE APRIMORAMENTO DO CONTROLE INTERNO DO DISTRITO FEDERAL",
+      "sigla": "PRO-CI",
+      "qtd_servidores": 1191,
+      "total_proventos": 10000728.16,
+      "total_descontos": 5225548.88,
+      "total_liquido": 4775179.28
+    },
+    {
+      "empresa": 113,
+      "dc_empresa": "FUNDO DA RECEITA TRIBUTARIA DO DISTRITO FEDERAL",
+      "sigla": "PRO-RE",
+      "qtd_servidores": 1156,
+      "total_proventos": 10215708.13,
+      "total_descontos": 7102702.56,
+      "total_liquido": 3113005.57
+    },
+    {
+      "empresa": 114,
+      "dc_empresa": "FUNDO DE MODER, MANUT E REAPARELH DOS ORGAOS DE AUD ATIV URB E FISC URB",
+      "sigla": "FUNDAF",
+      "qtd_servidores": 2406,
+      "total_proventos": 12826382.75,
+      "total_descontos": 785733.34,
+      "total_liquido": 12040649.41
+    },
+    {
+      "empresa": 120,
+      "dc_empresa": "SOCIEDADE DE ABASTECIMENTO DE BRASILIA - SAB",
+      "sigla": "SAB",
+      "qtd_servidores": 228,
+      "total_proventos": 612385.85,
+      "total_descontos": 248042.54,
+      "total_liquido": 364343.31
+    },
+    {
+      "empresa": 122,
+      "dc_empresa": "EMPRESA DE ASSISTENCIA TECNICA E EXTENSAO RURAL - EMATER",
+      "sigla": "EMATER",
+      "qtd_servidores": 503,
+      "total_proventos": 5538568.08,
+      "total_descontos": 2040662.47,
+      "total_liquido": 3497905.61
+    },
+    {
+      "empresa": 170,
+      "dc_empresa": "FUNDACAO JARDIM ZOOLOGICO DE BRASILIA",
+      "sigla": "FJZB",
+      "qtd_servidores": 1004,
+      "total_proventos": 842519.95,
+      "total_descontos": 280644.24,
+      "total_liquido": 561875.71
+    },
+    {
+      "empresa": 175,
+      "dc_empresa": "JARDIM BOTANICO DE BRASILIA",
+      "sigla": "JBB",
+      "qtd_servidores": 672,
+      "total_proventos": 447587.96,
+      "total_descontos": 140622.58,
+      "total_liquido": 306965.38
+    },
+    {
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "qtd_servidores": 63,
+      "total_proventos": 300217.05,
+      "total_descontos": 77495.11,
+      "total_liquido": 222721.94
+    },
+    {
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "qtd_servidores": 65,
+      "total_proventos": 589789.02,
+      "total_descontos": 206713.87,
+      "total_liquido": 383075.15
+    },
+    {
+      "empresa": 210,
+      "dc_empresa": "FUNDO DE APOIO AO ESPORTE - FAE",
+      "sigla": "FAE",
+      "qtd_servidores": 16,
+      "total_proventos": 16871.8,
+      "total_descontos": 950.57,
+      "total_liquido": 15921.23
+    },
+    {
+      "empresa": 212,
+      "dc_empresa": "CORPO DE BOMBEIROS MILITAR DO DISTRITO FEDERAL",
+      "sigla": "CBMDF",
+      "qtd_servidores": 6727,
+      "total_proventos": 509252.14,
+      "total_descontos": 151519.81,
+      "total_liquido": 357732.33
+    },
+    {
+      "empresa": 220,
+      "dc_empresa": "SOCIEDADE DE TRANSPORTES COLETIVOS DE BRASILIA LTDA.",
+      "sigla": "TCB",
+      "qtd_servidores": 170,
+      "total_proventos": 994339.03,
+      "total_descontos": 241351.83,
+      "total_liquido": 752987.2
+    },
+    {
+      "empresa": 230,
+      "dc_empresa": "DEPARTAMENTO DE TRANSITO - DETRAN",
+      "sigla": "DETRAN",
+      "qtd_servidores": 3051,
+      "total_proventos": 25601003.29,
+      "total_descontos": 7424620.6,
+      "total_liquido": 18176382.69
+    },
+    {
+      "empresa": 320,
+      "dc_empresa": "COMPANHIA DE PLANEJAMENTO DO DISTRITO FEDERAL - CODEPLAN",
+      "sigla": "CODEPL",
+      "qtd_servidores": 18,
+      "total_proventos": 77850.02,
+      "total_descontos": 16292.68,
+      "total_liquido": 61557.34
+    },
+    {
+      "empresa": 321,
+      "dc_empresa": "INSTITUTO DE PESQUISA E ESTATISTICA DO DISTRITO FEDERAL",
+      "sigla": "IPEDF",
+      "qtd_servidores": 509,
+      "total_proventos": 5924894.22,
+      "total_descontos": 2143650.73,
+      "total_liquido": 3781243.49
+    },
+    {
+      "empresa": 322,
+      "dc_empresa": "INSTITUTO DE PESQUISA E ESTATISTICA DO DISTRITO FEDERAL (ESTATUTARIO)",
+      "sigla": "IPEDF",
+      "qtd_servidores": 348,
+      "total_proventos": 1211866.68,
+      "total_descontos": 305554.66,
+      "total_liquido": 906312.02
+    },
+    {
+      "empresa": 551,
+      "dc_empresa": "FUNDACAO HEMOCENTRO DE BRASILIA - FHB",
+      "sigla": "FHB",
+      "qtd_servidores": 1316,
+      "total_proventos": 6171334.15,
+      "total_descontos": 2337135.65,
+      "total_liquido": 3834198.5
+    },
+    {
+      "empresa": 555,
+      "dc_empresa": "FUNDACAO DE ENSINO E PESQUISA EM CIENCIAS DA SAUDE - FEPECS",
+      "sigla": "FEPECS",
+      "qtd_servidores": 338,
+      "total_proventos": 836049.27,
+      "total_descontos": 333441.54,
+      "total_liquido": 502607.73
+    },
+    {
+      "empresa": 652,
+      "dc_empresa": "SECRETARIA DE ESTADO DE EDUCACAO DO DISTRITO FEDERAL",
+      "sigla": "SEE",
+      "qtd_servidores": 4016,
+      "total_proventos": 50916844.98,
+      "total_descontos": 19995346.31,
+      "total_liquido": 30921498.67
+    },
+    {
+      "empresa": 654,
+      "dc_empresa": "UNIVERSIDADE DO DISTRITO FEDERAL PROFESSOR JORGE AMAURY MAIA NUNES",
+      "sigla": "UNDF",
+      "qtd_servidores": 250,
+      "total_proventos": 1537131.35,
+      "total_descontos": 636231.37,
+      "total_liquido": 900899.98
+    },
+    {
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "qtd_servidores": 49,
+      "total_proventos": 400682.33,
+      "total_descontos": 145727.59,
+      "total_liquido": 254954.74
+    },
+    {
+      "empresa": 802,
+      "dc_empresa": "SECRETARIA DE ESTADO DE EDUCACAO - TEMPORARIO",
+      "sigla": "SEE",
+      "qtd_servidores": 1161,
+      "total_proventos": 4755430.13,
+      "total_descontos": 515733.18,
+      "total_liquido": 4239696.95
+    },
+    {
+      "empresa": 840,
+      "dc_empresa": "COMPANHIA URBANIZADORA DA NOVA CAPITAL DO BRASIL - NOVACAP",
+      "sigla": "NOVACA",
+      "qtd_servidores": 3117,
+      "total_proventos": 26545665.24,
+      "total_descontos": 9754573.46,
+      "total_liquido": 16791091.78
+    },
+    {
+      "empresa": 870,
+      "dc_empresa": "COMPANHIA DO METROPOLITANO DO DISTRITO FEDERAL - METRO-DF",
+      "sigla": "METRO",
+      "qtd_servidores": 1223,
+      "total_proventos": 23575475.32,
+      "total_descontos": 9434139.86,
+      "total_liquido": 14141335.46
+    },
+    {
+      "empresa": 930,
+      "dc_empresa": "DEPARTAMENTO DE ESTRADAS DE RODAGEM - DER",
+      "sigla": "DER",
+      "qtd_servidores": 1155,
+      "total_proventos": 15663296.38,
+      "total_descontos": 5741589.6,
+      "total_liquido": 9921706.78
+    },
+    {
+      "empresa": 990,
+      "dc_empresa": "INSTITUTO DE PREVIDENCIA DOS SERVIDORES DO DISTRITO FEDERAL",
+      "sigla": "IPREV",
+      "qtd_servidores": 534,
+      "total_proventos": 4102792.56,
+      "total_descontos": 1408835.78,
+      "total_liquido": 2693956.78
+    }
+  ]
+}
