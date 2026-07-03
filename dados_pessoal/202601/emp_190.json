@@ -1,0 +1,5005 @@
+{
+  "competencia": "202601",
+  "empresa": 190,
+  "gerado_em": "2026-07-03T18:17:23.573172",
+  "registros": [
+    {
+      "matricula": "01403583",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10000000955,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "CEDIDOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 8,
+      "dc_status": "CEDIDO",
+      "cod_cargo": "AA01011",
+      "dc_cargo": "GESTOR POL PUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 24798.28,
+      "total_descontos": 6866.68,
+      "total_liquido": 17931.6,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 12141.47
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 2185.46
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 4249.51
+        },
+        {
+          "cod_rubrica": 10865,
+          "dc_rubrica": "1/3 FERIAS ART 7",
+          "tipo": 1,
+          "valor": 6192.14
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40391,
+          "dc_rubrica": "SINDIRETA",
+          "tipo": 4,
+          "valor": 111.45
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "DESC.PREVIDENCIARIO",
+          "tipo": 4,
+          "valor": 2600.7
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3484.59
+        },
+        {
+          "cod_rubrica": 40952,
+          "dc_rubrica": "I.R.R.F DE FERIAS",
+          "tipo": 4,
+          "valor": 639.94
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "01626280",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10000000955,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "CEDIDOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 8,
+      "dc_status": "CEDIDO",
+      "cod_cargo": "TA01011",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 10814.93,
+      "total_descontos": 4226.71,
+      "total_liquido": 6588.22,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7086.58
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 1204.71
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1771.64
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 763.1
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 604.99
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "DESC.PREVIDENCIARIO",
+          "tipo": 4,
+          "valor": 1408.81
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1449.81
+        }
+      ]
+    },
+    {
+      "matricula": "01747479",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10000000955,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "CEDIDOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 8,
+      "dc_status": "CEDIDO",
+      "cod_cargo": "TA0101S",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 11274.67,
+      "total_descontos": 8202.96,
+      "total_liquido": 3071.71,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7505.42
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 1125.81
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1876.35
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30952,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 127.09
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 728.77
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1757.32
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "DESC.PREVIDENCIARIO",
+          "tipo": 4,
+          "valor": 1471.06
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1576.31
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 225.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 1316.2
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 20.3
+        },
+        {
+          "cod_rubrica": 41221,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE VII",
+          "tipo": 4,
+          "valor": 530.0
+        }
+      ]
+    },
+    {
+      "matricula": "12002801",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20405000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "GERENCIA DE PRESTACAO DE CONTAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA0101S",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "19000122",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 14143.12,
+      "total_descontos": 8426.67,
+      "total_liquido": 5716.45,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7465.09
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRES. DFG DFA C/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 1119.76
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1866.27
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL SERV. MEDICO/HOSP. PARCEL",
+          "tipo": 4,
+          "valor": 871.37
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 872.85
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 714.19
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 271.34
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 230.38
+        },
+        {
+          "cod_rubrica": 40688,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 306.18
+        },
+        {
+          "cod_rubrica": 40810,
+          "dc_rubrica": "BRB - EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 90.05
+        },
+        {
+          "cod_rubrica": 40812,
+          "dc_rubrica": "BRB - EMPRESTIMO IV",
+          "tipo": 4,
+          "valor": 357.43
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "DESC.PREVIDENCIARIO",
+          "tipo": 4,
+          "valor": 1463.15
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2402.26
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 269.47
+        }
+      ]
+    },
+    {
+      "matricula": "12002852",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10000000955,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "CEDIDOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 8,
+      "dc_status": "CEDIDO",
+      "cod_cargo": "TA0101S",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 10533.24,
+      "total_descontos": 7071.91,
+      "total_liquido": 3461.33,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7524.04
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 1128.6
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1128.6
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL SERV. MEDICO/HOSP. PARCEL",
+          "tipo": 4,
+          "valor": 100.7
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 171.95
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 221.38
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1402.25
+        },
+        {
+          "cod_rubrica": 40850,
+          "dc_rubrica": "PENSAO ALIMENTICIA I",
+          "tipo": 4,
+          "valor": 760.8
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "DESC.PREVIDENCIARIO",
+          "tipo": 4,
+          "valor": 1369.37
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1173.97
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 1288.37
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 583.12
+        }
+      ]
+    },
+    {
+      "matricula": "12002879",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20402000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "GERENCIA DE CONTRATOS E CONVENIOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA0101S",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "19000065",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 14505.32,
+      "total_descontos": 9218.48,
+      "total_liquido": 5286.84,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7524.04
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRES. DFG DFA C/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 1128.6
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1881.01
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 30952,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 249.97
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL SERV. MEDICO/HOSP. PARCEL",
+          "tipo": 4,
+          "valor": 2011.55
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 372.6
+        },
+        {
+          "cod_rubrica": 40516,
+          "dc_rubrica": "INTERLIFE MENSALIDADE",
+          "tipo": 4,
+          "valor": 35.0
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 237.82
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 71.87
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 440.59
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "APAE/DF - CONTRIBUICOES",
+          "tipo": 4,
+          "valor": 1186.57
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2348.63
+        },
+        {
+          "cod_rubrica": 41167,
+          "dc_rubrica": "SICOOB EXEC EMP 2",
+          "tipo": 4,
+          "valor": 193.34
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 2092.68
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41201,
+          "dc_rubrica": "ODONTOGROUP DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 22.9
+        },
+        {
+          "cod_rubrica": 41940,
+          "dc_rubrica": "PREVICOM - COMPLEMENTAR",
+          "tipo": 4,
+          "valor": 174.93
+        }
+      ]
+    },
+    {
+      "matricula": "12002909",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20405000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "GERENCIA DE PRESTACAO DE CONTAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA0101S",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 11281.29,
+      "total_descontos": 2982.07,
+      "total_liquido": 8299.22,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7520.93
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 1128.13
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1880.23
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "DESC.PREVIDENCIARIO",
+          "tipo": 4,
+          "valor": 1474.1
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1507.97
+        }
+      ]
+    },
+    {
+      "matricula": "12002917",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10200000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "PROCURADORIA JURIDICA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 8,
+      "dc_status": "CEDIDO",
+      "cod_cargo": "TA01011",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 10685.23,
+      "total_descontos": 4729.89,
+      "total_liquido": 5955.34,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7175.17
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 1076.27
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1793.79
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "DESC.PREVIDENCIARIO",
+          "tipo": 4,
+          "valor": 1406.33
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1414.83
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 908.73
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 775.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 225.0
+        }
+      ]
+    },
+    {
+      "matricula": "12002925",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30300000000,
+      "nivel2_unidade": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "DIRETORIA DE ORCAMENTO, CONTABILIDADE E FINANCAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA0102S",
+      "dc_cargo": "GESTOR POL PUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 19835.36,
+      "total_descontos": 14767.3,
+      "total_liquido": 5068.06,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 11957.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 1793.54
+        },
+        {
+          "cod_rubrica": 10511,
+          "dc_rubrica": "AB.PERMANENCIA EC41",
+          "tipo": 1,
+          "valor": 2343.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2989.25
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL SERV. MEDICO/HOSP. PARCEL",
+          "tipo": 4,
+          "valor": 143.2
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 133.16
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 2617.77
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 128.86
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 322.23
+        },
+        {
+          "cod_rubrica": 40688,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 676.04
+        },
+        {
+          "cod_rubrica": 40707,
+          "dc_rubrica": "POUPEX-COMPRA MAT.CONSTRUCAO",
+          "tipo": 4,
+          "valor": 1202.03
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "DESC.PREVIDENCIARIO",
+          "tipo": 4,
+          "valor": 2343.57
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3673.37
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 674.07
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 2000.0
+        },
+        {
+          "cod_rubrica": 41224,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE X",
+          "tipo": 4,
+          "valor": 853.0
+        }
+      ]
+    },
+    {
+      "matricula": "12002941",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20300000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "COORDENACAO DE BOLSAS E EVENTOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA0101S",
+      "dc_cargo": "GESTOR POL PUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "19000059",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 35940.97,
+      "total_descontos": 9109.0,
+      "total_liquido": 26831.97,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 11961.94
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRES. DFG DFA C/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 2512.0
+        },
+        {
+          "cod_rubrica": 10511,
+          "dc_rubrica": "AB.PERMANENCIA EC41",
+          "tipo": 1,
+          "valor": 2445.01
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2990.48
+        },
+        {
+          "cod_rubrica": 10890,
+          "dc_rubrica": "13 SALARIO ADIANT.",
+          "tipo": 1,
+          "valor": 10545.84
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 11140,
+          "dc_rubrica": "ADIANT. 13 FUNCAO C/VINCULO",
+          "tipo": 1,
+          "valor": 1764.0
+        },
+        {
+          "cod_rubrica": 40695,
+          "dc_rubrica": "ADESP DF - MENSALIDADE",
+          "tipo": 4,
+          "valor": 59.8
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "DESC.PREVIDENCIARIO",
+          "tipo": 4,
+          "valor": 2445.01
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 4733.28
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 820.65
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 106.39
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 60.87
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41224,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE X",
+          "tipo": 4,
+          "valor": 853.0
+        }
+      ]
+    },
+    {
+      "matricula": "14312379",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10000000955,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "CEDIDOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA0101S",
+      "dc_cargo": "GESTOR POL PUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 17880.87,
+      "total_descontos": 6689.57,
+      "total_liquido": 11191.3,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 12141.47
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 2064.04
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 3035.36
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "DESC.PREVIDENCIARIO",
+          "tipo": 4,
+          "valor": 2413.72
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3168.73
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 1107.12
+        }
+      ]
+    },
+    {
+      "matricula": "16806603",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30105000000,
+      "nivel2_unidade": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE GESTAO DE PESSOAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000096",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 2986.84,
+      "total_descontos": 0.0,
+      "total_liquido": 2986.84,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRES. DFG DFA C/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 46.84
+        }
+      ]
+    },
+    {
+      "matricula": "16896076",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30104000000,
+      "nivel2_unidade": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE INFORMATICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000074",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4439.73,
+      "total_descontos": 2457.6,
+      "total_liquido": 1982.13,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 95.03
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL SERV. MEDICO/HOSP. PARCEL",
+          "tipo": 4,
+          "valor": 185.98
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 954.54
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 8.33
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 8.66
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 50.23
+        },
+        {
+          "cod_rubrica": 40688,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 50.3
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 763.18
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "16896769",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30105000000,
+      "nivel2_unidade": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE GESTAO DE PESSOAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000116",
+      "refer_funcao": "CC 07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4074.08,
+      "total_descontos": 540.3,
+      "total_liquido": 3533.78,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2555.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 639.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 198.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 42.08
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 191.64
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 348.66
+        }
+      ]
+    },
+    {
+      "matricula": "16905601",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20300000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "COORDENACAO DE BOLSAS E EVENTOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000088",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5925.43,
+      "total_descontos": 611.16,
+      "total_liquido": 5314.27,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 243.32
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART 7",
+          "tipo": 1,
+          "valor": 1224.99
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 142.12
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 439.66
+        },
+        {
+          "cod_rubrica": 40949,
+          "dc_rubrica": "INSS FERIAS",
+          "tipo": 4,
+          "valor": 171.5
+        }
+      ]
+    },
+    {
+      "matricula": "16908309",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20300000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "COORDENACAO DE BOLSAS E EVENTOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000129",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7998.03,
+      "total_descontos": 4960.38,
+      "total_liquido": 3037.65,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 3.33
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1026.87
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 222.64
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 956.92
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 9.1
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41191,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE IV",
+          "tipo": 4,
+          "valor": 370.0
+        }
+      ]
+    },
+    {
+      "matricula": "16910702",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10200000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "PROCURADORIA JURIDICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000041",
+      "refer_funcao": "CNE03",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 13584.0,
+      "total_descontos": 6780.64,
+      "total_liquido": 6803.36,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 10355.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2589.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL SERV. MEDICO/HOSP. PARCEL",
+          "tipo": 4,
+          "valor": 2539.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2379.15
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 296.06
+        }
+      ]
+    },
+    {
+      "matricula": "16914678",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30301000000,
+      "nivel2_unidade": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ORCAMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000078",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4410.03,
+      "total_descontos": 707.2,
+      "total_liquido": 3702.83,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 95.03
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 300.82
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "16920856",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10100000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002028",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 8174.91,
+      "total_descontos": 3637.89,
+      "total_liquido": 4537.02,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10550,
+          "dc_rubrica": "AUXILIO CRECHE / PRE-ESCOLAR",
+          "tipo": 1,
+          "valor": 176.58
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 3.33
+        },
+        {
+          "cod_rubrica": 40515,
+          "dc_rubrica": "COTA PARTE AUX. CRECHE",
+          "tipo": 4,
+          "valor": 8.82
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1645.04
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 798.11
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 234.42
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        }
+      ]
+    },
+    {
+      "matricula": "16927222",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30302000000,
+      "nivel2_unidade": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE TESOURARIA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000079",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 3982.01,
+      "total_descontos": 0.0,
+      "total_liquido": 3982.01,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRES. DFG DFA C/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 11187,
+          "dc_rubrica": "1/3 FERIAS FUNCAO ESTATUTARIA",
+          "tipo": 1,
+          "valor": 979.99
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 62.02
+        }
+      ]
+    },
+    {
+      "matricula": "16935667",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30103000000,
+      "nivel2_unidade": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE DOCUMENTACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000073",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4440.03,
+      "total_descontos": 439.28,
+      "total_liquido": 4000.75,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 95.03
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 32.9
+        }
+      ]
+    },
+    {
+      "matricula": "16935837",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10700000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "UNIDADE DE CONTROLE INTERNO E GESTAO DE RISCOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "16936701",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30103000000,
+      "nivel2_unidade": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE DOCUMENTACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000126",
+      "refer_funcao": "CC 07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3938.24,
+      "total_descontos": 1489.02,
+      "total_liquido": 2449.22,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2555.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 639.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 74.24
+        },
+        {
+          "cod_rubrica": 40810,
+          "dc_rubrica": "BRB - EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1105.46
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 348.66
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        }
+      ]
+    },
+    {
+      "matricula": "16940954",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30101000000,
+      "nivel2_unidade": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE MATERIAL E SERVICO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000071",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 3836.04,
+      "total_descontos": 1144.26,
+      "total_liquido": 2691.78,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRES. DFG DFA C/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 697.99
+        },
+        {
+          "cod_rubrica": 20250,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 116.32
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 81.73
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 51.96
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 218.15
+        },
+        {
+          "cod_rubrica": 40688,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 337.28
+        },
+        {
+          "cod_rubrica": 40811,
+          "dc_rubrica": "BRB - EMPRESTIMO III",
+          "tipo": 4,
+          "valor": 536.87
+        }
+      ]
+    },
+    {
+      "matricula": "16941926",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30300000000,
+      "nivel2_unidade": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "DIRETORIA DE ORCAMENTO, CONTABILIDADE E FINANCAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000077",
+      "refer_funcao": "CPE07",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 5064.64,
+      "total_descontos": 1292.85,
+      "total_liquido": 3771.79,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRES. DFG DFA C/VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 379.64
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1040.03
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 252.82
+        }
+      ]
+    },
+    {
+      "matricula": "1694562X",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "PRESIDENCIA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000038",
+      "refer_funcao": "CNE02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 15653.0,
+      "total_descontos": 3831.92,
+      "total_liquido": 11821.08,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 12010.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 3003.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2843.85
+        }
+      ]
+    },
+    {
+      "matricula": "16949420",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20301000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "GERENCIA DE PROGRAMAS DE BOLSAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000060",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4653.35,
+      "total_descontos": 439.66,
+      "total_liquido": 4213.69,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 243.32
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 95.03
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 439.66
+        }
+      ]
+    },
+    {
+      "matricula": "16987500",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20302000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "GERENCIA DE EVENTOS CIENTIFICOS E TECNOLOGICOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000062",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4439.73,
+      "total_descontos": 459.28,
+      "total_liquido": 3980.45,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 95.03
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41201,
+          "dc_rubrica": "ODONTOGROUP DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 22.9
+        }
+      ]
+    },
+    {
+      "matricula": "16988329",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000093",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5664.72,
+      "total_descontos": 1294.37,
+      "total_liquido": 4370.35,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART 7",
+          "tipo": 1,
+          "valor": 1224.99
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 95.03
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 687.28
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 40949,
+          "dc_rubrica": "INSS FERIAS",
+          "tipo": 4,
+          "valor": 170.71
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "16989201",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000048",
+      "refer_funcao": "CNE03",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 13584.0,
+      "total_descontos": 7795.37,
+      "total_liquido": 5788.63,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 10355.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2589.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL SERV. MEDICO/HOSP. PARCEL",
+          "tipo": 4,
+          "valor": 728.93
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1039.09
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 364.01
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 366.38
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 547.54
+        },
+        {
+          "cod_rubrica": 40810,
+          "dc_rubrica": "BRB - EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 804.2
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2379.15
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        }
+      ]
+    },
+    {
+      "matricula": "17004667",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10200000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "PROCURADORIA JURIDICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000107",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 11024.93,
+      "total_descontos": 2682.51,
+      "total_liquido": 8342.42,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 4489.06
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 10.17
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1664.44
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17004829",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10600000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "UNIDADE DE GOVERNANCA E GESTAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002026",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 8220.39,
+      "total_descontos": 1866.33,
+      "total_liquido": 6354.06,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 255.39
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 952.35
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 913.98
+        }
+      ]
+    },
+    {
+      "matricula": "17004861",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30104000000,
+      "nivel2_unidade": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE INFORMATICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "01601621",
+      "refer_funcao": "CC 07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4298.7,
+      "total_descontos": 1487.83,
+      "total_liquido": 2810.87,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2555.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 639.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 192.39
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 198.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 44.61
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL SERV. MEDICO/HOSP. PARCEL",
+          "tipo": 4,
+          "valor": 777.17
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 191.64
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 117.27
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 371.75
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17007100",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "01000136",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5962.06,
+      "total_descontos": 1894.77,
+      "total_liquido": 4067.29,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10550,
+          "dc_rubrica": "AUXILIO CRECHE / PRE-ESCOLAR",
+          "tipo": 1,
+          "valor": 176.58
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 251.48
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL SERV. MEDICO/HOSP. PARCEL",
+          "tipo": 4,
+          "valor": 1309.69
+        },
+        {
+          "cod_rubrica": 40515,
+          "dc_rubrica": "COTA PARTE AUX. CRECHE",
+          "tipo": 4,
+          "valor": 8.82
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 576.26
+        }
+      ]
+    },
+    {
+      "matricula": "17037530",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20405000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "GERENCIA DE PRESTACAO DE CONTAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000135",
+      "refer_funcao": "CC 07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4930.57,
+      "total_descontos": 1566.44,
+      "total_liquido": 3364.13,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2555.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 639.0
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART 7",
+          "tipo": 1,
+          "valor": 1064.66
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 31.91
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 279.58
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 799.55
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 348.66
+        },
+        {
+          "cod_rubrica": 40949,
+          "dc_rubrica": "INSS FERIAS",
+          "tipo": 4,
+          "valor": 138.65
+        }
+      ]
+    },
+    {
+      "matricula": "17098904",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "05002779",
+      "refer_funcao": "CNE03",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 13584.0,
+      "total_descontos": 6212.04,
+      "total_liquido": 7371.96,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 10355.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2589.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL SERV. MEDICO/HOSP. PARCEL",
+          "tipo": 4,
+          "valor": 1830.04
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 391.02
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2379.15
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 45.76
+        }
+      ]
+    },
+    {
+      "matricula": "17101557",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30102000000,
+      "nivel2_unidade": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE PATRIMONIO E TRANSPORTE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000072",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4439.73,
+      "total_descontos": 1357.76,
+      "total_liquido": 3081.97,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 95.03
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 604.47
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 155.29
+        },
+        {
+          "cod_rubrica": 40688,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 46.05
+        },
+        {
+          "cod_rubrica": 40810,
+          "dc_rubrica": "BRB - EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 76.06
+        },
+        {
+          "cod_rubrica": 40812,
+          "dc_rubrica": "BRB - EMPRESTIMO IV",
+          "tipo": 4,
+          "valor": 39.51
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17105994",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20100000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "COORDENACAO CIENTIFICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000104",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7998.99,
+      "total_descontos": 2374.85,
+      "total_liquido": 5624.14,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 3.33
+        },
+        {
+          "cod_rubrica": 30952,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 0.96
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17147042",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10200000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "PROCURADORIA JURIDICA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17157773",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10700000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "UNIDADE DE CONTROLE INTERNO E GESTAO DE RISCOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002027",
+      "refer_funcao": "CPE05",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 8791.83,
+      "total_descontos": 3348.25,
+      "total_liquido": 5443.58,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRES. DFG DFA C/VINCULO",
+          "tipo": 1,
+          "valor": 6510.0
+        },
+        {
+          "cod_rubrica": 11187,
+          "dc_rubrica": "1/3 FERIAS FUNCAO ESTATUTARIA",
+          "tipo": 1,
+          "valor": 2169.99
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 111.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 769.68
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 1020.57
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 450.0
+        },
+        {
+          "cod_rubrica": 41221,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE VII",
+          "tipo": 4,
+          "valor": 530.0
+        }
+      ]
+    },
+    {
+      "matricula": "17158087",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000148",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 13419.06,
+      "total_descontos": 4200.21,
+      "total_liquido": 9218.85,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 6851.73
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 41.63
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2314.17
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 225.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 28.61
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 36.36
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17159466",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10200000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "PROCURADORIA JURIDICA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000044",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 2986.84,
+      "total_descontos": 809.38,
+      "total_liquido": 2177.46,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRES. DFG DFA C/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 46.84
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 809.38
+        }
+      ]
+    },
+    {
+      "matricula": "17192102",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10600000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "UNIDADE DE GOVERNANCA E GESTAO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA01013",
+      "dc_cargo": "GESTOR POL PUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "19000132",
+      "refer_funcao": "CNE05",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 30100.5,
+      "total_descontos": 7723.08,
+      "total_liquido": 22377.42,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 9357.8
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRES. DFG DFA C/VINCULO",
+          "tipo": 1,
+          "valor": 6510.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 93.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2339.45
+        },
+        {
+          "cod_rubrica": 10890,
+          "dc_rubrica": "13 SALARIO ADIANT.",
+          "tipo": 1,
+          "valor": 7141.68
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11140,
+          "dc_rubrica": "ADIANT. 13 FUNCAO C/VINCULO",
+          "tipo": 1,
+          "valor": 3906.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1767.22
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "APAE/DF - CONTRIBUICOES",
+          "tipo": 4,
+          "valor": 1186.57
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3750.99
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 736.51
+        },
+        {
+          "cod_rubrica": 41940,
+          "dc_rubrica": "PREVICOM - COMPLEMENTAR",
+          "tipo": 4,
+          "valor": 281.79
+        }
+      ]
+    },
+    {
+      "matricula": "1719301X",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA01013",
+      "dc_cargo": "GESTOR POL PUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 13759.34,
+      "total_descontos": 7238.94,
+      "total_liquido": 6520.4,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 9357.8
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 1310.09
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2339.45
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 1043.32
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 2176.3
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "DESC.PREVIDENCIARIO",
+          "tipo": 4,
+          "valor": 1821.02
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2198.3
+        }
+      ]
+    },
+    {
+      "matricula": "17195322",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20400000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "COORDENACAO DE ACOMPANHAMENTO E AVALIACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000063",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7998.03,
+      "total_descontos": 3914.85,
+      "total_liquido": 4083.18,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 3.33
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 2118.0
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17196833",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30100000000,
+      "nivel2_unidade": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "DIRETORIA DE GESTAO DA ADMINISTRACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000070",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6724.92,
+      "total_descontos": 1122.88,
+      "total_liquido": 5602.04,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 198.92
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        },
+        {
+          "cod_rubrica": 41196,
+          "dc_rubrica": "PREVIDENT DEP II PL ODONTO",
+          "tipo": 4,
+          "valor": 69.8
+        }
+      ]
+    },
+    {
+      "matricula": "17207215",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20100000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "COORDENACAO CIENTIFICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000052",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4439.73,
+      "total_descontos": 1523.51,
+      "total_liquido": 2916.22,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 95.03
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1087.13
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17207223",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10700000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "UNIDADE DE CONTROLE INTERNO E GESTAO DE RISCOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000084",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4647.8,
+      "total_descontos": 432.06,
+      "total_liquido": 4215.74,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 189.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 143.8
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 432.06
+        }
+      ]
+    },
+    {
+      "matricula": "17208238",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10600000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "UNIDADE DE GOVERNANCA E GESTAO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 10862.0,
+      "total_descontos": 2664.17,
+      "total_liquido": 8197.83,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 2604.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "APAE/DF - CONTRIBUICOES",
+          "tipo": 4,
+          "valor": 1050.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1613.33
+        }
+      ]
+    },
+    {
+      "matricula": "1720920X",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20200000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "COORDENACAO TECNOLOGICA E DE INOVACAO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 8258.0,
+      "total_descontos": 2599.38,
+      "total_liquido": 5658.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL P/TEMPO SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "APAE/DF - CONTRIBUICOES",
+          "tipo": 4,
+          "valor": 1050.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 897.23
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 73.31
+        }
+      ]
+    },
+    {
+      "matricula": "17243777",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000109",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4410.03,
+      "total_descontos": 406.38,
+      "total_liquido": 4003.65,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 95.03
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "17245435",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10700000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "UNIDADE DE CONTROLE INTERNO E GESTAO DE RISCOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17256216",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10300000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000146",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6445.27,
+      "total_descontos": 887.42,
+      "total_liquido": 5557.85,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 4479.66
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 1119.79
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 205.82
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 675.02
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 212.4
+        }
+      ]
+    },
+    {
+      "matricula": "17259274",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "PRESIDENCIA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000037",
+      "refer_funcao": "CNE01",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 13930.0,
+      "total_descontos": 3987.16,
+      "total_liquido": 9942.84,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRES. DFG DFA C/VINCULO",
+          "tipo": 1,
+          "valor": 13930.0
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2922.02
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 1065.14
+        }
+      ]
+    },
+    {
+      "matricula": "17262798",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10100000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000136",
+      "refer_funcao": "CNE04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 11796.0,
+      "total_descontos": 2875.52,
+      "total_liquido": 8920.48,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 8925.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2231.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1887.45
+        }
+      ]
+    },
+    {
+      "matricula": "17262852",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20100000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "COORDENACAO CIENTIFICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000115",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4700.44,
+      "total_descontos": 1439.66,
+      "total_liquido": 3260.78,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 243.32
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 142.12
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 439.66
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1000.0
+        }
+      ]
+    },
+    {
+      "matricula": "17267412",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10100000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "B0000096",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5828.18,
+      "total_descontos": 576.26,
+      "total_liquido": 5251.92,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 294.18
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 576.26
+        }
+      ]
+    },
+    {
+      "matricula": "17268575",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10100000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000140",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7968.33,
+      "total_descontos": 1766.85,
+      "total_liquido": 6201.48,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 3.33
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        }
+      ]
+    },
+    {
+      "matricula": "17268583",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000149",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6773.29,
+      "total_descontos": 1068.09,
+      "total_liquido": 5705.2,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 97.93
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 179.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 724.65
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 343.44
+        }
+      ]
+    },
+    {
+      "matricula": "17268605",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000138",
+      "refer_funcao": "CNE05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 8778.0,
+      "total_descontos": 2936.06,
+      "total_liquido": 5841.94,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 6510.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 1628.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1057.5
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 312.49
+        }
+      ]
+    },
+    {
+      "matricula": "17268699",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20100000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "COORDENACAO CIENTIFICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000143",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4410.03,
+      "total_descontos": 1672.9,
+      "total_liquido": 2737.13,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 95.03
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1266.52
+        }
+      ]
+    },
+    {
+      "matricula": "17268702",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUPERINTENDENCIA DA UNIDADE DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000144",
+      "refer_funcao": "CNE04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 11915.19,
+      "total_descontos": 3888.97,
+      "total_liquido": 8026.22,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 8925.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2231.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 119.19
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1920.22
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 225.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 28.61
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 149.07
+        }
+      ]
+    },
+    {
+      "matricula": "17270065",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10300000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000145",
+      "refer_funcao": "CNE03",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 13584.0,
+      "total_descontos": 4282.97,
+      "total_liquido": 9301.03,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 10355.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2589.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2379.15
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 337.75
+        }
+      ]
+    },
+    {
+      "matricula": "17272327",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 20200000000,
+      "nivel2_unidade": "SUPERINTENDENCIA CIENTIFICA, TECNOLOGICA E DE INOVACAO",
+      "nivel3_lotacao": "COORDENACAO TECNOLOGICA E DE INOVACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000120",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7968.33,
+      "total_descontos": 1766.85,
+      "total_liquido": 6201.48,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 3.33
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        }
+      ]
+    },
+    {
+      "matricula": "17283175",
+      "empresa": 190,
+      "dc_empresa": "FUNDACAO DE APOIO A PESQUISA - FAP",
+      "sigla": "FAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 10300000000,
+      "nivel2_unidade": "PRESIDENCIA",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "19000147",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3151.44,
+      "total_descontos": 266.76,
+      "total_liquido": 2884.68,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRES. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 2218.5
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIF. DFG DFA S/VINCULO",
+          "tipo": 1,
+          "valor": 554.76
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 378.18
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS",
+          "tipo": 4,
+          "valor": 266.76
+        }
+      ]
+    }
+  ]
+}
