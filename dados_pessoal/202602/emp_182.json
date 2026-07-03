@@ -1,0 +1,4143 @@
+{
+  "competencia": "202602",
+  "empresa": 182,
+  "gerado_em": "2026-07-03T20:01:25.101602",
+  "registros": [
+    {
+      "matricula": "00822167",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AU0101",
+      "dc_cargo": "TECNICO POL BUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 3,
+      "cod_funcao": "18200097",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 11063.65,
+      "total_descontos": 7854.71,
+      "total_liquido": 3208.94,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5812.14
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 2208.61
+        },
+        {
+          "cod_rubrica": 10511,
+          "dc_rubrica": "AB.PERMANENCIA EC41",
+          "tipo": 1,
+          "valor": 1122.9
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40017,
+          "dc_rubrica": "DECISOES JUDICIAIS",
+          "tipo": 4,
+          "valor": 523.9
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1276.9
+        },
+        {
+          "cod_rubrica": 40590,
+          "dc_rubrica": "AGEASP - CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 87.18
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 65.72
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 119.74
+        },
+        {
+          "cod_rubrica": 40707,
+          "dc_rubrica": "POUPEX-COMPRA MAT.CONSTRUCAO",
+          "tipo": 4,
+          "valor": 192.5
+        },
+        {
+          "cod_rubrica": 40812,
+          "dc_rubrica": "BRB-EMPRESTIMO IX",
+          "tipo": 4,
+          "valor": 231.93
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1122.9
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1648.97
+        },
+        {
+          "cod_rubrica": 41060,
+          "dc_rubrica": "ASDF PL SAUDE BEN SOCIAL",
+          "tipo": 4,
+          "valor": 315.0
+        },
+        {
+          "cod_rubrica": 41114,
+          "dc_rubrica": "FARMACIA-BENEF.SOCIAL",
+          "tipo": 4,
+          "valor": 40.0
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1652.88
+        },
+        {
+          "cod_rubrica": 41198,
+          "dc_rubrica": "SOCIED BENEF PL SAUDE",
+          "tipo": 4,
+          "valor": 577.09
+        }
+      ]
+    },
+    {
+      "matricula": "02704455",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140700000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "nivel3_lotacao": "",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200115",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4575.7,
+      "total_descontos": 2569.5,
+      "total_liquido": 2006.2,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 231.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1005.77
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 220.5
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 182.04
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 724.81
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02742594",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200078",
+      "refer_funcao": "CNE01",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 18053.0,
+      "total_descontos": 8750.17,
+      "total_liquido": 9302.83,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 13930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 3483.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1237.55
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 2223.65
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3608.12
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 692.78
+        }
+      ]
+    },
+    {
+      "matricula": "02742748",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990160000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS SOCIAIS E PROFISSIONAIS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 4,
+      "dc_status": "DESLIGADO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 36258.75,
+      "total_descontos": 656.68,
+      "total_liquido": 35602.07,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 390.66
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 97.66
+        },
+        {
+          "cod_rubrica": 10408,
+          "dc_rubrica": "1/3 FERIAS ART.7 RESCISAO",
+          "tipo": 1,
+          "valor": 8301.68
+        },
+        {
+          "cod_rubrica": 10521,
+          "dc_rubrica": "DECIMO TERCEIRO SALARIO S/V",
+          "tipo": 1,
+          "valor": 610.42
+        },
+        {
+          "cod_rubrica": 10872,
+          "dc_rubrica": "FERIAS INDENIZ.PROPORCIONAIS",
+          "tipo": 1,
+          "valor": 26858.33
+        },
+        {
+          "cod_rubrica": 40912,
+          "dc_rubrica": "INSS 13 SALARIO",
+          "tipo": 4,
+          "valor": 45.78
+        },
+        {
+          "cod_rubrica": 60926,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 610.9
+        }
+      ]
+    },
+    {
+      "matricula": "02742802",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140103000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "nivel3_lotacao": "NUCLEO DE CONTRATOS E CONVENIOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200101",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3476.0,
+      "total_descontos": 2187.64,
+      "total_liquido": 1288.36,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 475.84
+        },
+        {
+          "cod_rubrica": 40688,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 516.2
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 280.6
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        }
+      ]
+    },
+    {
+      "matricula": "02742969",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200082",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3475.7,
+      "total_descontos": 1316.19,
+      "total_liquido": 2159.51,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 298.1
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 685.99
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02743329",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200093",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4371.73,
+      "total_descontos": 585.94,
+      "total_liquido": 3785.79,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF - CLT",
+          "tipo": 1,
+          "valor": 804.33
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 484.8
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.6
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        },
+        {
+          "cod_rubrica": 40949,
+          "dc_rubrica": "INSS FERIAS",
+          "tipo": 4,
+          "valor": 96.52
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        },
+        {
+          "cod_rubrica": 41207,
+          "dc_rubrica": "ODONT DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 59.8
+        }
+      ]
+    },
+    {
+      "matricula": "0274340X",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200094",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4460.5,
+      "total_descontos": 1156.19,
+      "total_liquido": 3304.31,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 1135.8
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 590.17
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 391.24
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02743507",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140104000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "nivel3_lotacao": "NUCLEO DE TRANSPORTE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200102",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 302.1,
+      "total_liquido": 3143.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "0274399X",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990160200000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS SOCIAIS E PROFISSIONAIS",
+      "nivel3_lotacao": "GERENCIA DE REINTEGRACAO SOCIAL, TRABALHO E RENDA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200129",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7841.98,
+      "total_descontos": 2697.78,
+      "total_liquido": 5144.2,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 3284.98
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 589.82
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 220.5
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 306.64
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 865.5
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 715.32
+        }
+      ]
+    },
+    {
+      "matricula": "02744295",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200096",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3324.6,
+      "total_descontos": 1309.52,
+      "total_liquido": 2015.08,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.6
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 850.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        },
+        {
+          "cod_rubrica": 41207,
+          "dc_rubrica": "ODONT DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 29.9
+        }
+      ]
+    },
+    {
+      "matricula": "02745321",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130100000,
+      "nivel2_unidade": "DIRETORIA EXECUTIVA",
+      "nivel3_lotacao": "ASSESSORIA ESPECIAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200085",
+      "refer_funcao": "CNE05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 8807.7,
+      "total_descontos": 2859.76,
+      "total_liquido": 5947.94,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 6510.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 1628.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1057.5
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 784.19
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02751992",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140702010,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "nivel3_lotacao": "",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200106",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 302.1,
+      "total_liquido": 3143.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "02752107",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200089",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7965.0,
+      "total_descontos": 1766.85,
+      "total_liquido": 6198.15,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        }
+      ]
+    },
+    {
+      "matricula": "02755327",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200079",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6525.7,
+      "total_descontos": 4005.72,
+      "total_liquido": 2519.98,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 431.56
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 170.57
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 371.37
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 696.07
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 173.68
+        },
+        {
+          "cod_rubrica": 40688,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 91.39
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1000.0
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41201,
+          "dc_rubrica": "ODONTOGROUP DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 22.9
+        }
+      ]
+    },
+    {
+      "matricula": "02755416",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140102000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "nivel3_lotacao": "NUCLEO DE MATERIAL E PATRIMONIO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200100",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3688.0,
+      "total_descontos": 470.46,
+      "total_liquido": 3217.54,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "02759489",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200083",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3717.7,
+      "total_descontos": 1178.76,
+      "total_liquido": 2538.94,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 568.3
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41204,
+          "dc_rubrica": "ODONTOGROUP DEP IV PL ODONTO",
+          "tipo": 4,
+          "valor": 110.0
+        }
+      ]
+    },
+    {
+      "matricula": "02765780",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200080",
+      "refer_funcao": "CPE08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 3915.0,
+      "total_descontos": 0.0,
+      "total_liquido": 3915.0,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 3915.0
+        }
+      ]
+    },
+    {
+      "matricula": "0276704X",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990160201000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS SOCIAIS E PROFISSIONAIS",
+      "nivel3_lotacao": "NUCLEO DE CAPACITACAO E FORMACAO PROFISSIONAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200130",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3966.3,
+      "total_descontos": 1496.95,
+      "total_liquido": 2469.35,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 490.6
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 118.4
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 45.09
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 402.15
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 430.85
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02767058",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990150000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS DE PROD. E COMERCIALIZACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200113",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3229.0,
+      "total_descontos": 953.81,
+      "total_liquido": 2275.19,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 176.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 554.09
+        }
+      ]
+    },
+    {
+      "matricula": "02770970",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140100000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "nivel3_lotacao": "GERENCIA DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200098",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02780542",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 4,
+      "dc_sit_func": "CONSELHEIRO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 2057.55,
+      "total_descontos": 740.71,
+      "total_liquido": 1316.84,
+      "rubricas": [
+        {
+          "cod_rubrica": 10600,
+          "dc_rubrica": "JETON",
+          "tipo": 1,
+          "valor": 2057.55
+        },
+        {
+          "cod_rubrica": 40850,
+          "dc_rubrica": "PENSAO ALIMENTICIA I",
+          "tipo": 4,
+          "valor": 257.19
+        },
+        {
+          "cod_rubrica": 40852,
+          "dc_rubrica": "PENSAO ALIMENTICIA II",
+          "tipo": 4,
+          "valor": 257.19
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 226.33
+        }
+      ]
+    },
+    {
+      "matricula": "02786419",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990160101000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS SOCIAIS E PROFISSIONAIS",
+      "nivel3_lotacao": "NUCLEO DE ATENDIMENTO SOCIAL AO PRESO, EGRESSOS E FAMILIARES",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200127",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3475.7,
+      "total_descontos": 1893.36,
+      "total_liquido": 1582.34,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 912.06
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 649.2
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02797364",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200095",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3425.9,
+      "total_descontos": 1203.66,
+      "total_liquido": 2222.24,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 343.2
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 349.62
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 349.62
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41195,
+          "dc_rubrica": "PREVIDENT DEP I   PL ODONTO",
+          "tipo": 4,
+          "valor": 74.7
+        }
+      ]
+    },
+    {
+      "matricula": "0279974X",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140500000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "nivel3_lotacao": "GERENCIA DE INFORMATICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200107",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4557.0,
+      "total_descontos": 626.88,
+      "total_liquido": 3930.12,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 220.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02799758",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990150000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS DE PROD. E COMERCIALIZACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200114",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3053.0,
+      "total_descontos": 900.55,
+      "total_liquido": 2152.45,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 645.61
+        }
+      ]
+    },
+    {
+      "matricula": "02803011",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 3,
+      "dc_sit_func": "CONSELHEIRO ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 2057.55,
+      "total_descontos": 0.0,
+      "total_liquido": 2057.55,
+      "rubricas": [
+        {
+          "cod_rubrica": 10600,
+          "dc_rubrica": "JETON",
+          "tipo": 1,
+          "valor": 2057.55
+        }
+      ]
+    },
+    {
+      "matricula": "02805944",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140101000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "nivel3_lotacao": "NUCLEO DE PROTOCOLO E ARQUIVO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200099",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 302.1,
+      "total_liquido": 3143.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "02810506",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 3,
+      "dc_sit_func": "CONSELHEIRO ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 2057.55,
+      "total_descontos": 411.51,
+      "total_liquido": 1646.04,
+      "rubricas": [
+        {
+          "cod_rubrica": 10600,
+          "dc_rubrica": "JETON",
+          "tipo": 1,
+          "valor": 2057.55
+        },
+        {
+          "cod_rubrica": 40850,
+          "dc_rubrica": "PENSAO ALIMENTICIA I",
+          "tipo": 4,
+          "valor": 411.51
+        }
+      ]
+    },
+    {
+      "matricula": "02810522",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 4,
+      "dc_sit_func": "CONSELHEIRO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 2057.55,
+      "total_descontos": 226.33,
+      "total_liquido": 1831.22,
+      "rubricas": [
+        {
+          "cod_rubrica": 10600,
+          "dc_rubrica": "JETON",
+          "tipo": 1,
+          "valor": 2057.55
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 226.33
+        }
+      ]
+    },
+    {
+      "matricula": "02811308",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140702000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "nivel3_lotacao": "",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200090",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4586.6,
+      "total_descontos": 1291.77,
+      "total_liquido": 3294.83,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 1262.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.6
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 710.71
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        }
+      ]
+    },
+    {
+      "matricula": "02811367",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990150000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS DE PROD. E COMERCIALIZACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200110",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3688.0,
+      "total_descontos": 470.46,
+      "total_liquido": 3217.54,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "02820420",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 4,
+      "dc_sit_func": "CONSELHEIRO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 2263.3,
+      "total_descontos": 248.96,
+      "total_liquido": 2014.34,
+      "rubricas": [
+        {
+          "cod_rubrica": 10600,
+          "dc_rubrica": "JETON",
+          "tipo": 1,
+          "valor": 2057.55
+        },
+        {
+          "cod_rubrica": 10601,
+          "dc_rubrica": "GRATIF.JETON 10%",
+          "tipo": 1,
+          "valor": 205.75
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 248.96
+        }
+      ]
+    },
+    {
+      "matricula": "02827190",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990160000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS SOCIAIS E PROFISSIONAIS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200120",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3936.36,
+      "total_descontos": 1261.58,
+      "total_liquido": 2674.78,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 175.66
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 707.7
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 840.78
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 276.02
+        }
+      ]
+    },
+    {
+      "matricula": "02827255",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990160000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS SOCIAIS E PROFISSIONAIS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200125",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3295.0,
+      "total_descontos": 1954.06,
+      "total_liquido": 1340.94,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 581.63
+        },
+        {
+          "cod_rubrica": 40850,
+          "dc_rubrica": "PENSAO ALIMENTICIA I",
+          "tipo": 4,
+          "valor": 345.28
+        },
+        {
+          "cod_rubrica": 40852,
+          "dc_rubrica": "PENSAO ALIMENTICIA II",
+          "tipo": 4,
+          "valor": 323.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 303.73
+        }
+      ]
+    },
+    {
+      "matricula": "02828634",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990160100000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS SOCIAIS E PROFISSIONAIS",
+      "nivel3_lotacao": "GERENCIA DE ORIENTACAO E PSICOSSOCIAL",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200126",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 2940.0,
+      "total_descontos": 0.0,
+      "total_liquido": 2940.0,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        }
+      ]
+    },
+    {
+      "matricula": "02828847",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200091",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3295.0,
+      "total_descontos": 399.72,
+      "total_liquido": 2895.28,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        }
+      ]
+    },
+    {
+      "matricula": "02832844",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 4,
+      "dc_sit_func": "CONSELHEIRO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 2057.55,
+      "total_descontos": 226.33,
+      "total_liquido": 1831.22,
+      "rubricas": [
+        {
+          "cod_rubrica": 10600,
+          "dc_rubrica": "JETON",
+          "tipo": 1,
+          "valor": 2057.55
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 226.33
+        }
+      ]
+    },
+    {
+      "matricula": "02838303",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 4,
+      "dc_sit_func": "CONSELHEIRO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 2057.55,
+      "total_descontos": 226.33,
+      "total_liquido": 1831.22,
+      "rubricas": [
+        {
+          "cod_rubrica": 10600,
+          "dc_rubrica": "JETON",
+          "tipo": 1,
+          "valor": 2057.55
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 226.33
+        }
+      ]
+    },
+    {
+      "matricula": "02842327",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990150300000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS DE PROD. E COMERCIALIZACAO",
+      "nivel3_lotacao": "GERENCIA AGRICOLA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200117",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4557.0,
+      "total_descontos": 626.88,
+      "total_liquido": 3930.12,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 220.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02842734",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130200000,
+      "nivel2_unidade": "DIRETORIA EXECUTIVA",
+      "nivel3_lotacao": "ASSESSORIA JURIDICO-LEGISLATIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200131",
+      "refer_funcao": "CNE04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 11825.7,
+      "total_descontos": 2905.52,
+      "total_liquido": 8920.18,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 8925.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 2231.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1887.45
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02843064",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140701000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "nivel3_lotacao": "",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200104",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 1954.06,
+      "total_liquido": 2360.94,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 321.34
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 150.54
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1075.8
+        }
+      ]
+    },
+    {
+      "matricula": "02843196",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990150000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS DE PROD. E COMERCIALIZACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200112",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3295.0,
+      "total_descontos": 1627.64,
+      "total_liquido": 1667.36,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 611.58
+        },
+        {
+          "cod_rubrica": 40850,
+          "dc_rubrica": "PENSAO ALIMENTICIA I",
+          "tipo": 4,
+          "valor": 308.17
+        },
+        {
+          "cod_rubrica": 40852,
+          "dc_rubrica": "PENSAO ALIMENTICIA II",
+          "tipo": 4,
+          "valor": 308.17
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        }
+      ]
+    },
+    {
+      "matricula": "0284964X",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990160102000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS SOCIAIS E PROFISSIONAIS",
+      "nivel3_lotacao": "NUCLEO DE RECRUTAMENTO E SELECAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200128",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3662.7,
+      "total_descontos": 1276.84,
+      "total_liquido": 2385.86,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 187.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 753.48
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41201,
+          "dc_rubrica": "ODONTOGROUP DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 22.9
+        }
+      ]
+    },
+    {
+      "matricula": "02852810",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200132",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5534.0,
+      "total_descontos": 1154.26,
+      "total_liquido": 4379.74,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 576.26
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        }
+      ]
+    },
+    {
+      "matricula": "02853108",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 4,
+      "dc_sit_func": "CONSELHEIRO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 1371.7,
+      "total_descontos": 150.88,
+      "total_liquido": 1220.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10600,
+          "dc_rubrica": "JETON",
+          "tipo": 1,
+          "valor": 1371.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 150.88
+        }
+      ]
+    },
+    {
+      "matricula": "02853116",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 4,
+      "dc_sit_func": "CONSELHEIRO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 1508.87,
+      "total_descontos": 165.97,
+      "total_liquido": 1342.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10600,
+          "dc_rubrica": "JETON",
+          "tipo": 1,
+          "valor": 1371.7
+        },
+        {
+          "cod_rubrica": 10601,
+          "dc_rubrica": "GRATIF.JETON 10%",
+          "tipo": 1,
+          "valor": 137.17
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 165.97
+        }
+      ]
+    },
+    {
+      "matricula": "02854805",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990150301000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS DE PROD. E COMERCIALIZACAO",
+      "nivel3_lotacao": "NUCLEO DE PRODUCAO DE PLANTAS, GRAOS E PASTAGENS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200118",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 1728.58,
+      "total_liquido": 1717.42,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 753.48
+        },
+        {
+          "cod_rubrica": 41114,
+          "dc_rubrica": "FARMACIA-BENEF.SOCIAL",
+          "tipo": 4,
+          "valor": 40.0
+        },
+        {
+          "cod_rubrica": 41198,
+          "dc_rubrica": "SOCIED BENEF PL SAUDE",
+          "tipo": 4,
+          "valor": 633.0
+        }
+      ]
+    },
+    {
+      "matricula": "02854813",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990150000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS DE PROD. E COMERCIALIZACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200109",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7994.7,
+      "total_descontos": 1819.75,
+      "total_liquido": 6174.95,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41201,
+          "dc_rubrica": "ODONTOGROUP DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 22.9
+        }
+      ]
+    },
+    {
+      "matricula": "02854945",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990150200000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS DE PROD. E COMERCIALIZACAO",
+      "nivel3_lotacao": "GERENCIA DE PRODUCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200116",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 1565.09,
+      "total_liquido": 2749.91,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1158.71
+        }
+      ]
+    },
+    {
+      "matricula": "02855127",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200092",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3400.4,
+      "total_descontos": 412.37,
+      "total_liquido": 2988.03,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 105.4
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 267.59
+        }
+      ]
+    },
+    {
+      "matricula": "02857197",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140500000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "nivel3_lotacao": "GERENCIA DE INFORMATICA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 9566.92,
+      "total_descontos": 2206.74,
+      "total_liquido": 7360.18,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5883.61
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 1225.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 58.83
+        },
+        {
+          "cod_rubrica": 10550,
+          "dc_rubrica": "AUXILIO CRECHE / PRE-ESCOLAR",
+          "tipo": 1,
+          "valor": 176.58
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "AUXILIO ALIMENTACAO",
+          "tipo": 1,
+          "valor": 1470.9
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40515,
+          "dc_rubrica": "AUXILIO CRECHE/PRE ESCOLA",
+          "tipo": 4,
+          "valor": 8.82
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "APAE/DF - CONTRIBUICOES",
+          "tipo": 4,
+          "valor": 1037.86
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1160.06
+        }
+      ]
+    },
+    {
+      "matricula": "02857901",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140200000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "nivel3_lotacao": "GERENCIA DE PESSOAL",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200103",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 2940.0,
+      "total_descontos": 1174.5,
+      "total_liquido": 1765.5,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 358.54
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 815.96
+        }
+      ]
+    },
+    {
+      "matricula": "02863006",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 3,
+      "dc_sit_func": "CONSELHEIRO ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 1371.7,
+      "total_descontos": 0.0,
+      "total_liquido": 1371.7,
+      "rubricas": [
+        {
+          "cod_rubrica": 10600,
+          "dc_rubrica": "JETON",
+          "tipo": 1,
+          "valor": 1371.7
+        }
+      ]
+    },
+    {
+      "matricula": "02864053",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990160000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS SOCIAIS E PROFISSIONAIS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200121",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3295.0,
+      "total_descontos": 399.72,
+      "total_liquido": 2895.28,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        }
+      ]
+    },
+    {
+      "matricula": "02864401",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990160000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS SOCIAIS E PROFISSIONAIS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200122",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3262.0,
+      "total_descontos": 694.21,
+      "total_liquido": 2567.79,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40001,
+          "dc_rubrica": "FALTA(S) VENCIMENTO",
+          "tipo": 4,
+          "valor": 328.56
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 220.87
+        }
+      ]
+    },
+    {
+      "matricula": "02864800",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990160101000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS SOCIAIS E PROFISSIONAIS",
+      "nivel3_lotacao": "NUCLEO DE ATENDIMENTO SOCIAL AO PRESO, EGRESSOS E FAMILIARES",
+      "sit_func": 58,
+      "dc_sit_func": "EXERCICIO EM OUTRO ORGAO",
+      "status": 8,
+      "dc_status": "CEDIDO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "02866366",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140600000,
+      "nivel2_unidade": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "nivel3_lotacao": "GERENCIA DE CONTABILIDADE",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "40000014",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 3919.99,
+      "total_descontos": 413.93,
+      "total_liquido": 3506.06,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 11187,
+          "dc_rubrica": "1/3 FERIAS FUNCAO ESTATUTARIA",
+          "tipo": 1,
+          "valor": 979.99
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 413.93
+        }
+      ]
+    },
+    {
+      "matricula": "02866838",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990160000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS SOCIAIS E PROFISSIONAIS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200123",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3295.0,
+      "total_descontos": 399.72,
+      "total_liquido": 2895.28,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        }
+      ]
+    },
+    {
+      "matricula": "02869861",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990140000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS ADMINISTRATIVOS E FINANCEIRO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200084",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2907.0,
+      "total_descontos": 337.03,
+      "total_liquido": 2569.97,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 121.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        }
+      ]
+    },
+    {
+      "matricula": "02870665",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200081",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3688.0,
+      "total_descontos": 470.46,
+      "total_liquido": 3217.54,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "02870843",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990130200000,
+      "nivel2_unidade": "DIRETORIA EXECUTIVA",
+      "nivel3_lotacao": "ASSESSORIA JURIDICO-LEGISLATIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200087",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3220.2,
+      "total_descontos": 399.72,
+      "total_liquido": 2820.48,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 167.2
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        }
+      ]
+    },
+    {
+      "matricula": "02871025",
+      "empresa": 182,
+      "dc_empresa": "FUNDACAO DE AMPARO AO TRABALHADOR PRESO - FUNAP",
+      "sigla": "FUNAP",
+      "dc_tipo_administracao": "FUNDACAO",
+      "cd_lotacao": 990150000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "DIRETORIA ADJUNTA PARA ASSUNTOS DE PROD. E COMERCIALIZACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "18200111",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3295.0,
+      "total_descontos": 399.72,
+      "total_liquido": 2895.28,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 242.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        }
+      ]
+    }
+  ]
+}
