@@ -1,0 +1,3999 @@
+{
+  "competencia": "202603",
+  "empresa": 92,
+  "gerado_em": "2026-07-03T21:41:48.154064",
+  "registros": [
+    {
+      "matricula": "00309230",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50300000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 8,
+      "dc_status": "CEDIDO",
+      "cod_cargo": "TA01011",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 15793.31,
+      "total_descontos": 11400.49,
+      "total_liquido": 4392.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7729.23
+        },
+        {
+          "cod_rubrica": 10120,
+          "dc_rubrica": "DECIMOS LEI 1004/96 ATIVOS",
+          "tipo": 1,
+          "valor": 539.16
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 3091.69
+        },
+        {
+          "cod_rubrica": 10511,
+          "dc_rubrica": "AB.PERMANENCIA EC41",
+          "tipo": 1,
+          "valor": 1860.93
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1932.3
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40391,
+          "dc_rubrica": "SINDIRETA",
+          "tipo": 4,
+          "valor": 90.91
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 543.99
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1554.05
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 527.57
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 110.83
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 779.32
+        },
+        {
+          "cod_rubrica": 40854,
+          "dc_rubrica": "PENSAO ALIMENTICIA III",
+          "tipo": 4,
+          "valor": 685.47
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1860.93
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2558.17
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 1288.37
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 719.09
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 25.82
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 125.97
+        },
+        {
+          "cod_rubrica": 41221,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE VII",
+          "tipo": 4,
+          "valor": 530.0
+        }
+      ]
+    },
+    {
+      "matricula": "00329258",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 70201000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "GERENCIA DE GESTAO DO TERRITORIO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AU0101",
+      "dc_cargo": "TECNICO POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 3,
+      "cod_funcao": "09700165",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 12991.41,
+      "total_descontos": 6266.62,
+      "total_liquido": 6724.79,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5812.14
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 2034.24
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1453.03
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40391,
+          "dc_rubrica": "SINDIRETA",
+          "tipo": 4,
+          "valor": 74.1
+        },
+        {
+          "cod_rubrica": 40392,
+          "dc_rubrica": "SINDSER",
+          "tipo": 4,
+          "valor": 58.12
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 283.2
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1294.02
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 282.5
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 472.96
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 369.93
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1301.91
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2129.88
+        }
+      ]
+    },
+    {
+      "matricula": "01253417",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50200000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE PESSOAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA0101S",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "09700137",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 14787.37,
+      "total_descontos": 7683.77,
+      "total_liquido": 7103.6,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7729.23
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 1545.84
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1932.3
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 726.39
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 402.54
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 376.14
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 343.64
+        },
+        {
+          "cod_rubrica": 40688,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 121.15
+        },
+        {
+          "cod_rubrica": 40810,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1572.62
+        },
+        {
+          "cod_rubrica": 40812,
+          "dc_rubrica": "BRB EMPRESTIMO IV",
+          "tipo": 4,
+          "valor": 126.23
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1569.03
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2446.03
+        }
+      ]
+    },
+    {
+      "matricula": "01746162",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40400000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "OUVIDORIA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TEC-PGU",
+      "dc_cargo": "TECNICO PLANEJ. URB. INFRA.",
+      "cod_carreira": 56,
+      "cod_categoria": 154,
+      "cod_funcao": "09700169",
+      "refer_funcao": "CPE08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 27799.33,
+      "total_descontos": 8875.32,
+      "total_liquido": 18924.01,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 8748.38
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 2012.12
+        },
+        {
+          "cod_rubrica": 10584,
+          "dc_rubrica": "GHPU - LEI 5195/2013",
+          "tipo": 1,
+          "valor": 2187.09
+        },
+        {
+          "cod_rubrica": 10890,
+          "dc_rubrica": "ADIANT DEC TERCEIRO-ATIVO",
+          "tipo": 1,
+          "valor": 7835.74
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11140,
+          "dc_rubrica": "ADIANT. 13 FUNCAO C/VINCULO",
+          "tipo": 1,
+          "valor": 2349.0
+        },
+        {
+          "cod_rubrica": 40136,
+          "dc_rubrica": "AARQDF - MENSALIDADE",
+          "tipo": 4,
+          "valor": 45.0
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1086.93
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 411.02
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 327.68
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 560.93
+        },
+        {
+          "cod_rubrica": 40688,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 491.19
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1812.66
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3260.8
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 678.98
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 200.13
+        }
+      ]
+    },
+    {
+      "matricula": "01746871",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50102000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE MATERIAL E PATRIMONIO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 8,
+      "dc_status": "CEDIDO",
+      "cod_cargo": "TA0101S",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 11487.87,
+      "total_descontos": 8115.23,
+      "total_liquido": 3372.64,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7539.56
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 1281.72
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1884.89
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 166.57
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 38.35
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 686.86
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 2213.2
+        },
+        {
+          "cod_rubrica": 40850,
+          "dc_rubrica": "PENSAO ALIMENTICIA I",
+          "tipo": 4,
+          "valor": 1621.0
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1498.86
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1051.89
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 808.5
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "14014955",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50101000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE ATENDIMENTO, PROTOCOLO E ARQUIVO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AU0101",
+      "dc_cargo": "TECNICO POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 3,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 11006.0,
+      "total_descontos": 5808.59,
+      "total_liquido": 5197.41,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5812.14
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 1801.76
+        },
+        {
+          "cod_rubrica": 10511,
+          "dc_rubrica": "AB.PERMANENCIA EC41",
+          "tipo": 1,
+          "valor": 1269.37
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1453.03
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40391,
+          "dc_rubrica": "SINDIRETA",
+          "tipo": 4,
+          "valor": 62.01
+        },
+        {
+          "cod_rubrica": 40392,
+          "dc_rubrica": "SINDSER",
+          "tipo": 4,
+          "valor": 58.12
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 331.84
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1005.25
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1269.37
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1584.67
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 889.33
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "16896432",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 70200000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "DIRETORIA DE DESENVOLVIMENTO E ORDENAMENTO TERRITORIAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700164",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6525.7,
+      "total_descontos": 996.04,
+      "total_liquido": 5529.66,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 255.1
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "16899407",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 70000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE DESENVOLVIMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700155",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7965.0,
+      "total_descontos": 1662.57,
+      "total_liquido": 6302.43,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 745.97
+        }
+      ]
+    },
+    {
+      "matricula": "16899563",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60201000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE LICENCIAMENTO DE OBRAS E ATIVIDADES ECONOMICAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700152",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "16900154",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60201000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE LICENCIAMENTO DE OBRAS E ATIVIDADES ECONOMICAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700140",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3475.6,
+      "total_descontos": 1332.81,
+      "total_liquido": 2142.79,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.6
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 970.91
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        },
+        {
+          "cod_rubrica": 41207,
+          "dc_rubrica": "ODONT DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 29.9
+        }
+      ]
+    },
+    {
+      "matricula": "16900480",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700172",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5564.0,
+      "total_descontos": 2398.0,
+      "total_liquido": 3166.0,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 72.24
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 185.33
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 312.61
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 766.47
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 380.39
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 576.26
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        },
+        {
+          "cod_rubrica": 41196,
+          "dc_rubrica": "PREVIDENT DEP II PL ODONTO",
+          "tipo": 4,
+          "valor": 69.8
+        }
+      ]
+    },
+    {
+      "matricula": "16906993",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 70100000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "DIRETORIA DE ARTICULACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700161",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6526.0,
+      "total_descontos": 2586.33,
+      "total_liquido": 3939.67,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1637.53
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 202.96
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        }
+      ]
+    },
+    {
+      "matricula": "16918088",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700139",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7994.7,
+      "total_descontos": 4039.04,
+      "total_liquido": 3955.66,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 750.17
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 100.22
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41195,
+          "dc_rubrica": "PREVIDENT DEP I   PL ODONTO",
+          "tipo": 4,
+          "valor": 49.8
+        },
+        {
+          "cod_rubrica": 41223,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE IX",
+          "tipo": 4,
+          "valor": 764.0
+        }
+      ]
+    },
+    {
+      "matricula": "1691810X",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 70000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE DESENVOLVIMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700127",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2665.0,
+      "total_descontos": 848.75,
+      "total_liquido": 1816.25,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 633.22
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        }
+      ]
+    },
+    {
+      "matricula": "16919009",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60101000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE EXECUCAO DE OBRAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700180",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4345.0,
+      "total_descontos": 1746.76,
+      "total_liquido": 2598.24,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1305.48
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        }
+      ]
+    },
+    {
+      "matricula": "16922190",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40300000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700122",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6526.0,
+      "total_descontos": 3285.17,
+      "total_liquido": 3240.83,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1757.35
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 85.24
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 354.6
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        },
+        {
+          "cod_rubrica": 41196,
+          "dc_rubrica": "PREVIDENT DEP II PL ODONTO",
+          "tipo": 4,
+          "valor": 34.9
+        }
+      ]
+    },
+    {
+      "matricula": "16936477",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40200000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE PLANEJAMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700121",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6526.0,
+      "total_descontos": 1053.08,
+      "total_liquido": 5472.92,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        }
+      ]
+    },
+    {
+      "matricula": "16942019",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60102000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE MANUTENCAO E CONSERVACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "1700201X",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "B0001618",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7965.0,
+      "total_descontos": 3328.53,
+      "total_liquido": 4636.47,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 98.42
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 32.26
+        },
+        {
+          "cod_rubrica": 41224,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE X",
+          "tipo": 4,
+          "valor": 853.0
+        }
+      ]
+    },
+    {
+      "matricula": "1700456X",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50100000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ADMINISTRACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700133",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4345.0,
+      "total_descontos": 441.28,
+      "total_liquido": 3903.72,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        }
+      ]
+    },
+    {
+      "matricula": "17037816",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60200000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "DIRETORIA DE APROVACAO E LICENCIAMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700151",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 29508.82,
+      "total_descontos": 12005.6,
+      "total_liquido": 17503.22,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 8745.33
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 2185.86
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 10408,
+          "dc_rubrica": "1/3 FERIAS ART.7 RESCISAO",
+          "tipo": 1,
+          "valor": 3318.35
+        },
+        {
+          "cod_rubrica": 10521,
+          "dc_rubrica": "DECIMO TERCEIRO SALARIO S/V",
+          "tipo": 1,
+          "valor": 1464.0
+        },
+        {
+          "cod_rubrica": 10872,
+          "dc_rubrica": "FERIAS INDENIZ.PROPORCIONAIS",
+          "tipo": 1,
+          "valor": 12688.0
+        },
+        {
+          "cod_rubrica": 30910,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 211.13
+        },
+        {
+          "cod_rubrica": 30950,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 256.15
+        },
+        {
+          "cod_rubrica": 40912,
+          "dc_rubrica": "INSS 13 SALARIO",
+          "tipo": 4,
+          "valor": 109.8
+        },
+        {
+          "cod_rubrica": 60015,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 60017,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 60408,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 390.35
+        },
+        {
+          "cod_rubrica": 60872,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 3904.0
+        },
+        {
+          "cod_rubrica": 60926,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 727.27
+        }
+      ]
+    },
+    {
+      "matricula": "1706516X",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 70200000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "DIRETORIA DE DESENVOLVIMENTO E ORDENAMENTO TERRITORIAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700126",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 1303.66,
+      "total_liquido": 2142.34,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1001.56
+        }
+      ]
+    },
+    {
+      "matricula": "17103819",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700115",
+      "refer_funcao": "CNE05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 8778.0,
+      "total_descontos": 4354.37,
+      "total_liquido": 4423.63,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 6510.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1628.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1057.5
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 877.8
+        },
+        {
+          "cod_rubrica": 41224,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE X",
+          "tipo": 4,
+          "valor": 853.0
+        }
+      ]
+    },
+    {
+      "matricula": "17105978",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700114",
+      "refer_funcao": "CNP04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 55285.4,
+      "total_descontos": 10383.69,
+      "total_liquido": 44901.71,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 14430.49
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 3607.62
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 3518.37
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 989.48
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3780.03
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        },
+        {
+          "cod_rubrica": 10408,
+          "dc_rubrica": "1/3 FERIAS ART.7 RESCISAO",
+          "tipo": 1,
+          "valor": 8016.94
+        },
+        {
+          "cod_rubrica": 10521,
+          "dc_rubrica": "DECIMO TERCEIRO SALARIO S/V",
+          "tipo": 1,
+          "valor": 4509.54
+        },
+        {
+          "cod_rubrica": 10872,
+          "dc_rubrica": "FERIAS INDENIZ.PROPORCIONAIS",
+          "tipo": 1,
+          "valor": 24050.81
+        },
+        {
+          "cod_rubrica": 40912,
+          "dc_rubrica": "INSS 13 SALARIO",
+          "tipo": 4,
+          "valor": 432.84
+        },
+        {
+          "cod_rubrica": 60926,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 640.0
+        }
+      ]
+    },
+    {
+      "matricula": "17123097",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 70101000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "GERENCIA DE POLITICAS SOCIAIS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700130",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3942.0,
+      "total_descontos": 361.62,
+      "total_liquido": 3580.38,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 20250,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 1277.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 361.62
+        }
+      ]
+    },
+    {
+      "matricula": "17123127",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60102000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE MANUTENCAO E CONSERVACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700150",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4344.7,
+      "total_descontos": 1640.1,
+      "total_liquido": 2704.6,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 64.99
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 524.73
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 614.0
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17123232",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 70200000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "DIRETORIA DE DESENVOLVIMENTO E ORDENAMENTO TERRITORIAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700129",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2694.7,
+      "total_descontos": 270.43,
+      "total_liquido": 2424.27,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41195,
+          "dc_rubrica": "PREVIDENT DEP I   PL ODONTO",
+          "tipo": 4,
+          "valor": 24.9
+        }
+      ]
+    },
+    {
+      "matricula": "17124786",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50103000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE INFORMATICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700136",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3674.0,
+      "total_descontos": 505.36,
+      "total_liquido": 3168.64,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 198.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        }
+      ]
+    },
+    {
+      "matricula": "17156068",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700174",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3475.7,
+      "total_descontos": 904.12,
+      "total_liquido": 2571.58,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 572.02
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17156076",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40300000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700173",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3475.7,
+      "total_descontos": 332.1,
+      "total_liquido": 3143.6,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17156122",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60102000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE MANUTENCAO E CONSERVACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700141",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3942.0,
+      "total_descontos": 361.62,
+      "total_liquido": 3580.38,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 20250,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 1277.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 361.62
+        }
+      ]
+    },
+    {
+      "matricula": "17158524",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60100000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "DIRETORIA DE OBRAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700145",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2363.6,
+      "total_descontos": 275.17,
+      "total_liquido": 2088.43,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 320.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 102.6
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 96.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 179.17
+        }
+      ]
+    },
+    {
+      "matricula": "17159849",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700170",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5564.0,
+      "total_descontos": 611.16,
+      "total_liquido": 4952.84,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 576.26
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        }
+      ]
+    },
+    {
+      "matricula": "17177642",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40400000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "OUVIDORIA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 3,
+      "dc_status": "AFASTADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700176",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4551.7,
+      "total_descontos": 2470.17,
+      "total_liquido": 2081.53,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 320.0
+        },
+        {
+          "cod_rubrica": 10809,
+          "dc_rubrica": "SAL. MATERNIDADE - CLT",
+          "tipo": 1,
+          "valor": 2261.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40700,
+          "dc_rubrica": "REPOSICAO REMUNERACAO",
+          "tipo": 4,
+          "valor": 2261.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 179.17
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17192625",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50300000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "09700138",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 11525.55,
+      "total_descontos": 5901.21,
+      "total_liquido": 5624.34,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 357.42
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40885,
+          "dc_rubrica": "SICOOB EXEC EMPREST CONV 03/14",
+          "tipo": 4,
+          "valor": 2952.7
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1092.53
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1776.18
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41195,
+          "dc_rubrica": "PREVIDENT DEP I   PL ODONTO",
+          "tipo": 4,
+          "valor": 49.8
+        }
+      ]
+    },
+    {
+      "matricula": "17203651",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50102000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE MATERIAL E PATRIMONIO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 8258.0,
+      "total_descontos": 1895.94,
+      "total_liquido": 6362.06,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1050.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 845.1
+        }
+      ]
+    },
+    {
+      "matricula": "17207037",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700125",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 5860.0,
+      "total_descontos": 2993.77,
+      "total_liquido": 2866.23,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 994.85
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 387.42
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 504.38
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 1107.12
+        }
+      ]
+    },
+    {
+      "matricula": "17207088",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60100000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "DIRETORIA DE OBRAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700148",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6574.66,
+      "total_descontos": 1073.13,
+      "total_liquido": 5501.53,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 48.96
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 717.8
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 325.33
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17209137",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50300000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 12365.33,
+      "total_descontos": 2379.27,
+      "total_liquido": 9986.06,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 1568.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10865,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF EST",
+          "tipo": 1,
+          "valor": 2539.33
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1050.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1328.43
+        }
+      ]
+    },
+    {
+      "matricula": "17209420",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50200000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE PESSOAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 3,
+      "dc_status": "AFASTADO",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 8287.7,
+      "total_descontos": 1925.94,
+      "total_liquido": 6361.76,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1050.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 845.1
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17209714",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50300000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 8258.0,
+      "total_descontos": 1948.07,
+      "total_liquido": 6309.93,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1050.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 897.23
+        }
+      ]
+    },
+    {
+      "matricula": "17215943",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50101000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE ATENDIMENTO, PROTOCOLO E ARQUIVO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700175",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2692.51,
+      "total_descontos": 1158.33,
+      "total_liquido": 1534.18,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 320.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 77.16
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 354.35
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 96.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 563.15
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 186.11
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 313.07
+        }
+      ]
+    },
+    {
+      "matricula": "17235839",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50200000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE PESSOAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700118",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2665.0,
+      "total_descontos": 215.53,
+      "total_liquido": 2449.47,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        }
+      ]
+    },
+    {
+      "matricula": "17241065",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40100000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA TECNICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700120",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 8447.99,
+      "total_descontos": 1291.46,
+      "total_liquido": 7156.53,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF - CLT",
+          "tipo": 1,
+          "valor": 1951.99
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40949,
+          "dc_rubrica": "INSS FERIAS",
+          "tipo": 4,
+          "valor": 273.28
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "1725700X",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50101000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE ATENDIMENTO, PROTOCOLO E ARQUIVO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700134",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3475.7,
+      "total_descontos": 1227.25,
+      "total_liquido": 2248.45,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 895.15
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17260426",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 70101000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "GERENCIA DE POLITICAS SOCIAIS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700162",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "17265495",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60200000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "DIRETORIA DE APROVACAO E LICENCIAMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700178",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3053.0,
+      "total_descontos": 254.94,
+      "total_liquido": 2798.06,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        }
+      ]
+    },
+    {
+      "matricula": "17268052",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 50102000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE MATERIAL E PATRIMONIO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700135",
+      "refer_funcao": "CPC06",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 3592.0,
+      "total_descontos": 0.0,
+      "total_liquido": 3592.0,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 11140,
+          "dc_rubrica": "ADIANT. 13 FUNCAO C/VINCULO",
+          "tipo": 1,
+          "valor": 1347.0
+        }
+      ]
+    },
+    {
+      "matricula": "17270251",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40600000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "JUNTA DO SERVICO MILITAR",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700179",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "17271711",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60100000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "DIRETORIA DE OBRAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700177",
+      "refer_funcao": "CC 07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3834.0,
+      "total_descontos": 348.66,
+      "total_liquido": 3485.34,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2555.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 639.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 348.66
+        }
+      ]
+    },
+    {
+      "matricula": "17272939",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60202000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE ELABORACAO E APROVACAO DE PROJETOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700153",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 1701.01,
+      "total_liquido": 2613.99,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1294.63
+        }
+      ]
+    },
+    {
+      "matricula": "17275806",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700144",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2261.0,
+      "total_descontos": 179.17,
+      "total_liquido": 2081.83,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 320.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 179.17
+        }
+      ]
+    },
+    {
+      "matricula": "17301599",
+      "empresa": 92,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO RIACHO FUNDO II",
+      "sigla": "RAXXI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 60200000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "DIRETORIA DE APROVACAO E LICENCIAMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09700151",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 253.37,
+      "total_descontos": 19.0,
+      "total_liquido": 234.37,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 156.16
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 39.03
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 58.18
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 19.0
+        }
+      ]
+    }
+  ]
+}
