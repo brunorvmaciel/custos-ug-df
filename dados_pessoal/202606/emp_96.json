@@ -1,0 +1,3068 @@
+{
+  "competencia": "202606",
+  "empresa": 96,
+  "gerado_em": "2026-07-04T01:15:49.593170",
+  "registros": [
+    {
+      "matricula": "00991252",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40103000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "GERENCIA DE CULTURA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "ANA-PGU",
+      "dc_cargo": "ANALISTA PLANEJ. URB. INFRA.",
+      "cod_carreira": 56,
+      "cod_categoria": 153,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 29679.71,
+      "total_descontos": 10017.57,
+      "total_liquido": 19662.14,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 14340.69
+        },
+        {
+          "cod_rubrica": 10459,
+          "dc_rubrica": "VPNI- LEI 804/1994",
+          "tipo": 1,
+          "valor": 6381.43
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 4732.42
+        },
+        {
+          "cod_rubrica": 10584,
+          "dc_rubrica": "GHPU - LEI 5195/2013",
+          "tipo": 1,
+          "valor": 3585.17
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40136,
+          "dc_rubrica": "AARQDF - MENSALIDADE",
+          "tipo": 4,
+          "valor": 45.0
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 4065.55
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 5907.02
+        }
+      ]
+    },
+    {
+      "matricula": "01583514",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20200000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE PESSOAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01011",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "09600086",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 14092.37,
+      "total_descontos": 4770.07,
+      "total_liquido": 9322.3,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7354.55
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2777.83
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 84.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 1397.36
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1838.63
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40516,
+          "dc_rubrica": "INTERLIFE MENSALIDADE",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 694.47
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1482.67
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2382.93
+        },
+        {
+          "cod_rubrica": 41045,
+          "dc_rubrica": "CLUBE DA SAUDE-MENSALIDADE",
+          "tipo": 4,
+          "valor": 180.0
+        }
+      ]
+    },
+    {
+      "matricula": "01755366",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10500000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "JUNTA DO SERVICO MILITAR",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA01013",
+      "dc_cargo": "GESTOR POL PUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 18893.56,
+      "total_descontos": 13136.92,
+      "total_liquido": 5756.64,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 11552.89
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 3812.45
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2888.22
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 2526.57
+        },
+        {
+          "cod_rubrica": 40516,
+          "dc_rubrica": "INTERLIFE MENSALIDADE",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1705.28
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 595.39
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 2555.49
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3408.23
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 730.14
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 732.82
+        },
+        {
+          "cod_rubrica": 41224,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE X",
+          "tipo": 4,
+          "valor": 853.0
+        }
+      ]
+    },
+    {
+      "matricula": "16901576",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40100000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "DIRETORIA DE ARTICULACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600112",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 9453.6,
+      "total_descontos": 2861.05,
+      "total_liquido": 6592.55,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 2928.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.6
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1568.48
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 259.07
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 202.96
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        },
+        {
+          "cod_rubrica": 41207,
+          "dc_rubrica": "ODONT DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 89.7
+        }
+      ]
+    },
+    {
+      "matricula": "16943694",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE DESENVOLVIMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600128",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4849.0,
+      "total_descontos": 1275.83,
+      "total_liquido": 3573.17,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1403.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 505.61
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 267.47
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 200.65
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "16945360",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600075",
+      "refer_funcao": "CPE06",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 7813.33,
+      "total_descontos": 3381.98,
+      "total_liquido": 4431.35,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 11187,
+          "dc_rubrica": "1/3 FERIAS FUNCAO ESTATUTARIA",
+          "tipo": 1,
+          "valor": 1953.33
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 998.66
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 81.03
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 519.41
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 542.95
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1239.93
+        }
+      ]
+    },
+    {
+      "matricula": "16946421",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE DESENVOLVIMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600109",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5865.66,
+      "total_descontos": 1260.01,
+      "total_liquido": 4605.65,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1403.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 20250,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 1016.66
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 833.74
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 426.27
+        }
+      ]
+    },
+    {
+      "matricula": "16951476",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20100000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ADMINISTRACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600082",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7377.49,
+      "total_descontos": 577.1,
+      "total_liquido": 6800.39,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF - CLT",
+          "tipo": 1,
+          "valor": 1224.99
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1837.5
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 40949,
+          "dc_rubrica": "INSS FERIAS",
+          "tipo": 4,
+          "valor": 170.72
+        }
+      ]
+    },
+    {
+      "matricula": "16971191",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20300000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600087",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 3426.66,
+      "total_descontos": 1175.95,
+      "total_liquido": 2250.71,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 486.66
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 163.73
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 1012.22
+        }
+      ]
+    },
+    {
+      "matricula": "16975472",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10500000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "JUNTA DO SERVICO MILITAR",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600074",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6152.5,
+      "total_descontos": 1748.38,
+      "total_liquido": 4404.12,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1837.5
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41223,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE IX",
+          "tipo": 4,
+          "valor": 764.0
+        }
+      ]
+    },
+    {
+      "matricula": "16992784",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40203000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "GERENCIA DE DESENVOLVIMENTO ECONOMICO E GESTAO DO TERRITORIO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600118",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 4410.0,
+      "total_descontos": 1303.18,
+      "total_liquido": 3106.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1470.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 578.7
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 342.72
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 140.38
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 241.38
+        }
+      ]
+    },
+    {
+      "matricula": "17009138",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10400000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "OUVIDORIA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600119",
+      "refer_funcao": "CPE08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 3915.0,
+      "total_descontos": 1476.72,
+      "total_liquido": 2438.28,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1476.72
+        }
+      ]
+    },
+    {
+      "matricula": "17038162",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30200000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "DIRETORIA DE APROVACAO E LICENCIAMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600089",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4849.0,
+      "total_descontos": 302.1,
+      "total_liquido": 4546.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1403.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "1706080X",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17074207",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20101000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE ATENDIMENTO, PROTOCOLO E ARQUIVO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600083",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5102.0,
+      "total_descontos": 530.26,
+      "total_liquido": 4571.74,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1403.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 253.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        },
+        {
+          "cod_rubrica": 41207,
+          "dc_rubrica": "ODONT DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 29.9
+        }
+      ]
+    },
+    {
+      "matricula": "17075122",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20200000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE PESSOAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17115256",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20100000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ADMINISTRACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600133",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4259.5,
+      "total_descontos": 284.84,
+      "total_liquido": 3974.66,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1206.5
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        }
+      ]
+    },
+    {
+      "matricula": "17115434",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30201000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE LICENCIAMENTO DE OBRAS E ATIVIDADES ECONOMICAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600104",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6182.2,
+      "total_descontos": 1581.97,
+      "total_liquido": 4600.23,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1837.5
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 542.88
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 301.45
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 301.26
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17142113",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30200000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "DIRETORIA DE APROVACAO E LICENCIAMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600103",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 9424.0,
+      "total_descontos": 2930.25,
+      "total_liquido": 6493.75,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 2928.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 450.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 57.22
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 296.85
+        },
+        {
+          "cod_rubrica": 41221,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE VII",
+          "tipo": 4,
+          "valor": 530.0
+        }
+      ]
+    },
+    {
+      "matricula": "17146062",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 745.26,
+      "total_descontos": 55.89,
+      "total_liquido": 689.37,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 596.16
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 149.1
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 55.89
+        }
+      ]
+    },
+    {
+      "matricula": "17146119",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10100000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA TECNICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600070",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 9424.0,
+      "total_descontos": 1167.68,
+      "total_liquido": 8256.32,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 2928.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        },
+        {
+          "cod_rubrica": 41207,
+          "dc_rubrica": "ODONT DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 119.6
+        }
+      ]
+    },
+    {
+      "matricula": "17152305",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600134",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4424.5,
+      "total_descontos": 399.72,
+      "total_liquido": 4024.78,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1206.5
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 165.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        }
+      ]
+    },
+    {
+      "matricula": "17156513",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30101000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE EXECUCAO DE OBRAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600100",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6405.5,
+      "total_descontos": 716.58,
+      "total_liquido": 5688.92,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1837.5
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 253.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 220.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        },
+        {
+          "cod_rubrica": 41207,
+          "dc_rubrica": "ODONT DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 59.8
+        }
+      ]
+    },
+    {
+      "matricula": "17158036",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40101000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "GERENCIA DE POLITICAS SOCIAIS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17158230",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40200000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "DIRETORIA DE DESENVOLVIMENTO E ORDENAMENTO TERRITORIAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600115",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 9424.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 8405.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 2928.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "1719931X",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10200000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE PLANEJAMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600071",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 9424.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 8405.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 2928.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "17202841",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20100000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ADMINISTRACAO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 8287.6,
+      "total_descontos": 4305.6,
+      "total_liquido": 3982.0,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.6
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 82.91
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 40.44
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 28.09
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 369.23
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1413.38
+        },
+        {
+          "cod_rubrica": 40813,
+          "dc_rubrica": "CREDSEF - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 300.0
+        },
+        {
+          "cod_rubrica": 40814,
+          "dc_rubrica": "CREDSEF - MENSALIDADE",
+          "tipo": 4,
+          "valor": 33.78
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1050.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 897.23
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        },
+        {
+          "cod_rubrica": 41207,
+          "dc_rubrica": "ODONT DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 59.8
+        }
+      ]
+    },
+    {
+      "matricula": "17206693",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20103000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE INFORMATICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600085",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4849.0,
+      "total_descontos": 302.1,
+      "total_liquido": 4546.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1403.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "17206987",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10300000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600072",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 9424.0,
+      "total_descontos": 2951.07,
+      "total_liquido": 6472.93,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 2928.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 383.48
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1549.41
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "17209390",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20102000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE MATERIAL E PATRIMONIO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "09600084",
+      "refer_funcao": "CPC06",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 10500.21,
+      "total_descontos": 2625.15,
+      "total_liquido": 7875.06,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1721.16
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 37.33
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2085.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1134.24
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1490.91
+        }
+      ]
+    },
+    {
+      "matricula": "17235316",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40103000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "GERENCIA DE CULTURA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600126",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6405.5,
+      "total_descontos": 1915.22,
+      "total_liquido": 4490.28,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1837.5
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 253.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 220.5
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1288.34
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "17235707",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600136",
+      "refer_funcao": "CC 07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5431.0,
+      "total_descontos": 348.66,
+      "total_liquido": 5082.34,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2555.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 639.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1597.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 348.66
+        }
+      ]
+    },
+    {
+      "matricula": "17239532",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30102000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE MANUTENCAO E CONSERVACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600101",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6152.5,
+      "total_descontos": 406.38,
+      "total_liquido": 5746.12,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1837.5
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "17241014",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30202000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE ELABORACAO E APROVACAO DE PROJETOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600105",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7377.49,
+      "total_descontos": 577.1,
+      "total_liquido": 6800.39,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF - CLT",
+          "tipo": 1,
+          "valor": 1224.99
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1837.5
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 40949,
+          "dc_rubrica": "INSS FERIAS",
+          "tipo": 4,
+          "valor": 170.72
+        }
+      ]
+    },
+    {
+      "matricula": "17257611",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE DESENVOLVIMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600140",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 11627.5,
+      "total_descontos": 1886.65,
+      "total_liquido": 9740.85,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 3662.5
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        },
+        {
+          "cod_rubrica": 41263,
+          "dc_rubrica": "ODONT DEP IV PL ODONTO",
+          "tipo": 4,
+          "valor": 89.9
+        }
+      ]
+    },
+    {
+      "matricula": "17258227",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600141",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4849.0,
+      "total_descontos": 302.1,
+      "total_liquido": 4546.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1403.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "17265517",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30100000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "DIRETORIA DE OBRAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17271673",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17274869",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600131",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6363.41,
+      "total_descontos": 686.68,
+      "total_liquido": 5676.73,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 1795.41
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 253.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 220.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        },
+        {
+          "cod_rubrica": 41207,
+          "dc_rubrica": "ODONT DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 29.9
+        }
+      ]
+    },
+    {
+      "matricula": "17275008",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17289009",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 745.26,
+      "total_descontos": 55.89,
+      "total_liquido": 689.37,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 596.16
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 149.1
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 55.89
+        }
+      ]
+    },
+    {
+      "matricula": "17301300",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17308496",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600063",
+      "refer_funcao": "CNP04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 25442.42,
+      "total_descontos": 4768.1,
+      "total_liquido": 20674.32,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 14430.49
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 3607.62
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 6764.31
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3780.03
+        }
+      ]
+    },
+    {
+      "matricula": "17312264",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600088",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 10711.89,
+      "total_descontos": 1766.85,
+      "total_liquido": 8945.04,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 2746.89
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        }
+      ]
+    },
+    {
+      "matricula": "17317010",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600142",
+      "refer_funcao": "CNE05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 11490.68,
+      "total_descontos": 2045.57,
+      "total_liquido": 9445.11,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 6510.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1628.0
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 2712.68
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1057.5
+        }
+      ]
+    },
+    {
+      "matricula": "17319757",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17321905",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600137",
+      "refer_funcao": "CC 07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3874.86,
+      "total_descontos": 241.78,
+      "total_liquido": 3633.08,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1958.83
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 489.9
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 931.59
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 494.54
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 241.78
+        }
+      ]
+    },
+    {
+      "matricula": "17321921",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600138",
+      "refer_funcao": "CC 07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3739.3,
+      "total_descontos": 228.37,
+      "total_liquido": 3510.93,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1873.66
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 468.6
+        },
+        {
+          "cod_rubrica": 10891,
+          "dc_rubrica": "13 SALARIO ADIANTAMENTO",
+          "tipo": 1,
+          "valor": 931.59
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 465.45
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 228.37
+        }
+      ]
+    },
+    {
+      "matricula": "17323002",
+      "empresa": 96,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR COMPL. DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RA XXV",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40101000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "GERENCIA DE POLITICAS SOCIAIS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09600113",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 1673.63,
+      "total_descontos": 126.3,
+      "total_liquido": 1547.33,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1176.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 294.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 203.63
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 126.3
+        }
+      ]
+    }
+  ]
+}
