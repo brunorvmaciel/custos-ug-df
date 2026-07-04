@@ -1,0 +1,4600 @@
+{
+  "competencia": "202603",
+  "empresa": 93,
+  "gerado_em": "2026-07-03T21:41:49.624827",
+  "registros": [
+    {
+      "matricula": "00392421",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01012",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 16964.12,
+      "total_descontos": 4837.0,
+      "total_liquido": 12127.12,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7729.23
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 2473.35
+        },
+        {
+          "cod_rubrica": 10890,
+          "dc_rubrica": "ADIANT DEC TERCEIRO-ATIVO",
+          "tipo": 1,
+          "valor": 6121.54
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40391,
+          "dc_rubrica": "SINDIRETA",
+          "tipo": 4,
+          "valor": 61.21
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1601.57
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 241.68
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1428.36
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1504.18
+        }
+      ]
+    },
+    {
+      "matricula": "00912352",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10400000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "OUVIDORIA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 10684.87,
+      "total_descontos": 2756.07,
+      "total_liquido": 7928.8,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5796.91
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 1565.16
+        },
+        {
+          "cod_rubrica": 10511,
+          "dc_rubrica": "AB.PERMANENCIA EC41",
+          "tipo": 1,
+          "valor": 1233.58
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1449.22
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40391,
+          "dc_rubrica": "SINDIRETA",
+          "tipo": 4,
+          "valor": 60.26
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1233.58
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1462.23
+        }
+      ]
+    },
+    {
+      "matricula": "00924040",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10400000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "OUVIDORIA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AU0101",
+      "dc_cargo": "TECNICO POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 3,
+      "cod_funcao": "09300119",
+      "refer_funcao": "CPE08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 14626.26,
+      "total_descontos": 8516.55,
+      "total_liquido": 6109.71,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5812.14
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 1569.27
+        },
+        {
+          "cod_rubrica": 10511,
+          "dc_rubrica": "AB.PERMANENCIA EC41",
+          "tipo": 1,
+          "valor": 1236.82
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1453.03
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40250,
+          "dc_rubrica": "ASCAP DF - MENSALIDADE",
+          "tipo": 4,
+          "valor": 25.0
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 948.12
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 272.47
+        },
+        {
+          "cod_rubrica": 40885,
+          "dc_rubrica": "SICOOB EXEC EMPREST CONV 03/14",
+          "tipo": 4,
+          "valor": 1221.57
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1236.82
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2597.36
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 148.19
+        },
+        {
+          "cod_rubrica": 41167,
+          "dc_rubrica": "SICOOB EXEC EMP 2",
+          "tipo": 4,
+          "valor": 1489.02
+        }
+      ]
+    },
+    {
+      "matricula": "01366807",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA0101S",
+      "dc_cargo": "GESTOR POL PUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 19702.09,
+      "total_descontos": 7030.62,
+      "total_liquido": 12671.47,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 12141.47
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 2064.04
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 4856.58
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 2668.69
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3599.45
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 762.48
+        }
+      ]
+    },
+    {
+      "matricula": "01745921",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20200000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE PESSOAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 8,
+      "dc_status": "CEDIDO",
+      "cod_cargo": "AA0101S",
+      "dc_cargo": "GESTOR POL PUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 17780.01,
+      "total_descontos": 6341.61,
+      "total_liquido": 11438.4,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 11991.56
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 2038.56
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2997.89
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 2383.92
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3149.19
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 808.5
+        }
+      ]
+    },
+    {
+      "matricula": "01755560",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40203000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "GERENCIA DE DESENVOLVIMENTO ECONOMICO E GESTAO DO TERRITORIO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA0101S",
+      "dc_cargo": "GESTOR POL PUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "00000838",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 20720.01,
+      "total_descontos": 6289.47,
+      "total_liquido": 14430.54,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 11991.56
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 2038.56
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2997.89
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 2383.92
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3905.55
+        }
+      ]
+    },
+    {
+      "matricula": "01757318",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20102000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE MATERIAL E PATRIMONIO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA0102S",
+      "dc_cargo": "GESTOR POL PUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 23493.34,
+      "total_descontos": 10258.21,
+      "total_liquido": 13235.13,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 11991.56
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 2038.56
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2997.89
+        },
+        {
+          "cod_rubrica": 10865,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF EST",
+          "tipo": 1,
+          "valor": 5713.33
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40850,
+          "dc_rubrica": "PENSAO ALIMENTICIA I",
+          "tipo": 4,
+          "valor": 2546.99
+        },
+        {
+          "cod_rubrica": 40852,
+          "dc_rubrica": "PENSAO ALIMENTICIA II",
+          "tipo": 4,
+          "valor": 2546.99
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 2383.92
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1696.21
+        },
+        {
+          "cod_rubrica": 40952,
+          "dc_rubrica": "I.R.R.F. FERIAS",
+          "tipo": 4,
+          "valor": 392.38
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 685.6
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 6.12
+        }
+      ]
+    },
+    {
+      "matricula": "02812606",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA01013",
+      "dc_cargo": "GESTOR POL PUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 13031.3,
+      "total_descontos": 6434.87,
+      "total_liquido": 6596.43,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 9593.21
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 287.79
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2398.3
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 3075.73
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1186.57
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2172.57
+        }
+      ]
+    },
+    {
+      "matricula": "16940342",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE DESENVOLVIMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300104",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7965.0,
+      "total_descontos": 1796.85,
+      "total_liquido": 6168.15,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40516,
+          "dc_rubrica": "INTERLIFE MENSALIDADE",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        }
+      ]
+    },
+    {
+      "matricula": "16942159",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300087",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7965.0,
+      "total_descontos": 3598.83,
+      "total_liquido": 4366.17,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1078.98
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 175.0
+        }
+      ]
+    },
+    {
+      "matricula": "16944909",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40103000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "GERENCIA DE POLITICAS SOCIAIS, CULTURA, ESPORTE E LAZER",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300117",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4344.7,
+      "total_descontos": 1742.12,
+      "total_liquido": 2602.58,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 279.58
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 213.69
+        },
+        {
+          "cod_rubrica": 40516,
+          "dc_rubrica": "INTERLIFE MENSALIDADE",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 300.36
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 482.11
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "16999959",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20103000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE INFORMATICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300084",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4722.33,
+      "total_descontos": 583.25,
+      "total_liquido": 4139.08,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF - CLT",
+          "tipo": 1,
+          "valor": 935.33
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 341.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 40949,
+          "dc_rubrica": "INSS FERIAS",
+          "tipo": 4,
+          "valor": 112.79
+        }
+      ]
+    },
+    {
+      "matricula": "16999983",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20300000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 34,
+      "dc_sit_func": "CONTRATO CLT-CESSAO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300086",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 2940.0,
+      "total_descontos": 0.0,
+      "total_liquido": 2940.0,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        }
+      ]
+    },
+    {
+      "matricula": "17018145",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20200000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE PESSOAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17018293",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300073",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7965.0,
+      "total_descontos": 2790.85,
+      "total_liquido": 5174.15,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1024.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        }
+      ]
+    },
+    {
+      "matricula": "17034396",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30100000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "DIRETORIA DE OBRAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300097",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 5477.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "17050316",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300065",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2874.0,
+      "total_descontos": 1443.48,
+      "total_liquido": 1430.52,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 718.78
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 121.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 387.67
+        }
+      ]
+    },
+    {
+      "matricula": "17050847",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30100000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "DIRETORIA DE OBRAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17054656",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10100000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA TECNICA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300140",
+      "refer_funcao": "CPE07",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 4685.0,
+      "total_descontos": 0.0,
+      "total_liquido": 4685.0,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        }
+      ]
+    },
+    {
+      "matricula": "17075297",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30103000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE EXECUCAO DE OBRAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00401308",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 1657.77,
+      "total_liquido": 2657.23,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1016.13
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 235.26
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "17075734",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30103000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE EXECUCAO DE OBRAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300123",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 302.1,
+      "total_liquido": 3143.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "1711909X",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300061",
+      "refer_funcao": "CNP04",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 19240.65,
+      "total_descontos": 8743.77,
+      "total_liquido": 10496.88,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 14430.49
+        },
+        {
+          "cod_rubrica": 11187,
+          "dc_rubrica": "1/3 FERIAS FUNCAO ESTATUTARIA",
+          "tipo": 1,
+          "valor": 4810.16
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 2722.34
+        },
+        {
+          "cod_rubrica": 40850,
+          "dc_rubrica": "PENSAO ALIMENTICIA I",
+          "tipo": 4,
+          "valor": 2886.09
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2265.98
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 869.36
+        }
+      ]
+    },
+    {
+      "matricula": "17123925",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30201000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE LICENCIAMENTO DE OBRAS E ATIVIDADES ECONOMICAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300101",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "17124433",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40200000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "DIRETORIA DE DESENVOLVIMENTO E ORDENAMENTO TERRITORIAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300112",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 2847.2,
+      "total_liquido": 3648.8,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1829.02
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "17130832",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20100000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ADMINISTRACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300090",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2874.0,
+      "total_descontos": 366.93,
+      "total_liquido": 2507.07,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 121.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        }
+      ]
+    },
+    {
+      "matricula": "17131774",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40100000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "DIRETORIA DE ARTICULACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300130",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 302.1,
+      "total_liquido": 3143.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "1713790X",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10200000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE PLANEJAMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300125",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 3459.78,
+      "total_liquido": 3036.22,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 450.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 259.98
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 389.62
+        },
+        {
+          "cod_rubrica": 41223,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE IX",
+          "tipo": 4,
+          "valor": 764.0
+        }
+      ]
+    },
+    {
+      "matricula": "17137969",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10300000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002640",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 1713.82,
+      "total_liquido": 2601.18,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1307.44
+        }
+      ]
+    },
+    {
+      "matricula": "17140013",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300088",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 582.04,
+      "total_liquido": 2863.96,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 279.94
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "17140250",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20300000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "03100984",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2874.0,
+      "total_descontos": 2809.23,
+      "total_liquido": 64.77,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 713.18
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 121.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 225.0
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 176.02
+        },
+        {
+          "cod_rubrica": 41171,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE II",
+          "tipo": 4,
+          "valor": 250.0
+        },
+        {
+          "cod_rubrica": 41221,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE VII",
+          "tipo": 4,
+          "valor": 530.0
+        }
+      ]
+    },
+    {
+      "matricula": "17143462",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300126",
+      "refer_funcao": "CNE05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 8778.0,
+      "total_descontos": 2045.57,
+      "total_liquido": 6732.43,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 6510.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1628.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1057.5
+        }
+      ]
+    },
+    {
+      "matricula": "17143993",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "sit_func": 47,
+      "dc_sit_func": "COOPERACAO TECNICA",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17158338",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20101000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE ATENDIMENTO, PROTOCOLO E ARQUIVO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "21102125",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2874.0,
+      "total_descontos": 337.03,
+      "total_liquido": 2536.97,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 121.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        }
+      ]
+    },
+    {
+      "matricula": "17160014",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40100000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "DIRETORIA DE ARTICULACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300109",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 2167.57,
+      "total_liquido": 4328.43,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1089.59
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        },
+        {
+          "cod_rubrica": 41207,
+          "dc_rubrica": "ODONT DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 29.9
+        }
+      ]
+    },
+    {
+      "matricula": "17168864",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10200000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE PLANEJAMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300063",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "17191394",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30200000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "DIRETORIA DE APROVACAO E LICENCIAMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300132",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "1719220X",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20200000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE PESSOAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "00000837",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 11198.0,
+      "total_descontos": 2756.57,
+      "total_liquido": 8441.43,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1050.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1705.73
+        }
+      ]
+    },
+    {
+      "matricula": "17194555",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20102000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE MATERIAL E PATRIMONIO",
+      "sit_func": 34,
+      "dc_sit_func": "CONTRATO CLT-CESSAO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300083",
+      "refer_funcao": "CPC06",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 2245.0,
+      "total_descontos": 0.0,
+      "total_liquido": 2245.0,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        }
+      ]
+    },
+    {
+      "matricula": "17201780",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10400000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "OUVIDORIA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17203163",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20100000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ADMINISTRACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300081",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4344.7,
+      "total_descontos": 2706.77,
+      "total_liquido": 1637.93,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 807.22
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 449.47
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 435.7
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17208246",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20300000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 10022.0,
+      "total_descontos": 4084.11,
+      "total_liquido": 5937.89,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 1764.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1650.94
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1050.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1382.33
+        }
+      ]
+    },
+    {
+      "matricula": "17209013",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 8882.66,
+      "total_descontos": 2067.72,
+      "total_liquido": 6814.94,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 624.66
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1050.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1016.88
+        }
+      ]
+    },
+    {
+      "matricula": "17210771",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20102000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE MATERIAL E PATRIMONIO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300079",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2874.0,
+      "total_descontos": 337.03,
+      "total_liquido": 2536.97,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 121.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        }
+      ]
+    },
+    {
+      "matricula": "17213584",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30200000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "DIRETORIA DE APROVACAO E LICENCIAMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300100",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 5477.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "17232953",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20101000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE ATENDIMENTO, PROTOCOLO E ARQUIVO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300082",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4381.33,
+      "total_descontos": 414.89,
+      "total_liquido": 3966.44,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF - CLT",
+          "tipo": 1,
+          "valor": 935.33
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 40949,
+          "dc_rubrica": "INSS FERIAS",
+          "tipo": 4,
+          "valor": 112.79
+        }
+      ]
+    },
+    {
+      "matricula": "17254604",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300141",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7965.0,
+      "total_descontos": 3990.11,
+      "total_liquido": 3974.89,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 2223.26
+        }
+      ]
+    },
+    {
+      "matricula": "17254760",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10300000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300070",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 5477.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "17256674",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40203000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "GERENCIA DE DESENVOLVIMENTO ECONOMICO E GESTAO DO TERRITORIO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300077",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2874.0,
+      "total_descontos": 337.03,
+      "total_liquido": 2536.97,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 121.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        }
+      ]
+    },
+    {
+      "matricula": "17257573",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300139",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2470.0,
+      "total_descontos": 813.5,
+      "total_liquido": 1656.5,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 320.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 96.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 179.17
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 538.33
+        }
+      ]
+    },
+    {
+      "matricula": "17257816",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30202000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE ELABORACAO E APROVACAO DE PROJETOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300102",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "17266793",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10200000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE PLANEJAMENTO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17268346",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30100000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "DIRETORIA DE OBRAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300074",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 1640.88,
+      "total_liquido": 2674.12,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 225.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 431.5
+        }
+      ]
+    },
+    {
+      "matricula": "17271134",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30202000000,
+      "nivel2_unidade": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "nivel3_lotacao": "GERENCIA DE ELABORACAO E APROVACAO DE PROJETOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300131",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 908.1,
+      "total_liquido": 2537.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 606.0
+        }
+      ]
+    },
+    {
+      "matricula": "17273145",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300142",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3262.0,
+      "total_descontos": 399.72,
+      "total_liquido": 2862.28,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 144.78
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        }
+      ]
+    },
+    {
+      "matricula": "17273471",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300143",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2646.58,
+      "total_descontos": 283.99,
+      "total_liquido": 2362.59,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 320.0
+        },
+        {
+          "cod_rubrica": 10550,
+          "dc_rubrica": "AUXILIO CRECHE / PRE-ESCOLAR",
+          "tipo": 1,
+          "valor": 176.58
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 96.0
+        },
+        {
+          "cod_rubrica": 40515,
+          "dc_rubrica": "COTA PARTE AUX. CRECHE",
+          "tipo": 4,
+          "valor": 8.82
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 179.17
+        }
+      ]
+    },
+    {
+      "matricula": "17273935",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300144",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2261.0,
+      "total_descontos": 179.17,
+      "total_liquido": 2081.83,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 320.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 179.17
+        }
+      ]
+    },
+    {
+      "matricula": "17273978",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300145",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2470.0,
+      "total_descontos": 813.5,
+      "total_liquido": 1656.5,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 320.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 96.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 179.17
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 538.33
+        }
+      ]
+    },
+    {
+      "matricula": "17275261",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300147",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2470.0,
+      "total_descontos": 275.17,
+      "total_liquido": 2194.83,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 320.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 96.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 179.17
+        }
+      ]
+    },
+    {
+      "matricula": "17275466",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40103000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "GERENCIA DE POLITICAS SOCIAIS, CULTURA, ESPORTE E LAZER",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "21102416",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4370.41,
+      "total_descontos": 1701.04,
+      "total_liquido": 2669.37,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1322.66
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 330.66
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 99.19
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 185.35
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 599.61
+        },
+        {
+          "cod_rubrica": 10408,
+          "dc_rubrica": "1/3 FERIAS ART.7 RESCISAO",
+          "tipo": 1,
+          "valor": 177.77
+        },
+        {
+          "cod_rubrica": 10521,
+          "dc_rubrica": "DECIMO TERCEIRO SALARIO S/V",
+          "tipo": 1,
+          "valor": 399.99
+        },
+        {
+          "cod_rubrica": 10872,
+          "dc_rubrica": "FERIAS INDENIZ.PROPORCIONAIS",
+          "tipo": 1,
+          "valor": 533.33
+        },
+        {
+          "cod_rubrica": 30486,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 96.0
+        },
+        {
+          "cod_rubrica": 40912,
+          "dc_rubrica": "INSS 13 SALARIO",
+          "tipo": 4,
+          "valor": 29.99
+        },
+        {
+          "cod_rubrica": 60912,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 176.0
+        },
+        {
+          "cod_rubrica": 60926,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 610.9
+        }
+      ]
+    },
+    {
+      "matricula": "17275482",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300148",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2470.0,
+      "total_descontos": 275.17,
+      "total_liquido": 2194.83,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 320.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 96.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 179.17
+        }
+      ]
+    },
+    {
+      "matricula": "1728340X",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300151",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2470.0,
+      "total_descontos": 275.17,
+      "total_liquido": 2194.83,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 320.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 96.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 179.17
+        }
+      ]
+    },
+    {
+      "matricula": "17283582",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300152",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2470.0,
+      "total_descontos": 325.25,
+      "total_liquido": 2144.75,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 320.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 96.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 179.17
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 50.08
+        }
+      ]
+    },
+    {
+      "matricula": "17283698",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17283906",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300149",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2665.0,
+      "total_descontos": 215.53,
+      "total_liquido": 2449.47,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        }
+      ]
+    },
+    {
+      "matricula": "17284805",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300150",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2874.0,
+      "total_descontos": 337.03,
+      "total_liquido": 2536.97,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 121.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        }
+      ]
+    },
+    {
+      "matricula": "17285003",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 40200000000,
+      "nivel2_unidade": "COORDENACAO DE DESENVOLVIMENTO",
+      "nivel3_lotacao": "DIRETORIA DE DESENVOLVIMENTO E ORDENAMENTO TERRITORIAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300075",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3881.1,
+      "total_descontos": 470.46,
+      "total_liquido": 3410.64,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 435.1
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "17285992",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300154",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2565.0,
+      "total_descontos": 275.17,
+      "total_liquido": 2289.83,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 320.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 304.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 96.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 179.17
+        }
+      ]
+    },
+    {
+      "matricula": "17286654",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300135",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 10673.77,
+      "total_descontos": 5411.24,
+      "total_liquido": 5262.53,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 7308.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1827.46
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 486.66
+        },
+        {
+          "cod_rubrica": 10408,
+          "dc_rubrica": "1/3 FERIAS ART.7 RESCISAO",
+          "tipo": 1,
+          "valor": 135.94
+        },
+        {
+          "cod_rubrica": 10521,
+          "dc_rubrica": "DECIMO TERCEIRO SALARIO S/V",
+          "tipo": 1,
+          "valor": 407.83
+        },
+        {
+          "cod_rubrica": 10872,
+          "dc_rubrica": "FERIAS INDENIZ.PROPORCIONAIS",
+          "tipo": 1,
+          "valor": 407.83
+        },
+        {
+          "cod_rubrica": 20926,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 576.0
+        },
+        {
+          "cod_rubrica": 30910,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 10.71
+        },
+        {
+          "cod_rubrica": 40912,
+          "dc_rubrica": "INSS 13 SALARIO",
+          "tipo": 4,
+          "valor": 30.58
+        },
+        {
+          "cod_rubrica": 60015,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 60017,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 979.0
+        }
+      ]
+    },
+    {
+      "matricula": "17287219",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300146",
+      "refer_funcao": "CC 02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2261.0,
+      "total_descontos": 179.17,
+      "total_liquido": 2081.83,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 320.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11197,
+          "dc_rubrica": "COMP.SALARIO MINIMO S/VINCULO",
+          "tipo": 1,
+          "valor": 21.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 179.17
+        }
+      ]
+    },
+    {
+      "matricula": "1728919X",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300153",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3232.33,
+      "total_descontos": 397.43,
+      "total_liquido": 2834.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1350.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 337.5
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 524.4
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 523.63
+        },
+        {
+          "cod_rubrica": 20912,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 496.8
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 121.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 174.68
+        },
+        {
+          "cod_rubrica": 50486,
+          "dc_rubrica": "",
+          "tipo": 5,
+          "valor": 101.25
+        }
+      ]
+    },
+    {
+      "matricula": "17303109",
+      "empresa": 93,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SUDOESTE/OCTOGONAL",
+      "sigla": "RAXXII",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE LICENCIAMENTO, OBRAS E MANUTENCAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "09300156",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 695.86,
+      "total_descontos": 175.78,
+      "total_liquido": 520.08,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 270.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 67.5
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 198.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 116.36
+        },
+        {
+          "cod_rubrica": 20912,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 44.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 121.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 34.03
+        },
+        {
+          "cod_rubrica": 50486,
+          "dc_rubrica": "",
+          "tipo": 5,
+          "valor": 20.25
+        }
+      ]
+    }
+  ]
+}
