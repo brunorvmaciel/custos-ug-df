@@ -1,0 +1,3516 @@
+{
+  "competencia": "202604",
+  "empresa": 101,
+  "gerado_em": "2026-07-03T23:17:38.979991",
+  "registros": [
+    {
+      "matricula": "00914355",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO EXECUTIVA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TEC-PGU",
+      "dc_cargo": "TECNICO PLANEJ. URB. INFRA.",
+      "cod_carreira": 56,
+      "cod_categoria": 154,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 14419.56,
+      "total_descontos": 4260.76,
+      "total_liquido": 10158.8,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 8933.05
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 2501.25
+        },
+        {
+          "cod_rubrica": 10584,
+          "dc_rubrica": "GHPU - LEI 5195/2013",
+          "tipo": 1,
+          "valor": 2233.26
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40136,
+          "dc_rubrica": "AARQDF - MENSALIDADE",
+          "tipo": 4,
+          "valor": 45.0
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1913.45
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2302.31
+        }
+      ]
+    },
+    {
+      "matricula": "01254073",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20300000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TEC-PGU",
+      "dc_cargo": "TECNICO PLANEJ. URB. INFRA.",
+      "cod_carreira": 56,
+      "cod_categoria": 154,
+      "cod_funcao": "10100082",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 19839.73,
+      "total_descontos": 5862.64,
+      "total_liquido": 13977.09,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 8933.05
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 523.49
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 1875.94
+        },
+        {
+          "cod_rubrica": 10511,
+          "dc_rubrica": "AB.PERMANENCIA EC41",
+          "tipo": 1,
+          "valor": 1825.91
+        },
+        {
+          "cod_rubrica": 10584,
+          "dc_rubrica": "GHPU - LEI 5195/2013",
+          "tipo": 1,
+          "valor": 2233.26
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 20250,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 756.08
+        },
+        {
+          "cod_rubrica": 40391,
+          "dc_rubrica": "SINDIRETA",
+          "tipo": 4,
+          "valor": 110.66
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1825.91
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3816.93
+        },
+        {
+          "cod_rubrica": 41131,
+          "dc_rubrica": "COOSERVCRED EMP3",
+          "tipo": 4,
+          "valor": 109.14
+        }
+      ]
+    },
+    {
+      "matricula": "01725327",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20101000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE ATENDIMENTO, PROTOCOLO E ARQUIVO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01063",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 8570.49,
+      "total_descontos": 4100.53,
+      "total_liquido": 4469.96,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5584.86
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 949.42
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1396.21
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40391,
+          "dc_rubrica": "SINDIRETA",
+          "tipo": 4,
+          "valor": 49.5
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 175.9
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 155.82
+        },
+        {
+          "cod_rubrica": 40516,
+          "dc_rubrica": "INTERLIFE MENSALIDADE",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 524.91
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 175.9
+        },
+        {
+          "cod_rubrica": 40688,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 963.55
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1110.26
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 914.69
+        }
+      ]
+    },
+    {
+      "matricula": "01748130",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20103000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE INFORMATICA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 13843.16,
+      "total_descontos": 3926.89,
+      "total_liquido": 9916.27,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5654.67
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 961.29
+        },
+        {
+          "cod_rubrica": 10550,
+          "dc_rubrica": "AUXILIO CRECHE / PRE-ESCOLAR",
+          "tipo": 1,
+          "valor": 176.58
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1413.66
+        },
+        {
+          "cod_rubrica": 10890,
+          "dc_rubrica": "ADIANT DEC TERCEIRO-ATIVO",
+          "tipo": 1,
+          "valor": 4884.96
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40515,
+          "dc_rubrica": "COTA PARTE AUX. CRECHE",
+          "tipo": 4,
+          "valor": 8.82
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1124.14
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 916.8
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 450.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 133.32
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 345.81
+        },
+        {
+          "cod_rubrica": 41191,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE IV",
+          "tipo": 4,
+          "valor": 370.0
+        }
+      ]
+    },
+    {
+      "matricula": "14015706",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10400000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "OUVIDORIA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AU0101",
+      "dc_cargo": "TECNICO POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 3,
+      "cod_funcao": "10100113",
+      "refer_funcao": "CPE06",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 15620.64,
+      "total_descontos": 6784.51,
+      "total_liquido": 8836.13,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5812.14
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 82.13
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 1743.64
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1453.03
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1642.63
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1261.23
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2855.94
+        },
+        {
+          "cod_rubrica": 41045,
+          "dc_rubrica": "CLUBE DA SAUDE-MENSALIDADE",
+          "tipo": 4,
+          "valor": 180.0
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 598.03
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 166.88
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41195,
+          "dc_rubrica": "PREVIDENT DEP I   PL ODONTO",
+          "tipo": 4,
+          "valor": 49.8
+        }
+      ]
+    },
+    {
+      "matricula": "14307588",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20300000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 8,
+      "dc_status": "CEDIDO",
+      "cod_cargo": "TA0101S",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 9837.78,
+      "total_descontos": 7287.89,
+      "total_liquido": 2549.89,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7729.23
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 1468.55
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1552.22
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1287.68
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1162.27
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 1221.0
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 675.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 306.9
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 25.82
+        },
+        {
+          "cod_rubrica": 41193,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE VI",
+          "tipo": 4,
+          "valor": 479.0
+        }
+      ]
+    },
+    {
+      "matricula": "14308606",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20200000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE PESSOAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01012",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "10100081",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 14851.15,
+      "total_descontos": 7156.88,
+      "total_liquido": 7694.27,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7354.55
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 1250.27
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1838.63
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 20014,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 686.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 161.85
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 367.56
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 197.47
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1872.98
+        },
+        {
+          "cod_rubrica": 40688,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 503.09
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1462.08
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2536.95
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41195,
+          "dc_rubrica": "PREVIDENT DEP I   PL ODONTO",
+          "tipo": 4,
+          "valor": 24.9
+        }
+      ]
+    },
+    {
+      "matricula": "16902343",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20100000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ADMINISTRACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100109",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3622.0,
+      "total_descontos": 1695.96,
+      "total_liquido": 1926.04,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 176.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 250.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 610.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 365.5
+        }
+      ]
+    },
+    {
+      "matricula": "16902912",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30300000000,
+      "nivel2_unidade": "COORDENACAO EXECUTIVA",
+      "nivel3_lotacao": "DIRETORIA DE ARTICULACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100074",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3655.0,
+      "total_descontos": 1153.93,
+      "total_liquido": 2501.07,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 683.47
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "16903072",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30201000000,
+      "nivel2_unidade": "COORDENACAO EXECUTIVA",
+      "nivel3_lotacao": "GERENCIA DE LICENCIAMENTO DE OBRAS E ATIVIDADES ECONOMICAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100085",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 2930.0,
+      "total_liquido": 516.0,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO",
+          "tipo": 4,
+          "valor": 593.66
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 322.64
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 21.06
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 259.54
+        },
+        {
+          "cod_rubrica": 41224,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE X",
+          "tipo": 4,
+          "valor": 853.0
+        }
+      ]
+    },
+    {
+      "matricula": "17166659",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "1716737X",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30300000000,
+      "nivel2_unidade": "COORDENACAO EXECUTIVA",
+      "nivel3_lotacao": "DIRETORIA DE ARTICULACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100114",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 2503.18,
+      "total_liquido": 3992.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41171,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE II",
+          "tipo": 4,
+          "valor": 250.0
+        },
+        {
+          "cod_rubrica": 41222,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE VIII",
+          "tipo": 4,
+          "valor": 657.0
+        }
+      ]
+    },
+    {
+      "matricula": "17168139",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30202000000,
+      "nivel2_unidade": "COORDENACAO EXECUTIVA",
+      "nivel3_lotacao": "GERENCIA DE ELABORACAO E APROVACAO DE PROJETOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100098",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4412.33,
+      "total_descontos": 1047.93,
+      "total_liquido": 3364.4,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 67.33
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 415.03
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 54.9
+        }
+      ]
+    },
+    {
+      "matricula": "17169666",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30102000000,
+      "nivel2_unidade": "COORDENACAO EXECUTIVA",
+      "nivel3_lotacao": "GERENCIA DE MANUTENCAO E CONSERVACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100095",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4571.0,
+      "total_descontos": 626.88,
+      "total_liquido": 3944.12,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 256.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 220.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "17169690",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 3,
+      "dc_status": "AFASTADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100126",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 302.1,
+      "total_liquido": 3143.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "17169704",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100124",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3655.0,
+      "total_descontos": 1459.37,
+      "total_liquido": 2195.63,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 988.91
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "17169712",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30100000000,
+      "nivel2_unidade": "COORDENACAO EXECUTIVA",
+      "nivel3_lotacao": "DIRETORIA DE OBRAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100110",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3475.7,
+      "total_descontos": 332.1,
+      "total_liquido": 3143.6,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17169720",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20100000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ADMINISTRACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100129",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "17169747",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17170494",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30400000000,
+      "nivel2_unidade": "COORDENACAO EXECUTIVA",
+      "nivel3_lotacao": "DIRETORIA DE DESENVOLVIMENTO E ORDENAMENTO TERRITORIAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17173787",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30201000000,
+      "nivel2_unidade": "COORDENACAO EXECUTIVA",
+      "nivel3_lotacao": "GERENCIA DE LICENCIAMENTO DE OBRAS E ATIVIDADES ECONOMICAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100097",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 973.2,
+      "total_liquido": 3341.8,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 278.95
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 287.87
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "17192498",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30300000000,
+      "nivel2_unidade": "COORDENACAO EXECUTIVA",
+      "nivel3_lotacao": "DIRETORIA DE ARTICULACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100119",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 13339.17,
+      "total_descontos": 6392.85,
+      "total_liquido": 6946.32,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5586.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1396.5
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40017,
+          "dc_rubrica": "DECISOES JUDICIAIS",
+          "tipo": 4,
+          "valor": 2205.82
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 681.39
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 266.52
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 100.98
+        },
+        {
+          "cod_rubrica": 41223,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE IX",
+          "tipo": 4,
+          "valor": 1528.0
+        },
+        {
+          "cod_rubrica": 41224,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE X",
+          "tipo": 4,
+          "valor": 853.0
+        },
+        {
+          "cod_rubrica": 10408,
+          "dc_rubrica": "1/3 FERIAS ART.7 RESCISAO",
+          "tipo": 1,
+          "valor": 1122.92
+        },
+        {
+          "cod_rubrica": 10521,
+          "dc_rubrica": "DECIMO TERCEIRO SALARIO S/V",
+          "tipo": 1,
+          "valor": 1225.0
+        },
+        {
+          "cod_rubrica": 10872,
+          "dc_rubrica": "FERIAS INDENIZ.PROPORCIONAIS",
+          "tipo": 1,
+          "valor": 3368.75
+        },
+        {
+          "cod_rubrica": 40912,
+          "dc_rubrica": "INSS 13 SALARIO",
+          "tipo": 4,
+          "valor": 91.87
+        },
+        {
+          "cod_rubrica": 60926,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 87.27
+        }
+      ]
+    },
+    {
+      "matricula": "17193230",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10400000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "OUVIDORIA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100105",
+      "refer_funcao": "CPE08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 3915.0,
+      "total_descontos": 0.0,
+      "total_liquido": 3915.0,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 3915.0
+        }
+      ]
+    },
+    {
+      "matricula": "17199328",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10200000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE PLANEJAMENTO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100068",
+      "refer_funcao": "CPE07",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 6022.5,
+      "total_descontos": 570.7,
+      "total_liquido": 5451.8,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 547.5
+        },
+        {
+          "cod_rubrica": 20250,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 790.0
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 570.7
+        }
+      ]
+    },
+    {
+      "matricula": "17217601",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20103000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE INFORMATICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100125",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3655.0,
+      "total_descontos": 470.46,
+      "total_liquido": 3184.54,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "17222818",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10100000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA TECNICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "17230411",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20300000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 8258.0,
+      "total_descontos": 2661.15,
+      "total_liquido": 5596.85,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 713.08
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1050.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 897.23
+        }
+      ]
+    },
+    {
+      "matricula": "17235030",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20300000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100073",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3633.0,
+      "total_descontos": 470.46,
+      "total_liquido": 3162.54,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 187.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "17257344",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100093",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6525.7,
+      "total_descontos": 1071.08,
+      "total_liquido": 5454.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41201,
+          "dc_rubrica": "ODONTOGROUP DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 22.9
+        }
+      ]
+    },
+    {
+      "matricula": "17258235",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30300000000,
+      "nivel2_unidade": "COORDENACAO EXECUTIVA",
+      "nivel3_lotacao": "DIRETORIA DE ARTICULACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100130",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3475.7,
+      "total_descontos": 332.1,
+      "total_liquido": 3143.6,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "17261066",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100132",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "17262437",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20102000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "NUCLEO DE MATERIAL E PATRIMONIO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100079",
+      "refer_funcao": "CPC06",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 2245.0,
+      "total_descontos": 617.38,
+      "total_liquido": 1627.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 617.38
+        }
+      ]
+    },
+    {
+      "matricula": "17262674",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100083",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 24964.14,
+      "total_descontos": 3434.21,
+      "total_liquido": 21529.93,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 11133.99
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 2783.49
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 1718.43
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1433.08
+        },
+        {
+          "cod_rubrica": 10408,
+          "dc_rubrica": "1/3 FERIAS ART.7 RESCISAO",
+          "tipo": 1,
+          "valor": 1831.24
+        },
+        {
+          "cod_rubrica": 10521,
+          "dc_rubrica": "DECIMO TERCEIRO SALARIO S/V",
+          "tipo": 1,
+          "valor": 2441.68
+        },
+        {
+          "cod_rubrica": 10872,
+          "dc_rubrica": "FERIAS INDENIZ.PROPORCIONAIS",
+          "tipo": 1,
+          "valor": 5493.74
+        },
+        {
+          "cod_rubrica": 40912,
+          "dc_rubrica": "INSS 13 SALARIO",
+          "tipo": 4,
+          "valor": 195.43
+        },
+        {
+          "cod_rubrica": 60926,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 87.27
+        }
+      ]
+    },
+    {
+      "matricula": "17262690",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30200000000,
+      "nivel2_unidade": "COORDENACAO EXECUTIVA",
+      "nivel3_lotacao": "DIRETORIA DE APROVACAO E LICENCIAMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100096",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 5477.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "17262720",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100086",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3684.7,
+      "total_descontos": 523.36,
+      "total_liquido": 3161.34,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41201,
+          "dc_rubrica": "ODONTOGROUP DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 22.9
+        }
+      ]
+    },
+    {
+      "matricula": "17283612",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 20200000000,
+      "nivel2_unidade": "COORDENACAO DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE PESSOAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100131",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 302.1,
+      "total_liquido": 3143.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "17285844",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100134",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 5477.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "17287375",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30101000000,
+      "nivel2_unidade": "COORDENACAO EXECUTIVA",
+      "nivel3_lotacao": "GERENCIA DE EXECUCAO DE OBRAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100078",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 302.1,
+      "total_liquido": 3143.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "17291178",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 5,
+      "dc_status": "DESLIGADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 11362.62,
+      "total_descontos": 1293.31,
+      "total_liquido": 10069.31,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5772.18
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1443.04
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 656.96
+        },
+        {
+          "cod_rubrica": 10408,
+          "dc_rubrica": "1/3 FERIAS ART.7 RESCISAO",
+          "tipo": 1,
+          "valor": 501.05
+        },
+        {
+          "cod_rubrica": 10521,
+          "dc_rubrica": "DECIMO TERCEIRO SALARIO S/V",
+          "tipo": 1,
+          "valor": 1503.18
+        },
+        {
+          "cod_rubrica": 10872,
+          "dc_rubrica": "FERIAS INDENIZ.PROPORCIONAIS",
+          "tipo": 1,
+          "valor": 1503.17
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40912,
+          "dc_rubrica": "INSS 13 SALARIO",
+          "tipo": 4,
+          "valor": 112.73
+        },
+        {
+          "cod_rubrica": 60926,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 523.62
+        }
+      ]
+    },
+    {
+      "matricula": "1730105X",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100115",
+      "refer_funcao": "CC 07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 8381.28,
+      "total_descontos": 1141.86,
+      "total_liquido": 7239.42,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4854.49
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1214.1
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 220.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 364.11
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 648.52
+        },
+        {
+          "cod_rubrica": 10408,
+          "dc_rubrica": "1/3 FERIAS ART.7 RESCISAO",
+          "tipo": 1,
+          "valor": 88.72
+        },
+        {
+          "cod_rubrica": 10521,
+          "dc_rubrica": "DECIMO TERCEIRO SALARIO S/V",
+          "tipo": 1,
+          "valor": 266.17
+        },
+        {
+          "cod_rubrica": 10872,
+          "dc_rubrica": "FERIAS INDENIZ.PROPORCIONAIS",
+          "tipo": 1,
+          "valor": 266.16
+        },
+        {
+          "cod_rubrica": 30486,
+          "dc_rubrica": "",
+          "tipo": 3,
+          "valor": 191.64
+        },
+        {
+          "cod_rubrica": 40912,
+          "dc_rubrica": "INSS 13 SALARIO",
+          "tipo": 4,
+          "valor": 19.96
+        },
+        {
+          "cod_rubrica": 60912,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 22.0
+        },
+        {
+          "cod_rubrica": 60926,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 87.27
+        }
+      ]
+    },
+    {
+      "matricula": "17301203",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10300000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100069",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 13545.04,
+      "total_descontos": 1758.68,
+      "total_liquido": 11786.36,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 8901.49
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 2224.8900000000003
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 1327.68
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.13
+        },
+        {
+          "cod_rubrica": 10408,
+          "dc_rubrica": "1/3 FERIAS ART.7 RESCISAO",
+          "tipo": 1,
+          "valor": 162.66
+        },
+        {
+          "cod_rubrica": 10521,
+          "dc_rubrica": "DECIMO TERCEIRO SALARIO S/V",
+          "tipo": 1,
+          "valor": 488.0
+        },
+        {
+          "cod_rubrica": 10872,
+          "dc_rubrica": "FERIAS INDENIZ.PROPORCIONAIS",
+          "tipo": 1,
+          "valor": 488.0
+        },
+        {
+          "cod_rubrica": 40912,
+          "dc_rubrica": "INSS 13 SALARIO",
+          "tipo": 4,
+          "valor": 36.6
+        },
+        {
+          "cod_rubrica": 60926,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 87.27
+        }
+      ]
+    },
+    {
+      "matricula": "17301262",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10100000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA TECNICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100108",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 13545.04,
+      "total_descontos": 1606.8,
+      "total_liquido": 11938.24,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 8901.49
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 2224.8900000000003
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 1327.68
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 155.25
+        },
+        {
+          "cod_rubrica": 10408,
+          "dc_rubrica": "1/3 FERIAS ART.7 RESCISAO",
+          "tipo": 1,
+          "valor": 162.66
+        },
+        {
+          "cod_rubrica": 10521,
+          "dc_rubrica": "DECIMO TERCEIRO SALARIO S/V",
+          "tipo": 1,
+          "valor": 488.0
+        },
+        {
+          "cod_rubrica": 10872,
+          "dc_rubrica": "FERIAS INDENIZ.PROPORCIONAIS",
+          "tipo": 1,
+          "valor": 488.0
+        },
+        {
+          "cod_rubrica": 40912,
+          "dc_rubrica": "INSS 13 SALARIO",
+          "tipo": 4,
+          "valor": 36.6
+        },
+        {
+          "cod_rubrica": 60926,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 87.27
+        }
+      ]
+    },
+    {
+      "matricula": "17301270",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 24625.84,
+      "total_descontos": 5685.11,
+      "total_liquido": 18940.73,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 11718.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 2930.38
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 6930.08
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 1892.3400000000001
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3592.7699999999995
+        },
+        {
+          "cod_rubrica": 10408,
+          "dc_rubrica": "1/3 FERIAS ART.7 RESCISAO",
+          "tipo": 1,
+          "valor": 226.05
+        },
+        {
+          "cod_rubrica": 10521,
+          "dc_rubrica": "DECIMO TERCEIRO SALARIO S/V",
+          "tipo": 1,
+          "valor": 678.17
+        },
+        {
+          "cod_rubrica": 10607,
+          "dc_rubrica": "DEC TERCEIRO-SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 825.0
+        },
+        {
+          "cod_rubrica": 10872,
+          "dc_rubrica": "FERIAS INDENIZ.PROPORCIONAIS",
+          "tipo": 1,
+          "valor": 678.16
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40912,
+          "dc_rubrica": "INSS 13 SALARIO",
+          "tipo": 4,
+          "valor": 112.73
+        },
+        {
+          "cod_rubrica": 60926,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 87.27
+        }
+      ]
+    },
+    {
+      "matricula": "17301351",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100117",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 8977.08,
+      "total_descontos": 868.42,
+      "total_liquido": 8108.66,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5586.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 1396.5
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 1280.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 758.19
+        },
+        {
+          "cod_rubrica": 10408,
+          "dc_rubrica": "1/3 FERIAS ART.7 RESCISAO",
+          "tipo": 1,
+          "valor": 102.08
+        },
+        {
+          "cod_rubrica": 10521,
+          "dc_rubrica": "DECIMO TERCEIRO SALARIO S/V",
+          "tipo": 1,
+          "valor": 306.25
+        },
+        {
+          "cod_rubrica": 10872,
+          "dc_rubrica": "FERIAS INDENIZ.PROPORCIONAIS",
+          "tipo": 1,
+          "valor": 306.25
+        },
+        {
+          "cod_rubrica": 40912,
+          "dc_rubrica": "INSS 13 SALARIO",
+          "tipo": 4,
+          "valor": 22.96
+        },
+        {
+          "cod_rubrica": 60926,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 87.27
+        }
+      ]
+    },
+    {
+      "matricula": "17302064",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30400000000,
+      "nivel2_unidade": "COORDENACAO EXECUTIVA",
+      "nivel3_lotacao": "DIRETORIA DE DESENVOLVIMENTO E ORDENAMENTO TERRITORIAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100094",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4344.7,
+      "total_descontos": 505.08,
+      "total_liquido": 3839.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41201,
+          "dc_rubrica": "ODONTOGROUP DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 68.7
+        }
+      ]
+    },
+    {
+      "matricula": "17315484",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10100000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA TECNICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100108",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 585.58,
+      "total_descontos": 43.91,
+      "total_liquido": 541.67,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 468.49
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 117.09
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 43.91
+        }
+      ]
+    },
+    {
+      "matricula": "17315565",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10300000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100069",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 585.58,
+      "total_descontos": 43.91,
+      "total_liquido": 541.67,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 468.49
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 117.09
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 43.91
+        }
+      ]
+    },
+    {
+      "matricula": "17315808",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100063",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 367.5,
+      "total_descontos": 27.56,
+      "total_liquido": 339.94,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 294.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 73.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 27.56
+        }
+      ]
+    },
+    {
+      "matricula": "17315883",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 10300000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100126",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 533.59,
+      "total_descontos": 206.23,
+      "total_liquido": 327.36,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 224.49
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 56.1
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 220.0
+        },
+        {
+          "cod_rubrica": 20912,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 33.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 21.04
+        },
+        {
+          "cod_rubrica": 50486,
+          "dc_rubrica": "",
+          "tipo": 5,
+          "valor": 16.83
+        }
+      ]
+    },
+    {
+      "matricula": "17316081",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100117",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 245.0,
+      "total_descontos": 18.37,
+      "total_liquido": 226.63,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 196.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENC.FUNCAO DFG/DFA S/VINC.ATI",
+          "tipo": 1,
+          "valor": 49.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 18.37
+        }
+      ]
+    },
+    {
+      "matricula": "17316405",
+      "empresa": 101,
+      "dc_empresa": "ADMINISTRACAO REGIONAL DO SETOR DE INDUSTRIA E ABASTECIMENTO",
+      "sigla": "RAXXIX",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 30401000000,
+      "nivel2_unidade": "COORDENACAO EXECUTIVA",
+      "nivel3_lotacao": "GERENCIA DE DESENVOLVIMENTO ECONOMICO E GESTAO DE TERRITORIO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10100122",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 2940.0,
+      "total_descontos": 2842.0,
+      "total_liquido": 98.0,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 41138,
+          "dc_rubrica": "DIAS NAO TRABALHADOS S/PREVID",
+          "tipo": 4,
+          "valor": 2842.0
+        }
+      ]
+    }
+  ]
+}
