@@ -1,0 +1,5721 @@
+{
+  "competencia": "202603",
+  "empresa": 66,
+  "gerado_em": "2026-07-03T21:41:02.605565",
+  "registros": [
+    {
+      "matricula": "02729644",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410201000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "SUBSECRETARIA DE FOMENTO A INOVACAO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "02738929",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413020000000,
+      "nivel2_unidade": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "nivel3_lotacao": "DIRETORIA DE ECONOMIA CIRCULAR",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002719",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 4643.99,
+      "total_liquido": 1852.01,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 1803.21
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 225.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 275.98
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 373.62
+        },
+        {
+          "cod_rubrica": 41191,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE IV",
+          "tipo": 4,
+          "valor": 370.0
+        }
+      ]
+    },
+    {
+      "matricula": "02742551",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410400000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00001630",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5534.0,
+      "total_descontos": 576.26,
+      "total_liquido": 4957.74,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 576.26
+        }
+      ]
+    },
+    {
+      "matricula": "02744074",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410300000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA JURIDICA-LEGISLATIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002562",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 5477.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "02772302",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412020000000,
+      "nivel2_unidade": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "nivel3_lotacao": "DIRETORIA DE CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "10002048",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5563.7,
+      "total_descontos": 2593.63,
+      "total_liquido": 2970.07,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 576.26
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 556.37
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41224,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE X",
+          "tipo": 4,
+          "valor": 853.0
+        }
+      ]
+    },
+    {
+      "matricula": "0277609X",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412020000000,
+      "nivel2_unidade": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "nivel3_lotacao": "DIRETORIA DE CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002676",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6672.58,
+      "total_descontos": 2174.08,
+      "total_liquido": 4498.5,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10550,
+          "dc_rubrica": "AUXILIO CRECHE / PRE-ESCOLAR",
+          "tipo": 1,
+          "valor": 176.58
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40515,
+          "dc_rubrica": "COTA PARTE AUX. CRECHE",
+          "tipo": 4,
+          "valor": 8.82
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 255.1
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 450.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 171.22
+        }
+      ]
+    },
+    {
+      "matricula": "02788780",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413010000000,
+      "nivel2_unidade": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "nivel3_lotacao": "DIRETORIA DE DIFUSAO CIENTIFICA E CIDADES INTELIGENTES",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002703",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 966.04,
+      "total_liquido": 5529.96,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 255.1
+        }
+      ]
+    },
+    {
+      "matricula": "02793237",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410201070000,
+      "nivel2_unidade": "SUBSECRETARIA DE FOMENTO A INOVACAO",
+      "nivel3_lotacao": "GERENCIA DE PESQUISA, DESENVOLVIMENTO E DIFUSAO CIENTIFICA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "02797976",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410100000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002773",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 2212.75,
+      "total_liquido": 4283.25,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 574.52
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 127.45
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO IV",
+          "tipo": 4,
+          "valor": 492.6
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "02802368",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410702000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "DIRETORIA ADMINISTRATIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002732",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4495.59,
+      "total_descontos": 571.33,
+      "total_liquido": 3924.26,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 405.53
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 20250,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 435.06
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "CUSTEIO AUX. TRANSPORTE",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 402.97
+        }
+      ]
+    },
+    {
+      "matricula": "0280669X",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410704000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "DIRETORIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002646",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5630.19,
+      "total_descontos": 1167.73,
+      "total_liquido": 4462.46,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 96.19
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 589.73
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        }
+      ]
+    },
+    {
+      "matricula": "02809230",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410702000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "DIRETORIA ADMINISTRATIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002802",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 1012.99,
+      "total_liquido": 3302.01,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 28.61
+        }
+      ]
+    },
+    {
+      "matricula": "02812398",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002691",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 5477.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "02817624",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410702040000,
+      "nivel2_unidade": "DIRETORIA ADMINISTRATIVA",
+      "nivel3_lotacao": "GERENCIA DE FROTA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002734",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 436.38,
+      "total_liquido": 3878.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02817632",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410700000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "SUBSECRETARIA DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002755",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 4518.91,
+      "total_liquido": 1977.09,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1351.49
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 73.46
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 733.78
+        },
+        {
+          "cod_rubrica": 41223,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE IX",
+          "tipo": 4,
+          "valor": 764.0
+        }
+      ]
+    },
+    {
+      "matricula": "02818590",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410704000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "DIRETORIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "01000137",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 3319.45,
+      "total_liquido": 3176.55,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 1723.27
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        }
+      ]
+    },
+    {
+      "matricula": "02823977",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410702070000,
+      "nivel2_unidade": "DIRETORIA ADMINISTRATIVA",
+      "nivel3_lotacao": "GERENCIA DE PATRIMONIO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002760",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 3203.19,
+      "total_liquido": 1111.81,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO IV",
+          "tipo": 4,
+          "valor": 100.39
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 1014.64
+        },
+        {
+          "cod_rubrica": 40688,
+          "dc_rubrica": "BRB-EMPRESTIMO VI",
+          "tipo": 4,
+          "valor": 142.28
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 431.5
+        },
+        {
+          "cod_rubrica": 41221,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE VII",
+          "tipo": 4,
+          "valor": 530.0
+        }
+      ]
+    },
+    {
+      "matricula": "02824140",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410700000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "SUBSECRETARIA DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002774",
+      "refer_funcao": "CNE02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 15653.0,
+      "total_descontos": 3884.05,
+      "total_liquido": 11768.95,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 12010.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 3003.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2895.98
+        }
+      ]
+    },
+    {
+      "matricula": "02824167",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002672",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6526.0,
+      "total_descontos": 4120.44,
+      "total_liquido": 2405.56,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 1835.33
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1177.03
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 89.9
+        }
+      ]
+    },
+    {
+      "matricula": "02824744",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410104000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE GESTAO ESTRATEGICA DE PROJETOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002737",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 2466.6,
+      "total_liquido": 4029.4,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 249.37
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 609.34
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO IV",
+          "tipo": 4,
+          "valor": 589.71
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "02825414",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002792",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7965.0,
+      "total_descontos": 3042.82,
+      "total_liquido": 4922.18,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 872.87
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 734.8
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 1122.82
+        },
+        {
+          "cod_rubrica": 60250,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 312.33
+        }
+      ]
+    },
+    {
+      "matricula": "02827891",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410700000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "SUBSECRETARIA DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "02828022",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002692",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 4037.6,
+      "total_liquido": 2458.4,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1822.37
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1197.05
+        }
+      ]
+    },
+    {
+      "matricula": "02828030",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002668",
+      "refer_funcao": "CNE02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 15682.7,
+      "total_descontos": 4252.47,
+      "total_liquido": 11430.23,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 12010.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 3003.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 286.28
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2948.12
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02828065",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002767",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7165.33,
+      "total_descontos": 2792.1,
+      "total_liquido": 4373.23,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF - CLT",
+          "tipo": 1,
+          "valor": 1631.33
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 613.19
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 576.26
+        },
+        {
+          "cod_rubrica": 40949,
+          "dc_rubrica": "INSS FERIAS",
+          "tipo": 4,
+          "valor": 228.39
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 32.26
+        },
+        {
+          "cod_rubrica": 41223,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE IX",
+          "tipo": 4,
+          "valor": 764.0
+        }
+      ]
+    },
+    {
+      "matricula": "02828111",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413010200000,
+      "nivel2_unidade": "DIRETORIA DE DIFUSAO CIENTIFICA E CIDADES INTELIGENTES",
+      "nivel3_lotacao": "GERENCIA DE PESQUISA E RETORNO SOCIAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002713",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 1653.96,
+      "total_liquido": 2661.04,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 502.46
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 413.89
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 331.23
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02828162",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413010000000,
+      "nivel2_unidade": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "nivel3_lotacao": "DIRETORIA DE DIFUSAO CIENTIFICA E CIDADES INTELIGENTES",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002706",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5534.0,
+      "total_descontos": 1883.6,
+      "total_liquido": 3650.4,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 1307.34
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 576.26
+        }
+      ]
+    },
+    {
+      "matricula": "02828421",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410702060000,
+      "nivel2_unidade": "DIRETORIA ADMINISTRATIVA",
+      "nivel3_lotacao": "GERENCIA DE MATERIAIS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002736",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 1127.83,
+      "total_liquido": 3187.17,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO IV",
+          "tipo": 4,
+          "valor": 501.06
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 220.39
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02829339",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410108000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE FISCALIZACAO E MONITORAMENTO DE PARCERIAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002788",
+      "refer_funcao": "CPE05",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 6510.0,
+      "total_descontos": 3663.58,
+      "total_liquido": 2846.42,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT.FUNCAO C/ VINCULO",
+          "tipo": 1,
+          "valor": 6510.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 240.46
+        },
+        {
+          "cod_rubrica": 40810,
+          "dc_rubrica": "BRB-EMPRESTIMO VII",
+          "tipo": 4,
+          "valor": 1655.7
+        },
+        {
+          "cod_rubrica": 40850,
+          "dc_rubrica": "PENSAO ALIMENTICIA I",
+          "tipo": 4,
+          "valor": 1448.11
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 319.31
+        }
+      ]
+    },
+    {
+      "matricula": "02829665",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410107000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE CAPTACAO DE RECURSOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002811",
+      "refer_funcao": "CNE04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 11796.0,
+      "total_descontos": 3639.24,
+      "total_liquido": 8156.76,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 8925.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2231.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 763.72
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1887.45
+        }
+      ]
+    },
+    {
+      "matricula": "02830701",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410400000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002747",
+      "refer_funcao": "CNE05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 8938.2,
+      "total_descontos": 2089.62,
+      "total_liquido": 6848.58,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 6510.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1628.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 20250,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 160.2
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1101.55
+        }
+      ]
+    },
+    {
+      "matricula": "02832852",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002685",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7994.6,
+      "total_descontos": 1796.75,
+      "total_liquido": 6197.85,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.6
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        }
+      ]
+    },
+    {
+      "matricula": "02834790",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410600000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "OUVIDORIA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00001678",
+      "refer_funcao": "CPE06",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 5860.0,
+      "total_descontos": 1504.38,
+      "total_liquido": 4355.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT.FUNCAO C/ VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 504.38
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1000.0
+        }
+      ]
+    },
+    {
+      "matricula": "02834839",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410702000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "DIRETORIA ADMINISTRATIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00001686",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7136.16,
+      "total_descontos": 1464.0,
+      "total_liquido": 5672.16,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 20250,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 610.46
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 796.41
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 532.89
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41196,
+          "dc_rubrica": "PREVIDENT DEP II PL ODONTO",
+          "tipo": 4,
+          "valor": 104.7
+        }
+      ]
+    },
+    {
+      "matricula": "02835398",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410706000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "UNIDADE DE LICITACOES E CONTRATOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002761",
+      "refer_funcao": "CPE07",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 7496.0,
+      "total_descontos": 1719.61,
+      "total_liquido": 5776.39,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT.FUNCAO C/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 11140,
+          "dc_rubrica": "ADIANT. 13 FUNCAO C/VINCULO",
+          "tipo": 1,
+          "valor": 2811.0
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO IV",
+          "tipo": 4,
+          "valor": 1719.61
+        }
+      ]
+    },
+    {
+      "matricula": "02837730",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410104000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE GESTAO ESTRATEGICA DE PROJETOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002666",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5539.99,
+      "total_descontos": 2635.26,
+      "total_liquido": 2904.73,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF - CLT",
+          "tipo": 1,
+          "valor": 1224.99
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 1251.2
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 40949,
+          "dc_rubrica": "INSS FERIAS",
+          "tipo": 4,
+          "valor": 170.72
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 806.96
+        }
+      ]
+    },
+    {
+      "matricula": "02843595",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413010100000,
+      "nivel2_unidade": "DIRETORIA DE DIFUSAO CIENTIFICA E CIDADES INTELIGENTES",
+      "nivel3_lotacao": "GERENCIA DE CURADORIA CIENTIFICA DO PLANETARIO DE BRASILIA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002712",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4344.6,
+      "total_descontos": 828.44,
+      "total_liquido": 3516.16,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.6
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 392.16
+        },
+        {
+          "cod_rubrica": 41206,
+          "dc_rubrica": "ODONT TITULAR PL ODONTOLOGICO",
+          "tipo": 4,
+          "valor": 29.9
+        }
+      ]
+    },
+    {
+      "matricula": "02846179",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410100000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002740",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1695.72,
+      "total_liquido": 4800.28,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO IV",
+          "tipo": 4,
+          "valor": 324.17
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 353.37
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "02847299",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410700000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "SUBSECRETARIA DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002723",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7965.0,
+      "total_descontos": 1766.85,
+      "total_liquido": 6198.15,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        }
+      ]
+    },
+    {
+      "matricula": "02848929",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410300000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA JURIDICA-LEGISLATIVA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "40000081",
+      "refer_funcao": "CPE03",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 10355.0,
+      "total_descontos": 6289.43,
+      "total_liquido": 4065.57,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT.FUNCAO C/ VINCULO",
+          "tipo": 1,
+          "valor": 10355.0
+        },
+        {
+          "cod_rubrica": 40455,
+          "dc_rubrica": "REDUTOR TETO UNIFICADO",
+          "tipo": 4,
+          "valor": 6289.43
+        }
+      ]
+    },
+    {
+      "matricula": "02850346",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "02850362",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412020000000,
+      "nivel2_unidade": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "nivel3_lotacao": "DIRETORIA DE CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002768",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 1222.89,
+      "total_liquido": 2223.11,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 920.79
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "02850877",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410100000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002772",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7995.0,
+      "total_descontos": 1801.75,
+      "total_liquido": 6193.25,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        }
+      ]
+    },
+    {
+      "matricula": "02853183",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002766",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1957.77,
+      "total_liquido": 4538.23,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 361.59
+        }
+      ]
+    },
+    {
+      "matricula": "02853892",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410100000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002808",
+      "refer_funcao": "CNE02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 15653.0,
+      "total_descontos": 3936.19,
+      "total_liquido": 11716.81,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 12010.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 3003.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2948.12
+        }
+      ]
+    },
+    {
+      "matricula": "02854503",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410702010000,
+      "nivel2_unidade": "DIRETORIA ADMINISTRATIVA",
+      "nivel3_lotacao": "GERENCIA DE GESTAO DE PESSOAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "00001687",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 11198.0,
+      "total_descontos": 2756.57,
+      "total_liquido": 8441.43,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT.FUNCAO C/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP-LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1050.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1705.73
+        }
+      ]
+    },
+    {
+      "matricula": "02854600",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA01013",
+      "dc_cargo": "GESTOR POL PUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 20474.0,
+      "total_descontos": 4355.71,
+      "total_liquido": 16118.29,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 9357.8
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 392.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 93.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP-LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2339.45
+        },
+        {
+          "cod_rubrica": 10890,
+          "dc_rubrica": "ADIANT DEC TERCEIRO-ATIVO",
+          "tipo": 1,
+          "valor": 7141.68
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 20250,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 367.5
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1186.57
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2169.6
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 106.85
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 32.9
+        },
+        {
+          "cod_rubrica": 41940,
+          "dc_rubrica": "PREVICOM - COMPLEMENTAR",
+          "tipo": 4,
+          "valor": 281.79
+        }
+      ]
+    },
+    {
+      "matricula": "02855526",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 411000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GERENCIA DE TECNOLOGIA DA INFORMACAO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA01013",
+      "dc_cargo": "GESTOR POL PUB E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 8300.17,
+      "total_descontos": 1745.54,
+      "total_liquido": 6554.63,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5614.67
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 67.19
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 56.14
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP-LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1403.66
+        },
+        {
+          "cod_rubrica": 10890,
+          "dc_rubrica": "ADIANT DEC TERCEIRO-ATIVO",
+          "tipo": 1,
+          "valor": 1071.24
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 87.27
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 990.42
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 755.12
+        }
+      ]
+    },
+    {
+      "matricula": "02855569",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410706000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "UNIDADE DE LICITACOES E CONTRATOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 9009.88,
+      "total_descontos": 3408.21,
+      "total_liquido": 5601.67,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 156.16
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP-LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2085.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 84.3
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 292.69
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO IV",
+          "tipo": 4,
+          "valor": 91.33
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 564.72
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1134.24
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1020.43
+        },
+        {
+          "cod_rubrica": 60250,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 220.5
+        }
+      ]
+    },
+    {
+      "matricula": "02855704",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410706000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "UNIDADE DE LICITACOES E CONTRATOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 12629.28,
+      "total_descontos": 9927.41,
+      "total_liquido": 2701.87,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10550,
+          "dc_rubrica": "AUXILIO CRECHE / PRE-ESCOLAR",
+          "tipo": 1,
+          "valor": 176.58
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP-LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 20250,
+          "dc_rubrica": "",
+          "tipo": 2,
+          "valor": 1225.0
+        },
+        {
+          "cod_rubrica": 40017,
+          "dc_rubrica": "DECISOES JUDICIAIS",
+          "tipo": 4,
+          "valor": 1590.1
+        },
+        {
+          "cod_rubrica": 40515,
+          "dc_rubrica": "COTA PARTE AUX. CRECHE",
+          "tipo": 4,
+          "valor": 8.82
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 2139.95
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "RPPS IPREV",
+          "tipo": 4,
+          "valor": 1050.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1877.28
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 450.0
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 1325.02
+        },
+        {
+          "cod_rubrica": 41192,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE V",
+          "tipo": 4,
+          "valor": 420.0
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41201,
+          "dc_rubrica": "ODONTOGROUP DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 45.8
+        },
+        {
+          "cod_rubrica": 60250,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 411.6
+        }
+      ]
+    },
+    {
+      "matricula": "02857111",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410702050000,
+      "nivel2_unidade": "DIRETORIA ADMINISTRATIVA",
+      "nivel3_lotacao": "GERENCIA DE DOCUMENTOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002735",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 442.74,
+      "total_liquido": 3872.26,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 36.36
+        }
+      ]
+    },
+    {
+      "matricula": "02859033",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410100000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "40000079",
+      "refer_funcao": "CNE03",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 13613.7,
+      "total_descontos": 3975.22,
+      "total_liquido": 9638.48,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 10355.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2589.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2379.15
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02859106",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413010000000,
+      "nivel2_unidade": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "nivel3_lotacao": "DIRETORIA DE DIFUSAO CIENTIFICA E CIDADES INTELIGENTES",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002770",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02860139",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410106000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE RELACOES INSTITUCIONAIS E ATEND. A COMUNIDADE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002781",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7965.0,
+      "total_descontos": 1766.85,
+      "total_liquido": 6198.15,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        }
+      ]
+    },
+    {
+      "matricula": "02860341",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410300000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA JURIDICA-LEGISLATIVA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002789",
+      "refer_funcao": "CPE06",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 5860.0,
+      "total_descontos": 504.38,
+      "total_liquido": 5355.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT.FUNCAO C/ VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 504.38
+        }
+      ]
+    },
+    {
+      "matricula": "02861003",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410100000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002810",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7965.0,
+      "total_descontos": 3361.13,
+      "total_liquido": 4603.87,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 1594.28
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        }
+      ]
+    },
+    {
+      "matricula": "02861070",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002790",
+      "refer_funcao": "CNE05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 8778.0,
+      "total_descontos": 2045.57,
+      "total_liquido": 6732.43,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 6510.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1628.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1057.5
+        }
+      ]
+    },
+    {
+      "matricula": "02861925",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410107000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE CAPTACAO DE RECURSOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002752",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5534.0,
+      "total_descontos": 576.26,
+      "total_liquido": 4957.74,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 576.26
+        }
+      ]
+    },
+    {
+      "matricula": "02862026",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412010000000,
+      "nivel2_unidade": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "nivel3_lotacao": "DIRETORIA DE JOGOS ELETRONICOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002675",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1501.51,
+      "total_liquido": 4994.49,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 535.47
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 255.1
+        }
+      ]
+    },
+    {
+      "matricula": "02862166",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410106000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE RELACOES INSTITUCIONAIS E ATEND. A COMUNIDADE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002744",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 8477.69,
+      "total_descontos": 1321.46,
+      "total_liquido": 7156.23,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF - CLT",
+          "tipo": 1,
+          "valor": 1951.99
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40949,
+          "dc_rubrica": "INSS FERIAS",
+          "tipo": 4,
+          "valor": 273.28
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02865149",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410400000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "02866625",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002795",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02866684",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002796",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02867206",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002794",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5534.0,
+      "total_descontos": 576.26,
+      "total_liquido": 4957.74,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 576.26
+        }
+      ]
+    },
+    {
+      "matricula": "02867273",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410400000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "02867656",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "40000034",
+      "refer_funcao": "CNP03",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 18038.12,
+      "total_descontos": 6173.65,
+      "total_liquido": 11864.47,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT.FUNCAO C/ VINCULO",
+          "tipo": 1,
+          "valor": 18038.12
+        },
+        {
+          "cod_rubrica": 40850,
+          "dc_rubrica": "PENSAO ALIMENTICIA I",
+          "tipo": 4,
+          "valor": 1601.43
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3611.35
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 960.87
+        }
+      ]
+    },
+    {
+      "matricula": "0286827X",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410700000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "SUBSECRETARIA DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002725",
+      "refer_funcao": "CC 07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3834.0,
+      "total_descontos": 2159.24,
+      "total_liquido": 1674.76,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2555.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 639.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO V",
+          "tipo": 4,
+          "valor": 1120.74
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 348.66
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 689.84
+        }
+      ]
+    },
+    {
+      "matricula": "0286830X",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002671",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7965.0,
+      "total_descontos": 1766.85,
+      "total_liquido": 6198.15,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        }
+      ]
+    },
+    {
+      "matricula": "02868318",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002765",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 5477.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "02868334",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 411000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GERENCIA DE TECNOLOGIA DA INFORMACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "02868385",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 411100000000,
+      "nivel2_unidade": "GERENCIA DE TECNOLOGIA DA INFORMACAO",
+      "nivel3_lotacao": "SECRETARIA EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "02868512",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410400000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002746",
+      "refer_funcao": "CNE03",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 13584.0,
+      "total_descontos": 3367.22,
+      "total_liquido": 10216.78,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 10355.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2589.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2379.15
+        }
+      ]
+    },
+    {
+      "matricula": "02868520",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002777",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 5477.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "02868539",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410108000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE FISCALIZACAO E MONITORAMENTO DE PARCERIAS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002812",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7965.0,
+      "total_descontos": 1766.85,
+      "total_liquido": 6198.15,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        }
+      ]
+    },
+    {
+      "matricula": "02868628",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413020100000,
+      "nivel2_unidade": "DIRETORIA DE ECONOMIA CIRCULAR",
+      "nivel3_lotacao": "GERENCIA DE RECEBIMENTO E BAIXA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002721",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02868636",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 411100000000,
+      "nivel2_unidade": "GERENCIA DE TECNOLOGIA DA INFORMACAO",
+      "nivel3_lotacao": "SECRETARIA EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002805",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3446.0,
+      "total_descontos": 302.1,
+      "total_liquido": 3143.9,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        }
+      ]
+    },
+    {
+      "matricula": "02868644",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002797",
+      "refer_funcao": "CNE02",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 29414.89,
+      "total_descontos": 4915.16,
+      "total_liquido": 24499.73,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 12010.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 3003.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2948.12
+        },
+        {
+          "cod_rubrica": 10408,
+          "dc_rubrica": "1/3 FERIAS ART.7 RESCISAO",
+          "tipo": 1,
+          "valor": 2502.16
+        },
+        {
+          "cod_rubrica": 10521,
+          "dc_rubrica": "DECIMO TERCEIRO SALARIO S/V",
+          "tipo": 1,
+          "valor": 3753.24
+        },
+        {
+          "cod_rubrica": 10872,
+          "dc_rubrica": "FERIAS INDENIZ.PROPORCIONAIS",
+          "tipo": 1,
+          "valor": 7506.49
+        },
+        {
+          "cod_rubrica": 40912,
+          "dc_rubrica": "INSS 13 SALARIO",
+          "tipo": 4,
+          "valor": 338.97
+        },
+        {
+          "cod_rubrica": 60926,
+          "dc_rubrica": "",
+          "tipo": 6,
+          "valor": 640.0
+        }
+      ]
+    },
+    {
+      "matricula": "02868652",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002804",
+      "refer_funcao": "CNE05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 8778.0,
+      "total_descontos": 2045.57,
+      "total_liquido": 6732.43,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 6510.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1628.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1057.5
+        }
+      ]
+    },
+    {
+      "matricula": "02868709",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410400000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002750",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02868733",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 411100000000,
+      "nivel2_unidade": "GERENCIA DE TECNOLOGIA DA INFORMACAO",
+      "nivel3_lotacao": "SECRETARIA EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "02868989",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410704040000,
+      "nivel2_unidade": "DIRETORIA DE ORCAMENTO E FINANCAS",
+      "nivel3_lotacao": "GERENCIA DE CONTRATOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 0.0,
+      "total_descontos": 0.0,
+      "total_liquido": 0.0,
+      "rubricas": []
+    },
+    {
+      "matricula": "02869357",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410100000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002809",
+      "refer_funcao": "CPE06",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 5860.0,
+      "total_descontos": 1704.13,
+      "total_liquido": 4155.87,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT.FUNCAO C/ VINCULO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 504.38
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 1199.75
+        }
+      ]
+    },
+    {
+      "matricula": "0286942X",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 411100000000,
+      "nivel2_unidade": "GERENCIA DE TECNOLOGIA DA INFORMACAO",
+      "nivel3_lotacao": "SECRETARIA EXECUTIVA",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002815",
+      "refer_funcao": "CPE01",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 13930.0,
+      "total_descontos": 2922.02,
+      "total_liquido": 11007.98,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT.FUNCAO C/ VINCULO",
+          "tipo": 1,
+          "valor": 13930.0
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2922.02
+        }
+      ]
+    },
+    {
+      "matricula": "0286990X",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002807",
+      "refer_funcao": "CC 07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3834.0,
+      "total_descontos": 348.66,
+      "total_liquido": 3485.34,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2555.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 639.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 348.66
+        }
+      ]
+    },
+    {
+      "matricula": "02869918",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 411100000000,
+      "nivel2_unidade": "GERENCIA DE TECNOLOGIA DA INFORMACAO",
+      "nivel3_lotacao": "SECRETARIA EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002806",
+      "refer_funcao": "CC 07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3834.0,
+      "total_descontos": 348.66,
+      "total_liquido": 3485.34,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2555.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 639.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 348.66
+        }
+      ]
+    },
+    {
+      "matricula": "02869926",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412020000000,
+      "nivel2_unidade": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "nivel3_lotacao": "DIRETORIA DE CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002679",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5534.0,
+      "total_descontos": 2650.15,
+      "total_liquido": 2883.85,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 576.26
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1495.89
+        }
+      ]
+    },
+    {
+      "matricula": "02869985",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 411000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GERENCIA DE TECNOLOGIA DA INFORMACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002667",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 1582.11,
+      "total_liquido": 2732.89,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1175.73
+        }
+      ]
+    },
+    {
+      "matricula": "02870096",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 412000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE INOVACAO, CAPACITACAO E INCLUSAO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002674",
+      "refer_funcao": "CC 05",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3053.0,
+      "total_descontos": 254.94,
+      "total_liquido": 2798.06,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 483.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 254.94
+        }
+      ]
+    },
+    {
+      "matricula": "02870118",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410400000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002814",
+      "refer_funcao": "CC 07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3834.0,
+      "total_descontos": 1316.26,
+      "total_liquido": 2517.74,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2555.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 639.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 348.66
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 967.6
+        }
+      ]
+    },
+    {
+      "matricula": "02870126",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 411100000000,
+      "nivel2_unidade": "GERENCIA DE TECNOLOGIA DA INFORMACAO",
+      "nivel3_lotacao": "SECRETARIA EXECUTIVA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002763",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 5477.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "02870282",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002693",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 5477.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "02870290",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 410400000000,
+      "nivel2_unidade": "SECRETARIA DE ESTADO DE CIENCIA TECNOLOGIA E INOVACAO",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002813",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5534.0,
+      "total_descontos": 576.26,
+      "total_liquido": 4957.74,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 576.26
+        }
+      ]
+    },
+    {
+      "matricula": "16921496",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002696",
+      "refer_funcao": "CNE08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5563.7,
+      "total_descontos": 2220.06,
+      "total_liquido": 3343.64,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 3915.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 979.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 1309.84
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 281.06
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 576.26
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41201,
+          "dc_rubrica": "ODONTOGROUP DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 22.9
+        }
+      ]
+    },
+    {
+      "matricula": "16978390",
+      "empresa": 66,
+      "dc_empresa": "SECRETARIA DE ESTADO DE CIENCIA, TECNOLOGIA E INOVACAO DO DF",
+      "sigla": "SECTI",
+      "dc_tipo_administracao": "ADMINISTRACAO DIRETA",
+      "cd_lotacao": 413000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "SUBSECRETARIA DE PROMOCAO A CIENCIA E DESENV. TECNOLOGICO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002769",
+      "refer_funcao": "CNE03",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 13584.0,
+      "total_descontos": 5967.15,
+      "total_liquido": 7616.85,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT.FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 10355.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "VENCIMENTO FUNCAO S/ VINCULO",
+          "tipo": 1,
+          "valor": 2589.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO PECUNIA",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40017,
+          "dc_rubrica": "DECISOES JUDICIAIS",
+          "tipo": 4,
+          "valor": 2071.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 304.33
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 100.9
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO IV",
+          "tipo": 4,
+          "valor": 123.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2379.15
+        }
+      ]
+    }
+  ]
+}
