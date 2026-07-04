@@ -1,0 +1,3784 @@
+{
+  "competencia": "202603",
+  "empresa": 730,
+  "gerado_em": "2026-07-03T21:42:54.825440",
+  "registros": [
+    {
+      "matricula": "00900044",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 730000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "CEDIDOS ARQUIVO PUBLICO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 8,
+      "dc_status": "CEDIDO",
+      "cod_cargo": "AU0101",
+      "dc_cargo": "TECNICO POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 3,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 10368.1,
+      "total_descontos": 6446.12,
+      "total_liquido": 3921.98,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5812.14
+        },
+        {
+          "cod_rubrica": 10120,
+          "dc_rubrica": "ADICIONAL LEI 6732/79 DFG/DFA",
+          "tipo": 1,
+          "valor": 318.5
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 2092.37
+        },
+        {
+          "cod_rubrica": 10511,
+          "dc_rubrica": "AB.PERMANENCIA EC41",
+          "tipo": 1,
+          "valor": 1273.27
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 871.82
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL-SERV. MEDICO/HOSP PARCEL",
+          "tipo": 4,
+          "valor": 56.32
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 407.15
+        },
+        {
+          "cod_rubrica": 40628,
+          "dc_rubrica": "FASP - CLUBE DO SERVIDOR",
+          "tipo": 4,
+          "valor": 25.0
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 223.81
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 1292.31
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 171.61
+        },
+        {
+          "cod_rubrica": 40688,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 27.48
+        },
+        {
+          "cod_rubrica": 40810,
+          "dc_rubrica": "BRB - EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 383.6
+        },
+        {
+          "cod_rubrica": 40811,
+          "dc_rubrica": "BRB - EMPRESTIMO III",
+          "tipo": 4,
+          "valor": 227.48
+        },
+        {
+          "cod_rubrica": 40812,
+          "dc_rubrica": "BRB - EMPRESTIMO IV",
+          "tipo": 4,
+          "valor": 150.7
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1273.27
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1592.34
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 138.6
+        },
+        {
+          "cod_rubrica": 41117,
+          "dc_rubrica": "DECISOES JUDICIAIS III",
+          "tipo": 4,
+          "valor": 476.45
+        }
+      ]
+    },
+    {
+      "matricula": "00900664",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10300000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "UNIDADE DE GESTAO DE DOCUMENTOS E PROTOCOLO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 8,
+      "dc_status": "CEDIDO",
+      "cod_cargo": "AU0101",
+      "dc_cargo": "TECNICO POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 3,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 9540.15,
+      "total_descontos": 4228.15,
+      "total_liquido": 5312.0,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5812.14
+        },
+        {
+          "cod_rubrica": 10120,
+          "dc_rubrica": "ADICIONAL LEI 6732/79 DFG/DFA",
+          "tipo": 1,
+          "valor": 173.45
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 1801.76
+        },
+        {
+          "cod_rubrica": 10511,
+          "dc_rubrica": "AB.PERMANENCIA EC41",
+          "tipo": 1,
+          "valor": 1171.59
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 581.21
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1171.59
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1340.48
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 138.6
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 225.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 72.43
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 172.05
+        },
+        {
+          "cod_rubrica": 41221,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE VII",
+          "tipo": 4,
+          "valor": 530.0
+        }
+      ]
+    },
+    {
+      "matricula": "00911720",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ARQUIVO PERMANENTE",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA01013",
+      "dc_cargo": "GESTOR POL PUBL GESTAO GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "73000193",
+      "refer_funcao": "CPE06",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 27983.66,
+      "total_descontos": 11215.29,
+      "total_liquido": 16768.37,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 12141.47
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 2428.29
+        },
+        {
+          "cod_rubrica": 10511,
+          "dc_rubrica": "AB.PERMANENCIA EC41",
+          "tipo": 1,
+          "valor": 2634.69
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 4249.51
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40391,
+          "dc_rubrica": "SINDIRETA",
+          "tipo": 4,
+          "valor": 163.88
+        },
+        {
+          "cod_rubrica": 40695,
+          "dc_rubrica": "ADESP DF - MENSALIDADE",
+          "tipo": 4,
+          "valor": 60.7
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 2634.69
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 5878.06
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 987.17
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 607.79
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41224,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE X",
+          "tipo": 4,
+          "valor": 853.0
+        }
+      ]
+    },
+    {
+      "matricula": "01743759",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 20500000000,
+      "nivel2_unidade": "UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE MATERIAL E PATRIMONIO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA0101S",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "73000201",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 14286.17,
+      "total_descontos": 3774.22,
+      "total_liquido": 10511.95,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7539.56
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 1281.72
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1884.89
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1498.86
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2275.36
+        }
+      ]
+    },
+    {
+      "matricula": "01745212",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "UNIDADE DE ADMINISTRACAO GERAL",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA0101S",
+      "dc_cargo": "GESTOR POL PUBL GESTAO GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 31292.44,
+      "total_descontos": 10635.0,
+      "total_liquido": 20657.44,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 11991.56
+        },
+        {
+          "cod_rubrica": 10120,
+          "dc_rubrica": "ADICIONAL LEI 6732/79 DFG/DFA",
+          "tipo": 1,
+          "valor": 331.04
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 3837.29
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2997.89
+        },
+        {
+          "cod_rubrica": 10890,
+          "dc_rubrica": "ADIANT DEC TERCEIRO-ATIVO",
+          "tipo": 1,
+          "valor": 11494.66
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40391,
+          "dc_rubrica": "SINDIRETA",
+          "tipo": 4,
+          "valor": 114.94
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 4215.9
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 2682.08
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3622.08
+        }
+      ]
+    },
+    {
+      "matricula": "01747037",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 20100000000,
+      "nivel2_unidade": "UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE GESTAO DE PESSOAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01011",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "73000167",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 13430.34,
+      "total_descontos": 5838.25,
+      "total_liquido": 7592.09,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7086.58
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 992.12
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1771.64
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 2334.11
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1379.04
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2125.1
+        }
+      ]
+    },
+    {
+      "matricula": "02428865",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "65260422",
+      "refer_funcao": "CNE04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 15544.66,
+      "total_descontos": 3488.42,
+      "total_liquido": 12056.24,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 8925.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 2231.0
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF - CLT",
+          "tipo": 1,
+          "valor": 3718.66
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1887.45
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        }
+      ]
+    },
+    {
+      "matricula": "02740729",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10400000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "UNIDADE DE TECNOLOGIA DA INFORMACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000164",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6525.7,
+      "total_descontos": 2815.21,
+      "total_liquido": 3710.49,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 1129.3
+        },
+        {
+          "cod_rubrica": 40811,
+          "dc_rubrica": "BRB - EMPRESTIMO III",
+          "tipo": 4,
+          "valor": 742.01
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 202.96
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02742861",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000175",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 5477.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "02744139",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10200000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA JURIDICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000161",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7994.7,
+      "total_descontos": 3803.29,
+      "total_liquido": 4191.41,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 745.97
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 450.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 12.38
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 435.54
+        },
+        {
+          "cod_rubrica": 41193,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE VI",
+          "tipo": 4,
+          "valor": 479.0
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 41201,
+          "dc_rubrica": "ODONTOGROUP DEP I PL ODONTO",
+          "tipo": 4,
+          "valor": 45.8
+        },
+        {
+          "cod_rubrica": 41204,
+          "dc_rubrica": "ODONTOGROUP DEP IV PL ODONTO",
+          "tipo": 4,
+          "valor": 110.0
+        }
+      ]
+    },
+    {
+      "matricula": "0274435X",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 40100000000,
+      "nivel2_unidade": "COORDENACAO DE ARQUIVO PERMANENTE",
+      "nivel3_lotacao": "DIRETORIA DE TRATAMENTO E PRESERVACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000179",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 2854.43,
+      "total_liquido": 3641.57,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL-SERV. MEDICO/HOSP PARCEL",
+          "tipo": 4,
+          "valor": 811.45
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 201.76
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 512.94
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 310.1
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "02750767",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10300000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "UNIDADE DE GESTAO DE DOCUMENTOS E PROTOCOLO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000195",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3753.66,
+      "total_descontos": 1883.13,
+      "total_liquido": 1870.53,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 101.66
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 176.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 503.97
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "AMAL PECULIO",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 281.01
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 314.3
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 560.59
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 54.9
+        }
+      ]
+    },
+    {
+      "matricula": "02754037",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 40203000000,
+      "nivel2_unidade": "COORDENACAO DE ARQUIVO PERMANENTE",
+      "nivel3_lotacao": "GERENCIA DE ATENDIMENTO AO PUBLICO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000187",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4344.7,
+      "total_descontos": 2721.71,
+      "total_liquido": 1622.99,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 451.45
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 656.12
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 141.09
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 458.67
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02756226",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "B0001703",
+      "refer_funcao": "CNE04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 11796.0,
+      "total_descontos": 3401.38,
+      "total_liquido": 8394.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 8925.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 2231.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1835.31
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        }
+      ]
+    },
+    {
+      "matricula": "02764377",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 30103000000,
+      "nivel2_unidade": "COORDENACAO DO SISTEMA DE ARQUIVOS",
+      "nivel3_lotacao": "GERENCIA DE ORIENTACAO TECNICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000174",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 1660.14,
+      "total_liquido": 2654.86,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 992.69
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 261.07
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02765411",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 30202000000,
+      "nivel2_unidade": "COORDENACAO DO SISTEMA DE ARQUIVOS",
+      "nivel3_lotacao": "GERENCIA DE MONITORAMENTO DOS ORGAOS SETORIAIS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000177",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 2372.9,
+      "total_liquido": 1942.1,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1245.42
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 721.1
+        }
+      ]
+    },
+    {
+      "matricula": "0276878X",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 30100000000,
+      "nivel2_unidade": "COORDENACAO DO SISTEMA DE ARQUIVOS",
+      "nivel3_lotacao": "DIRETORIA DE CAPACITACAO E ORIENTACAO TECNICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000171",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 5477.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "02770261",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000156",
+      "refer_funcao": "CNE01",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 18053.0,
+      "total_descontos": 5655.83,
+      "total_liquido": 12397.17,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 13930.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 3483.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 3555.98
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 696.52
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 165.26
+        },
+        {
+          "cod_rubrica": 41171,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE II",
+          "tipo": 4,
+          "valor": 250.0
+        }
+      ]
+    },
+    {
+      "matricula": "02780917",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "UNIDADE DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00702953",
+      "refer_funcao": "CNE04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 11825.7,
+      "total_descontos": 4130.11,
+      "total_liquido": 7695.59,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 8925.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 2231.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 764.62
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 512.11
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 988.07
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1835.31
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02785501",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10300000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "UNIDADE DE GESTAO DE DOCUMENTOS E PROTOCOLO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000162",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 1018.18,
+      "total_liquido": 5477.82,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        }
+      ]
+    },
+    {
+      "matricula": "02798883",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 40103000000,
+      "nivel2_unidade": "COORDENACAO DE ARQUIVO PERMANENTE",
+      "nivel3_lotacao": "GERENCIA DE TRATAMENTO E PRESERVACAO DO ACERVO AUDIOVISUAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000183",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4969.28,
+      "total_descontos": 1753.63,
+      "total_liquido": 3215.65,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 654.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 193.07
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 397.36
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 666.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 497.2
+        }
+      ]
+    },
+    {
+      "matricula": "02803038",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002505",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6496.0,
+      "total_descontos": 4448.9,
+      "total_liquido": 2047.1,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 310.09
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 1524.48
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 255.1
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 225.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 57.83
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 25.82
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 761.64
+        }
+      ]
+    },
+    {
+      "matricula": "02808765",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 30201000000,
+      "nivel2_unidade": "COORDENACAO DO SISTEMA DE ARQUIVOS",
+      "nivel3_lotacao": "GERENCIA DE ESTUDOS TECNICOS E NORMATIVOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000176",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4344.7,
+      "total_descontos": 436.38,
+      "total_liquido": 3908.32,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02817691",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 30200000000,
+      "nivel2_unidade": "COORDENACAO DO SISTEMA DE ARQUIVOS",
+      "nivel3_lotacao": "DIRETORIA DE CONTROLE E MONITORAMENTO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000200",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 5569.99,
+      "total_descontos": 2445.65,
+      "total_liquido": 3124.34,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF - CLT",
+          "tipo": 1,
+          "valor": 1224.99
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL-SERV. MEDICO/HOSP PARCEL",
+          "tipo": 4,
+          "valor": 793.87
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 483.7
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        },
+        {
+          "cod_rubrica": 40949,
+          "dc_rubrica": "INSS FERIAS",
+          "tipo": 4,
+          "valor": 170.72
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 556.08
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 34.9
+        }
+      ]
+    },
+    {
+      "matricula": "02818485",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10400000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "UNIDADE DE TECNOLOGIA DA INFORMACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000199",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2874.0,
+      "total_descontos": 1046.24,
+      "total_liquido": 1827.76,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL-SERV. MEDICO/HOSP PARCEL",
+          "tipo": 4,
+          "valor": 588.48
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "AMAL PECULIO",
+          "tipo": 4,
+          "valor": 121.5
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 120.73
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        }
+      ]
+    },
+    {
+      "matricula": "02833646",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000158",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 6525.7,
+      "total_descontos": 2114.63,
+      "total_liquido": 4411.07,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 280.8
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41136,
+          "dc_rubrica": "GDF-SAUDE COP/TITULAR",
+          "tipo": 4,
+          "valor": 207.65
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02834812",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DO SISTEMA DE ARQUIVOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000194",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 7965.0,
+      "total_descontos": 4755.73,
+      "total_liquido": 3209.27,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 1465.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 705.9
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 1479.98
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 916.6
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 850.25
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 225.0
+        }
+      ]
+    },
+    {
+      "matricula": "02835045",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10200000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA JURIDICA",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000198",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 1102.19,
+      "total_liquido": 3212.81,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 291.81
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 180.74
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 223.26
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02844931",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 40200000000,
+      "nivel2_unidade": "COORDENACAO DE ARQUIVO PERMANENTE",
+      "nivel3_lotacao": "DIRETORIA DE PESQUISA DIFUSAO E ACESSO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000184",
+      "refer_funcao": "CNE07",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 8447.99,
+      "total_descontos": 3834.71,
+      "total_liquido": 4613.28,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 4685.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 1171.0
+        },
+        {
+          "cod_rubrica": 10866,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF - CLT",
+          "tipo": 1,
+          "valor": 1951.99
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL-SERV. MEDICO/HOSP PARCEL",
+          "tipo": 4,
+          "valor": 1013.54
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 710.94
+        },
+        {
+          "cod_rubrica": 40949,
+          "dc_rubrica": "INSS FERIAS",
+          "tipo": 4,
+          "valor": 273.28
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 307.24
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 1529.71
+        }
+      ]
+    },
+    {
+      "matricula": "02845113",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 40200000000,
+      "nivel2_unidade": "COORDENACAO DE ARQUIVO PERMANENTE",
+      "nivel3_lotacao": "DIRETORIA DE PESQUISA DIFUSAO E ACESSO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000204",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2694.7,
+      "total_descontos": 968.24,
+      "total_liquido": 1726.46,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 29.7
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 222.44
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 500.27
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        },
+        {
+          "cod_rubrica": 41200,
+          "dc_rubrica": "ODONTOGROUP TITULAR PL ODONTO",
+          "tipo": 4,
+          "valor": 30.0
+        }
+      ]
+    },
+    {
+      "matricula": "02847051",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DO SISTEMA DE ARQUIVOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA01013",
+      "dc_cargo": "GESTOR POL PUBL GESTAO GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 12823.56,
+      "total_descontos": 4101.61,
+      "total_liquido": 8721.95,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 9357.8
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 374.31
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2339.45
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "APAE/DF - CONTRIBUICOES",
+          "tipo": 4,
+          "valor": 1186.57
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2031.38
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 578.0
+        },
+        {
+          "cod_rubrica": 41940,
+          "dc_rubrica": "PREVICOM - COMPLEMENTAR",
+          "tipo": 4,
+          "valor": 305.66
+        }
+      ]
+    },
+    {
+      "matricula": "02847620",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ARQUIVO PERMANENTE",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA01013",
+      "dc_cargo": "GESTOR POL PUBL GESTAO GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "73000203",
+      "refer_funcao": "CPC08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 24388.5,
+      "total_descontos": 7601.91,
+      "total_liquido": 16786.59,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 9357.8
+        },
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 93.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2339.45
+        },
+        {
+          "cod_rubrica": 10890,
+          "dc_rubrica": "ADIANT DEC TERCEIRO-ATIVO",
+          "tipo": 1,
+          "valor": 7141.68
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11140,
+          "dc_rubrica": "ADIANT. 13 FUNCAO C/VINCULO",
+          "tipo": 1,
+          "valor": 1764.0
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 2569.13
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "APAE/DF - CONTRIBUICOES",
+          "tipo": 4,
+          "valor": 1186.57
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2717.1
+        },
+        {
+          "cod_rubrica": 41134,
+          "dc_rubrica": "GDF-SAUDE-DF",
+          "tipo": 4,
+          "valor": 593.71
+        },
+        {
+          "cod_rubrica": 41135,
+          "dc_rubrica": "GDF-SAUDE-DEPENDENTE I",
+          "tipo": 4,
+          "valor": 225.0
+        },
+        {
+          "cod_rubrica": 41144,
+          "dc_rubrica": "GDF-SAUDE COP/DEPENDENTE",
+          "tipo": 4,
+          "valor": 28.61
+        },
+        {
+          "cod_rubrica": 41940,
+          "dc_rubrica": "PREVICOM - COMPLEMENTAR",
+          "tipo": 4,
+          "valor": 281.79
+        }
+      ]
+    },
+    {
+      "matricula": "02847663",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ARQUIVO PERMANENTE",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA01013",
+      "dc_cargo": "GESTOR POL PUBL GESTAO GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 13834.49,
+      "total_descontos": 3475.74,
+      "total_liquido": 10358.75,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 9357.8
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 93.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 3743.12
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "APAE/DF - CONTRIBUICOES",
+          "tipo": 4,
+          "valor": 1186.57
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 2289.17
+        }
+      ]
+    },
+    {
+      "matricula": "02850184",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "GABINETE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000205",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3788.83,
+      "total_descontos": 1848.81,
+      "total_liquido": 1940.02,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 144.83
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 198.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "AMAL PECULIO",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40681,
+          "dc_rubrica": "BRB-EMPRESTIMO II",
+          "tipo": 4,
+          "valor": 711.27
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 319.48
+        },
+        {
+          "cod_rubrica": 41188,
+          "dc_rubrica": "PICPAY ANTECIPACAO SALARIAL",
+          "tipo": 4,
+          "valor": 649.7
+        }
+      ]
+    },
+    {
+      "matricula": "02851156",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ARQUIVO PERMANENTE",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA01013",
+      "dc_cargo": "GESTOR POL PUBL GESTAO GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 12542.82,
+      "total_descontos": 3429.1,
+      "total_liquido": 9113.72,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 9357.8
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 93.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 2339.45
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "APAE/DF - CONTRIBUICOES",
+          "tipo": 4,
+          "valor": 1186.57
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1960.74
+        },
+        {
+          "cod_rubrica": 41940,
+          "dc_rubrica": "PREVICOM - COMPLEMENTAR",
+          "tipo": 4,
+          "valor": 281.79
+        }
+      ]
+    },
+    {
+      "matricula": "02853442",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ARQUIVO PERMANENTE",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000188",
+      "refer_funcao": "CC 06",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 3685.0,
+      "total_descontos": 1246.58,
+      "total_liquido": 2438.42,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2245.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 561.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 11133,
+          "dc_rubrica": "RESSARC.PLANO ODONTOLOGICO GDF",
+          "tipo": 1,
+          "valor": 30.0
+        },
+        {
+          "cod_rubrica": 40439,
+          "dc_rubrica": "AMIL-SERV. MEDICO/HOSP PARCEL",
+          "tipo": 4,
+          "valor": 56.46
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 112.64
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "AMAL PECULIO",
+          "tipo": 4,
+          "valor": 168.36
+        },
+        {
+          "cod_rubrica": 40670,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 60.06
+        },
+        {
+          "cod_rubrica": 40680,
+          "dc_rubrica": "BRB-EMPRESTIMO I",
+          "tipo": 4,
+          "valor": 149.47
+        },
+        {
+          "cod_rubrica": 40688,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 87.12
+        },
+        {
+          "cod_rubrica": 40812,
+          "dc_rubrica": "BRB - EMPRESTIMO IV",
+          "tipo": 4,
+          "valor": 255.47
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 302.1
+        },
+        {
+          "cod_rubrica": 41190,
+          "dc_rubrica": "PREVIDENT TITULAR PL ODONTOLOG",
+          "tipo": 4,
+          "valor": 54.9
+        }
+      ]
+    },
+    {
+      "matricula": "02857642",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "UNIDADE DE ADMINISTRACAO GERAL",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 9336.0,
+      "total_descontos": 2244.52,
+      "total_liquido": 7091.48,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10250,
+          "dc_rubrica": "SUBSTITUICAO",
+          "tipo": 1,
+          "valor": 1078.0
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 59.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40901,
+          "dc_rubrica": "APAE/DF - CONTRIBUICOES",
+          "tipo": 4,
+          "valor": 1050.84
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1193.68
+        }
+      ]
+    },
+    {
+      "matricula": "0285984X",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 40000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DE ARQUIVO PERMANENTE",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 8675.0,
+      "total_descontos": 2105.07,
+      "total_liquido": 6569.93,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 5957.15
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 476.57
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1489.28
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1109.22
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 995.85
+        }
+      ]
+    },
+    {
+      "matricula": "02866382",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 30101000000,
+      "nivel2_unidade": "COORDENACAO DO SISTEMA DE ARQUIVOS",
+      "nivel3_lotacao": "GERENCIA DE CAPACITACAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000172",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02866870",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "UNIDADE DE ADMINISTRACAO GERAL",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "00002094",
+      "refer_funcao": "CNE06",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 5860.0,
+      "total_descontos": 1611.5,
+      "total_liquido": 4248.5,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 5860.0
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 504.38
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 1107.12
+        }
+      ]
+    },
+    {
+      "matricula": "02868342",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10100000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "ASSESSORIA DE COMUNICACAO SOCIAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000192",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02871378",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 20000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "UNIDADE DE ADMINISTRACAO GERAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000202",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2874.0,
+      "total_descontos": 337.03,
+      "total_liquido": 2536.97,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "AMAL PECULIO",
+          "tipo": 4,
+          "valor": 121.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        }
+      ]
+    },
+    {
+      "matricula": "02873001",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 40204000000,
+      "nivel2_unidade": "COORDENACAO DE ARQUIVO PERMANENTE",
+      "nivel3_lotacao": "GERENCIA DE DIFUSAO",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000207",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4619.0,
+      "total_descontos": 626.88,
+      "total_liquido": 3992.12,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 304.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "AMAL PECULIO",
+          "tipo": 4,
+          "valor": 220.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "0287301X",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 40102000000,
+      "nivel2_unidade": "COORDENACAO DE ARQUIVO PERMANENTE",
+      "nivel3_lotacao": "GERENCIA DE TRATAMENTO E PRESERVACAO DE ACERVO DIGITAL",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000182",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02873060",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 40101000000,
+      "nivel2_unidade": "COORDENACAO DE ARQUIVO PERMANENTE",
+      "nivel3_lotacao": "GERENCIA DE TRATAMENTO E PRESER DE ACERVOS TEXTUAIS E CARTOG",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000181",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 4315.0,
+      "total_descontos": 406.38,
+      "total_liquido": 3908.62,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 2940.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 735.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 406.38
+        }
+      ]
+    },
+    {
+      "matricula": "02873133",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 20400000000,
+      "nivel2_unidade": "UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE FROTA E SERVICOS",
+      "sit_func": 30,
+      "dc_sit_func": "CELETARIO (RECOLHE INSS)",
+      "status": 1,
+      "dc_status": "INCLUIDO NO MES",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000206",
+      "refer_funcao": "CC 04",
+      "tipo_funcao": 4,
+      "dc_tipo_funcao": "DFA/DF SEM VINCULO",
+      "total_proventos": 2874.0,
+      "total_descontos": 337.03,
+      "total_liquido": 2536.97,
+      "rubricas": [
+        {
+          "cod_rubrica": 10015,
+          "dc_rubrica": "REPRESENT DFG/DFA S/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1620.0
+        },
+        {
+          "cod_rubrica": 10017,
+          "dc_rubrica": "GRATIFICACAO DFG/DFA-S/VINC.",
+          "tipo": 1,
+          "valor": 405.0
+        },
+        {
+          "cod_rubrica": 10912,
+          "dc_rubrica": "AUXILIO TRANSPORTE PECUNIA",
+          "tipo": 1,
+          "valor": 209.0
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40486,
+          "dc_rubrica": "AMAL PECULIO",
+          "tipo": 4,
+          "valor": 121.5
+        },
+        {
+          "cod_rubrica": 40910,
+          "dc_rubrica": "INSS CONTRIBUICAO",
+          "tipo": 4,
+          "valor": 215.53
+        }
+      ]
+    },
+    {
+      "matricula": "02873516",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 20200000000,
+      "nivel2_unidade": "UNIDADE DE ADMINISTRACAO GERAL",
+      "nivel3_lotacao": "GERENCIA DE ORCAMENTO E FINANCAS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 7,
+      "dc_status": "REQUISITADO",
+      "cod_cargo": "",
+      "dc_cargo": "",
+      "cod_carreira": 0,
+      "cod_categoria": 0,
+      "cod_funcao": "73000168",
+      "refer_funcao": "CC 08",
+      "tipo_funcao": 2,
+      "dc_tipo_funcao": "DFA/DFG (DAS)",
+      "total_proventos": 1862.0,
+      "total_descontos": 0.0,
+      "total_liquido": 1862.0,
+      "rubricas": [
+        {
+          "cod_rubrica": 10014,
+          "dc_rubrica": "REPRESENT DFG/DFA C/VINC.ATIVO",
+          "tipo": 1,
+          "valor": 1862.0
+        }
+      ]
+    },
+    {
+      "matricula": "14312530",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 10400000000,
+      "nivel2_unidade": "GABINETE",
+      "nivel3_lotacao": "UNIDADE DE TECNOLOGIA DA INFORMACAO",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 8,
+      "dc_status": "CEDIDO",
+      "cod_cargo": "TA01013",
+      "dc_cargo": "ANALISTA POL PUBL E GEST GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 2,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 18582.52,
+      "total_descontos": 4007.46,
+      "total_liquido": 14575.06,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 7729.23
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 84.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 1468.55
+        },
+        {
+          "cod_rubrica": 10582,
+          "dc_rubrica": "GHPP - LEI 5190/2013",
+          "tipo": 1,
+          "valor": 1932.3
+        },
+        {
+          "cod_rubrica": 10890,
+          "dc_rubrica": "ADIANT DEC TERCEIRO-ATIVO",
+          "tipo": 1,
+          "valor": 6728.44
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 1558.21
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1746.63
+        },
+        {
+          "cod_rubrica": 40985,
+          "dc_rubrica": "IMPOSTO DE RENDA UNIFICADO",
+          "tipo": 4,
+          "valor": 702.62
+        }
+      ]
+    },
+    {
+      "matricula": "14312581",
+      "empresa": 730,
+      "dc_empresa": "ARQUIVO PUBLICO DO DISTRITO FEDERAL",
+      "sigla": "ARQPDF",
+      "dc_tipo_administracao": "RELATIVAMENTE AUTONOMO",
+      "cd_lotacao": 30000000000,
+      "nivel2_unidade": "",
+      "nivel3_lotacao": "COORDENACAO DO SISTEMA DE ARQUIVOS",
+      "sit_func": 7,
+      "dc_sit_func": "SERVIDOR ESTATUTARIO",
+      "status": 2,
+      "dc_status": "NORMAL",
+      "cod_cargo": "AA03012",
+      "dc_cargo": "GESTOR POL PUBL GESTAO GOV",
+      "cod_carreira": 1,
+      "cod_categoria": 1,
+      "cod_funcao": "",
+      "refer_funcao": "",
+      "tipo_funcao": 0,
+      "dc_tipo_funcao": "",
+      "total_proventos": 20053.78,
+      "total_descontos": 8526.51,
+      "total_liquido": 11527.27,
+      "rubricas": [
+        {
+          "cod_rubrica": 10004,
+          "dc_rubrica": "VENCIMENTO",
+          "tipo": 1,
+          "valor": 12141.47
+        },
+        {
+          "cod_rubrica": 10463,
+          "dc_rubrica": "ADIC.QUALIFIC-AQ LEI 4426/2009",
+          "tipo": 1,
+          "valor": 112.0
+        },
+        {
+          "cod_rubrica": 10502,
+          "dc_rubrica": "ADICIONAL TEMPO DE SERVICO",
+          "tipo": 1,
+          "valor": 2306.87
+        },
+        {
+          "cod_rubrica": 10865,
+          "dc_rubrica": "1/3 FERIAS ART. 7 VII CF",
+          "tipo": 1,
+          "valor": 4853.44
+        },
+        {
+          "cod_rubrica": 10926,
+          "dc_rubrica": "AUX. ALIMENTACAO",
+          "tipo": 1,
+          "valor": 640.0
+        },
+        {
+          "cod_rubrica": 40450,
+          "dc_rubrica": "BRB - EMPRESTIMO",
+          "tipo": 4,
+          "valor": 538.4
+        },
+        {
+          "cod_rubrica": 40695,
+          "dc_rubrica": "ADESP DF - MENSALIDADE",
+          "tipo": 4,
+          "valor": 60.7
+        },
+        {
+          "cod_rubrica": 40852,
+          "dc_rubrica": "PENSAO ALIMENTICIA II",
+          "tipo": 4,
+          "valor": 1645.18
+        },
+        {
+          "cod_rubrica": 40854,
+          "dc_rubrica": "PENSAO ALIMENTICIA III",
+          "tipo": 4,
+          "valor": 1645.18
+        },
+        {
+          "cod_rubrica": 40856,
+          "dc_rubrica": "PENSAO ALIMENTICIA IV",
+          "tipo": 4,
+          "valor": 1495.61
+        },
+        {
+          "cod_rubrica": 40920,
+          "dc_rubrica": "SEGURIDADE SOCIAL",
+          "tipo": 4,
+          "valor": 2022.76
+        },
+        {
+          "cod_rubrica": 40950,
+          "dc_rubrica": "IMPOSTO DE RENDA",
+          "tipo": 4,
+          "valor": 1118.68
+        }
+      ]
+    }
+  ]
+}
