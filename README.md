@@ -1,76 +1,95 @@
-# Dashboards de Custos — GDF
+# Sistema de Custos — GDF
 
-Dashboards interativos de custos do Governo do Distrito Federal, publicados via GitHub Pages e alimentados por ETL automatizado a partir do banco Oracle (SIGGO).
+Dashboards interativos de custos do Governo do Distrito Federal, publicados via GitHub Pages e alimentados por ETL automatizado a partir dos bancos Oracle (SIGGO) e Informix (SIGRH).
 
-🔗 **Acesso público:** https://brunorvmaciel.github.io/custos-ug-df/
+🔗 **Acesso público:** https://sistema-custos-gdf.github.io/dashboards/
+📦 **Repositório:** https://github.com/sistema-custos-gdf/dashboards
+
+---
+
+## Fluxo de trabalho
+
+Este projeto é operado através do **Claude Code**, em linguagem natural — não é mais necessário editar scripts, rodar comandos ou publicar dados manualmente via VS Code/Git. As instruções são dadas em português diretamente ao Claude, que:
+
+- Lê e edita os scripts Python de ETL
+- Executa extrações do Oracle/Informix e publica os JSONs no GitHub (via API)
+- Ajusta os dashboards HTML
+- Gerencia credenciais, automações e a estrutura do repositório
+
+Credenciais (Oracle, Informix, token do GitHub) ficam no arquivo local `.env` (nunca versionado) e são carregadas via `python-dotenv` — não há mais nada hardcoded nos scripts.
 
 ---
 
 ## Arquitetura
 
 ```
-Oracle (ORAPRD06 — 10.69.1.118:1521)
-    ↓ extrair_dados.py  (Python + oracledb)      → dados por Unidade Gestora
-    ↓ extrair_pt.py     (Python + oracledb)      → dados por Programa de Trabalho
-         ↓
-    data/dados/*.json        →  git push  →  GitHub Pages  (custos por UG)
-    data/dados_pt/*.json     →  git push  →  GitHub Pages  (custos por PT)
+Oracle (ORAPRD06 — SIGGO)                    Informix (GDF_CLONE_a — SIGRH)
+    ↓ extrair_dados.py  → custos por UG           ↓ extrair_pessoal.py → custos de pessoal
+    ↓ extrair_pt.py     → custos por PT            ↓
+         ↓                                         ↓
+    dados/*.json         dados_pt/*.json      dados_pessoal/*.json
+                              ↓ upload via API do GitHub (requests)
+                     GitHub Pages (sistema-custos-gdf/dashboards)
                                     ↓
                            Dashboards HTML
               (browser busca JSON direto do GitHub raw content)
 ```
 
-O ETL roda automaticamente todo **dia 10 do mês às 09:00** via **Agendador de Tarefas do Windows** na estação local.
+O ETL de UG/PT roda automaticamente todo **dia 10 do mês às 09:00** via **Agendador de Tarefas do Windows** na estação local (`atualizar_dados.bat`).
 
 ---
 
 ## Dashboards disponíveis
 
-| Dashboard | Arquivo | Descrição |
-|-----------|---------|-----------|
-| Página inicial | `index.html` | Menu de acesso aos três painéis |
-| Custos por UG | `ug.html` | Custos por Unidade Gestora — evolução mensal, anual e comparativos |
-| Custos por PT | `pt.html` | Custos por Programa de Trabalho — ranking de PTs e UGs |
-| Custo por Habitante | `ra.html` | Mapa interativo do DF com custo por habitante por Região Administrativa |
+| Dashboard | Arquivo | Descrição | Status |
+|-----------|---------|-----------|--------|
+| Página inicial | `index.html` | Menu de acesso aos painéis | ✅ |
+| Custos por UG | `ug.html` | Custos por Unidade Gestora — evolução mensal, anual e comparativos | ✅ |
+| Custos por PT | `pt.html` | Custos por Programa de Trabalho — ranking de PTs e UGs | ✅ |
+| Custo por Habitante | `ra.html` | Mapa interativo do DF com custo por habitante por Região Administrativa | ✅ |
+| Custos de Pessoal | `pessoal.html` | Folha de pagamento por lotação, órgão e rubricas (SIGRH) | 🚧 em desenvolvimento |
 
 ---
 
 ## Estrutura do projeto
 
 ```
-custos-ug-df/
+dashboards/                          (repositório GitHub — sistema-custos-gdf)
 ├── index.html                    # Página inicial — links para os dashboards
 ├── ug.html                       # Dashboard Custos por Unidade Gestora
 ├── pt.html                       # Dashboard Custos por Programa de Trabalho
 ├── ra.html                       # Dashboard Custo por Habitante (mapa DF)
+├── pessoal.html                  # Dashboard Custos de Pessoal (em desenvolvimento)
 │
 ├── dados/                        # JSONs de custos por UG (um por ano)
-│   ├── index.json                # Índice com lista de exercícios disponíveis
-│   ├── 2015.json
-│   ├── 2016.json
-│   ├── ...
-│   └── 2026.json
+│   ├── index.json
+│   └── AAAA.json
 │
 ├── dados_pt/                     # JSONs de custos por PT (um por ano)
-│   ├── index.json                # Índice com lista de exercícios disponíveis
-│   ├── 2020.json
-│   ├── ...
-│   └── 2026.json
+│   ├── index.json
+│   └── AAAA.json
 │
-└── C:\dashboard-custos\          # Pasta local na estação de trabalho
-    ├── extrair_dados.py          # ETL — custos por UG
-    ├── extrair_pt.py             # ETL — custos por PT
-    └── atualizar_dados.bat       # Script de automação mensal
+└── dados_pessoal/                # JSONs de custos de pessoal (em desenvolvimento)
+
+C:\dashboard-custos\               # Pasta local na estação de trabalho
+├── .env                          # Credenciais (Oracle, Informix, GitHub) — NUNCA versionado
+├── .gitignore
+├── extrair_dados.py              # ETL — custos por UG (Oracle)
+├── extrair_pt.py                 # ETL — custos por PT (Oracle)
+├── extrair_pessoal.py            # ETL — custos de pessoal (Informix) — em desenvolvimento
+├── atualizar_dados.bat           # Script de automação mensal (UG + PT)
+└── logs/                         # Logs de execução do agendador
 ```
 
 ---
 
 ## Fonte dos dados
 
-| Dado | Fonte | Tabela Oracle |
+| Dado | Fonte | Tabela / Banco |
 |------|-------|---------------|
-| Custos por UG | SIGGO | `MIL2001.saldocontabil_EX` |
-| Custos por PT | SIGGO | `MILaaaa.CONSULTORCUG` + `MILaaaa.PT` + `MILaaaa.UNIDADEGESTORA` |
+| Custos por UG | SIGGO (Oracle) | `MIL2001.saldocontabil_EX` |
+| Custos por PT | SIGGO (Oracle) | `MILaaaa.CONSULTORCUG` + `MILaaaa.PT` + `MILaaaa.UNIDADEGESTORA` |
+| Custos de Pessoal | SIGRH (Informix) | `dbgestao` (via JDBC, schema por competência/empresa) |
 | Dados demográficos | Codeplan — Projeções Populacionais por RA do DF 2020–2030 | — |
 | De-Para RA × UG | Planilha interna `De-Para_RA-UG.xlsx` | — |
 
@@ -80,7 +99,7 @@ custos-ug-df/
 
 ## Categorias de custo
 
-Os custos são classificados em 7 categorias a partir das contas contábeis:
+Os custos (UG/PT) são classificados em 7 categorias a partir das contas contábeis:
 
 | Categoria | Contas contábeis (prefixo) |
 |-----------|---------------------------|
@@ -99,37 +118,48 @@ Os custos são classificados em 7 categorias a partir das contas contábeis:
 ### Pré-requisitos
 
 - Python 3.10+
-- Oracle Client instalado em `C:\Program Files\Oracle Client for Microsoft Tools`
-- Acesso à rede interna do GDF (IP `10.69.1.118`)
+- Oracle Client instalado (caminho configurado em `.env` → `ORACLE_CLIENT`)
+- Driver JDBC Informix (para `extrair_pessoal.py`)
+- Acesso à rede interna do GDF
 - Token GitHub com permissão `repo`
 
 ### Instalar dependências
 
 ```cmd
-pip install oracledb requests flask flask-cors
+pip install oracledb requests flask flask-cors python-dotenv pandas jaydebeapi
 ```
 
-### Credenciais Oracle
+### Credenciais — arquivo `.env`
 
-As credenciais estão fixas nos scripts. Para alterar, edite as variáveis no topo de cada arquivo:
+As credenciais **não ficam mais no código**. Ficam em `C:\dashboard-custos\.env` (fora do controle de versão):
 
-```python
-# em extrair_dados.py e extrair_pt.py
-ORACLE_USER   = "usefp62"
-ORACLE_PASS   = "mar2024"
-ORACLE_DSN    = "10.69.1.118:1521/oraprd06"
-GITHUB_TOKEN  = "seu_token_aqui"
-GITHUB_USER   = "brunorvmaciel"
-GITHUB_REPO   = "custos-ug-df"
 ```
+ORACLE_CLIENT=C:\Program Files\Oracle Client for Microsoft Tools
+ORACLE_USER=usuario
+ORACLE_PASS=senha
+ORACLE_DSN=host:porta/servico
+
+GITHUB_TOKEN=ghp_xxxxxxxxxxxx
+GITHUB_USER=sistema-custos-gdf
+GITHUB_REPO=dashboards
+
+INFORMIX_HOST=host
+INFORMIX_PORT=porta
+INFORMIX_SERVER=servidor
+INFORMIX_DB=banco
+INFORMIX_USER=usuario
+INFORMIX_PASS=senha
+```
+
+Os scripts carregam essas variáveis via `python-dotenv` (`load_dotenv()`).
 
 ### Gerar novo token GitHub
 
 1. Acesse: https://github.com/settings/tokens
 2. Clique em **Generate new token (classic)**
-3. Note: `custos-ug`  ·  Expiration: `No expiration`
+3. Note: `sistema-custos-gdf`  ·  Expiration: `No expiration`
 4. Marque: ✅ **repo**
-5. Copie o token e substitua em `GITHUB_TOKEN` nos dois scripts
+5. Copie o token e substitua `GITHUB_TOKEN` no `.env`
 
 ---
 
@@ -153,8 +183,8 @@ Os scripts são **incrementais**:
 
 ```
 1. Verifica index.json no GitHub → descobre quais anos já existem
-2. Baixa histórico (2015–2025) do GitHub sem acessar o Oracle
-3. Consulta o Oracle apenas para o ano atual (2026+)
+2. Baixa histórico do GitHub sem acessar o Oracle
+3. Consulta o Oracle apenas para o ano atual
 4. Combina histórico + dados novos
 5. Faz upload de um arquivo por ano + atualiza index.json
 ```
@@ -163,7 +193,7 @@ Os scripts são **incrementais**:
 
 ```
 1. Verifica index.json no GitHub → descobre quais anos já existem
-2. Mantém 2020–2025 intocados no GitHub
+2. Mantém anos anteriores intocados no GitHub
 3. Consulta o Oracle apenas o ano atual, a partir do último mês disponível
 4. Combina meses anteriores do cache + meses novos
 5. Faz upload apenas do ano atual + atualiza index.json
@@ -173,11 +203,10 @@ Os scripts são **incrementais**:
 
 ## Automação — Agendador de Tarefas do Windows
 
-O script `atualizar_dados.bat` roda automaticamente todo **dia 10 às 09:00** via Agendador de Tarefas do Windows.
+O script `atualizar_dados.bat` roda automaticamente todo **dia 10 às 09:00** via Agendador de Tarefas do Windows, executando `extrair_dados.py` e `extrair_pt.py`.
 
 ### Configuração (já realizada)
 
-A tarefa foi criada com:
 - **Nome:** `Atualização Dashboard Custos`
 - **Gatilho:** Mensalmente, dia 10, às 09:00
 - **Ação:** `C:\dashboard-custos\atualizar_dados.bat`
@@ -189,75 +218,23 @@ A tarefa foi criada com:
 Win + R → taskschd.msc → Biblioteca do Agendador → "Atualização Dashboard Custos"
 ```
 
-### Recriar a tarefa (se necessário)
-
-```
-taskschd.msc → Criar Tarefa Básica → preencher conforme acima
-```
-
 ### Logs de execução
 
-Cada execução gera um log em:
 ```
 C:\dashboard-custos\logs\atualizacaoAAAAMMDD.txt
 ```
 
 ### Executar manualmente
 
-Clique com botão direito na tarefa → **Executar**
-
-Ou via linha de comando:
 ```cmd
 C:\dashboard-custos\atualizar_dados.bat
 ```
 
 ---
 
-## Adicionar novo dashboard
-
-1. Crie o arquivo HTML na raiz do repositório (ex: `despesa.html`)
-2. Adicione o botão **← INÍCIO** no cabeçalho apontando para `index.html`
-3. Adicione um novo card em `index.html` apontando para o novo arquivo
-4. Se precisar de novos dados, crie o script de extração seguindo o padrão de `extrair_dados.py`
-5. Adicione a chamada do novo script em `atualizar_dados.bat`
-
----
-
-## Adicionar novo exercício
-
-Os exercícios são detectados automaticamente pelo `extrair_dados.py` via:
-
-```sql
-SELECT DISTINCT COEXERCICIO FROM MIL2001.saldocontabil_EX ORDER BY COEXERCICIO DESC
-```
-
-Para o dashboard de PT, novos schemas `MILaaaa` são detectados automaticamente incrementando `ANO_ATUAL` no script.
-
----
-
 ## Reverter dados para versão anterior
 
-### Ver histórico de commits
-
-```cmd
-git log --oneline
-```
-
-### Restaurar um arquivo específico
-
-```cmd
-git checkout <hash> -- dados/2026.json
-git add .
-git commit -m "fix: reverte dados de 2026 para versão anterior"
-git push origin main
-```
-
-### Desfazer o último commit
-
-```cmd
-git revert HEAD
-git push origin main
-```
+Como o repositório não usa clone/push local (upload é feito via API do GitHub), a forma mais simples de reverter é restaurar o conteúdo de um arquivo específico direto pela interface do GitHub (histórico de commits do arquivo) ou pedir ao Claude Code para reenviar uma versão anterior salva localmente.
 
 ---
 
@@ -267,14 +244,16 @@ git push origin main
 index.html  (Página inicial)
 ├── ug.html          → Custos por Unidade Gestora
 ├── pt.html          → Custos por Programa de Trabalho
-└── ra.html          → Custo por Habitante (mapa DF)
+├── ra.html          → Custo por Habitante (mapa DF)
+└── pessoal.html     → Custos de Pessoal (em desenvolvimento)
 ```
 
 ---
 
 ## Contato e responsável
 
-**Responsável:** Bruno V. Maciel  
-**Setor:** Secretaria de Estado de Economia — Distrito Federal  
-**Repositório:** https://github.com/brunorvmaciel/custos-ug-df  
-**Dashboard:** https://brunorvmaciel.github.io/custos-ug-df/
+**Responsável:** Bruno V. Maciel
+**Setor:** Secretaria de Estado de Economia — Distrito Federal
+**Organização GitHub:** https://github.com/sistema-custos-gdf
+**Repositório:** https://github.com/sistema-custos-gdf/dashboards
+**Dashboard:** https://sistema-custos-gdf.github.io/dashboards/
