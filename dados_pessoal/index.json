@@ -1,12 +1,1 @@
-{
-  "competencias": [
-    "202601",
-    "202602",
-    "202603",
-    "202604",
-    "202605",
-    "202606"
-  ],
-  "escopo": "todos os orgaos GDF",
-  "atualizado_em": "2026-07-04T01:17:07.564665"
-}
+{"competencias": [], "escopo": "todos os orgaos GDF (reprocessamento c/ query corrigida)", "atualizado_em": ""}
