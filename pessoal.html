@@ -131,6 +131,7 @@ footer{background:var(--ve);color:rgba(255,255,255,.4);text-align:center;padding
 <div class="toolbar">
   <div class="tg"><label>Competência</label><select id="s-comp"></select></div>
   <div class="tg"><label>Órgão</label><select id="s-org" style="min-width:240px"><option value="">— Todos —</option></select></div>
+  <div class="tg"><label>Unidade</label><select id="s-unidade" style="min-width:220px"><option value="">— Todas —</option></select></div>
   <div class="tg"><label>Situação Funcional</label><select id="s-sit" style="min-width:160px"><option value="">— Todas —</option></select></div>
   <button class="btn btn-p" onclick="aplicar()">▶ APLICAR</button>
   <button class="btn btn-s" onclick="limpar()">✕ LIMPAR</button>
@@ -446,6 +447,7 @@ function popularOrgaos(comp){
 async function aplicar(){
   const comp = document.getElementById("s-comp").value;
   const org  = document.getElementById("s-org").value;
+  const uni  = document.getElementById("s-unidade").value.trim();
   const sit  = document.getElementById("s-sit").value.trim();
   if(!comp || !resumoCache[comp]) return;
 
@@ -455,12 +457,13 @@ async function aplicar(){
   if(tabAtual==="evolucao")   await renderEvolucao(org);
   if(tabAtual==="composicao") await renderComposicao(comp, org);
   if(tabAtual==="forca")      await renderForca(comp, org, sit);
-  if(tabAtual==="lotacao")    await renderLotacao(comp, org, sit);
+  if(tabAtual==="lotacao")    await renderLotacao(comp, org, sit, uni);
   if(tabAtual==="rubricas")   await renderRubricas(comp);
 }
 
 function limpar(){
   document.getElementById("s-org").value="";
+  document.getElementById("s-unidade").innerHTML=`<option value="">— Todas —</option>`;
   document.getElementById("s-sit").innerHTML=`<option value="">— Todas —</option>`;
   aplicar();
 }
@@ -844,7 +847,7 @@ async function renderForca(comp, org, sit){
 }
 
 // ── ABA 5: LOTAÇÃO ───────────────────────────────────────────────
-async function renderLotacao(comp, org, sit){
+async function renderLotacao(comp, org, sit, uni){
   if(!org){
     document.getElementById("lot-aviso").style.display="block";
     document.getElementById("lot-conteudo").style.display="none";
@@ -854,9 +857,19 @@ async function renderLotacao(comp, org, sit){
   document.getElementById("lot-conteudo").style.display="block";
 
   let registros=await getRegistros(comp,org);
+
+  // Popular select de Unidade (nivel3_unidade) a partir do orgao inteiro,
+  // ANTES de aplicar o proprio filtro de unidade (senao a lista encolheria
+  // pra 1 item assim que voce escolhesse uma).
+  const unidades=[...new Set(registros.map(r=>(r.nivel3_unidade||"").trim()).filter(Boolean))].sort();
+  const sU=document.getElementById("s-unidade");
+  const uv=uni||sU.value;
+  sU.innerHTML=`<option value="">— Todas —</option>`+unidades.map(u=>`<option value="${u}" ${u===uv?"selected":""}>${u}</option>`).join("");
+
+  if(uv) registros=registros.filter(r=>(r.nivel3_unidade||"").trim()===uv);
   if(sit) registros=registros.filter(r=>(r.dc_sit_func||"").trim()===sit);
 
-  // Popular select de situacao
+  // Popular select de situacao (dentro da unidade ja filtrada, se houver)
   const sits=[...new Set(registros.map(r=>(r.dc_sit_func||"").trim()).filter(Boolean))].sort();
   const sS=document.getElementById("s-sit");
   const sv=sS.value;
@@ -1052,11 +1065,17 @@ async function renderRubricas(comp){
 document.addEventListener("DOMContentLoaded",()=>{
   document.getElementById("s-comp").addEventListener("change",()=>{
     document.getElementById("s-org").value="";
+    document.getElementById("s-unidade").innerHTML=`<option value="">— Todas —</option>`;
     document.getElementById("s-sit").innerHTML=`<option value="">— Todas —</option>`;
     aplicar();
   });
   document.getElementById("s-org").addEventListener("change",()=>{
+    document.getElementById("s-unidade").innerHTML=`<option value="">— Todas —</option>`;
     document.getElementById("s-sit").innerHTML=`<option value="">— Todas —</option>`;
+  });
+  document.getElementById("s-unidade").addEventListener("change",()=>{
+    document.getElementById("s-sit").innerHTML=`<option value="">— Todas —</option>`;
+    aplicar();
   });
   init();
 });
