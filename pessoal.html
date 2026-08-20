@@ -6,6 +6,7 @@
 <title>Custos de Pessoal — SIGRH</title>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500;600&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-chart-treemap@2.3.0/dist/chartjs-chart-treemap.min.js"></script>
 <style>
 :root{
   --ve:#1a4a2e;--vm:#2d7a4f;--vc:#3a9960;
@@ -191,6 +192,10 @@ footer{background:var(--ve);color:rgba(255,255,255,.4);text-align:center;padding
     <div class="ch"><div><div class="ct">Evolução por Órgão</div><div class="cs">Top 10 órgãos ao longo do tempo</div></div><span class="tag">BARRAS</span></div>
     <div class="cb tall"><canvas id="ch-evo-org"></canvas></div>
   </div>
+  <div class="card full" style="margin-top:1rem">
+    <div class="ch"><div><div class="ct">Evolução da Composição por Categoria</div><div class="cs">GDF inteiro — vencimentos, gratificações, benefícios, encargos, indenizações</div></div><span class="tag">ÁREA EMPILHADA</span></div>
+    <div class="cb tall"><canvas id="ch-evo-comp"></canvas></div>
+  </div>
 </main>
 </div>
 
@@ -268,6 +273,10 @@ footer{background:var(--ve);color:rgba(255,255,255,.4);text-align:center;padding
         <div class="ch"><div><div class="ct">Distribuição por Situação</div><div class="cs">No órgão selecionado</div></div><span class="tag">PIZZA</span></div>
         <div class="cb"><canvas id="ch-lot-sit"></canvas></div>
       </div>
+    </div>
+    <div class="card full" style="margin-bottom:1rem">
+      <div class="ch"><div><div class="ct">Mapa Hierárquico — Unidade → Lotação</div><div class="cs">Tamanho proporcional à folha bruta</div></div><span class="tag">TREEMAP</span></div>
+      <div class="cb tall"><canvas id="ch-lot-tree"></canvas></div>
     </div>
     <div class="sec">Tabela de Lotações</div>
     <div class="card full">
@@ -347,7 +356,18 @@ const GRUPOS = {
   indenizacoes: [10901,10902,10903,10904,10905,10906,10907,10908,10909,10910,10950,10951,10952,10953]
 };
 
-function grupoRubrica(cod){
+function grupoRubrica(cod, natureza){
+  // Prioriza a natureza oficial eSocial (texto), quando disponivel -- mais
+  // confiavel que a heuristica manual por faixa de codigo.
+  const n=(natureza||"").toUpperCase();
+  if(n){
+    if(n.includes("FERIAS") || n.includes("TERCO") || n.includes("DECIMO TERCEIRO") || n.includes("GRATIFICACAO NATAL")) return "indenizacoes";
+    if(n.includes("ADICIONAL") || n.includes("GRATIFICA") || n.includes("COMISSA")) return "gratificacoes";
+    if(n.includes("AUXILIO") || n.includes("BENEFIC") || n.includes("SALARIO-FAMILIA") || n.includes("VALE")) return "beneficios";
+    if(n.includes("CONTRIBUICAO") || n.includes("ENCARGO") || n.includes("PATRONAL") || n.includes("RPPS") || n.includes("RGPS")) return "encargos";
+    if(n.includes("SALARIO") || n.includes("VENCIMENTO") || n.includes("SUBSIDIO") || n.includes("SOLDO") || n.includes("HORA EXTR")) return "vencimentos";
+    if(n.includes("INDENIZ")) return "indenizacoes";
+  }
   for(const [g, lista] of Object.entries(GRUPOS)){
     if(lista.includes(cod)) return g;
   }
@@ -432,7 +452,7 @@ async function aplicar(){
   popularOrgaos(comp);
 
   if(tabAtual==="visao")      renderVisao(comp, org);
-  if(tabAtual==="evolucao")   renderEvolucao(org);
+  if(tabAtual==="evolucao")   await renderEvolucao(org);
   if(tabAtual==="composicao") await renderComposicao(comp, org);
   if(tabAtual==="forca")      await renderForca(comp, org, sit);
   if(tabAtual==="lotacao")    await renderLotacao(comp, org, sit);
@@ -589,7 +609,7 @@ function renderVisao(comp, org){
 }
 
 // ── ABA 2: EVOLUÇÃO ──────────────────────────────────────────────
-function renderEvolucao(org){
+async function renderEvolucao(org){
   const comps = Object.keys(resumoCache).sort();
   const labels = comps.map(c=>MESES[parseInt(c.substring(4,6))]+"/"+c.substring(0,4));
 
@@ -654,6 +674,35 @@ function renderEvolucao(org){
   } else {
     dc("evo-org");
   }
+
+  // Evolução da composição por categoria (GDF inteiro, via rubricas_agregado.json)
+  if(!org){
+    const listasPorComp = await Promise.all(comps.map(c=>getRubricasAgregado(c)));
+    const gruposPorComp = listasPorComp.map(lista=>{
+      const g={vencimentos:0,gratificacoes:0,beneficios:0,encargos:0,indenizacoes:0,outros:0};
+      lista.forEach(r=>{
+        const grupo=grupoRubrica(r.cod, r.natureza_esocial);
+        if(grupo in g) g[grupo]+=r.valor; else g.outros+=r.valor;
+      });
+      return g;
+    });
+    const nomesGrupos=[["vencimentos","Vencimentos","#2d7a4f"],["gratificacoes","Gratificações","#f0b429"],
+      ["beneficios","Benefícios","#2196a6"],["encargos","Encargos","#d4770c"],
+      ["indenizacoes","Indenizações","#7b3fa0"],["outros","Outros","#455a64"]];
+    dc("evo-comp");
+    charts["evo-comp"]=new Chart(document.getElementById("ch-evo-comp"),{
+      type:"line",
+      data:{labels,datasets:nomesGrupos.map(([chave,nome,cor])=>({
+        label:nome, data:gruposPorComp.map(g=>g[chave]),
+        borderColor:cor, backgroundColor:cor+"aa", fill:true, tension:.3, pointRadius:2
+      }))},
+      options:{responsive:true,maintainAspectRatio:false,
+        plugins:{legend:{position:"bottom",labels:{boxWidth:10,font:{size:9}}},tooltip:{callbacks:{label:c=>c.dataset.label+": "+BRLF(c.raw)}}},
+        scales:{x:{grid:{color:"#e8edf0"},stacked:true},y:{grid:{color:"#e8edf0"},stacked:true,ticks:{callback:v=>BRL(v)}}}}
+    });
+  } else {
+    dc("evo-comp");
+  }
 }
 
 // ── ABA 3: COMPOSIÇÃO ────────────────────────────────────────────
@@ -668,7 +717,7 @@ async function renderComposicao(comp, org){
   // Agrega por grupo
   const grupos={vencimentos:0,gratificacoes:0,beneficios:0,encargos:0,indenizacoes:0,descontos:0,outros:0};
   rubricas.forEach(r=>{
-    const g=grupoRubrica(r.cod);
+    const g=grupoRubrica(r.cod, r.natureza);
     if(g in grupos) grupos[g]+=r.valor;
     else grupos.outros+=r.valor;
   });
@@ -860,6 +909,35 @@ async function renderLotacao(comp, org, sit){
     options:{responsive:true,maintainAspectRatio:false,cutout:"55%",
       plugins:{legend:{position:"right",labels:{boxWidth:10,padding:8,font:{size:9}}},
         tooltip:{callbacks:{label:c=>`${c.label}: ${N(c.raw)}`}}}}
+  });
+
+  // Mapa hierárquico Unidade → Lotação (treemap)
+  dc("lot-tree");
+  charts["lot-tree"]=new Chart(document.getElementById("ch-lot-tree"),{
+    type:"treemap",
+    data:{datasets:[{
+      tree:lots,
+      key:"prov",
+      groups:["unidade","lotacao"],
+      spacing:1,
+      borderWidth:1.5,
+      borderColor:"#fff",
+      backgroundColor(ctx){
+        if(!ctx.raw) return "#2d7a4fcc";
+        const depth=ctx.raw._data?.children?1:0;
+        const cores=["#1a4a2e","#2d7a4f","#3a9960","#f0b429","#2196a6","#7b3fa0","#d4770c","#00838f"];
+        const idx=(ctx.raw.g?Math.abs([...String(ctx.raw.g)].reduce((s,c)=>s+c.charCodeAt(0),0)):0)%cores.length;
+        return cores[idx]+(depth?"88":"cc");
+      },
+      labels:{display:true,color:"#fff",font:{size:10,weight:"600"},
+        formatter(ctx){ return ctx.raw?.g ? `${ctx.raw.g}` : ""; }}
+    }]},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},
+        tooltip:{callbacks:{label:c=>{
+          const v=c.raw?._data;
+          return (v?.unidade||v?.lotacao||"")+": "+BRLF(c.raw?.v||0);
+        }}}}}
   });
 
   // Tabela
