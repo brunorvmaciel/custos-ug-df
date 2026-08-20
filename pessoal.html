@@ -859,15 +859,27 @@ async function renderLotacao(comp, org, sit, uni){
 
   let registros=await getRegistros(comp,org);
 
-  // Popular select de Unidade (nivel3_unidade) a partir do orgao inteiro,
-  // ANTES de aplicar o proprio filtro de unidade (senao a lista encolheria
-  // pra 1 item assim que voce escolhesse uma).
-  const unidades=[...new Set(registros.map(r=>(r.nivel3_unidade||"").trim()).filter(Boolean))].sort();
+  // Popular select de Unidade a partir de TODOS os nós da hierarquia_lotacao
+  // (não só o nível "ua"/nivel3_unidade) -- assim dá pra escolher qualquer
+  // nível (Subcontroladoria, Coordenação, Diretoria...) e o filtro abaixo
+  // faz o ROLLUP: soma quem está lotado ali OU em qualquer sub-nível abaixo,
+  // porque a cadeia hierárquica de cada servidor contém todos os ancestrais.
+  const profundidade={};
+  registros.forEach(r=>{
+    (r.hierarquia_lotacao||[]).forEach((nome,i)=>{
+      const n=(nome||"").trim();
+      if(n && !(n in profundidade)) profundidade[n]=i;
+    });
+  });
+  const unidades=Object.keys(profundidade).sort((a,b)=> profundidade[a]-profundidade[b] || a.localeCompare(b));
   const sU=document.getElementById("s-unidade");
   const uv=uni||sU.value;
-  sU.innerHTML=`<option value="">— Todas —</option>`+unidades.map(u=>`<option value="${u}" ${u===uv?"selected":""}>${u}</option>`).join("");
+  sU.innerHTML=`<option value="">— Todas —</option>`+unidades.map(u=>
+    `<option value="${u}" ${u===uv?"selected":""}>${"— ".repeat(profundidade[u])}${u}</option>`).join("");
 
-  if(uv) registros=registros.filter(r=>(r.nivel3_unidade||"").trim()===uv);
+  // Filtro por rollup: mantém o servidor se o nó escolhido aparecer em
+  // QUALQUER posição da cadeia hierárquica dele (ancestral ou ele mesmo).
+  if(uv) registros=registros.filter(r=>(r.hierarquia_lotacao||[]).some(n=>(n||"").trim()===uv));
   if(sit) registros=registros.filter(r=>(r.dc_sit_func||"").trim()===sit);
 
   // Popular select de situacao (dentro da unidade ja filtrada, se houver)
