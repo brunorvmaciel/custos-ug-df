@@ -923,20 +923,21 @@ async function renderLotacao(comp, org, sit){
       borderWidth:1.5,
       borderColor:"#fff",
       backgroundColor(ctx){
-        if(!ctx.raw) return "#2d7a4fcc";
-        const depth=ctx.raw._data?.children?1:0;
+        const raw=ctx.raw;
+        if(!raw || raw.g==null) return "#2d7a4f55";
         const cores=["#1a4a2e","#2d7a4f","#3a9960","#f0b429","#2196a6","#7b3fa0","#d4770c","#00838f"];
-        const idx=(ctx.raw.g?Math.abs([...String(ctx.raw.g)].reduce((s,c)=>s+c.charCodeAt(0),0)):0)%cores.length;
-        return cores[idx]+(depth?"88":"cc");
+        const chaveCor = raw.l===0 ? raw.g : (raw._data?.unidade || raw.g);
+        const idx=Math.abs([...String(chaveCor)].reduce((s,c)=>s+c.charCodeAt(0),0))%cores.length;
+        return cores[idx]+(raw.l===0?"cc":"99");  // nivel 0 (unidade) mais opaco que nivel 1 (lotacao)
       },
       labels:{display:true,color:"#fff",font:{size:10,weight:"600"},
-        formatter(ctx){ return ctx.raw?.g ? `${ctx.raw.g}` : ""; }}
+        formatter(ctx){ return ctx.raw?.g || ""; }}
     }]},
     options:{responsive:true,maintainAspectRatio:false,
       plugins:{legend:{display:false},
         tooltip:{callbacks:{label:c=>{
-          const v=c.raw?._data;
-          return (v?.unidade||v?.lotacao||"")+": "+BRLF(c.raw?.v||0);
+          const raw=c.raw;
+          return (raw?.g||"")+": "+BRLF(raw?.v||0);
         }}}}}
   });
 
