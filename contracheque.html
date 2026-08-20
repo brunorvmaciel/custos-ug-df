@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simulador de Contracheque — Conferência</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500;600&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ve:#1a4a2e;--vm:#2d7a4f;--vc:#3a9960;
+  --do:#f0b429;--doc:#f7cc6b;
+  --bg:#f0f4f1;--sf:#fff;--sf2:#f5f8f6;--bd:#d0dbd4;
+  --tx:#1a2e22;--ts:#4a6357;--cm:#b0bec5;
+  --fh:"Barlow Condensed",sans-serif;--fb:"Barlow",sans-serif;--fm:"Roboto Mono",monospace;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--tx);font-family:var(--fb);min-height:100vh}
+header{background:linear-gradient(135deg,var(--ve),var(--vm));border-bottom:4px solid var(--do);padding:0 2rem;height:72px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 3px 12px rgba(0,0,0,.25)}
+.hl{display:flex;align-items:center;gap:14px}
+.hl img{height:52px;filter:drop-shadow(0 2px 4px rgba(0,0,0,.3))}
+.ht{display:flex;flex-direction:column}
+.hs{font-family:var(--fh);font-size:.7rem;font-weight:600;color:var(--doc);letter-spacing:.2em;text-transform:uppercase}
+.hti{font-family:var(--fh);font-size:1.35rem;font-weight:800;color:#fff;letter-spacing:.04em;line-height:1.1}
+.hti span{color:var(--do)}
+.stripe{background:var(--do);height:5px}
+main{max-width:1100px;margin:0 auto;padding:1.5rem 2rem 3rem}
+.aviso{font-size:.76rem;color:var(--ts);background:rgba(45,122,79,.06);border:1px solid rgba(45,122,79,.2);border-radius:6px;padding:.6rem .9rem;margin-bottom:1.2rem;line-height:1.5}
+.card{background:var(--sf);border:1px solid var(--bd);border-radius:10px;padding:1.2rem;box-shadow:0 2px 8px rgba(0,0,0,.05);margin-bottom:1rem}
+.toolbar{display:flex;flex-wrap:wrap;gap:.9rem;align-items:flex-end}
+.tg{display:flex;flex-direction:column;gap:3px;flex:1;min-width:160px}
+.tg label{font-family:var(--fh);font-size:.68rem;font-weight:700;color:var(--ts);letter-spacing:.08em;text-transform:uppercase}
+select,input{font-family:var(--fb);font-size:.82rem;color:var(--tx);background:var(--sf2);border:1px solid var(--bd);border-radius:6px;padding:7px 10px;outline:none;width:100%}
+select:focus,input:focus{border-color:var(--vm)}
+.btn{font-family:var(--fh);font-weight:700;font-size:.78rem;letter-spacing:.08em;padding:8px 18px;border-radius:6px;border:none;cursor:pointer;background:var(--vm);color:#fff;white-space:nowrap}
+.btn:hover{opacity:.88}
+.sec{font-family:var(--fh);font-size:.9rem;font-weight:800;color:var(--ve);letter-spacing:.1em;text-transform:uppercase;margin:1.4rem 0 .6rem;padding-left:.25rem;border-left:3px solid var(--do)}
+#msg{font-size:.8rem;color:var(--ts);padding:.5rem 0}
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.78rem}
+th{font-family:var(--fh);font-size:.66rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ts);padding:.5rem .7rem;border-bottom:2px solid var(--bd);background:var(--sf2);text-align:left;white-space:nowrap}
+td{padding:.5rem .7rem;border-bottom:1px solid #e8edf0;font-family:var(--fm);font-size:.74rem}
+tr.linha-candidata{cursor:pointer}
+tr.linha-candidata:hover td{background:#f0f7f2}
+.badge{display:inline-block;font-family:var(--fh);font-size:.6rem;font-weight:700;letter-spacing:.06em;padding:2px 8px;border-radius:20px;background:rgba(45,122,79,.1);color:var(--vm);border:1px solid rgba(45,122,79,.25)}
+
+/* ═══ LAYOUT DO CONTRACHEQUE ═══ */
+#contracheque{display:none;background:#fff;border:1px solid #999;font-family:Arial,Helvetica,sans-serif;font-size:.72rem;color:#111;max-width:900px;margin:0 auto}
+.cc-header{text-align:center;padding:.6rem;border-bottom:2px solid #333}
+.cc-header .t1{font-weight:700;font-size:.85rem}
+.cc-header .t2{font-weight:700;font-size:.8rem}
+.cc-header .t3{font-weight:700;font-size:.9rem;margin-top:.3rem}
+.cc-grid{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid #999}
+.cc-cell{border-right:1px solid #999;border-bottom:1px solid #999;padding:.35rem .6rem}
+.cc-cell:nth-child(2n){border-right:none}
+.cc-cell .lbl{font-size:.62rem;font-weight:700;color:#333;text-transform:uppercase}
+.cc-cell .val{font-size:.76rem;margin-top:1px}
+.cc-full{grid-column:1/-1}
+.cc-obs{font-size:.62rem;color:#900;font-style:italic;padding:.3rem .6rem;background:#fff8e1;border-bottom:1px solid #999}
+table.cc-tab{width:100%;border-collapse:collapse;font-size:.72rem}
+table.cc-tab th{background:#e8e8e8;border:1px solid #999;padding:.3rem .5rem;text-align:left}
+table.cc-tab td{border:1px solid #999;padding:.3rem .5rem}
+table.cc-tab td:last-child,table.cc-tab th:last-child{text-align:right}
+.cc-tipo{font-weight:700}
+.cc-totais{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #999}
+.cc-totais div{padding:.5rem .6rem;border-right:1px solid #999}
+.cc-totais div:last-child{border-right:none}
+.cc-totais .lbl{font-size:.62rem;font-weight:700;text-transform:uppercase;color:#333}
+.cc-totais .val{font-size:.95rem;font-weight:700;margin-top:2px}
+footer{background:var(--ve);color:rgba(255,255,255,.4);text-align:center;padding:.8rem;font-family:var(--fh);font-size:.68rem;letter-spacing:.15em;text-transform:uppercase;margin-top:2rem}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hl">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Bras%C3%A3o_do_Distrito_Federal_%28Brasil%29.svg/240px-Bras%C3%A3o_do_Distrito_Federal_%28Brasil%29.svg.png" alt="DF">
+    <div class="ht">
+      <span class="hs">Governo do Distrito Federal</span>
+      <span class="hti">Simulador de <span>Contracheque</span></span>
+      <span class="hs" style="color:rgba(255,255,255,.6)">Ferramenta de conferência — SIGRH</span>
+    </div>
+  </div>
+  <a href="pessoal.html" style="font-family:var(--fh);font-size:.75rem;font-weight:700;color:rgba(255,255,255,.8);background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);padding:5px 14px;border-radius:20px;text-decoration:none;letter-spacing:.06em">← DASHBOARD</a>
+</header>
+<div class="stripe"></div>
+
+<main>
+  <div class="aviso">
+    <strong>O que é isso:</strong> monta o "contracheque" de um servidor a partir dos dados já extraídos, para
+    comparar rubrica por rubrica com um contracheque oficial em PDF e validar se a extração está correta.
+    <strong>Nunca mostra nome, matrícula, CPF, endereço ou dados bancários</strong> — só cargo, lotação e valores,
+    o suficiente para conferência. Se o filtro encontrar mais de um servidor com o mesmo cargo/lotação, escolha
+    pela combinação de valores (bruto/líquido) que bate com o contracheque real que você tem em mãos.
+  </div>
+
+  <div class="card">
+    <div class="toolbar">
+      <div class="tg"><label>Competência</label><select id="s-comp"></select></div>
+      <div class="tg"><label>Órgão</label><select id="s-org"><option value="">— selecione —</option></select></div>
+      <div class="tg"><label>Lotação (contém)</label><input id="s-lot" placeholder="ex: unidade de custos"></div>
+      <div class="tg"><label>Cargo (contém)</label><input id="s-cargo" placeholder="ex: analista"></div>
+      <button class="btn" onclick="buscar()">🔍 BUSCAR</button>
+    </div>
+  </div>
+
+  <div id="msg"></div>
+
+  <div class="card" id="card-resultados" style="display:none">
+    <div class="sec">Candidatos encontrados</div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Lotação</th><th>Unidade</th><th>Cargo</th><th>Situação</th><th style="text-align:right">Bruto</th><th style="text-align:right">Líquido</th></tr></thead>
+        <tbody id="tb-candidatos"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="contracheque">
+    <div class="cc-header">
+      <div class="t1">GOVERNO DO DISTRITO FEDERAL</div>
+      <div class="t2" id="cc-orgao">—</div>
+      <div class="t3">CONTRACHEQUE (SIMULADO)</div>
+    </div>
+    <div class="cc-obs">⚠️ Simulação de conferência — servidor não identificado propositalmente (sem nome/matrícula/CPF). Não é um documento oficial.</div>
+    <div class="cc-grid">
+      <div class="cc-cell cc-full"><div class="lbl">Cargo Efetivo</div><div class="val" id="cc-cargo">—</div></div>
+      <div class="cc-cell"><div class="lbl">Cargo em Comissão/Função</div><div class="val" id="cc-funcao">—</div></div>
+      <div class="cc-cell"><div class="lbl">Carreira</div><div class="val" id="cc-carreira">—</div></div>
+      <div class="cc-cell cc-full"><div class="lbl">Lotação</div><div class="val" id="cc-lotacao">—</div></div>
+      <div class="cc-cell"><div class="lbl">Situação</div><div class="val" id="cc-situacao">—</div></div>
+      <div class="cc-cell"><div class="lbl">Vínculo</div><div class="val" id="cc-vinculo">—</div></div>
+      <div class="cc-cell"><div class="lbl">Mês/Ano Pagamento</div><div class="val" id="cc-comp">—</div></div>
+      <div class="cc-cell"><div class="lbl">Órgão</div><div class="val" id="cc-orgcod">—</div></div>
+    </div>
+    <table class="cc-tab">
+      <thead><tr><th>Tipo</th><th>Código</th><th>Discriminação</th><th>Natureza eSocial</th><th>Valor R$</th></tr></thead>
+      <tbody id="cc-rubricas"></tbody>
+    </table>
+    <div class="cc-totais">
+      <div><div class="lbl">Bruto</div><div class="val" id="cc-bruto">—</div></div>
+      <div><div class="lbl">Descontos</div><div class="val" id="cc-descontos">—</div></div>
+      <div><div class="lbl">Líquido</div><div class="val" id="cc-liquido">—</div></div>
+    </div>
+  </div>
+</main>
+
+<footer>SECRETARIA DE ESTADO DE ECONOMIA — DISTRITO FEDERAL &nbsp;|&nbsp; Ferramenta interna de conferência</footer>
+
+<script>
+const BASE = "https://raw.githubusercontent.com/sistema-custos-gdf/dashboards/main/dados_pessoal";
+const MESES = ["","Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez"];
+const BRLF = v => new Intl.NumberFormat("pt-BR",{style:"currency",currency:"BRL",minimumFractionDigits:2}).format(v||0);
+
+let indice = null, empresasComp = {};
+const rubDictCache = {};
+
+async function init(){
+  const r = await fetch(BASE+"/index.json?t="+Date.now());
+  indice = await r.json();
+  const comps = (indice.competencias||[]).sort().reverse();
+  document.getElementById("s-comp").innerHTML = comps.map(c=>{
+    const m=parseInt(c.substring(4,6));
+    return `<option value="${c}">${MESES[m]}/${c.substring(0,4)}</option>`;
+  }).join("");
+  await carregarOrgaos();
+  document.getElementById("s-comp").addEventListener("change", carregarOrgaos);
+}
+
+async function carregarOrgaos(){
+  const comp = document.getElementById("s-comp").value;
+  if(!empresasComp[comp]){
+    const r = await fetch(BASE+"/"+comp+"/resumo.json?t="+Date.now());
+    const resumo = await r.json();
+    empresasComp[comp] = (resumo.empresas||[]).sort((a,b)=>(a.dc_empresa||"").localeCompare(b.dc_empresa||""));
+  }
+  const sO = document.getElementById("s-org");
+  sO.innerHTML = `<option value="">— selecione —</option>`+
+    empresasComp[comp].map(e=>`<option value="${e.empresa}">${e.dc_empresa} (${e.sigla})</option>`).join("");
+}
+
+async function getRubricaDict(org){
+  if(!rubDictCache[org]){
+    const r = await fetch(BASE+"/rubricas/emp_"+org+".json?t="+Date.now());
+    rubDictCache[org] = r.ok ? (await r.json()).rubricas || {} : {};
+  }
+  return rubDictCache[org];
+}
+
+async function getRegistrosOrg(comp, org){
+  const meta = (empresasComp[comp]||[]).find(e=>String(e.empresa)===String(org));
+  const numPartes = meta?.num_partes || 1;
+  let registros = [];
+  if(numPartes<=1){
+    const r = await fetch(BASE+"/"+comp+"/emp_"+org+".json?t="+Date.now());
+    if(r.ok) registros = (await r.json()).registros || [];
+  } else {
+    for(let i=1;i<=numPartes;i++){
+      const r = await fetch(BASE+"/"+comp+"/emp_"+org+"_p"+i+".json?t="+Date.now());
+      if(r.ok) registros.push(...((await r.json()).registros||[]));
+    }
+  }
+  return registros;
+}
+
+let candidatosAtuais = [];
+
+async function buscar(){
+  const comp = document.getElementById("s-comp").value;
+  const org  = document.getElementById("s-org").value;
+  const filtroLot   = document.getElementById("s-lot").value.trim().toUpperCase();
+  const filtroCargo = document.getElementById("s-cargo").value.trim().toUpperCase();
+  const msg = document.getElementById("msg");
+  document.getElementById("card-resultados").style.display="none";
+  document.getElementById("contracheque").style.display="none";
+
+  if(!org){ msg.textContent = "Selecione um órgão."; return; }
+  msg.textContent = "Carregando...";
+
+  const registros = await getRegistrosOrg(comp, org);
+  candidatosAtuais = registros.filter(r=>{
+    const lot = (r.nivel4_lotacao||"").toUpperCase();
+    const uni = (r.nivel3_unidade||"").toUpperCase();
+    const cargo = (r.dc_cargo||"").toUpperCase();
+    const okLot = !filtroLot || lot.includes(filtroLot) || uni.includes(filtroLot);
+    const okCargo = !filtroCargo || cargo.includes(filtroCargo);
+    return okLot && okCargo;
+  });
+
+  if(!candidatosAtuais.length){
+    msg.textContent = "Nenhum registro encontrado com esses filtros.";
+    return;
+  }
+  msg.textContent = candidatosAtuais.length+" registro(s) encontrado(s). Clique numa linha para montar o contracheque.";
+  document.getElementById("card-resultados").style.display="block";
+  document.getElementById("tb-candidatos").innerHTML = candidatosAtuais.map((r,i)=>`
+    <tr class="linha-candidata" onclick="montarContracheque(${i})">
+      <td>${r.nivel4_lotacao||"—"}</td>
+      <td>${r.nivel3_unidade||"—"}</td>
+      <td>${r.dc_cargo||"—"}</td>
+      <td>${r.dc_sit_func||"—"}</td>
+      <td style="text-align:right">${BRLF(r.total_proventos)}</td>
+      <td style="text-align:right">${BRLF(r.total_liquido)}</td>
+    </tr>`).join("");
+}
+
+async function montarContracheque(idx){
+  const comp = document.getElementById("s-comp").value;
+  const org  = document.getElementById("s-org").value;
+  const r = candidatosAtuais[idx];
+  const meta = (empresasComp[comp]||[]).find(e=>String(e.empresa)===String(org));
+  const dict = await getRubricaDict(org);
+
+  document.getElementById("cc-orgao").textContent = meta?.dc_empresa || "";
+  document.getElementById("cc-orgcod").textContent = org + " — " + (meta?.sigla||"");
+  document.getElementById("cc-cargo").textContent = r.dc_cargo || "—";
+  document.getElementById("cc-funcao").textContent = (r.dc_tipo_funcao||"—") + (r.cod_funcao?(" ("+r.cod_funcao+")"):"");
+  document.getElementById("cc-carreira").textContent = r.cod_carreira || "—";
+  document.getElementById("cc-lotacao").textContent = (r.hierarquia_lotacao||[]).join("  →  ") || r.nivel4_lotacao || "—";
+  document.getElementById("cc-situacao").textContent = r.dc_status || "—";
+  document.getElementById("cc-vinculo").textContent = r.dc_sit_func + " (" + (r.grupo_vinculo||"") + ")";
+  document.getElementById("cc-comp").textContent = MESES[parseInt(comp.substring(4,6))]+"/"+comp.substring(0,4);
+
+  const linhas = (r.rubricas||[]).map(rub=>{
+    const info = dict[String(rub.cod)] || {};
+    const tipo = Math.floor(rub.cod/10000);
+    const tipoNome = [1,2,3].includes(tipo) ? "RENDIMENTO" : "DESCONTO";
+    return {...rub, nome: info.nome||"(código "+rub.cod+")", natureza: info.natureza_esocial||"—", tipoNome};
+  }).sort((a,b)=> (a.tipoNome===b.tipoNome? b.valor-a.valor : (a.tipoNome==="RENDIMENTO"?-1:1)) );
+
+  document.getElementById("cc-rubricas").innerHTML = linhas.map(l=>`
+    <tr>
+      <td class="cc-tipo">${l.tipoNome}</td>
+      <td>${l.cod}</td>
+      <td>${l.nome}</td>
+      <td style="font-size:.64rem;color:#555">${l.natureza}</td>
+      <td>${BRLF(l.valor)}</td>
+    </tr>`).join("");
+
+  document.getElementById("cc-bruto").textContent = BRLF(r.total_proventos);
+  document.getElementById("cc-descontos").textContent = BRLF(r.total_descontos);
+  document.getElementById("cc-liquido").textContent = BRLF(r.total_liquido);
+
+  document.getElementById("contracheque").style.display="block";
+  document.getElementById("contracheque").scrollIntoView({behavior:"smooth"});
+}
+
+init();
+</script>
+</body>
+</html>
