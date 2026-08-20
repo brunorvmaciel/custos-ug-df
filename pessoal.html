@@ -123,6 +123,7 @@ footer{background:var(--ve);color:rgba(255,255,255,.4);text-align:center;padding
   <div class="tab" onclick="setTab('composicao')">Composição</div>
   <div class="tab" onclick="setTab('forca')">Força de Trabalho</div>
   <div class="tab" onclick="setTab('lotacao')">Custos por Lotação</div>
+  <div class="tab" onclick="setTab('rubricas')">Análise de Rubricas</div>
 </div>
 
 <!-- TOOLBAR -->
@@ -285,6 +286,44 @@ footer{background:var(--ve);color:rgba(255,255,255,.4);text-align:center;padding
 </main>
 </div>
 
+<!-- ═══ ABA 6: ANÁLISE DE RUBRICAS ═══ -->
+<div class="page" id="page-rubricas">
+<main>
+  <div style="font-size:.72rem;color:var(--ts);background:rgba(45,122,79,.06);border:1px solid rgba(45,122,79,.2);border-radius:6px;padding:.5rem .8rem;margin-bottom:1rem">
+    Visão <strong>GDF inteiro</strong> (não filtra por órgão) — soma de todas as rubricas de todos os órgãos na competência selecionada.
+  </div>
+  <div class="kpi-row">
+    <div class="kpi"><div class="kpi-l">Férias</div><div class="kpi-v" id="r-fer">—</div><div class="kpi-s">valor + terço + abono</div></div>
+    <div class="kpi"><div class="kpi-l">13º Salário</div><div class="kpi-v" id="r-13">—</div><div class="kpi-s">gratificação natalina</div></div>
+    <div class="kpi"><div class="kpi-l">Horas Extras</div><div class="kpi-v" id="r-he">—</div><div class="kpi-s">todas as naturezas</div></div>
+    <div class="kpi"><div class="kpi-l">Verbas Indenizatórias</div><div class="kpi-v" id="r-ind">—</div><div class="kpi-s">natureza eSocial</div></div>
+    <div class="kpi"><div class="kpi-l">Rubricas Distintas</div><div class="kpi-v" id="r-qtd">—</div><div class="kpi-s">códigos usados no mês</div></div>
+  </div>
+  <div class="g2">
+    <div class="card">
+      <div class="ch"><div><div class="ct">Top 15 Rubricas por Custo</div><div class="cs">GDF inteiro — maiores valores</div></div><span class="tag">RANKING</span></div>
+      <div class="cb tall"><canvas id="ch-rub-top"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="ch"><div><div class="ct">Evolução das Top 5 Rubricas</div><div class="cs">Ao longo das competências carregadas</div></div><span class="tag">LINHA</span></div>
+      <div class="cb tall"><canvas id="ch-rub-evo"></canvas></div>
+    </div>
+  </div>
+  <div class="sec">Tabela Detalhada de Rubricas</div>
+  <div class="card full">
+    <div class="table-wrap">
+      <table>
+        <thead><tr>
+          <th style="text-align:left">Rubrica</th><th style="text-align:left">Natureza eSocial</th>
+          <th>Servidores</th><th>Valor Total</th><th>Valor Médio</th>
+        </tr></thead>
+        <tbody id="tb-rub"></tbody>
+      </table>
+    </div>
+  </div>
+</main>
+</div>
+
 <footer>SECRETARIA DE ESTADO DE ECONOMIA — DISTRITO FEDERAL &nbsp;|&nbsp; Custos de Pessoal SIGRH</footer>
 
 <script>
@@ -333,7 +372,7 @@ function setLoading(s){ document.getElementById("loading-bar").classList.toggle(
 function setTab(t){
   tabAtual = t;
   document.querySelectorAll(".tab").forEach((el,i)=>{
-    const tabs = ["visao","evolucao","composicao","forca","lotacao"];
+    const tabs = ["visao","evolucao","composicao","forca","lotacao","rubricas"];
     el.classList.toggle("active", tabs[i]===t);
   });
   document.querySelectorAll(".page").forEach(p=>p.classList.remove("active"));
@@ -397,6 +436,7 @@ async function aplicar(){
   if(tabAtual==="composicao") await renderComposicao(comp, org);
   if(tabAtual==="forca")      await renderForca(comp, org, sit);
   if(tabAtual==="lotacao")    await renderLotacao(comp, org, sit);
+  if(tabAtual==="rubricas")   await renderRubricas(comp);
 }
 
 function limpar(){
@@ -835,6 +875,98 @@ async function renderLotacao(comp, org, sit){
       <td style="color:var(--c5)">${BRLF(l.desc)}</td>
       <td class="totc">${BRLF(l.liq)}</td>
       <td>${l.serv?BRLF(l.prov/l.serv):"—"}</td>
+    </tr>`).join("");
+}
+
+// ── ABA 6: ANÁLISE DE RUBRICAS (GDF inteiro) ────────────────────────
+let rubricasAgregadoCache = {};
+async function getRubricasAgregado(comp){
+  if(!rubricasAgregadoCache[comp]){
+    const r = await fetch(BASE+"/"+comp+"/rubricas_agregado.json?t="+Date.now());
+    rubricasAgregadoCache[comp] = r.ok ? (await r.json()).rubricas || [] : [];
+  }
+  return rubricasAgregadoCache[comp];
+}
+
+function classificarIndicadorSDP(natureza){
+  const n=(natureza||"").toUpperCase();
+  if(n.includes("FERIAS")) return "ferias";
+  if(n.includes("DECIMO TERCEIRO") || n.includes("GRATIFICACAO NATAL")) return "13o";
+  if(n.includes("HORA EXTR")) return "horas_extras";
+  if(n.includes("INDENIZ")) return "indenizatoria";
+  return null;
+}
+
+async function renderRubricas(comp){
+  setLoading(true);
+  const rubricas = await getRubricasAgregado(comp);
+  setLoading(false);
+  if(!rubricas.length){
+    document.getElementById("tb-rub").innerHTML = `<tr><td colspan="5" style="text-align:center;color:var(--ts)">Agregado de rubricas ainda não disponível para esta competência.</td></tr>`;
+    return;
+  }
+
+  const indicadores = {ferias:0, "13o":0, horas_extras:0, indenizatoria:0};
+  rubricas.forEach(r=>{
+    const tipo = classificarIndicadorSDP(r.natureza_esocial);
+    if(tipo) indicadores[tipo]+=r.valor;
+  });
+  document.getElementById("r-fer").textContent = BRL(indicadores.ferias);
+  document.getElementById("r-13").textContent  = BRL(indicadores["13o"]);
+  document.getElementById("r-he").textContent  = BRL(indicadores.horas_extras);
+  document.getElementById("r-ind").textContent = BRL(indicadores.indenizatoria);
+  document.getElementById("r-qtd").textContent = N(rubricas.length);
+
+  // Top 15 rubricas
+  const top15 = rubricas.slice(0,15);
+  dc("rub-top");
+  const ctx=document.getElementById("ch-rub-top").getContext("2d");
+  const g=ctx.createLinearGradient(0,0,600,0);
+  g.addColorStop(0,"#f0b429");g.addColorStop(1,"#1a4a2e");
+  charts["rub-top"]=new Chart(ctx,{
+    type:"bar",
+    data:{labels:top15.map(r=>(r.nome||("Cód. "+r.cod)).trim().substring(0,30)),
+      datasets:[{label:"Valor",data:top15.map(r=>r.valor),backgroundColor:g,borderRadius:3,borderSkipped:false}]},
+    options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>BRLF(c.raw)}}},
+      scales:{x:{grid:{color:"#e8edf0"},ticks:{callback:v=>BRL(v)}},y:{grid:{display:false},ticks:{font:{size:9}}}}}
+  });
+
+  // Evolução das top 5 rubricas ao longo das competências já carregadas
+  const codigosTop5 = top15.slice(0,5).map(r=>r.cod);
+  const comps = Object.keys(resumoCache).sort();
+  const seriesPorComp = await Promise.all(comps.map(c=>getRubricasAgregado(c)));
+  const cores=["#1a6b3c","#f0b429","#2196a6","#7b3fa0","#c0392b"];
+  dc("rub-evo");
+  charts["rub-evo"]=new Chart(document.getElementById("ch-rub-evo"),{
+    type:"line",
+    data:{
+      labels:comps.map(c=>MESES[parseInt(c.substring(4,6))]+"/"+c.substring(0,4)),
+      datasets:codigosTop5.map((cod,i)=>{
+        const nome=(top15[i].nome||("Cód. "+cod)).trim().substring(0,22);
+        return {
+          label:nome,
+          data:seriesPorComp.map(lista=>{
+            const item=lista.find(r=>r.cod===cod);
+            return item?item.valor:0;
+          }),
+          borderColor:cores[i],backgroundColor:cores[i]+"22",tension:.3,fill:false
+        };
+      })
+    },
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{position:"bottom",labels:{boxWidth:10,font:{size:9}}},tooltip:{callbacks:{label:c=>c.dataset.label+": "+BRLF(c.raw)}}},
+      scales:{y:{grid:{color:"#e8edf0"},ticks:{callback:v=>BRL(v)}},x:{grid:{display:false}}}}
+  });
+
+  // Tabela detalhada
+  document.getElementById("tb-rub").innerHTML = rubricas.map(r=>`
+    <tr>
+      <td style="text-align:left"><strong>${(r.nome||"—").trim()}</strong></td>
+      <td style="text-align:left;font-size:.66rem">${(r.natureza_esocial||"—").trim()}</td>
+      <td>${N(r.qtd_servidores)}</td>
+      <td>${BRLF(r.valor)}</td>
+      <td>${r.qtd_servidores?BRLF(r.valor/r.qtd_servidores):"—"}</td>
     </tr>`).join("");
 }
 
