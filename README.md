@@ -209,22 +209,35 @@ Os scripts são **incrementais**:
 ### extrair_pessoal.py
 
 ```
-1. Verifica index.json em dados_pessoal/ → descobre quais competências (AAAAMM) já foram extraídas por completo
-2. Extrai do Informix (SIGRH) até o mês anterior ao atual (mês corrente normalmente não está fechado)
-3. Para cada competência, itera todos os órgãos (empresas) disponíveis
-4. Resolve a hierarquia completa de lotação (Órgão → Unidade Administrativa → ... → Lotação final),
+1. Carrega a referencia oficial local (Portal da Transparencia DF), se existir
+2. Verifica index.json em dados_pessoal/ → descobre quais competências (AAAAMM) já foram extraídas por completo
+3. Extrai do Informix (SIGRH) até o último mês já PUBLICADO pelo Portal da Transparência DF (se a
+   referência estiver carregada) — ficamos sempre alinhados ao que já foi validado externamente,
+   mesmo que isso signifique ficar "um mês atrás" do calendário (praxe de dados abertos oficiais).
+   Sem referência carregada, cai no heurístico antigo (mês anterior ao atual)
+4. Para cada competência, itera todos os órgãos (empresas) disponíveis
+5. Resolve a hierarquia completa de lotação (Órgão → Unidade Administrativa → ... → Lotação final),
    caminhando pelos segmentos de 2 dígitos do código de lotação contra a tabela de lotações do próprio órgão
-5. Classifica cada servidor em um vínculo padronizado (Ativo/Inativo/Pensionista/Temporário/Outros/
-   Cedido/Federal-SIAPE) a partir de dc_sit_func — fonte única de verdade, reaproveitada no dashboard
-6. Classifica cada rubrica pela natureza oficial nacional do eSocial (ds_esocial_rubrica +
+6. Classifica cada servidor em um vínculo padronizado (Ativo/Inativo/Pensionista/Temporário/Outros/
+   Cedido/Federal-SIAPE) — prioriza a referência oficial quando disponível para aquele órgão/mês,
+   caindo no heurístico (dc_sit_func) fora da cobertura oficial
+7. Classifica cada rubrica pela natureza oficial nacional do eSocial (ds_esocial_rubrica +
    ds_esocial_nat_rubrica), além do nome já existente em vw_contdf_rubrica
-7. Grava um JSON por órgão (particionado em várias partes se muito grande, ex: SEE/SES) + um resumo
+8. Grava um JSON por órgão (particionado em várias partes se muito grande, ex: SEE/SES) + um resumo
    agregado por competência + um agregado de rubricas GDF inteiro (rubricas_agregado.json)
-8. Publica dicionário de rubricas (código → nome + natureza eSocial) uma vez por órgão, em arquivo separado
-9. Uma competência só é marcada como "completa" no index se TODOS os órgãos foram extraídos com sucesso —
-   se algum falhar (ex: banco fechou no meio), a competência fica marcada como incompleta e é
-   reprocessada (só os órgãos faltantes seriam refeitos) na próxima execução
+9. Publica dicionário de rubricas (código → nome + natureza eSocial) uma vez por órgão, em arquivo separado
+10. Uma competência só é marcada como "completa" no index se TODOS os órgãos foram extraídos com sucesso —
+    se algum falhar (ex: banco fechou no meio), a competência fica marcada como incompleta e é
+    reprocessada (só os órgãos faltantes seriam refeitos) na próxima execução
 ```
+
+**Referência oficial (Portal da Transparência DF)** — `logs/referencia_oficial_servidores.json`:
+arquivo local (**nunca publicado**, contém matrícula), destilado dos CSVs "Servidores_Orgao" baixados
+manualmente em https://www.transparencia.df.gov.br/#/downloads#downloadServidores (dados abertos).
+Mapeamento: `CÓDIGO DO ÓRGÃO` do portal = `"01" + empresa.zfill(5)` (ex: SEEC/empresa 7 → `0100007`).
+Quando o órgão/mês está coberto pela referência, ela é a **fonte de verdade** para inclusão/classificação
+— substitui os heurísticos abaixo. Para atualizar: baixar novo ZIP do portal, extrair, e regerar o JSON
+(script usado uma vez, não versionado — ver histórico da sessão).
 
 **Exclusões do quantitativo de pessoal** (não contam em `qtd_servidores`/`por_vinculo`, mas ficam no
 arquivo bruto do órgão):
@@ -234,6 +247,11 @@ arquivo bruto do órgão):
   SIAPE federal, não pelo GDF — exclusão confirmada contra o glossário oficial do Painel Estatístico de
   Pessoal do GDF. Sem essa regra, o total de servidores ficava **~57% acima** do painel oficial (ex:
   CBMDF tinha 97% dos registros nessas categorias).
+- **Não contabilizado (fora da referência oficial):** matrícula que o Portal da Transparência não lista
+  para aquele órgão/mês, quando há cobertura oficial disponível.
+- **Sem movimentação (heurístico, só fora da cobertura oficial):** bruto E desconto zerados no mês —
+  não agregam custo algum àquela lotação. Validado contra o painel oficial: SEEC caiu de 7.920 para
+  2.925 registros (oficial: 2.826) ao excluir esses.
 
 **Pessoas físicas únicas (CPF):** como uma mesma pessoa pode ter mais de uma matrícula (mesmo órgão —
 provável duplicidade de cadastro — ou órgãos diferentes — provável acúmulo legal de cargo), rodamos
