@@ -509,7 +509,14 @@ const VINCULOS_EXCLUIDOS = new Set(["Cedido (exercicio em outro orgao)", "Federa
 async function getRegistros(comp, org){
   if(org){
     const d = await getEmp(comp, org);
-    return d ? (d.registros||[]).filter(r=>!VINCULOS_EXCLUIDOS.has(r.grupo_vinculo)) : [];
+    if(!d) return [];
+    // "Sem movimentacao": bruto E desconto zerados no mes -- nao agregam custo
+    // algum aquela lotacao. Validado contra o painel oficial (SEEC: 7920->2925
+    // registros, oficial=2826). Mantido no arquivo bruto, so nao entra na contagem.
+    return (d.registros||[]).filter(r=>
+      !VINCULOS_EXCLUIDOS.has(r.grupo_vinculo) &&
+      !(r.total_proventos===0 && r.total_descontos===0)
+    );
   }
   return [];
 }
