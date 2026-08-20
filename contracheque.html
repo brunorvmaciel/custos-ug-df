@@ -218,10 +218,12 @@ async function buscar(){
 
   const registros = await getRegistrosOrg(comp, org);
   candidatosAtuais = registros.filter(r=>{
-    const lot = (r.nivel4_lotacao||"").toUpperCase();
-    const uni = (r.nivel3_unidade||"").toUpperCase();
+    // Busca na cadeia hierárquica INTEIRA (não só lotação final/unidade
+    // direta) -- assim "controladoria" acha todo mundo abaixo dela também,
+    // nao só quem esta lotado exatamente nesse nó (rollup hierárquico).
+    const cadeia = (r.hierarquia_lotacao||[]).join(" | ").toUpperCase();
     const cargo = (r.dc_cargo||"").toUpperCase();
-    const okLot = !filtroLot || lot.includes(filtroLot) || uni.includes(filtroLot);
+    const okLot = !filtroLot || cadeia.includes(filtroLot);
     const okCargo = !filtroCargo || cargo.includes(filtroCargo);
     return okLot && okCargo;
   });
