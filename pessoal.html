@@ -504,18 +504,24 @@ async function getEmp(comp, emp){
 // militares nao-comissionados, pagos via SIAPE federal -- excluidos pelo
 // glossario oficial do Painel Estatistico de Pessoal do GDF. Centralizado aqui
 // para que TODAS as abas (Composicao, Forca, Lotacao) apliquem a mesma regra.
-const VINCULOS_EXCLUIDOS = new Set(["Cedido (exercicio em outro orgao)", "Federal (SIAPE - nao contabilizado)"]);
+const VINCULOS_EXCLUIDOS = new Set([
+  "Cedido (exercicio em outro orgao)",
+  "Federal (SIAPE - nao contabilizado)",
+  "Nao contabilizado (fora da referencia oficial)"
+]);
 
 async function getRegistros(comp, org){
   if(org){
     const d = await getEmp(comp, org);
     if(!d) return [];
-    // "Sem movimentacao": bruto E desconto zerados no mes -- nao agregam custo
-    // algum aquela lotacao. Validado contra o painel oficial (SEEC: 7920->2925
+    // Prioriza a referencia oficial (Portal da Transparencia DF) quando o
+    // registro foi classificado por ela (fonte_classificacao=="oficial").
+    // Fora da cobertura oficial, usa o heuristico de "sem movimentacao" (bruto
+    // E desconto zerados) -- validado contra o painel oficial (SEEC: 7920->2925
     // registros, oficial=2826). Mantido no arquivo bruto, so nao entra na contagem.
     return (d.registros||[]).filter(r=>
       !VINCULOS_EXCLUIDOS.has(r.grupo_vinculo) &&
-      !(r.total_proventos===0 && r.total_descontos===0)
+      !(r.fonte_classificacao==="heuristica" && r.total_proventos===0 && r.total_descontos===0)
     );
   }
   return [];
