@@ -145,6 +145,7 @@ footer{background:var(--ve);color:rgba(255,255,255,.4);text-align:center;padding
     <div class="kpi"><div class="kpi-l">Servidores</div><div class="kpi-v" id="v-sv">—</div><div class="kpi-s">registros ativos</div></div>
     <div class="kpi"><div class="kpi-l">Custo Médio</div><div class="kpi-v" id="v-me">—</div><div class="kpi-s">bruto ÷ servidores</div></div>
     <div class="kpi"><div class="kpi-l">% Desconto</div><div class="kpi-v warn" id="v-pd">—</div><div class="kpi-s">descontos ÷ bruto</div></div>
+    <div class="kpi"><div class="kpi-l">Pessoas Únicas</div><div class="kpi-v" id="v-cpf">—</div><div class="kpi-s">por CPF (sem multi-vínculo)</div></div>
   </div>
   <div class="g2">
     <div class="card">
@@ -434,10 +435,17 @@ async function getEmp(comp, emp){
   return empCache[key];
 }
 
+// "Cedido": registro do orgao de ORIGEM -- a lotacao de destino ja conta essa
+// pessoa, entao excluimos para nao duplicar. "Federal (SIAPE)": policiais civis/
+// militares nao-comissionados, pagos via SIAPE federal -- excluidos pelo
+// glossario oficial do Painel Estatistico de Pessoal do GDF. Centralizado aqui
+// para que TODAS as abas (Composicao, Forca, Lotacao) apliquem a mesma regra.
+const VINCULOS_EXCLUIDOS = new Set(["Cedido (exercicio em outro orgao)", "Federal (SIAPE - nao contabilizado)"]);
+
 async function getRegistros(comp, org){
   if(org){
     const d = await getEmp(comp, org);
-    return d ? d.registros||[] : [];
+    return d ? (d.registros||[]).filter(r=>!VINCULOS_EXCLUIDOS.has(r.grupo_vinculo)) : [];
   }
   return [];
 }
@@ -453,13 +461,12 @@ async function getRubricaDict(org){
 
 async function getRubricas(comp, org){
   if(org){
-    const key=comp+"_"+org;
-    const d=empCache[key];
-    if(!d) return [];
+    const registros = await getRegistros(comp, org);  // ja filtrado (sem Cedido/Federal-SIAPE)
+    if(!registros.length) return [];
     const dict = await getRubricaDict(org);
     // Agrega rubricas dos registros — nome vem do dicionario, tipo = cod // 10000
     const map={};
-    (d.registros||[]).forEach(r=>{
+    registros.forEach(r=>{
       (r.rubricas||[]).forEach(rub=>{
         const k=rub.cod;
         const info=dict[String(k)]||{};
@@ -488,6 +495,11 @@ function renderVisao(comp, org){
   document.getElementById("v-sv").textContent=N(tServ);
   document.getElementById("v-me").textContent=tServ?BRL(tProv/tServ):"—";
   document.getElementById("v-pd").textContent=tProv?PCT(tDesc/tProv):"—";
+
+  const tCpf = org
+    ? (empresas[0]?.pessoas_unicas_cpf ?? null)
+    : (resumo.total_pessoas_unicas_cpf ?? null);
+  document.getElementById("v-cpf").textContent = tCpf!=null ? N(tCpf) : "—";
 
   const lista = [...empresas].sort((a,b)=>b.total_proventos-a.total_proventos);
 
@@ -693,9 +705,7 @@ async function renderForca(comp, org, sit){
     return;
   }
 
-  // "Cedido (exercicio em outro orgao)" eh o registro do orgao de ORIGEM --
-  // a lotacao de destino ja conta essa pessoa, entao excluimos daqui para nao duplicar.
-  registros = registros.filter(r=>r.grupo_vinculo!=="Cedido (exercicio em outro orgao)");
+  // registros ja vem filtrado (sem Cedido/Federal-SIAPE) pelo getRegistros()
 
   const sitMap={};
   registros.forEach(r=>{
