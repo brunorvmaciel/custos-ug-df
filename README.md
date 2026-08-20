@@ -47,7 +47,7 @@ O ETL de UG/PT roda automaticamente todo **dia 10 do mês às 09:00** via **Agen
 | Custos por UG | `ug.html` | Custos por Unidade Gestora — evolução mensal, anual e comparativos | ✅ |
 | Custos por PT | `pt.html` | Custos por Programa de Trabalho — ranking de PTs e UGs | ✅ |
 | Custo por Habitante | `ra.html` | Mapa interativo do DF com custo por habitante por Região Administrativa | ✅ |
-| Custos de Pessoal | `pessoal.html` | Folha de pagamento por lotação, órgão e rubricas (SIGRH) | 🚧 em desenvolvimento |
+| Custos de Pessoal | `pessoal.html` | Folha de pagamento por lotação, órgão e rubricas (SIGRH) — Visão Geral, Evolução, Composição, Força de Trabalho, Custos por Lotação, Análise de Rubricas | 🚧 em evolução (alinhado ao SDP) |
 
 ---
 
@@ -59,7 +59,7 @@ dashboards/                          (repositório GitHub — sistema-custos-gdf
 ├── ug.html                       # Dashboard Custos por Unidade Gestora
 ├── pt.html                       # Dashboard Custos por Programa de Trabalho
 ├── ra.html                       # Dashboard Custo por Habitante (mapa DF)
-├── pessoal.html                  # Dashboard Custos de Pessoal (em desenvolvimento)
+├── pessoal.html                  # Dashboard Custos de Pessoal
 │
 ├── dados/                        # JSONs de custos por UG (um por ano)
 │   ├── index.json
@@ -69,14 +69,21 @@ dashboards/                          (repositório GitHub — sistema-custos-gdf
 │   ├── index.json
 │   └── AAAA.json
 │
-└── dados_pessoal/                # JSONs de custos de pessoal (em desenvolvimento)
+└── dados_pessoal/                # JSONs de custos de pessoal (por competência AAAAMM)
+    ├── index.json
+    ├── rubricas/                 # Dicionário nome+natureza eSocial por órgão
+    └── AAAAMM/
+        ├── resumo.json           # Agregado leve (por órgão + por vínculo + CPF único)
+        ├── rubricas_agregado.json # Agregado de rubricas GDF inteiro
+        └── emp_<id>[_pN].json    # Detalhe por órgão (particionado se grande)
 
 C:\dashboard-custos\               # Pasta local na estação de trabalho
 ├── .env                          # Credenciais (Oracle, Informix, GitHub) — NUNCA versionado
 ├── .gitignore
 ├── extrair_dados.py              # ETL — custos por UG (Oracle)
 ├── extrair_pt.py                 # ETL — custos por PT (Oracle)
-├── extrair_pessoal.py            # ETL — custos de pessoal (Informix) — em desenvolvimento
+├── extrair_pessoal.py            # ETL — custos de pessoal (Informix)
+├── enriquecer_cpf_unico.py       # Passada leve — publica pessoas físicas únicas por CPF
 ├── atualizar_dados.bat           # Script de automação mensal (UG + PT)
 └── logs/                         # Logs de execução do agendador
 ```
@@ -199,11 +206,52 @@ Os scripts são **incrementais**:
 5. Faz upload apenas do ano atual + atualiza index.json
 ```
 
+### extrair_pessoal.py
+
+```
+1. Verifica index.json em dados_pessoal/ → descobre quais competências (AAAAMM) já foram extraídas por completo
+2. Extrai do Informix (SIGRH) até o mês anterior ao atual (mês corrente normalmente não está fechado)
+3. Para cada competência, itera todos os órgãos (empresas) disponíveis
+4. Resolve a hierarquia completa de lotação (Órgão → Unidade Administrativa → ... → Lotação final),
+   caminhando pelos segmentos de 2 dígitos do código de lotação contra a tabela de lotações do próprio órgão
+5. Classifica cada servidor em um vínculo padronizado (Ativo/Inativo/Pensionista/Temporário/Outros/
+   Cedido/Federal-SIAPE) a partir de dc_sit_func — fonte única de verdade, reaproveitada no dashboard
+6. Classifica cada rubrica pela natureza oficial nacional do eSocial (ds_esocial_rubrica +
+   ds_esocial_nat_rubrica), além do nome já existente em vw_contdf_rubrica
+7. Grava um JSON por órgão (particionado em várias partes se muito grande, ex: SEE/SES) + um resumo
+   agregado por competência + um agregado de rubricas GDF inteiro (rubricas_agregado.json)
+8. Publica dicionário de rubricas (código → nome + natureza eSocial) uma vez por órgão, em arquivo separado
+9. Uma competência só é marcada como "completa" no index se TODOS os órgãos foram extraídos com sucesso —
+   se algum falhar (ex: banco fechou no meio), a competência fica marcada como incompleta e é
+   reprocessada (só os órgãos faltantes seriam refeitos) na próxima execução
+```
+
+**Exclusões do quantitativo de pessoal** (não contam em `qtd_servidores`/`por_vinculo`, mas ficam no
+arquivo bruto do órgão):
+- **Cedido (exercício em outro órgão):** registro-espelho no órgão de ORIGEM de quem está cedido —
+  a lotação de destino já conta essa pessoa como Ativo.
+- **Federal (SIAPE):** Policiais Civis (PCDF) e militares não-comissionados (PMDF/CBMDF) são pagos via
+  SIAPE federal, não pelo GDF — exclusão confirmada contra o glossário oficial do Painel Estatístico de
+  Pessoal do GDF. Sem essa regra, o total de servidores ficava **~57% acima** do painel oficial (ex:
+  CBMDF tinha 97% dos registros nessas categorias).
+
+**Pessoas físicas únicas (CPF):** como uma mesma pessoa pode ter mais de uma matrícula (mesmo órgão —
+provável duplicidade de cadastro — ou órgãos diferentes — provável acúmulo legal de cargo), rodamos
+`enriquecer_cpf_unico.py` após a extração para publicar `total_pessoas_unicas_cpf` no resumo de cada
+competência, sem nunca expor CPF ou matrícula.
+
+> **⚠️ Restrição do banco Informix (SIGRH/GDF_CLONE_a):** o ambiente passa por rotina diária de
+> backup + restore. Backup termina por volta de **11h50**, restore roda até por volta de
+> **16h40** — nesse intervalo (~12h–16h40) o banco **não aceita conexões** ("quiescent mode").
+> Fora desse intervalo (17h ~ meio-dia do dia seguinte) o banco fica disponível. Por isso a
+> extração de pessoal está agendada para começar às 17h30, dando margem de quase 19h antes do
+> próximo bloqueio.
+
 ---
 
 ## Automação — Agendador de Tarefas do Windows
 
-O script `atualizar_dados.bat` roda automaticamente todo **dia 10 às 09:00** via Agendador de Tarefas do Windows, executando `extrair_dados.py` e `extrair_pt.py`.
+O script `atualizar_dados.bat` roda automaticamente todo **dia 10 às 17h30** via Agendador de Tarefas do Windows, executando, em sequência, `extrair_dados.py`, `extrair_pt.py` e `extrair_pessoal.py`. O horário foi escolhido para cair dentro da janela de disponibilidade do Informix (ver nota acima) com folga suficiente mesmo em execuções lentas.
 
 ### Configuração (já realizada)
 
@@ -245,7 +293,7 @@ index.html  (Página inicial)
 ├── ug.html          → Custos por Unidade Gestora
 ├── pt.html          → Custos por Programa de Trabalho
 ├── ra.html          → Custo por Habitante (mapa DF)
-└── pessoal.html     → Custos de Pessoal (em desenvolvimento)
+└── pessoal.html     → Custos de Pessoal
 ```
 
 ---
